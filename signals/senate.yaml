@@ -1,0 +1,15 @@
+id: senate
+tracking: active
+name: Senate makeup
+domain: politics
+order: 41
+measures: Seats held by each party in the US Senate (independents counted with the party they caucus with).
+value: 53 R · 47 D
+asOf: '2026-10-12'
+trend: flat
+leans: neutral
+note: Includes two independents who caucus with Democrats. Democrats need a net gain of four seats for control.
+watch: A Democratic Senate shapes confirmations, including Fed nominees, and treaty votes.
+cadence: After elections and vacancies
+source: Congress Countdown
+url: https://www.congresscountdown.com/info/party-breakdown

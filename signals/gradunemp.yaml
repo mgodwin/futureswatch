@@ -1,0 +1,15 @@
+id: gradunemp
+tracking: active
+name: Recent-graduate unemployment
+domain: jobs
+order: 10
+measures: Unemployment for college graduates aged 22–27, a proxy for entry-level white-collar work.
+value: 5.6%
+asOf: 2026-06
+trend: flat
+leans: neutral
+note: Second-quarter reading, unchanged from the first quarter and well above the overall rate of 4.2%.
+watch: Above 6.5% means displacement is spreading. Below 5% means it is easing.
+cadence: Quarterly
+source: New York Fed
+url: https://www.newyorkfed.org/research/college-labor-market

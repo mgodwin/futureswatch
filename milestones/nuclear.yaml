@@ -1,0 +1,8 @@
+id: nuclear
+label: A nuclear weapon is used in conflict
+order: 9
+prob: 3
+prevProb: 3
+note: New START expired in February 2026, and several active wars involve nuclear-armed or near-nuclear states.
+source: Al Jazeera
+url: https://www.aljazeera.com/news/2026/2/11/russia-says-it-will-stick-to-limits-of-expired-nuclear-treaty-if-us

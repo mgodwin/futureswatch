@@ -1,0 +1,63 @@
+id: ai-capability
+tracking: active
+title: What if AI matches experts at most knowledge work?
+short: How capable AI is by the end of 2029.
+domain: ai
+order: 1
+read: Trend data argues for faster progress; expert surveys and deployment friction argue for slower. Lab leaders cluster around 2027–2030, while skeptics sit in the 2040s.
+outcomes:
+- key: transformative
+  label: Transformative AI
+  prob: 30
+  prevProb: 30
+  desc: Does most remote knowledge work at expert level and is deployed at scale, or automates most AI research.
+  ifThen: 'The Takeoff world: fast productivity gains, deep disruption in software, finance, law, media and support work, and governments racing to control frontier models.'
+- key: jagged
+  label: Powerful but jagged
+  prob: 60
+  prevProb: 60
+  desc: Agents handle multi-day tasks and beat experts in niches like coding and math, but don't replace knowledge workers wholesale.
+  ifThen: 'Steady Climb territory: big gains for people who direct AI, with uneven displacement concentrated at entry level.'
+- key: plateau
+  label: Plateau
+  prob: 10
+  prevProb: 10
+  desc: Progress slows sharply; 2029 systems are only modestly better than 2026's.
+  ifThen: Usually paired with an investment bust. AI settles into being ordinary software.
+anchors:
+- who: Metaculus forecasters
+  what: Median for the first general AI system is February 2031, which implies roughly 40% by the end of 2029 on a strict definition that includes robotics.
+  date: 2026-10
+  url: https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/
+- who: Manifold market
+  what: 53% that AGI arrives before 2030.
+  date: 2026-10
+  url: https://manifold.markets/RemNi/will-we-get-agi-before-2030
+- who: AI Futures Project
+  what: Daniel Kokotajlo's median for an AI that fully automates coding moved to November 2027; colleague Eli Lifland's is January 2030.
+  date: 2026-08
+  url: https://blog.aifutures.org/p/q25-2026-timelines-update-uplift
+- who: Dario Amodei, Anthropic
+  what: Said AI may outperform humans at nearly everything within one to two years.
+  date: 2026-01
+  url: https://www.axios.com/2026/01/26/anthropic-ai-dario-amodei-humanity
+- who: Demis Hassabis, Google DeepMind
+  what: Expects AGI around 2030, possibly 2029.
+  date: 2026-05
+  url: https://www.axios.com/2026/05/26/deepmind-ceo-demis-hassabis
+- who: Forecasting Research Institute (LEAP panel)
+  what: On a strict AGI definition, experts' median is 2050 and superforecasters' is 2047.
+  date: 2026-06
+  url: https://forecastingresearch.substack.com/p/leap-wave-8-ai-timelines
+- who: Arvind Narayanan & Sayash Kapoor
+  what: Argue AI will spread slowly and stay controllable, like other general-purpose technologies.
+  date: 2025-04
+  url: https://knightcolumbia.org/content/ai-as-normal-technology
+signals:
+- metr
+- rli
+- arc3
+- labrev
+- rnd
+- agiforecast
+- eci

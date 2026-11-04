@@ -1,0 +1,18 @@
+id: cyberpunk
+name: Cyberpunk
+order: 4
+prob: 28
+prevProb: null
+tagline: High tech, low life.
+inspiredBy: William Gibson's Neuromancer, Blade Runner
+summary: Technology races ahead while the gains pool in a few giant firms. Work gets precarious, inequality grows and AI agents roam the networks.
+read: Close behind Black Mirror. Big Tech is spending about $750B on AI this year, entry-level and coding jobs are shrinking, and one hacker breached 100+ firms with AI agents.
+signs:
+- A handful of firms control frontier AI and the compute behind it
+- Young and entry-level workers lose ground as AI spreads
+- AI-driven hacking and data breaches become routine
+drivers:
+- ai-boom
+- ai-jobs
+- ai-cyber
+- power-grid

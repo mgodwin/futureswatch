@@ -1,0 +1,15 @@
+id: waymo
+tracking: active
+name: Robotaxi footprint
+domain: tech
+order: 32
+measures: Where driverless cars carry paying riders in the US.
+value: 14 metros · 500k+ rides a week
+asOf: '2026-09-01'
+trend: up
+leans: neutral
+note: Waymo aims for 1M rides a week by the end of 2026. Tesla runs unsupervised rides in six cities.
+watch: 20+ metros and 1M weekly rides by 2027 put 25 metros by 2029 on track.
+cadence: Quarterly
+source: Electrek
+url: https://electrek.co/2026/07/08/waymo-driverless-las-vegas-four-new-cities/

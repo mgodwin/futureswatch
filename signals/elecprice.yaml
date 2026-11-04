@@ -1,0 +1,15 @@
+id: elecprice
+tracking: active
+name: US electricity prices
+domain: energy
+order: 24
+measures: Average residential price per kilowatt-hour.
+value: 18.2¢ (+5.2%)
+asOf: '2026-10-06'
+trend: up
+leans: neutral
+note: EIA's 2026 estimate, with 18.7¢ forecast for 2027.
+watch: Rises above 5% a year signal stress. Under 3% signals the grid is keeping up.
+cadence: Monthly
+source: EIA
+url: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php

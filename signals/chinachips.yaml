@@ -1,0 +1,15 @@
+id: chinachips
+tracking: active
+name: China AI chip market
+domain: ai
+order: 45
+measures: Share of China's data-center AI chip market held by Nvidia versus Huawei.
+value: Nvidia 34% · Huawei 28%
+asOf: '2026-10-13'
+trend: down
+leans: neutral
+note: First half of 2026, per IDC. Nvidia shipments fell 44% on export curbs while Huawei's rose to 572,000. Huawei's next Ascend chips come in 2027.
+watch: Huawei passing Nvidia means China can scale on its own chips. A rebound in Nvidia share means curbs are easing.
+cadence: Quarterly (IDC)
+source: IDC via Reuters
+url: https://www.cxodigitalpulse.com/?p=63391

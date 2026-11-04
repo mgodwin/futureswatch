@@ -1,0 +1,8 @@
+id: fusiongrid
+label: Fusion electricity reaches a grid
+order: 6
+prob: 5
+prevProb: 5
+note: Only Helion aims for this before 2030, through its 2028 deal with Microsoft.
+source: TechCrunch
+url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m

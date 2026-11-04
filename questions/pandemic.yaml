@@ -1,0 +1,44 @@
+id: pandemic
+tracking: active
+title: What if another pandemic hits?
+short: A new pandemic that kills more than 1 million people before 2030.
+domain: health
+order: 12
+read: Ebola is deadly but spreads slowly, and H5N1 shows no human-to-human transmission. Weakened WHO and CDC capacity nudges the risk up.
+outcomes:
+- key: 'no'
+  label: Nothing at that scale
+  prob: 94
+  prevProb: 94
+  desc: Outbreaks happen but stay below a million deaths.
+  ifThen: Emergencies like this year's Ebola outbreak stay regional.
+- key: 'yes'
+  label: Major pandemic
+  prob: 6
+  prevProb: 6
+  desc: A WHO-declared emergency that kills more than 1 million people.
+  ifThen: 'The Fracture world: lockdown-style disruption, supply shocks and a hit to growth.'
+anchors:
+- who: ECDC
+  what: The DRC Ebola outbreak reached 9,704 confirmed cases and 4,687 deaths by Oct 21; Kenya has 9 linked cases.
+  date: 2026-10
+  url: https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda
+- who: CDC
+  what: 12 human H5N1 cases worldwide from August 2025 to June 2026 with no person-to-person spread; risk to the US public rated low.
+  date: 2026-06
+  url: https://www.cdc.gov/bird-flu/spotlights/global-summary-06262026.html
+- who: Bio-uplift studies (review)
+  what: A 2026 randomized wet-lab trial found no significant gain for novices using AI; computer-based tests showed large gains.
+  date: 2026-05
+  url: https://forum.effectivealtruism.org/posts/S6ydgTdTr8sXkfs9x/the-state-of-bio-uplift-research-in-mid-2026
+- who: WHO
+  what: Amended health regulations with a new pandemic-emergency tier took effect in September 2025.
+  date: 2025-09
+  url: https://www.who.int/news/item/19-09-2025-amended-international-health-regulations-enter-into-force
+- who: Historical rate
+  what: Pandemics that killed over a million people (1918, 1957, 1968, HIV/AIDS, COVID-19) began in roughly 4–5% of years.
+  date: null
+  url: null
+signals:
+- outbreaks
+- biouplift

@@ -1,0 +1,15 @@
+id: orbital
+tracking: active
+name: Orbital compute
+domain: tech
+order: 46
+measures: AI computing launched into orbit and announced plans for space data centers.
+value: Test satellites only
+asOf: '2026-10-10'
+trend: up
+leans: neutral
+note: Google's Suncatcher put 4 TPUs in orbit on Oct 1. Starcloud flew one H100 in 2025. SpaceX targets about 1 GW a year of orbital compute by late 2027.
+watch: Any satellite above 100 kW of compute, or SpaceX launching AI1 satellites at volume, points to early commercial scale. Slips past 2028 mean demos only.
+cadence: Launches and announcements
+source: Fortune
+url: https://fortune.com/2026/10/10/google-project-suncatcher-ai-data-centers-space-satellite-launch-orbital-computing-spacex-blue-origin-artificial-intelligence-energy-demand/

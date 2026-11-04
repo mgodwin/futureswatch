@@ -1,0 +1,15 @@
+id: nvda
+tracking: active
+name: Nvidia data-center revenue
+domain: markets
+order: 16
+measures: Quarterly sales of AI chips and systems, the boom's bellwether.
+value: $89.0B a quarter
+asOf: '2026-08-26'
+trend: up
+leans: takeoff
+note: Total revenue was $96.2B, up 106% from a year earlier, with $108B guided for the next quarter.
+watch: A quarter-over-quarter decline or soft guidance points to Hangover. Beat-and-raise means the boom continues.
+cadence: 'Quarterly (next: late Nov)'
+source: Nvidia 8-K filing
+url: https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm

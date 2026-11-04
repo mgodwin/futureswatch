@@ -1,0 +1,34 @@
+name: Suggest a factor
+description: A signal, market, benchmark or forecast we should be watching.
+labels: ["factor"]
+body:
+  - type: input
+    id: factor
+    attributes:
+      label: Factor
+      placeholder: e.g. Share of new US cars that are electric
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of factor is it?
+      options:
+        - A data series or indicator (a signal)
+        - A market or published forecast (an anchor)
+        - A new what-if
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it tell us?
+      description: Which world or what-if it informs, and what reading would change the odds.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Where it's published
+      description: Links to the source, and how often it updates.

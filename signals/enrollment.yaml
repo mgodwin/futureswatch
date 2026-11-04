@@ -1,0 +1,15 @@
+id: enrollment
+tracking: active
+name: College enrollment
+domain: education
+order: 52
+measures: Change in total US college enrollment, fall over fall.
+value: +0.6% undergrad (fall 2026)
+asOf: '2026-10-29'
+trend: down
+leans: neutral
+note: Preliminary estimate, down from 2.4% growth last fall. Community colleges rose 1.2% and four-year schools were flat. Graduate fell 1.6%. The series now tracks undergrads; no total was given.
+watch: A fall in undergraduate enrollment as the number of 18-year-olds peaks points to a squeeze. Growth led by short programs points to adaptation.
+cadence: Twice a year (Clearinghouse)
+source: National Student Clearinghouse
+url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/

@@ -1,0 +1,74 @@
+date: '2026-11-02'
+week: 5
+headline: Senate odds jump and the first check resolves, but all four worlds hold, with Steady Climb still most likely at 32%.
+summary: All four worlds held. AI cash strain nudged bust odds up, Senate market odds jumped ahead of the vote, and the fall enrollment check resolved yes.
+changes:
+- from: 24
+  target: 'AI boom: Deep bust'
+  to: 25
+  url: https://www.heygotrade.com/en/news/google-googl-stock-news-october-30-2026/
+  why: Alphabet had its worst day since listing on negative free cash flow and Amazon now burns cash; no forecast moved, so one point.
+- from: 30
+  target: 'AI boom: Sustained build-out'
+  to: 29
+  url: https://www.heygotrade.com/en/news/google-googl-stock-news-october-30-2026/
+  why: Two of four big spenders now spend more than they earn, though both still plan higher 2027 capex; no forecast moved, so one point.
+- from: 30
+  target: 'US power: Democratic trifecta'
+  to: 32
+  url: https://defirate.com/prediction-markets/2026-midterms/
+  why: 'Markets moved: Democratic Senate odds rose from 64% to 74% and House odds to 94%.'
+- from: 50
+  target: 'US power: Divided government'
+  to: 49
+  url: https://defirate.com/prediction-markets/2026-midterms/
+  why: 'Markets moved: higher Democratic Senate odds make a split Congress in 2029 a bit less likely.'
+- from: 20
+  target: 'US power: Republican trifecta'
+  to: 19
+  url: https://defirate.com/prediction-markets/2026-midterms/
+  why: 'Markets moved: Republican odds of holding both chambers fell to about 6%.'
+- from: 78
+  target: 'Milestone: Check · Fed raises rates again by Dec 31'
+  to: 72
+  url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+  why: Kalshi and Polymarket December hike odds fell to about 72% after the Oct 28 hold.
+- from: 82
+  target: 'Milestone: Check · Anthropic shares trade by Dec 31'
+  to: 93
+  url: https://polymarket.com/event/anthropic-ipo-by
+  why: Polymarket's year-end price rose to 93% as the roadshow nears.
+- from: 91
+  target: 'Milestone: Check · Democrats win the House'
+  to: 94
+  url: https://defirate.com/prediction-markets/2026-midterms/
+  why: Kalshi and Polymarket average rose to about 94% on the eve of the vote.
+- from: 64
+  target: 'Milestone: Check · Democrats win the Senate'
+  to: 74
+  url: https://defirate.com/prediction-markets/2026-midterms/
+  why: Kalshi and Polymarket average rose to about 74%.
+- from: 55
+  target: 'Milestone: Check · Fall undergraduate enrollment is up'
+  to: 100
+  url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/
+  why: 'Resolved yes: the Clearinghouse estimate showed undergraduates up 0.6%.'
+news:
+- date: '2026-10-28'
+  text: The Fed held at 3.75–4.00% in a 10–2 vote; two members wanted a hike.
+  url: https://hackernoon.com/fed-holds-rates-at-375percent-400percent-in-a-10-2-vote-how-qqq-spy-and-bitcoin-reacted
+- date: '2026-10-29'
+  text: Alphabet fell 12.6%, its worst day since 2004, after negative free cash flow and slower search growth.
+  url: https://www.heygotrade.com/en/news/google-googl-stock-news-october-30-2026/
+- date: '2026-10-29'
+  text: Fall undergraduate enrollment rose 0.6%, while master's fell 3.7% and computer science 12.4%.
+  url: https://www.highereddive.com/news/undergraduate-enrollment-inched-up-this-fall-while-masters-dips-37/873114/
+- date: '2026-10-30'
+  text: A limpet mine hit a tanker in Hormuz, and Brent ended October up 13.6%.
+  url: https://www.nationthailand.com/news/world/40072956
+- date: '2026-11-02'
+  text: Iran offered a two-day plan to reopen Hormuz and resume nuclear talks; Brent fell about 6%.
+  url: https://www.bostonglobe.com/2026/11/02/world/iran-resume-nuclear-talks-us/
+- date: '2026-10-24'
+  text: Russia and Ukraine agreed a local ceasefire in Oleshky and set talks for November.
+  url: https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069

@@ -1,0 +1,8 @@
+id: robotaxi
+label: Driverless robotaxis run paid service in 25+ US metros
+order: 1
+prob: 75
+prevProb: 75
+note: Waymo is in 14 metros with 500k+ paid rides a week; Tesla runs unsupervised rides in six cities.
+source: Electrek
+url: https://electrek.co/2026/07/08/waymo-driverless-las-vegas-four-new-cities/

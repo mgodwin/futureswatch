@@ -1,0 +1,15 @@
+id: eci
+tracking: active
+name: Epoch Capabilities Index
+domain: ai
+order: 37
+measures: A composite of many benchmarks that tracks how fast top models improve.
+value: 167 (Opus 5.5)
+asOf: '2026-09-22'
+trend: up
+leans: neutral
+note: Top score, just ahead of GPT-6 Astra at 166. Epoch puts the frontier trend at about 14 points a year.
+watch: Gains well above 14 points a year point to Takeoff. A flat year points to a plateau.
+cadence: As new models are scored
+source: Epoch AI via AI 2027 Tracker
+url: https://ai2027-tracker.com/

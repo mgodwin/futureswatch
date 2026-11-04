@@ -1,0 +1,8 @@
+id: aidrug
+label: FDA approves a drug whose target and molecule were both found by AI
+order: 7
+prob: 5
+prevProb: 5
+note: Insilico's rentosertib is in Phase III with results expected in December 2029. Drugs that AI designed for already-known targets could be approved sooner.
+source: Bio-IT World
+url: https://www.bio-itworld.com/news/2026/07/08/insilico-medicine-launches-phase-iii-trial-for-ai-developed-drug

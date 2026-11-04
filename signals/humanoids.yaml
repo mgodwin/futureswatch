@@ -1,0 +1,15 @@
+id: humanoids
+tracking: active
+name: Humanoid robot shipments
+domain: tech
+order: 33
+measures: Humanoid robots shipped worldwide.
+value: 19,100 in H1 2026
+asOf: '2026-08-11'
+trend: up
+leans: neutral
+note: Up 272%, with Chinese makers shipping 97% of units. About 60,000 are forecast for 2026.
+watch: 150,000+ in 2027 means fast adoption. Under 40,000 in 2026 means slower.
+cadence: Twice a year
+source: TechRepublic
+url: https://www.techrepublic.com/article/news-humanoid-robot-shipments-chinese-vendors

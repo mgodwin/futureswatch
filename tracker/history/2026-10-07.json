@@ -1,0 +1,81 @@
+{
+ "date": "2026-10-07",
+ "milestones": {
+  "agiclaim": 70,
+  "aidrug": 5,
+  "fusiongrid": 5,
+  "humanoid": 65,
+  "mars": 10,
+  "moon": 40,
+  "nuclear": 3,
+  "quantum": 3,
+  "robotaxi": 75
+ },
+ "questions": {
+  "ai-boom": {
+   "bust": 20,
+   "correction": 45,
+   "sustained": 35
+  },
+  "ai-capability": {
+   "jagged": 60,
+   "plateau": 10,
+   "transformative": 30
+  },
+  "ai-control": {
+   "brakes": 15,
+   "managed": 65,
+   "open": 20
+  },
+  "ai-jobs": {
+   "absorbed": 48,
+   "mass": 12,
+   "minimal": 40
+  },
+  "climate": {
+   "below": 15,
+   "over": 72,
+   "wellover": 13
+  },
+  "fusion": {
+   "grid": 5,
+   "neither": 60,
+   "netgain": 35
+  },
+  "gulf": {
+   "regional": 10,
+   "settled": 55,
+   "simmering": 35
+  },
+  "pandemic": {
+   "no": 94,
+   "yes": 6
+  },
+  "power-grid": {
+   "crisis": 25,
+   "keepsup": 30,
+   "strained": 45
+  },
+  "recession": {
+   "mild": 33,
+   "none": 52,
+   "severe": 15
+  },
+  "taiwan": {
+   "blockade": 14,
+   "quo": 81,
+   "war": 5
+  },
+  "ukraine": {
+   "ceasefire": 55,
+   "continues": 41,
+   "nato": 4
+  }
+ },
+ "worlds": {
+  "climb": 35,
+  "fracture": 18,
+  "hangover": 22,
+  "takeoff": 25
+ }
+}

@@ -1,0 +1,15 @@
+id: house
+tracking: active
+name: House makeup
+domain: politics
+order: 40
+measures: Seats held by each party in the US House (218 needed for a majority).
+value: 218 R · 214 D · 1 I
+asOf: '2026-10-12'
+trend: flat
+leans: neutral
+note: Two seats are vacant. The independent is Kevin Kiley of California. All 435 seats are on the ballot on Nov 3.
+watch: A Democratic majority from January 2027 shifts oversight, budgets and AI and trade bills. A Republican hold keeps current policy.
+cadence: After elections and vacancies
+source: Congress Countdown
+url: https://www.congresscountdown.com/info/party-breakdown

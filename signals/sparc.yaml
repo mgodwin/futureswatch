@@ -1,0 +1,15 @@
+id: sparc
+tracking: active
+name: SPARC fusion machine (CFS)
+domain: energy
+order: 21
+measures: Progress toward the first magnetic-confinement fusion shot that releases more energy than it uses.
+value: No first plasma yet
+asOf: 2026-08
+trend: flat
+leans: neutral
+note: Magnet installation began in January; operation expected late 2026 or early 2027, with Q>1 targeted for 2027.
+watch: First plasma by mid-2027 makes Q>1 by 2029 plausible. A slip past 2027 makes it unlikely.
+cadence: Company announcements
+source: TechCrunch
+url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m

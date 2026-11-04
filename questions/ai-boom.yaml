@@ -1,0 +1,61 @@
+id: ai-boom
+tracking: active
+title: What if the AI boom is a bubble?
+short: AI investment and AI-heavy stocks through 2029.
+domain: economy
+order: 4
+read: Demand is real, but the cash is running thin. Alphabet and Amazon now spend more than they earn, and Alphabet had its worst day since listing.
+outcomes:
+- key: sustained
+  label: Sustained build-out
+  prob: 29
+  prevProb: 30
+  desc: Capex keeps rising through 2029; dips are brief.
+  ifThen: Chip, power and data-center businesses keep booming, and AI adoption accelerates.
+- key: correction
+  label: Sharp correction, then recovery
+  prob: 46
+  prevProb: 46
+  desc: AI-heavy stocks fall 35% or more from their peak and/or hyperscalers cut capex, then recover.
+  ifThen: A rough year for tech jobs and portfolios, then the build-out resumes.
+- key: bust
+  label: Deep bust
+  prob: 25
+  prevProb: 24
+  desc: The unwind feeds a recession, with losses on data-center debt.
+  ifThen: 'The Hangover world: layoffs, falling asset prices and a slower AI rollout.'
+anchors:
+- who: Financial Times, via TechCrunch
+  what: OpenAI told investors its annualized revenue is approaching $50B, about $20B below an earlier reported figure.
+  date: 2026-10
+  url: https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+- who: Financial Times, via Implicator
+  what: Anthropic told investors Q3 revenue was $16.8B, up 45% from Q2, with growth slowing from about 147%.
+  date: 2026-10
+  url: https://www.implicator.ai/anthropic-tells-investors-q3-revenue-hit-16-8-billion-as-growth-slowed-to-45/
+- who: Moody's
+  what: Big Tech AI capex of about $785B in 2026, nearing $1T in 2027; warns it is eating into cash flow as debt grows.
+  date: 2026-05
+  url: https://www.datacenterdynamics.com/en/news/moodys-hyperscaler-capex-forecasts-marked-up-by-85bn-to-close-in-on-1trn-by-2027/
+- who: Meta
+  what: Q3 capex of $34.9B pushed free cash flow negative; 2026 capex guidance narrowed to $135–145B.
+  date: 2026-10
+  url: https://www.investing.com/news/company-news/meta-q3-2026-slides-revenue-surges-26-as-margins-compress-sharply-93CH-4964286
+- who: Alphabet / Amazon
+  what: Alphabet's free cash flow was negative for a second quarter and its stock fell 12.6%, its worst day since listing. Amazon's 12-month free cash flow is a $42B outflow.
+  date: 2026-10
+  url: https://www.heygotrade.com/en/news/google-googl-stock-news-october-30-2026/
+- who: IMF
+  what: Flagged circular AI deals worth about $1.4T in promised revenue as a risk that could deepen a market correction.
+  date: 2026-10
+  url: https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report
+- who: Bond market
+  what: CoreWeave's 2031 note hit a record 15.76% yield on Oct 22, and its default-swap spread reached 1,115 bp.
+  date: 2026-10
+  url: https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout
+signals:
+- capex
+- nvda
+- labrev
+- tenyear
+- aicredit

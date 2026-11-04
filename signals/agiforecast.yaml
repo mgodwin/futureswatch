@@ -1,0 +1,15 @@
+id: agiforecast
+tracking: active
+name: Crowd AGI forecast
+domain: ai
+order: 6
+measures: Metaculus forecasters' median date for the first general AI system.
+value: Feb 2031
+asOf: '2026-10-19'
+trend: flat
+leans: neutral
+note: A month later than last week. Implies roughly 40% by the end of 2029, on a strict definition that includes robotics.
+watch: A median before 2029 points to Takeoff. After 2033 points to slower progress.
+cadence: Continuous
+source: Metaculus
+url: https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/

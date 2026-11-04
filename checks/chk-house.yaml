@@ -1,0 +1,10 @@
+id: chk-house
+label: 'Check · by Nov 30, 2026: Democrats win the House'
+order: 13
+prob: 94
+prevProb: 91
+resolvesBy: '2026-11-30'
+resolved: null
+note: Kalshi and Polymarket average about 94% on the eve of the vote. Resolves when major outlets call control after Nov 3.
+source: DeFi Rate (Kalshi, Polymarket)
+url: https://defirate.com/prediction-markets/2026-midterms/

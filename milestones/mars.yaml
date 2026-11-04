@@ -1,0 +1,8 @@
+id: mars
+label: Starship lands on Mars (uncrewed)
+order: 5
+prob: 10
+prevProb: 10
+note: The 2026 window was shelved; the only remaining window before 2030 opens in late 2028.
+source: Analytics Insight
+url: https://www.analyticsinsight.net/amp/story/news/spacex-delays-2026-mars-mission-shifts-starship-focus-to-nasa-moon-landing

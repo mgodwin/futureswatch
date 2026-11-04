@@ -1,0 +1,54 @@
+id: gulf
+tracking: active
+title: What if the Gulf war widens?
+short: The Iran war and the Strait of Hormuz by the end of 2029.
+domain: geopolitics
+order: 11
+read: A mine hit a tanker and Houthis struck at Saudi oil sites, then Iran offered a two-day plan to reopen Hormuz. No deal yet, and talks continue.
+outcomes:
+- key: settled
+  label: Settled
+  prob: 48
+  prevProb: 48
+  desc: Hormuz reopens and a durable ceasefire or deal holds.
+  ifThen: Oil drifts back toward $70–80 and inflation pressure eases.
+- key: simmering
+  label: Simmering
+  prob: 37
+  prevProb: 37
+  desc: On-and-off fighting with recurring Hormuz disruptions.
+  ifThen: Oil stays volatile and elevated, a lasting drag through inflation.
+- key: regional
+  label: Regional war
+  prob: 15
+  prevProb: 15
+  desc: A sustained wider war involving Gulf states, with oil above $150 for months.
+  ifThen: An oil shock big enough to tip the world into recession.
+anchors:
+- who: CBS News
+  what: Houthi attacks over about a week killed at least 19 people in Saudi Arabia and targeted Riyadh's airport and Aramco's headquarters.
+  date: 2026-10
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
+- who: UK Maritime Trade Operations, via CBS
+  what: October is the worst month for attacks on Hormuz shipping since March, with 10 in one week and one ship sunk.
+  date: 2026-10
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
+- who: White House
+  what: Trump said any strike on Iran would wait until after the Nov 3 midterms while he weighs a deal.
+  date: 2026-10
+  url: https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/
+- who: Timeline
+  what: US–Israeli strikes on Iran began Feb 28; ceasefires in April and June broke down by July.
+  date: 2026-10
+  url: https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire
+- who: Qatar
+  what: Mediating talks aimed at reopening Hormuz and ending the war.
+  date: 2026-09
+  url: https://telanganatoday.com/qatar-says-us-wants-deal-with-iran-amid-effort-to-resume-talks
+- who: EIA
+  what: Expects Brent to average $96 in 2026 and $84 in 2027.
+  date: 2026-10
+  url: https://www.eia.gov/outlooks/steo/report
+signals:
+- hormuz
+- brent

@@ -1,0 +1,15 @@
+id: payrolls
+tracking: active
+name: Job growth (3-month average)
+domain: jobs
+order: 9
+measures: Average monthly change in US payroll jobs.
+value: +51k a month
+asOf: 2026-09
+trend: down
+leans: hangover
+note: September added 29k; July was revised to a loss of 10k. With low immigration, small gains can still hold unemployment flat.
+watch: Read against breakeven, now near zero. Sustained negative readings with rising unemployment point to Hangover. Above +100k supports Steady Climb.
+cadence: Monthly, first Friday
+source: Bureau of Labor Statistics
+url: https://www.bls.gov/news.release/archives/empsit_10022026.htm

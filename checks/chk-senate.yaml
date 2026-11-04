@@ -1,0 +1,10 @@
+id: chk-senate
+label: 'Check · by Nov 30, 2026: Democrats win the Senate'
+order: 14
+prob: 74
+prevProb: 64
+resolvesBy: '2026-12-31'
+resolved: null
+note: Kalshi and Polymarket average about 74%, up 10 points in a week. Resolves when control is called; a December runoff could delay it.
+source: DeFi Rate (Kalshi, Polymarket)
+url: https://defirate.com/prediction-markets/2026-midterms/

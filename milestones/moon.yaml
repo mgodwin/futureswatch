@@ -1,0 +1,8 @@
+id: moon
+label: People walk on the Moon again
+order: 4
+prob: 40
+prevProb: 40
+note: Artemis II flew around the Moon in April 2026. The first landing attempt is now 2028 and depends on Starship refueling, not yet demonstrated.
+source: The Register
+url: https://www.theregister.com/2026/05/01/artemis_iii_aims_for_late/

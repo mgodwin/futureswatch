@@ -1,0 +1,74 @@
+date: '2026-10-26'
+week: 4
+headline: Oil hits $117 and AI-debt stress deepens; the worlds hold steady
+summary: Record CoreWeave bond yields lifted AI-bust odds a point, and Iran's halt of non-compliant ships lifted Gulf regional-war odds a point. Putin's agreement to resume talks nudged Ukraine ceasefire odds up. All four worlds held, since recession markets did not move and Gulf talks continue.
+changes:
+- from: 31
+  target: 'AI boom: Sustained build-out'
+  to: 30
+  url: https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout
+  why: CoreWeave's bond yields stayed above 15% for a second week, crossing the AI-credit watch line, and Meta's free cash flow turned negative.
+- from: 23
+  target: 'AI boom: Deep bust'
+  to: 24
+  url: https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout
+  why: CoreWeave's 2031 note hit a record 15.76% yield, crossing the AI-credit watch line; chip stocks steadied, so the move is one point.
+- from: 58
+  target: 'AI cyber: Contained'
+  to: 57
+  url: https://www.staradvertiser.com/2026/10/19/breaking-news/how-one-hacker-used-ai-agents-to-break-into-over-100-company-websites/
+  why: A Reuters report showed one hacker breaching 100+ firms with AI agents for about $5,000; no forecast moved, so one point.
+- from: 34
+  target: 'AI cyber: Major incident'
+  to: 35
+  url: https://www.staradvertiser.com/2026/10/19/breaking-news/how-one-hacker-used-ai-agents-to-break-into-over-100-company-websites/
+  why: A Reuters report showed one hacker breaching 100+ firms with AI agents for about $5,000; no forecast moved, so one point.
+- from: 49
+  target: 'Gulf war: Settled'
+  to: 48
+  url: https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/
+  why: Iran halted non-compliant ships and Brent hit $117; no market moved and talks continue, so one point.
+- from: 14
+  target: 'Gulf war: Regional war'
+  to: 15
+  url: https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/
+  why: Iran halted non-compliant ships, Houthis kept firing at Saudi targets and US officials talked up strikes; no market moved, so one point.
+- from: 54
+  target: 'Ukraine: Durable ceasefire or deal'
+  to: 55
+  url: https://www.hawaiinewsnow.com/2026/10/21/trump-envoy-witkoff-meets-putin-st-petersburg-ukraine-war-talks/?outputType=amp
+  why: Putin agreed in principle to resume US-mediated talks after Nov 10; no market moved, so one point.
+- from: 42
+  target: 'Ukraine: War continues'
+  to: 41
+  url: https://www.hawaiinewsnow.com/2026/10/21/trump-envoy-witkoff-meets-putin-st-petersburg-ukraine-war-talks/?outputType=amp
+  why: Putin agreed in principle to resume US-mediated talks after Nov 10; no market moved, so one point.
+- from: 80
+  target: 'Milestone: Check · the Fed raises rates again by Dec 31'
+  to: 78
+  url: https://defirate.com/prediction-markets/fed-decision-odds/
+  why: Kalshi and Polymarket now average about 78% for another hike before 2027.
+- from: 75
+  target: 'Milestone: Check · Anthropic shares start trading by Dec 31'
+  to: 82
+  url: https://polymarket.com/event/anthropic-ipo-by
+  why: 'Major discrete event: the S-1 went public on Oct 26, and Polymarket moved to 82% for a listing by year-end.'
+news:
+- date: '2026-10-22'
+  text: CoreWeave's 2031 bond hit a record 15.76% yield as its stock fell to a 17-month low.
+  url: https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout
+- date: '2026-10-22'
+  text: Meta's Q3 capex of $34.9B outran its operating cash flow, and the stock fell about 7%.
+  url: https://www.investing.com/news/company-news/meta-q3-2026-slides-revenue-surges-26-as-margins-compress-sharply-93CH-4964286
+- date: '2026-10-23'
+  text: Brent rose to about $117, its highest since March, after Iran said it halted non-compliant ships in Hormuz.
+  url: https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/
+- date: '2026-10-21'
+  text: Putin agreed in principle to resume three-way talks with the US and Ukraine after Nov 10.
+  url: https://www.hawaiinewsnow.com/2026/10/21/trump-envoy-witkoff-meets-putin-st-petersburg-ukraine-war-talks/?outputType=amp
+- date: '2026-10-26'
+  text: Anthropic made its S-1 public, showing $16.3B of first-half revenue, with a Nasdaq listing targeted for mid-November.
+  url: https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1
+- date: '2026-10-26'
+  text: Microsoft offered voluntary buyouts to about 60,000 staff, roughly a quarter of its workforce, as it pours money into AI.
+  url: https://www.cbsnews.com/news/microsoft-buyouts-60000-workers-artificial-intelligence-layoffs/

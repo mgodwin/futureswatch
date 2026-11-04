@@ -1,0 +1,15 @@
+id: incidents
+tracking: active
+name: Release holds & AI incidents
+domain: ai
+order: 7
+measures: 'Friction on deploying frontier AI: safety holds, government gating and real incidents.'
+value: 5+ major holds · new probes
+asOf: '2026-10-28'
+trend: up
+leans: neutral
+note: Google gave its new Gemini 4 Carbon model to cyber defenders first (Oct 28). The FTC probe of OpenAI and Anthropic and eight state suits against OpenAI continue.
+watch: A major real-world AI incident or a licensing law points to Emergency brakes. Holds shrinking to weeks points to an open race.
+cadence: As events happen
+source: TechRepublic; Axios
+url: https://www.techrepublic.com/article/news-google-gemini-4-carbon-access/

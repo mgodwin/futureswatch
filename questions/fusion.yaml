@@ -1,0 +1,54 @@
+id: fusion
+tracking: active
+title: What if fusion power works?
+short: Fusion milestones by the end of 2029. Laser fusion already passed scientific ignition at the National Ignition Facility in December 2022.
+domain: energy
+order: 6
+read: Grid power before 2030 rests on Helion alone. SPARC's first plasma, expected late 2026 or early 2027, is the key near-term signpost.
+outcomes:
+- key: grid
+  label: Fusion power on the grid
+  prob: 5
+  prevProb: 5
+  desc: Any company delivers fusion electricity to a grid. Helion targets 2028 for Microsoft.
+  ifThen: A historic proof point that brings a rush of investment, but too small and too late to change power prices before 2030.
+- key: netgain
+  label: Net energy in a power-plant-style machine
+  prob: 35
+  prevProb: 35
+  desc: A magnetic-confinement device such as CFS's SPARC releases more fusion energy than the heating it takes in (Q>1), with no grid power yet.
+  ifThen: Credibility for 2030s fusion plants, such as CFS's ARC in Virginia, but no near-term effect on power bills.
+- key: neither
+  label: Neither yet
+  prob: 60
+  prevProb: 60
+  desc: Steady progress, but no Q>1 magnetic device and no grid power before 2030.
+  ifThen: Fusion stays a 2030s–2040s story. Gas, solar, batteries and fission restarts meet nearer-term demand.
+anchors:
+- who: Commonwealth Fusion Systems
+  what: SPARC has not reached first plasma; operation is expected in late 2026 or early 2027, with Q>1 targeted for 2027.
+  date: 2026-08
+  url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m
+- who: Helion
+  what: Its Polaris machine produced deuterium–tritium fusion in January but has published no electricity-recovery data; it still targets 2028 power for Microsoft.
+  date: 2026-02
+  url: https://www.helionenergy.com/newsroom/helion-achieves-new-fusion-energy-milestones
+- who: Lawrence Livermore (NIF)
+  what: 'Record shot: 8.6 MJ of fusion energy from 2.08 MJ of laser energy, a gain of about 4.'
+  date: 2025-04
+  url: https://annual.llnl.gov/fy-2025/national-ignition-facility-2025
+- who: ITER
+  what: Research operations start in 2034, with deuterium–tritium operation in 2039.
+  date: 2024-07
+  url: https://www.iter.org/sites/default/files/media/2024-07/baseline_press_conference_summary_july-2024_b.pdf
+- who: Fusion Industry Association
+  what: A record $4.48B raised in a year; 71% of companies expect grid power in the 2030s.
+  date: 2026-07
+  url: https://www.world-nuclear-news.org/articles/fusion-industry-raised-usd45-billion-over-past-year-report-says
+- who: Metaculus forecasters
+  what: Median for the first 100 MW fusion power plant is July 2041.
+  date: 2026-10
+  url: https://www.metaculus.com/questions/363/when-will-the-first-100-megawatt-fusion-based-electrical-generation-facility-come-into-service
+signals:
+- sparc
+- helion

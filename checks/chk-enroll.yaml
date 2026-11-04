@@ -1,0 +1,10 @@
+id: chk-enroll
+label: 'Check · by Nov 30, 2026: fall 2026 undergraduate enrollment is up'
+order: 15
+prob: 100
+prevProb: 55
+resolvesBy: '2026-11-30'
+resolved: 'yes'
+note: Resolved yes on 2026-10-29; last forecast 55%. The preliminary estimate showed undergraduate enrollment up 0.6%, led by community colleges.
+source: National Student Clearinghouse
+url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/

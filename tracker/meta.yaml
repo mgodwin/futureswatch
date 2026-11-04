@@ -1,0 +1,20 @@
+title: Futures Watch 2030
+repo: mgodwin/futureswatch
+horizon: '2029-12-31'
+week: 5
+updatedAt: '2026-11-02'
+nextUpdate: '2026-11-09'
+headline: Senate odds jump and the first check resolves, but all four worlds hold, with Steady Climb still most likely at 32%.
+thisWeek:
+- The worlds held again. Steady Climb stays most likely at 32%, Takeoff and Hangover sit at 24%, and Fracture at 20%. No world has moved three weeks in a row, so no drift check was needed.
+- AI cash strain grew. Alphabet fell 12.6%, its worst day since listing, after a second quarter of negative free cash flow, and Amazon now burns cash too. Both still plan much higher spending in 2027. Deep-bust odds rose one point to 25%; they have risen four weeks running, while recession markets hold at 22%.
+- The Fed held on Oct 28 with two members wanting a hike. December hike odds slipped to about 72%, so that check eased from 78%. Brent ended October at about $113 after a mine hit a tanker, then fell 6% on Nov 2 when Iran offered to reopen Hormuz in two days.
+- 'The first check resolved: fall undergraduate enrollment rose 0.6%, a yes against our 55% forecast. That gives a Brier score of 0.203, the running average so far. A new check tracks a Russia–Ukraine ceasefire by March 2027, priced near 24%. Anthropic IPO odds rose to 93%.'
+- 'Markets now give Democrats 94% for the House and 74% for the Senate, up 10 points, so the Democratic trifecta for 2029 rose two points to 32%. Next week: the Nov 3 midterms, the Nov 6 jobs report, Starship on Nov 8 and Anthropic''s roadshow.'
+scorecard:
+- brier: 0.203
+  forecast: 55
+  id: chk-enroll
+  label: 'Check · by Nov 30, 2026: fall 2026 undergraduate enrollment is up'
+  outcome: 'yes'
+  resolvedOn: '2026-10-29'

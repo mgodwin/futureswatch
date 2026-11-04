@@ -1,0 +1,18 @@
+id: dystopia
+name: Dystopia
+order: 6
+prob: 14
+prevProb: null
+tagline: The state is watching.
+inspiredBy: Nineteen Eighty-Four, Minority Report
+summary: Emergency powers and mass surveillance shape daily life in major countries. A war, an AI crisis or a security scare drives the clampdown.
+read: A real minority path. The Gulf war, pressure for tighter AI rules and fast-improving surveillance tools all raise it, but no clampdown is under way.
+signs:
+- An AI incident triggers sweeping emergency rules
+- A Gulf or Taiwan crisis brings wartime controls
+- Governments use AI to track people at scale
+drivers:
+- ai-control
+- gulf
+- taiwan
+- us-china-ai

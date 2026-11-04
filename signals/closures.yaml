@@ -1,0 +1,15 @@
+id: closures
+tracking: active
+name: College closures
+domain: education
+order: 53
+measures: Nonprofit and public colleges announcing closure or merger.
+value: 9 closing in 2026 (so far)
+asOf: '2026-10-01'
+trend: up
+leans: neutral
+note: At least 12 closed or merged in 2025. Moody's and Fitch rate the sector's outlook negative on federal cuts, loan caps and fewer international students.
+watch: More than 25 closures in a year points to a squeeze. Fewer than 10 means the sector is absorbing the pressure.
+cadence: As announced
+source: The College Investor
+url: https://thecollegeinvestor.com/79342/8-colleges-closing-in-2026-full-list-of-closures/

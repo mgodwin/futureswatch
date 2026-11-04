@@ -1,0 +1,89 @@
+date: '2026-10-19'
+week: 3
+headline: AI-debt fears hit chip stocks as the Gulf war intensifies
+summary: A second rough week for AI stocks and distressed CoreWeave bonds lifted AI-bust odds two points and Hangover one. Heavier Houthi and shipping attacks raised Gulf regional-war odds and Fracture a point each, and new federal and state probes nudged AI-crackdown odds up.
+changes:
+- from: 34
+  target: Steady Climb (world)
+  to: 32
+  url: https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10162026-nid16102026/
+  why: Gives up two points as AI-debt stress and Gulf escalation lift Hangover and Fracture.
+- from: 23
+  target: Hangover (world)
+  to: 24
+  url: https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/
+  why: Higher AI-bust odds, hot inflation and $110 oil add to downturn risk.
+- from: 19
+  target: Fracture (world)
+  to: 20
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
+  why: Houthi attacks killed at least 19 in Saudi Arabia, and ship attacks near Hormuz hit a seven-month high.
+- from: 33
+  target: 'AI boom: Sustained build-out'
+  to: 31
+  url: https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/
+  why: Chip stocks fell eight sessions straight and CoreWeave's bonds traded near distressed 15% yields.
+- from: 21
+  target: 'AI boom: Deep bust'
+  to: 23
+  url: https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/
+  why: Chip stocks fell eight sessions straight and CoreWeave's bonds traded near distressed 15% yields.
+- from: 19
+  target: 'AI control: Open race'
+  to: 18
+  url: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
+  why: The FTC subpoenaed OpenAI and Anthropic, and eight states sued OpenAI after agent incidents.
+- from: 66
+  target: 'AI control: Managed release'
+  to: 65
+  url: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
+  why: The FTC subpoenaed OpenAI and Anthropic, and eight states sued OpenAI after agent incidents.
+- from: 15
+  target: 'AI control: Emergency brakes'
+  to: 17
+  url: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
+  why: The FTC subpoenaed OpenAI and Anthropic, and eight states sued OpenAI after agent incidents.
+- from: 51
+  target: 'Gulf war: Settled'
+  to: 49
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
+  why: Houthi attacks killed at least 19 in Saudi Arabia, and ship attacks near Hormuz hit a seven-month high.
+- from: 36
+  target: 'Gulf war: Simmering'
+  to: 37
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
+  why: Houthi attacks killed at least 19 in Saudi Arabia, and ship attacks near Hormuz hit a seven-month high.
+- from: 13
+  target: 'Gulf war: Regional war'
+  to: 14
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
+  why: Houthi attacks killed at least 19 in Saudi Arabia, and ship attacks near Hormuz hit a seven-month high.
+- from: 55
+  target: 'Ukraine: Durable ceasefire or deal'
+  to: 54
+  url: https://www.rferl.org/a/trump-waives-graham-act-sanctions-on-russia/33878335.html
+  why: Russia ignored the energy ceasefire, and Trump waived new sanctions on Moscow.
+- from: 41
+  target: 'Ukraine: War continues'
+  to: 42
+  url: https://www.rferl.org/a/trump-waives-graham-act-sanctions-on-russia/33878335.html
+  why: Russia ignored the energy ceasefire, and Trump waived new sanctions on Moscow.
+news:
+- date: '2026-10-16'
+  text: The Nasdaq fell 4.5% for the week, its worst since June, as chip stocks slid on AI-debt worries.
+  url: https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10162026-nid16102026/
+- date: '2026-10-14'
+  text: September CPI came in at 3.7%, above forecasts, with gasoline up 9.1% on the month.
+  url: https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/
+- date: '2026-10-14'
+  text: Anthropic told investors its Q3 revenue was $16.8B, up 45% from Q2, ahead of a planned November IPO.
+  url: https://www.implicator.ai/anthropic-tells-investors-q3-revenue-hit-16-8-billion-as-growth-slowed-to-45/
+- date: '2026-10-15'
+  text: The FTC sent civil subpoenas to OpenAI and Anthropic in a consumer-protection probe.
+  url: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
+- date: '2026-10-16'
+  text: Trump waived new Russia sanctions under the Graham Act two days before they took effect.
+  url: https://www.rferl.org/a/trump-waives-graham-act-sanctions-on-russia/33878335.html
+- date: '2026-10-18'
+  text: Houthi attacks on Saudi Arabia continued; Iran says its seven-day plan to reopen Hormuz still stands.
+  url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/

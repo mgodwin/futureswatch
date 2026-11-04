@@ -1,0 +1,18 @@
+id: takeoff
+name: Takeoff
+order: 2
+prob: 24
+prevProb: 24
+tagline: Transformative AI arrives before 2030.
+summary: By 2028 or 2029, AI systems can do most remote knowledge work at expert level, or automate most AI research itself. Productivity and compute spending surge, and so does disruption. Job displacement and control of AI become the dominant political questions, and governments move to license frontier models.
+read: Anthropic's S-1 confirms fast revenue growth, and capability trends still look takeoff-like. With transformative AI odds and Fracture unchanged, this world holds.
+signposts:
+- Task horizons keep doubling every 4–5 months, reaching 40+ hours by mid-2027
+- The Remote Labor Index passes 40% by the end of 2027
+- A lab credibly reports AI doing most of its own research, or a measured 3× research speedup
+- Lab revenue keeps growing 2–3× a year and AI capex reaches about $1T in 2027 without strain
+- Productivity growth tops 3% while hiring in exposed occupations falls
+meaning:
+- Knowledge work changes faster than institutions can adapt; job security in exposed fields drops sharply
+- Power and chips become the bottleneck, pushing up electricity prices and grid stress
+- Fights over AI control, taxes and income support move to the center of politics

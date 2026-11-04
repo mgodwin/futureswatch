@@ -1,0 +1,17 @@
+id: blackmirror
+name: Black Mirror
+order: 5
+prob: 32
+prevProb: null
+tagline: Today, plus unsettling tech.
+inspiredBy: Black Mirror, Her
+summary: Life looks mostly familiar. AI companions, robotaxis and deepfakes spread fast and get strange at the edges, but no single shock defines the period.
+read: 'Most likely for now. Most signals show steady change: unemployment at 4.2%, robotaxis in 14 metros, and AI products drawing probes and lawsuits rather than bans.'
+signs:
+- Unemployment stays near 4–5% while AI apps spread
+- Robotaxis and AI assistants become normal in big cities
+- AI scandals and lawsuits pile up without a crackdown
+drivers:
+- ai-capability
+- ai-jobs
+- recession

@@ -1,0 +1,15 @@
+id: outbreaks
+tracking: active
+name: Outbreaks (Ebola, H5N1)
+domain: world
+order: 31
+measures: Spread of the outbreaks most likely to become pandemics.
+value: 'Ebola: 10,193 cases, 4,960 deaths'
+asOf: '2026-10-27'
+trend: up
+leans: neutral
+note: DRC totals, with 52 new cases in the latest daily report, mostly in Ituri. Kenya has 9 cases, and Nigeria's travel case was flown to Switzerland. H5N1 shows no human spread.
+watch: Sustained Ebola spread outside Africa, or any human-to-human H5N1 cluster, raises pandemic risk.
+cadence: Weekdays
+source: Outbreak News Today; ECDC
+url: https://outbreaknewstoday.substack.com/p/ebola-outbreak-update-through-october-41b

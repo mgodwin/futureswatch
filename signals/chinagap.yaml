@@ -1,0 +1,15 @@
+id: chinagap
+tracking: active
+name: China AI gap
+domain: ai
+order: 44
+measures: How many months China's best model trails the US frontier on Epoch's Capabilities Index.
+value: ≈5–7 months
+asOf: '2026-10-12'
+trend: down
+leans: neutral
+note: Mid-2026 gap was about 7 months; Kimi K3 in July implied 4 to 5. A US government test put one Chinese model about 4 months behind on cyber tasks.
+watch: Under 3 months means near parity. Over 9 months means export controls are biting.
+cadence: As models are scored
+source: AI 2027 Tracker (Epoch data)
+url: https://ai2027-tracker.com/predictions/china-model-gap/

@@ -1,0 +1,15 @@
+id: metr
+tracking: active
+name: AI task horizon (METR)
+domain: ai
+order: 1
+measures: Length of software task a frontier AI completes on its own half the time.
+value: 16+ hours
+asOf: '2026-05-08'
+trend: up
+leans: takeoff
+note: Still the latest published reading, for Claude Mythos Preview. METR has posted no newer frontier result, and says estimates above 16 hours are unreliable.
+watch: 40+ hours by mid-2027 points to Takeoff. Under 24 hours through mid-2027 points to slower progress.
+cadence: With each major model
+source: METR via The Decoder
+url: https://the-decoder.com/metr-says-it-can-barely-measure-claude-mythos-palo-alto-networks-warns-of-autonomous-ai-attackers/

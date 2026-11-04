@@ -1,0 +1,60 @@
+id: higher-ed
+tracking: active
+title: What if AI upends education?
+short: Whether AI and money pressures reshape colleges, degrees and how students learn by the end of 2029.
+domain: education
+order: 17
+read: Undergraduate enrollment still grew this fall, but only 0.6%. Master's and computer science enrollment fell sharply. No forecasting market covers this, so these odds rest on judgment.
+outcomes:
+- key: adapts
+  label: Adapts
+  prob: 50
+  prevProb: 50
+  desc: Enrollment holds roughly steady, closures stay under about 25 a year and degrees keep a wage premium above 70%. AI becomes a standard study and teaching tool.
+  ifThen: A degree still pays, but the major matters more; AI skills get folded into most programs.
+- key: squeezed
+  label: Squeezed
+  prob: 40
+  prevProb: 40
+  desc: Over 100 colleges close or merge from 2026 to 2029, or the wage premium falls below 70%. Majors shift sharply and more employers drop degree requirements.
+  ifThen: Small private and regional colleges shrink; families weigh cost and job payoff much harder.
+- key: unbundled
+  label: Unbundled
+  prob: 10
+  prevProb: 10
+  desc: AI tutoring and skills credentials replace degrees for a large share of students; undergraduate enrollment falls 10% or more from 2025.
+  ifThen: Credentials and portfolios replace diplomas for many jobs; schools compete on mentoring and networks.
+anchors:
+- who: Azar, Giné and Sanz-Espín (working paper)
+  what: The college wage premium fell from about 87% in 2022 to 78% in 2026, back to mid-1990s levels.
+  date: 2026-09
+  url: https://marginalrevolution.com/marginalrevolution/2026/09/the-college-wage-premium-in-the-generative-ai-era.html
+- who: National Student Clearinghouse
+  what: Undergraduate enrollment rose 0.6% this fall, led by community colleges. Master's fell 3.7% and computer science at four-year colleges fell 12.4%.
+  date: 2026-10
+  url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/
+- who: NAFSA
+  what: Projects up to 112,000 fewer international students this fall and $3.4B in lost revenue.
+  date: 2026-08
+  url: https://www.forbes.com/sites/michaeltnietzel/2026/08/12/projected-loss-of-international-students-could-bring-a-34-billion-hit/
+- who: Moody's
+  what: Kept a negative outlook for higher education in 2026, citing federal cuts, loan caps and expenses outpacing revenue.
+  date: 2025-11
+  url: https://www.bondbuyer.com/news/moodys-predicts-more-challenges-for-higher-education
+- who: Harvard physics trial (Kestin et al.)
+  what: Students learned more from a well-designed AI tutor than from in-class active learning, in less time.
+  date: 2025-06
+  url: https://www.researchgate.net/publication/392839220_AI_tutoring_outperforms_in-class_active_learning_an_RCT_introducing_a_novel_research-based_design_in_an_authentic_educational_setting
+- who: University of Florida / Ohio State
+  what: 71% of UF's spring 2026 graduates took an AI course; Ohio State aims to make every student AI-fluent by 2029.
+  date: 2026-08
+  url: https://fortune.com/2026/08/06/computer-science-enrollment-plunging-ai-college-campus/
+signals:
+- collegepremium
+- csmajors
+- enrollment
+- intlstudents
+- closures
+- aitutoring
+- gradunemp
+- canaries

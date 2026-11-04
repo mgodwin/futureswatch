@@ -1,0 +1,15 @@
+id: canaries
+tracking: active
+name: Young workers in AI-exposed jobs
+domain: jobs
+order: 11
+measures: Employment of 22–25-year-olds in the most AI-exposed occupations versus peers.
+value: ≈19% below peers
+asOf: 2026-08
+trend: up
+leans: climb
+note: Up from 13–15% a year earlier. Experienced workers in the same jobs show no gap; the effect comes from less hiring, not layoffs.
+watch: Above 25%, or spreading to older workers, points to mass disruption. Below 10% means minimal effect.
+cadence: Monthly
+source: Stanford Digital Economy Lab
+url: https://digitaleconomy.stanford.edu/news/canariesaug26/

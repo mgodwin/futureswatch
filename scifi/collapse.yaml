@@ -1,0 +1,18 @@
+id: collapse
+name: Collapse
+order: 7
+prob: 5
+prevProb: null
+tagline: Things fall apart.
+inspiredBy: Mad Max, Station Eleven, Children of Men
+summary: 'A catastrophe breaks basic systems across a major region: a great-power war, a nuclear strike or a deadly pandemic.'
+read: A small tail. Nuclear use sits at 3%, a major pandemic at 6% and a NATO–Russia war at 4%, and most of those cases would hurt badly without collapsing society.
+signs:
+- A nuclear weapon is used
+- A pandemic kills more than a million people
+- A NATO–Russia or US–China war cuts trade and power
+drivers:
+- pandemic
+- ukraine
+- taiwan
+- gulf

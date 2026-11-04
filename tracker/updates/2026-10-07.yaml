@@ -1,0 +1,24 @@
+date: '2026-10-07'
+week: 1
+headline: Baseline published
+summary: First edition. Starting odds come from forecasting markets, expert forecasts and the latest data, and every card lists its sources. From next week, this log shows what moved and why.
+changes: []
+news:
+- date: '2026-10-02'
+  text: 'September jobs report: payrolls up 29k, unemployment 4.2%.'
+  url: https://www.bls.gov/news.release/archives/empsit_10022026.htm
+- date: '2026-10-01'
+  text: Bond yields reached their highest level since 2002 as oil and Fed worries mounted.
+  url: https://finviz.com/news/398095/stocks-pare-session-losses-to-start-october-near-breakeven
+- date: '2026-09-30'
+  text: US–China tariff truce extended to January 2027 during Xi's Washington visit.
+  url: https://militarnyi.com/en/articles/xi-jinping-s-washington-visit/
+- date: '2026-09-29'
+  text: OpenAI shelved a new model after internal safety tests raised concerns.
+  url: https://www.thestar.com.my/tech/tech-news/2026/09/29/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports
+- date: '2026-09-16'
+  text: The Fed raised rates for the first time since 2023.
+  url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
+- date: '2026-09-10'
+  text: 'NOAA: El Niño is on track to be very strong, possibly record strength.'
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml

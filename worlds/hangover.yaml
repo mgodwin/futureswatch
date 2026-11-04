@@ -1,0 +1,17 @@
+id: hangover
+name: Hangover
+order: 3
+prob: 24
+prevProb: 24
+tagline: The AI boom overshoots and the economy stumbles.
+summary: AI spending runs ahead of returns just as money gets tight. With the Fed raising rates into an oil shock and long-term yields above 5%, AI-heavy stocks correct sharply and a US recession hits in 2027 or 2028. Capex gets cut and data-center debt sours. AI keeps improving quietly, but adoption slows, and job losses come from the downturn as much as from automation.
+read: Alphabet had its worst day since listing as cash flow turned negative, and AI-bust odds rose again. Recession odds held at 22%, so this world holds at 24%.
+signposts:
+- The 10-year yield tops 5.5%, the Fed keeps hiking, or Brent stays above $120
+- A hyperscaler cuts capex guidance or Nvidia guides revenue down
+- Credit spreads widen on AI and data-center debt, and AI stock listings stumble
+- Payrolls turn negative and unemployment climbs toward 5%, firing the Sahm-rule recession signal
+meaning:
+- Hiring freezes and layoffs across tech, with falling asset prices
+- Rates eventually come down, and cheaper compute and talent set up the next AI wave
+- AI disruption arrives later, but it still arrives

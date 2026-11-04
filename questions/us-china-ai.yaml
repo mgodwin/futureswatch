@@ -1,0 +1,48 @@
+id: us-china-ai
+tracking: active
+title: What if China catches up in AI?
+short: Whether the US keeps a clear lead in frontier AI through 2029.
+domain: ai
+order: 15
+read: China's open models trail by roughly 5 to 7 months and Huawei is gaining share at home. The gap has narrowed this year, but chip limits still cap China's scale. These odds rest on judgment.
+outcomes:
+- key: uslead
+  label: US keeps a clear lead
+  prob: 55
+  prevProb: 55
+  desc: China's best models stay 6 or more months behind, held back by chip limits.
+  ifThen: Export controls look vindicated; the US sets norms for frontier AI.
+- key: parity
+  label: Near parity
+  prob: 38
+  prevProb: 38
+  desc: The gap shrinks under about 3 months, or the lead trades back and forth.
+  ifThen: A tighter race, more pressure to skip safety holds, and fights over chip and model exports.
+- key: chinalead
+  label: China leads
+  prob: 7
+  prevProb: 7
+  desc: A Chinese lab holds the top model for most of a year.
+  ifThen: A US national-security push on AI, more state funding and possibly harder curbs on Chinese tech.
+anchors:
+- who: Epoch AI, via AI 2027 Tracker
+  what: China's best model trailed the US frontier by about 7 months at mid-2026.
+  date: 2026-10
+  url: https://ai2027-tracker.com/predictions/china-model-gap/
+- who: Epoch AI
+  what: Kimi K3 in July implied a narrower gap of about 4 to 5 months.
+  date: 2026-07
+  url: https://ai2027-tracker.com/predictions/china-model-gap/
+- who: US CAISI
+  what: Found GLM-5.3 about 4 months behind the US frontier on cyber tasks.
+  date: 2026-09
+  url: https://ai2027-tracker.com/predictions/china-model-gap/
+- who: IDC, via Reuters
+  what: Huawei took 28% of China's AI chip market in the first half of 2026, closing on Nvidia's 34%.
+  date: 2026-10
+  url: https://www.cxodigitalpulse.com/?p=63391
+signals:
+- chinagap
+- chinachips
+- uschina
+- eci

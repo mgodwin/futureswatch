@@ -1,0 +1,50 @@
+id: orbital-compute
+tracking: active
+title: What if AI compute moves to orbit?
+short: How much AI computing runs in space by the end of 2029.
+domain: tech
+order: 16
+read: Money and filings are pouring in, but only test satellites fly today. SpaceX's 1 GW goal would need over 6,000 AI1 launches a year, and Musk's timelines usually slip. These odds rest on judgment.
+outcomes:
+- key: demos
+  label: Demos only
+  prob: 70
+  prevProb: 70
+  desc: Under 10 MW of compute in orbit; test satellites and small pilots.
+  ifThen: The power squeeze stays on the ground; grids and gas turbines carry AI growth.
+- key: early
+  label: Early commercial
+  prob: 24
+  prevProb: 24
+  desc: 10 to 500 MW in orbit, with paying customers for inference or training.
+  ifThen: A new market for launch and space solar; a modest relief valve for grids.
+- key: scale
+  label: At scale
+  prob: 6
+  prevProb: 6
+  desc: 500 MW or more in orbit, matching a large ground data center.
+  ifThen: Compute decouples from grids; SpaceX becomes a major AI infrastructure player.
+anchors:
+- who: Google
+  what: Launched a Suncatcher test satellite with 4 TPUs on Oct 1; two more satellites are planned for 2027.
+  date: 2026-10
+  url: https://fortune.com/2026/10/10/google-project-suncatcher-ai-data-centers-space-satellite-launch-orbital-computing-spacex-blue-origin-artificial-intelligence-energy-demand/
+- who: SpaceX
+  what: Aims for about 1 GW a year of orbital AI compute by late 2027 from 150 kW AI1 satellites built in Texas.
+  date: 2026-06
+  url: https://www.tomshardware.com/tech-industry/big-tech/spacex-unveils-11-million-square-foot-gigasat-factory-a-new-manufacturing-facility-for-space-based-data-centers-aims-for-1-gw-year-of-space-ai-compute-by-late-2027-from-its-satellites
+- who: SpaceX (FCC filing)
+  what: Applied for a network of up to 1 million data-center satellites.
+  date: 2026-01
+  url: https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/
+- who: Starcloud
+  what: Raised $250M at a $2.3B valuation; Starcloud-2 is set for 2027 and a 200 kW Starcloud-3 after.
+  date: 2026-08
+  url: https://siliconangle.com/2026/08/21/starcloud-raises-250m-to-build-ai-data-centers-in-orbit/
+- who: Blue Origin
+  what: Proposed a 51,600-satellite network called Project Sunrise.
+  date: 2026-03
+  url: https://fortune.com/2026/10/10/google-project-suncatcher-ai-data-centers-space-satellite-launch-orbital-computing-spacex-blue-origin-artificial-intelligence-energy-demand/
+signals:
+- orbital
+- starship

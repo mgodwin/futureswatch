@@ -1,0 +1,15 @@
+id: biouplift
+tracking: active
+name: AI bio uplift
+domain: world
+order: 48
+measures: Evidence that AI helps novices do dangerous biology, from controlled studies.
+value: No significant wet-lab gain yet
+asOf: '2026-05-30'
+trend: up
+leans: neutral
+note: A 153-person wet-lab trial found a small, non-significant gain from AI help. Computer-based tests show novices about 4 times more accurate with AI.
+watch: A significant wet-lab uplift, or a lab raising its bio risk tier, raises engineered-pandemic risk.
+cadence: New studies and model cards
+source: EA Forum review
+url: https://forum.effectivealtruism.org/posts/S6ydgTdTr8sXkfs9x/the-state-of-bio-uplift-research-in-mid-2026

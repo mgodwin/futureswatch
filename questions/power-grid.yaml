@@ -1,0 +1,51 @@
+id: power-grid
+tracking: active
+title: What if AI outgrows the power grid?
+short: US grid stress from data-center demand by the end of 2029.
+domain: energy
+order: 7
+read: During July's record peak, PJM came within one step of cutting power to large loads, and the 2028/29 capacity shortfall says the squeeze is structural.
+outcomes:
+- key: keepsup
+  label: Grid keeps up
+  prob: 30
+  prevProb: 30
+  desc: No forced cuts to large loads; prices rise modestly.
+  ifThen: Gas, solar, batteries and restarts fill the gap, and AI growth isn't power-limited.
+- key: strained
+  label: Strained
+  prob: 45
+  prevProb: 45
+  desc: At least one grid operator actually cuts power to data centers in an emergency, and prices spike in hot spots.
+  ifThen: Higher bills in places like the PJM region and Texas, and local pushback against data centers.
+- key: crisis
+  label: Crisis
+  prob: 25
+  prevProb: 25
+  desc: Rolling blackouts tied to load growth, or AI build-out halted by power shortages.
+  ifThen: Power becomes the binding limit on AI, and blackouts force emergency policy.
+anchors:
+- who: PJM Interconnection
+  what: The 2028/29 capacity auction cleared at the price cap and came in 6.8 GW short of its target.
+  date: 2026-07
+  url: https://marylandmatters.org/2026/07/15/pjm-interconnection-electricity-price-hits-cap-again-in-latest-auction/
+- who: US Department of Energy
+  what: Emergency orders in May and June let PJM cut large loads with backup power as a last step before rolling blackouts.
+  date: 2026-07
+  url: https://startupfortune.com/americas-biggest-power-grid-just-told-data-centers-it-can-cut-their-power-off/
+- who: NERC
+  what: Peak demand grows 24% over the decade, with elevated risk in PJM, MISO, ERCOT and parts of the West.
+  date: 2026-05
+  url: https://www.utilitydive.com/news/demand-management-data-center-flexibility-boost-regional-reliability-nerc/821225/
+- who: Lawrence Berkeley National Lab
+  what: Data centers could use about 12% of US electricity by 2030 in its reference case.
+  date: 2026-06
+  url: https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025
+- who: EIA
+  what: Residential prices rise 5.2% in 2026 to 18.2 cents per kWh.
+  date: 2026-10
+  url: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php
+signals:
+- pjm
+- elecprice
+- orbital

@@ -1,0 +1,61 @@
+id: ai-jobs
+tracking: active
+title: What if AI causes massive job disruption?
+short: Peak US unemployment before 2030, and how much of it AI drives.
+domain: ai
+order: 2
+read: AI is clearly cutting entry-level and software hiring, but total unemployment is flat at 4.2%. Whether it climbs past 5.5% depends mostly on whether a recession hits.
+outcomes:
+- key: minimal
+  label: Minimal overall effect
+  prob: 40
+  prevProb: 40
+  desc: Unemployment peaks at or below about 5.5%. AI reshapes tasks more than it removes jobs.
+  ifThen: Churn concentrates in specific roles, and most workers adapt in place.
+- key: absorbed
+  label: Significant but absorbed
+  prob: 48
+  prevProb: 48
+  desc: Clear white-collar and entry-level displacement, with unemployment peaking between 5.5% and 8% (or higher mainly because of a non-AI recession).
+  ifThen: Harder job searches for new graduates and displaced mid-career workers; retraining and safety-net debates heat up.
+- key: mass
+  label: Mass disruption
+  prob: 12
+  prevProb: 12
+  desc: Unemployment above 8% with AI a primary cause.
+  ifThen: 'A political shock: income-support experiments, AI taxes and pressure to slow deployment.'
+anchors:
+- who: Kalshi market
+  what: 52% that US unemployment tops 8% at some point before 2030, from any cause. Thinly traded.
+  date: 2026-09
+  url: https://simplefunctions.dev/odds/u3max
+- who: Goldman Sachs
+  what: About 9% of US workers could be displaced by AI over time; most would find other work.
+  date: 2026-07
+  url: https://allwork.space/2026/07/goldman-sachs-says-ai-could-displace-9-of-the-u-s-workforce/
+- who: World Economic Forum
+  what: Expects 170M jobs created and 92M displaced worldwide by 2030, a net gain of 78M.
+  date: 2025-01
+  url: https://www.weforum.org/publications/the-future-of-jobs-report-2025/
+- who: Stanford Digital Economy Lab
+  what: Employment of 22–25-year-olds in the most AI-exposed jobs is about 19% below peers; experienced workers show no gap.
+  date: 2026-08
+  url: https://digitaleconomy.stanford.edu/news/canariesaug26/
+- who: Yale Budget Lab
+  what: Finds no economy-wide disruption to the mix of occupations so far.
+  date: 2026-02
+  url: https://fortune.com/2026/02/02/ai-labor-market-yale-budget-lab-ai-washing/
+- who: Dario Amodei, Anthropic
+  what: Warned AI could eliminate half of entry-level white-collar jobs and push unemployment to 10–20% within one to five years.
+  date: 2025-05
+  url: https://dc.fortune.com/2025/05/28/anthropic-ceo-warning-ai-job-loss/
+signals:
+- unemp
+- payrolls
+- gradunemp
+- canaries
+- softdev
+- ailayoffs
+- productivity
+- breakeven
+- collegepremium

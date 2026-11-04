@@ -1,0 +1,15 @@
+id: productivity
+tracking: active
+name: Labor productivity
+domain: jobs
+order: 14
+measures: Output per hour worked in the US nonfarm business sector, year over year.
+value: +2.2%
+asOf: 2026-06
+trend: flat
+leans: climb
+note: Second-quarter reading; +1.4% annualized for the quarter itself.
+watch: Above 3% with falling hours points to AI replacing workers (Takeoff). Above 2.5% with rising jobs is benign.
+cadence: Quarterly
+source: Bureau of Labor Statistics
+url: https://www.bls.gov/productivity/

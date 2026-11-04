@@ -1,0 +1,15 @@
+id: unemp
+tracking: active
+name: US unemployment rate
+domain: jobs
+order: 8
+measures: Share of the labor force out of work and looking.
+value: 4.2%
+asOf: 2026-09
+trend: flat
+leans: climb
+note: In a 4.1–4.3% band since March. Broader underemployment (U-6) is 7.6%.
+watch: A rise toward 5% (the Sahm-rule recession signal) points to Hangover. Holding at 4.3% or below supports Steady Climb.
+cadence: Monthly, first Friday
+source: Bureau of Labor Statistics
+url: https://www.bls.gov/news.release/empsit.nr0.htm

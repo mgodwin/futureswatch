@@ -1,0 +1,50 @@
+id: climate
+tracking: active
+title: What if warming accelerates?
+short: Average global temperature for 2025–2029 above preindustrial, as measured by Copernicus.
+domain: energy
+order: 8
+read: El Niño reached +2.1°C and NOAA now gives 83% odds of record strength this winter. September ran 1.63°C above preindustrial, so the five-year average is loading high.
+outcomes:
+- key: below
+  label: Below 1.5°C
+  prob: 14
+  prevProb: 14
+  desc: The five-year average stays under the Paris 1.5°C level.
+  ifThen: A little more time, though still with record-warm years.
+- key: over
+  label: 1.5–1.6°C
+  prob: 72
+  prevProb: 72
+  desc: The 1.5°C level is exceeded on a five-year average.
+  ifThen: '1.5°C is effectively crossed: more heat waves, rising insurance costs and food-price swings.'
+- key: wellover
+  label: Above 1.6°C
+  prob: 14
+  prevProb: 14
+  desc: Warming runs hot, with 2027 setting a large new record and little cooling after.
+  ifThen: Faster-than-expected warming, stronger extremes and harder fights over adaptation costs.
+anchors:
+- who: Copernicus
+  what: 2025 averaged 1.47°C; 2023–25 was the first three-year span above 1.5°C.
+  date: 2026-01
+  url: https://climate.copernicus.eu/copernicus-2025-was-third-hottest-year-record
+- who: Copernicus
+  what: August 2026 reached 1.65°C, tied for the warmest month on record.
+  date: 2026-09
+  url: https://climate.copernicus.eu/surface-air-temperature-august-2026
+- who: NOAA
+  what: Niño-3.4 reached +2.1°C; odds of a record-strength El Niño are 83% for October–December.
+  date: 2026-10
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+- who: Carbon Brief
+  what: About 93% that 2026 or 2027 sets a new annual record; 2027 is estimated near 1.71°C.
+  date: 2026-07
+  url: https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026
+- who: World Meteorological Organization
+  what: 70% that the 2025–2029 average exceeds 1.5°C, rising to 75% for 2026–2030.
+  date: 2026-05
+  url: https://wmo.int/node/38645
+signals:
+- globaltemp
+- enso

@@ -1,0 +1,15 @@
+id: helion
+tracking: active
+name: Helion (Microsoft power deal)
+domain: energy
+order: 22
+measures: Helion's progress toward delivering fusion electricity to Microsoft in 2028.
+value: No date for net electricity
+asOf: '2026-09-08'
+trend: down
+leans: neutral
+note: Helion no longer commits to a net-electricity date and now speaks of showing electricity from fusion. It still targets 2028 power for Microsoft.
+watch: Published electricity recovery by 2027 keeps 2028 grid power alive. Continued silence means a slip.
+cadence: Company announcements
+source: Axios Pro
+url: https://www.axios.com/pro/climate-deals/2026/09/08/helion-energy-fusion-net-electricity-date-year

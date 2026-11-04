@@ -1,0 +1,104 @@
+date: '2026-10-12'
+week: 2
+headline: The Gulf war widens; OpenAI's revenue reset rattles the AI trade
+summary: Houthi strikes on Saudi Arabia and renewed tanker attacks pushed Fracture up a point and Gulf regional-war odds up three. A lower OpenAI revenue figure nudged AI-bust and Hangover odds higher. Most other signals held steady.
+changes:
+- from: 35
+  target: Steady Climb (world)
+  to: 34
+  url: https://www.iranintl.com/en/202610072501
+  why: Gives up a point as Gulf escalation and AI-stock jitters lift the shock worlds.
+- from: 25
+  target: Takeoff (world)
+  to: 24
+  url: https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+  why: Takeoff is scaled down as Fracture risk rises, and OpenAI revenue came in below earlier reports.
+- from: 22
+  target: Hangover (world)
+  to: 23
+  url: https://qz.com/nasdaq-futures-rise-ai-stocks-openai-revenue-100926
+  why: A weaker AI-revenue picture and another oil spike add to bust and recession risk.
+- from: 18
+  target: Fracture (world)
+  to: 19
+  url: https://www.al-monitor.com/originals/2026/10/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-riyadh-airport
+  why: Houthi strikes on Saudi airports and renewed tanker attacks raise the odds of a wider Gulf war.
+- from: 35
+  target: 'AI boom: Sustained build-out'
+  to: 33
+  url: https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+  why: OpenAI revenue near $50B, not $70B, and AI stocks had their worst day since August.
+- from: 45
+  target: 'AI boom: Sharp correction, then recovery'
+  to: 46
+  url: https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+  why: OpenAI revenue near $50B, not $70B, and AI stocks had their worst day since August.
+- from: 20
+  target: 'AI boom: Deep bust'
+  to: 21
+  url: https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+  why: OpenAI revenue near $50B, not $70B, and AI stocks had their worst day since August.
+- from: 20
+  target: 'AI control: Open race'
+  to: 19
+  url: https://arynews.tv/google-restricts-access-new-ai-model-safety-concerns
+  why: Google gated Gemini 4 Argon to cyber defenders, another sign of managed releases.
+- from: 65
+  target: 'AI control: Managed release'
+  to: 66
+  url: https://arynews.tv/google-restricts-access-new-ai-model-safety-concerns
+  why: Google gated Gemini 4 Argon to cyber defenders, another sign of managed releases.
+- from: 15
+  target: 'Climate: Below 1.5°C'
+  to: 14
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+  why: El Niño hit +2.1°C, with 83% odds of record strength; September was 1.63°C.
+- from: 13
+  target: 'Climate: Above 1.6°C'
+  to: 14
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+  why: El Niño hit +2.1°C, with 83% odds of record strength; September was 1.63°C.
+- from: 55
+  target: 'Gulf war: Settled'
+  to: 51
+  url: https://www.iranintl.com/en/202610072501
+  why: Houthi attacks on Saudi Arabia, renewed tanker strikes and US strike planning widen the war.
+- from: 35
+  target: 'Gulf war: Simmering'
+  to: 36
+  url: https://www.iranintl.com/en/202610072501
+  why: Houthi attacks on Saudi Arabia, renewed tanker strikes and US strike planning widen the war.
+- from: 10
+  target: 'Gulf war: Regional war'
+  to: 13
+  url: https://www.iranintl.com/en/202610072501
+  why: Houthi attacks on Saudi Arabia, renewed tanker strikes and US strike planning widen the war.
+- from: 52
+  target: 'Recession: No recession'
+  to: 51
+  url: https://etfdb.com/fixed-income-content-hub/treasury-yields-snapshot-october-9-2026/
+  why: A renewed oil spike and 10-year yields near 5.25% raise stagflation risk.
+- from: 15
+  target: 'Recession: Severe or stagflationary'
+  to: 16
+  url: https://etfdb.com/fixed-income-content-hub/treasury-yields-snapshot-october-9-2026/
+  why: A renewed oil spike and 10-year yields near 5.25% raise stagflation risk.
+news:
+- date: '2026-10-12'
+  text: Houthi strikes on Riyadh's airport killed 13 and wounded more than 300; Turkey, Pakistan and Egypt backed Saudi Arabia.
+  url: https://www.al-monitor.com/originals/2026/10/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-riyadh-airport
+- date: '2026-10-11'
+  text: Trump announced a Russia–Ukraine energy ceasefire; Moscow had not confirmed it and strikes continued.
+  url: https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks
+- date: '2026-10-08'
+  text: OpenAI told investors its annualized revenue is near $50B, about $20B below an earlier report. AI stocks fell sharply the same day.
+  url: https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+- date: '2026-10-08'
+  text: 'NOAA: El Niño reached +2.1°C, with 83% odds of record strength this autumn.'
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+- date: '2026-10-07'
+  text: The White House asked the Pentagon for Iran strike options before the midterms.
+  url: https://www.iranintl.com/en/202610072501
+- date: '2026-10-01'
+  text: Google limited its Gemini 4 Argon model to vetted cyber defenders over misuse concerns.
+  url: https://arynews.tv/google-restricts-access-new-ai-model-safety-concerns

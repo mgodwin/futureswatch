@@ -1,0 +1,204 @@
+- id: 2026-10-08-enso
+  date: '2026-10-08'
+  when: Oct 8
+  event: NOAA El Niño update
+  why: How strong El Niño gets drives 2027 temperatures.
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+- id: 2026-10-14-cpi
+  date: '2026-10-14'
+  when: Oct 14
+  event: September inflation report
+  why: Shapes whether the Fed keeps raising rates.
+  url: https://www.bls.gov/cpi/
+- id: 2026-10-26-earnings
+  date: '2026-10-26'
+  when: Late Oct
+  event: Big Tech quarterly earnings
+  why: 2027 capex guidance is the clearest read on the AI boom.
+  url: null
+- id: 2026-10-28-alphabet
+  date: '2026-10-28'
+  when: Oct 28
+  event: Alphabet earnings
+  why: The first Big Tech read on 2027 AI capex after the chip selloff.
+  url: https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx
+- id: 2026-10-28-fomc
+  date: '2026-10-28'
+  when: Oct 28
+  event: Fed rate decision
+  why: Markets price about an 85% chance of no change, after hotter September inflation.
+  url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+- id: 2026-10-29-amazon
+  date: '2026-10-29'
+  when: Oct 29
+  event: Amazon earnings
+  why: AWS growth and capex plans test the AI build-out.
+  url: https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report
+- id: 2026-11-12-nsc
+  date: '2026-10-29'
+  when: Oct 29
+  event: Fall 2026 college enrollment estimate
+  why: 'Released early: undergraduate enrollment rose 0.6%, resolving the enrollment check yes.'
+  url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/
+- id: 2026-11-03-midterms
+  date: '2026-11-03'
+  when: Nov 3
+  event: US midterm elections
+  why: Prediction markets favor Democrats to win the House (about 91%) and the Senate (about 65%). Control of Congress shapes AI, trade and budget policy.
+  url: https://defirate.com/prediction-markets/2026-midterms/house-control-odds/
+- id: 2026-11-06-jobs
+  date: '2026-11-06'
+  when: Nov 6
+  event: October jobs report
+  why: Unemployment and payrolls, the core disruption and recession gauges.
+  url: https://www.bls.gov/news.release/empsit.nr0.htm
+- id: 2026-11-08-starship
+  date: '2026-11-08'
+  when: No earlier than Nov 8
+  event: Starship Flight 15
+  why: Begins testing docking hardware needed for orbital refueling.
+  url: https://en.wikipedia.org/wiki/Starship_flight_15
+- id: 2026-10-12-update
+  date: '2026-11-09'
+  when: Nov 9
+  event: Next Futures Watch update
+  why: Weekly re-check of every signal and the odds.
+  url: null
+- id: 2026-11-09-anthropic-ipo
+  date: '2026-11-09'
+  when: Week of Nov 9 (reported)
+  event: Anthropic IPO marketing could begin
+  why: A test of investor appetite for AI at a reported $2T valuation.
+  url: https://financefeeds.com/anthropics-14-october-investor-day-nears-but-its-s-1-still-isnt-public-the-ipo-timeline-explained/
+- id: 2026-11-09-cop31
+  date: '2026-11-09'
+  when: Nov 9–20
+  event: COP31 climate summit, Antalya
+  why: The next round of global climate negotiations.
+  url: https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference
+- id: 2026-11-10-cpi
+  date: '2026-11-10'
+  when: Nov 10
+  event: October inflation report
+  why: Shows whether September's jump in prices is spreading.
+  url: https://www.bls.gov/cpi/
+- id: 2026-11-10-ukraine-talks
+  date: '2026-11-10'
+  when: After Nov 10
+  event: US–Russia–Ukraine talks resume
+  why: The first three-way round since February; a test of whether a ceasefire is near.
+  url: https://www.hawaiinewsnow.com/2026/10/21/trump-envoy-witkoff-meets-putin-st-petersburg-ukraine-war-talks/?outputType=amp
+- id: 2026-11-12-enso
+  date: '2026-11-12'
+  when: Nov 12
+  event: NOAA El Niño update
+  why: Shows whether El Niño reaches record strength, which drives 2027 heat odds.
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+- id: 2026-11-15-apec
+  date: '2026-11-15'
+  when: Nov
+  event: APEC summit, Shenzhen
+  why: The next Trump–Xi meeting point.
+  url: null
+- id: 2026-11-16-anthropic-listing
+  date: '2026-11-16'
+  when: Week of Nov 16 (reported)
+  event: Anthropic shares could start trading
+  why: The S-1 is public; listing would resolve the Anthropic IPO check and test appetite for AI stocks.
+  url: https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1
+- id: 2026-11-16-opendoors
+  date: '2026-11-16'
+  when: Mid-Nov (expected)
+  event: Open Doors international student report
+  why: Confirms how far international enrollment fell this fall.
+  url: null
+- id: 2026-11-19-nvda
+  date: '2026-11-19'
+  when: Late Nov
+  event: Nvidia earnings
+  why: The bellwether for AI chip demand.
+  url: https://investor.nvidia.com
+- id: 2026-12-09-fomc
+  date: '2026-12-09'
+  when: Dec 9
+  event: Fed rate decision
+  why: Markets price about 72% for a hike; resolves the Fed-hike check.
+  url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+- id: 2026-12-10-g20
+  date: '2026-12-10'
+  when: Dec
+  event: G20 summit, Miami
+  why: Another US–China touchpoint before the trade truce runs out.
+  url: null
+- id: 2026-12-31-sparc
+  date: '2026-12-31'
+  when: Late 2026–early 2027
+  event: SPARC first plasma (expected)
+  why: The first step toward a Q>1 fusion test in 2027.
+  url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m
+- id: 2027-01-03-congress
+  date: '2027-01-03'
+  when: Jan 3, 2027
+  event: New Congress sworn in
+  why: The midterm result takes effect; sets the agenda on AI, trade and the budget.
+  url: null
+- id: 2027-01-15-truce
+  date: '2027-01-15'
+  when: Jan 2027
+  event: US–China tariff truce expires
+  why: Lapse or renewal is a major Taiwan and trade signal.
+  url: https://militarnyi.com/en/articles/xi-jinping-s-washington-visit/
+- id: 2027-03-31-ascend
+  date: '2027-03-31'
+  when: Q1 2027
+  event: Huawei Ascend 960DT release
+  why: A test of whether China can scale AI on its own chips.
+  url: https://www.cxodigitalpulse.com/?p=63391
+- id: 2027-07-01-starcloud2
+  date: '2027-07-01'
+  when: '2027'
+  event: Starcloud-2 launch
+  why: The first orbital satellite built for both AI training and inference.
+  url: https://siliconangle.com/2026/08/21/starcloud-raises-250m-to-build-ai-data-centers-in-orbit/
+- id: 2027-12-01-artemis
+  date: '2027-12-01'
+  when: Late 2027
+  event: Artemis III docking test
+  why: A rehearsal in Earth orbit before a 2028 Moon landing attempt.
+  url: https://www.theregister.com/2026/05/01/artemis_iii_aims_for_late/
+- id: 2027-12-31-spacex-orbital
+  date: '2027-12-31'
+  when: End of 2027
+  event: 'SpaceX target: 1 GW a year of orbital compute'
+  why: The clearest test of whether AI compute moves to orbit at scale.
+  url: https://www.tomshardware.com/tech-industry/big-tech/spacex-unveils-11-million-square-foot-gigasat-factory-a-new-manufacturing-facility-for-space-based-data-centers-aims-for-1-gw-year-of-space-ai-compute-by-late-2027-from-its-satellites
+- id: 2028-06-01-helion
+  date: '2028-06-01'
+  when: '2028'
+  event: Helion's power target for Microsoft
+  why: The only shot at fusion grid power before 2030.
+  url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m
+- id: 2028-11-07-election
+  date: '2028-11-07'
+  when: Nov 7, 2028
+  event: US presidential election
+  why: Sets US policy on AI, trade and energy for 2029 onward.
+  url: null
+- id: 2028-11-15-mars
+  date: '2028-11-15'
+  when: Late 2028
+  event: Mars launch window opens
+  why: Starship's only chance to reach Mars before 2030.
+  url: https://www.analyticsinsight.net/amp/story/news/spacex-delays-2026-mars-mission-shifts-starship-focus-to-nasa-moon-landing
+- id: 2029-12-01-rentosertib
+  date: '2029-12-01'
+  when: Dec 2029
+  event: Rentosertib Phase III results
+  why: Could become the first approved drug with an AI-found target and molecule.
+  url: https://www.bio-itworld.com/news/2026/07/08/insilico-medicine-launches-phase-iii-trial-for-ai-developed-drug
+- id: 2029-12-31-horizon
+  date: '2029-12-31'
+  when: Dec 31, 2029
+  event: Forecast horizon
+  why: Every probability on this page resolves against this date.
+  url: null

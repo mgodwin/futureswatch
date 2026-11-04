@@ -1,0 +1,15 @@
+id: taiwanodds
+tracking: active
+name: Taiwan attack or blockade odds
+domain: world
+order: 27
+measures: Metaculus forecasters' probability that China attacks or blockades Taiwan this year.
+value: 2% for 2026
+asOf: '2026-10-19'
+trend: flat
+leans: climb
+note: 863 forecasters. It replaces a Polymarket invasion market that closed in June. Polymarket's 2026 blockade market also sits near 2%.
+watch: Odds above 10% for the coming year point to Fracture. Under 5% supports the status quo.
+cadence: Live
+source: Metaculus
+url: https://www.metaculus.com/questions/41139/china-attacksblockades-taiwan-in-2026/

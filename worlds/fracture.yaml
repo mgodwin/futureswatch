@@ -1,0 +1,18 @@
+id: fracture
+name: Fracture
+order: 4
+prob: 20
+prevProb: 20
+tagline: A geopolitical or biological shock defines the period.
+summary: 'A major shock overrides everything else: a Chinese blockade or invasion of Taiwan, direct NATO–Russia fighting, a wider Gulf war that keeps Hormuz shut, a pandemic that kills over a million people, or nuclear use. Chip and energy supply chains break, inflation jumps, defense spending surges and AI becomes a national-security race.'
+read: A mine strike in Hormuz and Houthi attacks on Saudi oil sites raised the stakes, then Iran offered to reopen the strait. Taiwan risk is unchanged, so Fracture holds.
+signposts:
+- PLA blockade drills turn into real inspections, or the US–China truce lapses in January 2027
+- The Iran war spreads to Gulf states, Hormuz stays shut and Brent tops $130
+- Direct NATO–Russia clashes, with allies invoking Article 4 or 5
+- Sustained Ebola spread beyond Africa, or human-to-human H5N1
+- Any nuclear test or use
+meaning:
+- Supply shocks in chips, energy and food push prices up
+- Markets reprice for war or pandemic, and capital flees to safety
+- Resilience in supply chains, energy and savings matters more than efficiency

@@ -1,0 +1,46 @@
+id: taiwan
+tracking: active
+title: What if China moves on Taiwan?
+short: The Taiwan Strait by the end of 2029.
+domain: geopolitics
+order: 9
+read: Near-term risk is lower while the truce holds, but blockade preparation keeps growing. Coercion short of invasion is the likelier escalation.
+outcomes:
+- key: quo
+  label: Tense status quo
+  prob: 81
+  prevProb: 81
+  desc: Drills and pressure, but no blockade or war.
+  ifThen: Chip supply holds; US–China rivalry plays out through trade and tech controls.
+- key: blockade
+  label: Blockade or limited clash
+  prob: 14
+  prevProb: 14
+  desc: A quarantine, blockade or limited military clash.
+  ifThen: Chip shortages, shipping disruption and a sharp market shock, with AI hardware supply tightening.
+- key: war
+  label: Invasion or war
+  prob: 5
+  prevProb: 5
+  desc: A full-scale invasion, or war involving the US.
+  ifThen: 'The Fracture world: global recession risk, sweeping sanctions and a militarized tech race.'
+anchors:
+- who: Metaculus forecasters
+  what: 2% that China attacks or blockades Taiwan during 2026, from 863 forecasters. An older Polymarket invasion market closed in June.
+  date: 2026-10
+  url: https://www.metaculus.com/questions/41139/china-attacksblockades-taiwan-in-2026/
+- who: Taiwan's defense ministry
+  what: PLA training is shifting toward joint blockade and quarantine operations.
+  date: 2026-09
+  url: https://www.scmp.com/news/china/military/article/3366011/mainland-china-stepping-preparations-taiwan-blockade-report-says
+- who: PLA exercise, December 2025
+  what: Rehearsed cutting Taiwan's air and sea routes over the widest area of any drill so far.
+  date: 2026-01
+  url: https://www.idnfinancials.com/news/60292/chinese-military-exercises-near-taiwan-simulating-a-total-blockade
+- who: US–China summit
+  what: Xi's September state visit extended the tariff truce to January 2027; a roughly $14B Taiwan arms package remains paused.
+  date: 2026-09
+  url: https://militarnyi.com/en/articles/xi-jinping-s-washington-visit/
+signals:
+- taiwanodds
+- uschina

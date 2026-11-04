@@ -1,0 +1,112 @@
+{
+ "date": "2026-10-19",
+ "milestones": {
+  "agiclaim": 70,
+  "aidrug": 5,
+  "chk-anthropicipo": 75,
+  "chk-enroll": 55,
+  "chk-fedhike": 80,
+  "chk-house": 91,
+  "chk-senate": 64,
+  "chk-sparc": 40,
+  "fusiongrid": 5,
+  "humanoid": 65,
+  "mars": 10,
+  "moon": 40,
+  "nuclear": 3,
+  "quantum": 3,
+  "robotaxi": 75
+ },
+ "questions": {
+  "ai-boom": {
+   "bust": 23,
+   "correction": 46,
+   "sustained": 31
+  },
+  "ai-capability": {
+   "jagged": 60,
+   "plateau": 10,
+   "transformative": 30
+  },
+  "ai-control": {
+   "brakes": 17,
+   "managed": 65,
+   "open": 18
+  },
+  "ai-cyber": {
+   "contained": 58,
+   "major": 34,
+   "systemic": 8
+  },
+  "ai-jobs": {
+   "absorbed": 48,
+   "mass": 12,
+   "minimal": 40
+  },
+  "climate": {
+   "below": 14,
+   "over": 72,
+   "wellover": 14
+  },
+  "fusion": {
+   "grid": 5,
+   "neither": 60,
+   "netgain": 35
+  },
+  "gulf": {
+   "regional": 14,
+   "settled": 49,
+   "simmering": 37
+  },
+  "higher-ed": {
+   "adapts": 50,
+   "squeezed": 40,
+   "unbundled": 10
+  },
+  "orbital-compute": {
+   "demos": 70,
+   "early": 24,
+   "scale": 6
+  },
+  "pandemic": {
+   "no": 94,
+   "yes": 6
+  },
+  "power-grid": {
+   "crisis": 25,
+   "keepsup": 30,
+   "strained": 45
+  },
+  "recession": {
+   "mild": 33,
+   "none": 51,
+   "severe": 16
+  },
+  "taiwan": {
+   "blockade": 14,
+   "quo": 81,
+   "war": 5
+  },
+  "ukraine": {
+   "ceasefire": 54,
+   "continues": 42,
+   "nato": 4
+  },
+  "us-china-ai": {
+   "chinalead": 7,
+   "parity": 38,
+   "uslead": 55
+  },
+  "us-power": {
+   "divided": 50,
+   "dtrifecta": 30,
+   "rtrifecta": 20
+  }
+ },
+ "worlds": {
+  "climb": 32,
+  "fracture": 20,
+  "hangover": 24,
+  "takeoff": 24
+ }
+}

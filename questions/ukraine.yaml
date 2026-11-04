@@ -1,0 +1,57 @@
+id: ukraine
+tracking: active
+title: What if the Ukraine war ends, or widens?
+short: The Russia–Ukraine war at the end of 2029.
+domain: geopolitics
+order: 10
+read: Talks are set for Abu Dhabi in the first half of November, and a local ceasefire began in Oleshky. Markets still see a full ceasefire this year as unlikely.
+outcomes:
+- key: ceasefire
+  label: Durable ceasefire or deal
+  prob: 55
+  prevProb: 55
+  desc: Fighting has largely stopped under a ceasefire or settlement.
+  ifThen: Lower energy and security risk in Europe, and a reconstruction boom.
+- key: continues
+  label: War continues
+  prob: 41
+  prevProb: 41
+  desc: Active fighting continues at roughly today's intensity.
+  ifThen: An ongoing drain on Europe, with periodic escalation scares.
+- key: nato
+  label: NATO–Russia war
+  prob: 4
+  prevProb: 4
+  desc: Direct military conflict between NATO and Russia.
+  ifThen: 'The Fracture world: a European war and a global economic shock.'
+anchors:
+- who: Kremlin / AP
+  what: Putin agreed in principle to resume three-way talks with the US and Ukraine after Nov 10.
+  date: 2026-10
+  url: https://www.hawaiinewsnow.com/2026/10/21/trump-envoy-witkoff-meets-putin-st-petersburg-ukraine-war-talks/?outputType=amp
+- who: White House / RFE/RL
+  what: Trump waived nearly all sanctions in the Graham Act on Oct 16, two days before they took effect; Zelensky criticized the move.
+  date: 2026-10
+  url: https://www.rferl.org/a/trump-waives-graham-act-sanctions-on-russia/33878335.html
+- who: White House / PBS
+  what: Trump announced an immediate energy ceasefire on Oct 11; Russia had not confirmed it and Kyiv reported new strikes.
+  date: 2026-10
+  url: https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks
+- who: Metaculus forecasters
+  what: About 15% for a ceasefire in 2026; the median ceasefire date is November 2027.
+  date: 2026-07
+  url: https://ukranews.com/en/amp/news/1165616-not-this-year-international-analysts-assess-chances-of-ending-war-in-ukraine
+- who: Institute for the Study of War
+  what: Russia has lost about 293 km² net since March, with its highest monthly casualties of 2026 in September.
+  date: 2026-10
+  url: https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-1-2026
+- who: NATO
+  what: Allied jets shot down a drone in Lithuanian airspace for the first time.
+  date: 2026-09
+  url: https://www.kuow.org/npr-news/2026-09-15/nato-jets-down-drone-in-lithuanian-airspace
+- who: Polymarket
+  what: About 10% for a ceasefire agreement by the end of 2026, 24% by March 2027 and 53% by the end of 2027.
+  date: 2026-11
+  url: https://cryptoslate.com/predictions/market/russia-x-ukraine-ceasefire-agreement-by/
+signals:
+- ukraine

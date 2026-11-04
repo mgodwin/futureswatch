@@ -1,0 +1,15 @@
+id: aicredit
+tracking: active
+name: AI credit stress
+domain: markets
+order: 36
+measures: Bond yields of CoreWeave, a heavily indebted AI cloud builder, as a gauge of strain in data-center debt.
+value: 15.76% bond yield (record)
+asOf: '2026-10-22'
+trend: up
+leans: hangover
+note: CoreWeave's 2031 note set a record yield on Oct 22, and its default-swap spread hit 1,115 bp. The stock is about 70% below its peak.
+watch: Yields above 15% for weeks, or a missed payment, point to Hangover. Below 10% eases the pressure.
+cadence: Weekly
+source: Benzinga
+url: https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout

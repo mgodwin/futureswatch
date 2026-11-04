@@ -1,0 +1,15 @@
+id: rnd
+tracking: active
+name: AI doing AI research
+domain: ai
+order: 5
+measures: How much AI speeds up the labs' own research and engineering.
+value: 1.4–2× productivity
+asOf: '2026-05-11'
+trend: up
+leans: neutral
+note: Median gain reported by technical workers in a METR survey. Labs say AI now writes most of their code, and OpenAI says its research intern handles multi-day tasks.
+watch: A lab reporting AI doing most of its research, or a measured 3× speedup, points to Takeoff. Still 2× or less through 2027 points to slower progress.
+cadence: System cards and surveys
+source: METR
+url: https://evals.alignment.org/blog/2026-05-11-ai-usage-survey/

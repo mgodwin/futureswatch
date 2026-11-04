@@ -1,0 +1,15 @@
+id: quantum
+tracking: active
+name: Quantum code-breaking outlook
+domain: tech
+order: 35
+measures: Forecasts for when quantum computers can break today's encryption.
+value: Median Dec 2034
+asOf: '2026-10-07'
+trend: flat
+leans: neutral
+note: Metaculus median for factoring any RSA challenge number. A 2026 preprint puts RSA-2048 within reach of about 100–150k high-quality qubits.
+watch: A median before 2031, or verified 100+ logical qubits, means faster. After 2037 means slower.
+cadence: Continuous
+source: Metaculus
+url: https://www.metaculus.com/questions/3684/

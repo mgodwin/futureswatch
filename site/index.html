@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Futures Watch 2030</title>
+<meta name="description" content="Four ways the years to 2030 could go, re-scored every week against prediction markets, expert forecasts and live signals. Open source; anyone can suggest a signal.">
+<meta property="og:title" content="Futures Watch 2030">
+<meta property="og:description" content="Four ways the years to 2030 could go, re-scored every week against markets, forecasts and live signals.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='9' width='10' height='14' rx='2' fill='%232a78d6'/%3E%3Crect x='12' y='9' width='7' height='14' fill='%23eb6834'/%3E%3Crect x='19' y='9' width='6' height='14' fill='%231baf7a'/%3E%3Crect x='25' y='9' width='5' height='14' rx='2' fill='%23eda100'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: one reading column (max 920px). Home: masthead with the four-world band, this week,
+   worlds, sci-fi lens, what-ifs, signals, milestones and checks, calendar, log, method, contribute.
+   Hash routes: home (#, or a section id), #q/<id> question page, #s/<id> signal page. */
+:root {
+  --bg: #edf1f3; --surface: #fbfcfc; --surface-2: #e3e9ec;
+  --ink: #0f171c; --ink-2: #43515a; --muted: #5f6d77;
+  --line: #d2dbe0; --line-strong: #b5c2c9; --focus: #5a48c8;
+  --bar: #33424b; --bar-soft: #a9b6be;
+  --w-climb: #2a78d6; --w-takeoff: #eb6834; --w-hangover: #1baf7a; --w-fracture: #eda100;
+  --sf-utopia: #3f6fd8; --sf-solarpunk: #3d9a45; --sf-singularity: #8a52e0; --sf-cyberpunk: #d63a8e;
+  --sf-blackmirror: #56636b; --sf-dystopia: #b9521c; --sf-collapse: #8f6a1e;
+  --c1: #33424b; --c2: #178a8d; --c3: #9a4d8f; --c4: #b07a12;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c1013; --surface: #141a1e; --surface-2: #1d252a;
+    --ink: #edf2f4; --ink-2: #b4bfc6; --muted: #8e9ba3;
+    --line: #283238; --line-strong: #3b4750; --focus: #a397f0;
+    --bar: #cdd6db; --bar-soft: #4b5861;
+    --w-climb: #3987e5; --w-takeoff: #d95926; --w-hangover: #199e70; --w-fracture: #c98500;
+    --sf-utopia: #6b93ee; --sf-solarpunk: #5cb865; --sf-singularity: #a782f0; --sf-cyberpunk: #ec64aa;
+    --sf-blackmirror: #8a979f; --sf-dystopia: #dc7442; --sf-collapse: #c09544;
+    --c1: #cdd6db; --c2: #3fc0c2; --c3: #d08ac4; --c4: #e0a83a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c1013; --surface: #141a1e; --surface-2: #1d252a;
+  --ink: #edf2f4; --ink-2: #b4bfc6; --muted: #8e9ba3;
+  --line: #283238; --line-strong: #3b4750; --focus: #a397f0;
+  --bar: #cdd6db; --bar-soft: #4b5861;
+  --w-climb: #3987e5; --w-takeoff: #d95926; --w-hangover: #199e70; --w-fracture: #c98500;
+  --sf-utopia: #6b93ee; --sf-solarpunk: #5cb865; --sf-singularity: #a782f0; --sf-cyberpunk: #ec64aa;
+  --sf-blackmirror: #8a979f; --sf-dystopia: #dc7442; --sf-collapse: #c09544;
+  --c1: #cdd6db; --c2: #3fc0c2; --c3: #d08ac4; --c4: #e0a83a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.5; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 2px; }
+a:hover { text-decoration-color: var(--ink); }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+.num { font-family: var(--f-display); font-variant-numeric: tabular-nums; font-stretch: 100%; }
+.muted { color: var(--muted); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.wrap { --gutter: 16px; max-width: 920px; margin: 0 auto; padding: 20px var(--gutter) 64px; }
+@media (min-width: 720px) { .wrap { --gutter: 28px; padding-top: 32px; } }
+
+/* Masthead: the title, then the four-world band as the page's one big element */
+.mast h1 { font-family: var(--f-display); font-stretch: 125%; font-weight: 800; font-size: clamp(30px, 7vw, 46px); line-height: 1; letter-spacing: -.01em; margin: 0 0 8px; }
+.mast h1 a { text-decoration: none; }
+.dek { font-size: 17px; color: var(--ink-2); max-width: 60ch; margin: 0 0 22px; }
+.band { display: flex; gap: 3px; height: 64px; margin: 0; }
+.band a { display: block; min-width: 6px; text-decoration: none; }
+.band a:first-child { border-radius: 8px 2px 2px 8px; }
+.band a:last-child { border-radius: 2px 8px 8px 2px; }
+.band-key { display: flex; gap: 3px; margin: 10px 0 0; padding: 0; list-style: none; }
+.band-key li { min-width: 0; padding-left: 10px; border-left: 3px solid; }
+.band-key .pc { display: block; font-family: var(--f-display); font-weight: 800; font-stretch: 100%; font-size: clamp(30px, 6vw, 54px); line-height: 1; font-variant-numeric: tabular-nums; }
+.band-key .pc small { font-size: .5em; font-weight: 700; }
+.band-key .nm { display: block; font-family: var(--f-display); font-stretch: 112%; font-weight: 700; font-size: 15px; margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.band-key .tg { display: block; font-size: 13.5px; color: var(--ink-2); line-height: 1.35; margin-top: 2px; }
+.band-key .dl { display: block; font-size: 12.5px; color: var(--muted); margin-top: 4px; }
+@media (max-width: 639px) {
+  .band { height: 40px; }
+  .band-key { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 12px; }
+  .band-key li { flex: none !important; }
+  .band-key .tg { display: none; }
+}
+.mast-meta { display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 14px; color: var(--ink-2); margin: 18px 0 0; }
+.mast-meta b { color: var(--ink); }
+
+/* Nav */
+.jump { position: sticky; top: 0; z-index: 5; margin: 22px calc(var(--gutter) * -1) 0; padding: 8px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.jump::-webkit-scrollbar { display: none; }
+.jump[hidden] { display: none; }
+.jump a { flex: none; font-size: 14px; color: var(--ink-2); text-decoration: none; padding: 6px 10px; border-radius: 999px; }
+.jump a:hover { background: var(--surface-2); color: var(--ink); }
+
+/* Sections */
+section { padding-top: 44px; scroll-margin-top: 56px; }
+h2 { font-family: var(--f-display); font-stretch: 112%; font-weight: 750; font-size: 26px; line-height: 1.15; margin: 0 0 6px; text-wrap: balance; }
+h3 { font-family: var(--f-display); font-stretch: 108%; font-weight: 700; }
+.intro { color: var(--ink-2); margin: 0 0 16px; max-width: 64ch; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.notice { background: var(--surface); border: 1px dashed var(--line-strong); border-radius: var(--radius); padding: 14px 16px; color: var(--ink-2); margin: 0; }
+.loading { color: var(--muted); margin: 0; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.dot.neutral { background: transparent; box-shadow: inset 0 0 0 1.5px var(--muted); }
+.delta { font-size: 13px; color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tag { display: inline-block; font-size: 12.5px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--ink-2); white-space: nowrap; }
+.linkbtn { font: inherit; color: var(--ink); background: none; border: 0; padding: 0; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 2px; cursor: pointer; }
+
+/* This week */
+.week { padding: 18px 20px; display: grid; gap: 14px; }
+.week .headline { font-family: var(--f-display); font-stretch: 106%; font-weight: 700; font-size: 22px; line-height: 1.22; margin: 0; text-wrap: balance; }
+.week ul { margin: 0; padding-left: 18px; display: grid; gap: 8px; }
+.week .changes { border-top: 1px solid var(--line); padding-top: 12px; }
+.week .changes h3 { font-size: 15px; margin: 0 0 6px; }
+.week .changes ul { color: var(--ink-2); font-size: 15px; }
+.week .changes p { margin: 0; color: var(--ink-2); font-size: 15px; }
+
+/* Worlds */
+.cards { display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 720px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.wcard { padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; border-top: 4px solid var(--wc); }
+.whead { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.whead h3 { font-size: 20px; margin: 0; }
+.wpct { font-family: var(--f-display); font-weight: 800; font-size: 40px; line-height: 1; font-variant-numeric: tabular-nums; margin: 0; }
+.wpct small { font-size: 20px; font-weight: 700; }
+.wnum { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+.wnum .side { display: grid; justify-items: end; gap: 2px; }
+.spark svg { display: block; width: 120px; height: 34px; overflow: visible; }
+.wtag { font-weight: 700; margin: 0; }
+.wsum { color: var(--ink-2); margin: 0; font-size: 15px; }
+.wread { font-size: 14.5px; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 10px; margin: 0; }
+.wread b { color: var(--ink); }
+.pointers { font-size: 14px; margin: 0; }
+
+/* Disclosure */
+details > summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-2); padding: 4px 0; }
+details > summary::-webkit-details-marker { display: none; }
+details > summary::before { content: "+"; display: inline-grid; place-items: center; width: 18px; height: 18px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: 13px; line-height: 1; color: var(--ink); }
+details[open] > summary::before { content: "\2212"; }
+.dbody { padding-top: 6px; }
+.dbody h4 { font-family: var(--f-display); font-stretch: 106%; font-size: 14px; font-weight: 700; color: var(--ink); margin: 14px 0 6px; }
+.dbody h4:first-child { margin-top: 4px; }
+.dbody ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14.5px; color: var(--ink-2); }
+
+/* Sci-fi lens: a ranked list, deliberately quieter than the worlds */
+.sflist { list-style: none; margin: 0; padding: 0; }
+.sf { padding: 14px 16px; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 14px; align-items: baseline; }
+.sf:first-child { border-top: 0; }
+.sf .nm { font-family: var(--f-display); font-stretch: 110%; font-weight: 700; font-size: 18px; display: flex; align-items: center; gap: 8px; }
+.sf .pc { font-family: var(--f-display); font-weight: 800; font-size: 22px; font-variant-numeric: tabular-nums; text-align: right; }
+.sf .pc .delta { display: block; font-family: var(--f-body); font-weight: 400; font-size: 12.5px; }
+.sf .tg { grid-column: 1 / -1; margin: 0; color: var(--ink-2); font-size: 15px; }
+.sf .track { grid-column: 1 / -1; margin: 6px 0 4px; }
+.sf details { grid-column: 1 / -1; }
+.sf .dbody p { margin: 0 0 8px; font-size: 14.5px; color: var(--ink-2); }
+.sf .dbody p b { color: var(--ink); }
+
+/* Bars */
+.track { height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.track > span { display: block; height: 100%; background: var(--bar-soft); border-radius: 3px; }
+
+/* Chips */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.chip { font: inherit; font-size: 14px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.chip:hover { color: var(--ink); border-color: var(--ink-2); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip .ct { font-variant-numeric: tabular-nums; opacity: .75; }
+.chiplabel { font-size: 14px; color: var(--muted); align-self: center; margin-right: 4px; }
+
+/* What-ifs */
+.qgrid { display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 760px) { .qgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.q { padding: 16px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.q .topic { font-size: 13.5px; color: var(--muted); margin: 0 0 -6px; display: flex; gap: 8px; align-items: center; }
+.q h3 { font-size: 19px; line-height: 1.2; margin: 0; text-wrap: balance; }
+.q h3 a { text-decoration: none; }
+.q h3 a:hover { text-decoration: underline; }
+.ocs { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.oc-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; font-size: 15px; }
+.oc-top .pct { font-family: var(--f-display); font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.oc-top .pct .delta { margin-left: 6px; font-family: var(--f-body); font-weight: 400; }
+.oc .track { margin-top: 5px; }
+.oc.lead .track > span { background: var(--bar); }
+.oc.lead .lbl { font-weight: 700; }
+.q .more { font-size: 14.5px; margin: 0; }
+
+/* Signals list */
+.sigs { list-style: none; margin: 0; padding: 0; }
+.sig { padding: 13px 16px; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; }
+.sig:first-child { border-top: 0; }
+.sig .nm { font-weight: 700; margin: 0; }
+.sig .nm a { text-decoration: none; }
+.sig .nm a:hover { text-decoration: underline; }
+.sig .vl { font-family: var(--f-display); font-stretch: 100%; font-weight: 600; font-size: 15px; font-variant-numeric: tabular-nums; text-align: right; max-width: 15em; }
+.sig .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-size: 13.5px; color: var(--muted); }
+.sig .meta span { display: inline-flex; align-items: center; gap: 6px; }
+.sig .sk svg { display: block; width: 92px; height: 26px; overflow: visible; }
+.sig .note { grid-column: 1 / -1; margin: 2px 0 0; font-size: 14.5px; color: var(--ink-2); }
+.filterline { font-size: 14px; color: var(--ink-2); margin: 0 0 12px; }
+
+/* Milestones and checks */
+.ms { list-style: none; margin: 0; padding: 0; }
+.m { padding: 14px 16px; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: baseline; }
+.m:first-child { border-top: 0; }
+.m .lbl { font-weight: 700; min-width: 0; }
+.m .pct { font-family: var(--f-display); font-weight: 700; font-size: 17px; font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.m .pct .delta { margin-left: 6px; font-family: var(--f-body); font-weight: 400; }
+.m .track { grid-column: 1 / -1; margin-top: 2px; }
+.m .track > span { background: var(--bar); }
+.m .note { grid-column: 1 / -1; font-size: 14.5px; color: var(--ink-2); margin: 4px 0 0; }
+.m .src { font-size: 13px; color: var(--muted); }
+.m .by { grid-column: 1 / -1; font-size: 13.5px; color: var(--muted); margin: 0; }
+.m.done .pct { color: var(--ink-2); }
+.subhead { font-size: 18px; margin: 28px 0 8px; }
+.score { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0 0 12px; }
+.score div { padding: 12px 14px; }
+.score b { display: block; font-family: var(--f-display); font-weight: 800; font-size: 28px; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.score span { font-size: 13.5px; color: var(--ink-2); }
+
+/* Calendar */
+.cal { list-style: none; margin: 0; padding: 0; }
+.cal li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 12px; padding: 11px 0; border-top: 1px solid var(--line); }
+.cal li:first-child { border-top: 0; }
+.cal .when { font-family: var(--f-display); font-weight: 600; font-size: 14px; color: var(--ink-2); padding-top: 1px; font-variant-numeric: tabular-nums; }
+.cal .ev { font-weight: 700; margin: 0; }
+.cal .why { color: var(--ink-2); font-size: 14.5px; margin: 2px 0 0; }
+.cal li.past { opacity: .5; }
+.cal li.next .when { color: var(--ink); }
+
+/* Charts and tables */
+.chart { padding: 14px 16px; margin-top: 12px; position: relative; }
+.chart h3 { font-size: 16px; margin: 0 0 8px; }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart .gl { stroke: var(--line); stroke-width: 1; }
+.chart .base { stroke: var(--line-strong); stroke-width: 1; }
+.chart .ax { fill: var(--muted); font-family: var(--f-body); font-size: 11.5px; }
+.chart .lab { fill: var(--ink); font-family: var(--f-body); font-size: 12px; }
+.chart .lab .v { fill: var(--ink-2); }
+.chart .xh { stroke: var(--ink-2); stroke-width: 1; stroke-dasharray: 3 3; }
+.chart-empty { color: var(--ink-2); font-size: 14.5px; margin: 0; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 10px; font-size: 13px; box-shadow: 0 4px 14px rgba(15, 23, 28, .12); min-width: 150px; z-index: 2; }
+.tip[hidden] { display: none; }
+.tip .tdate { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.tip .trow { display: flex; align-items: center; gap: 8px; }
+.tip .trow span:last-child { margin-left: auto; font-variant-numeric: tabular-nums; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 13px; font-weight: 700; color: var(--muted); }
+td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Log */
+.entries { display: grid; gap: 12px; }
+.entry { padding: 16px; }
+.entry .date { font-size: 13.5px; color: var(--muted); margin: 0 0 4px; }
+.entry h3 { font-size: 18px; margin: 0 0 6px; }
+.entry > p { margin: 0 0 10px; color: var(--ink-2); font-size: 15px; }
+.entry h4 { font-family: var(--f-display); font-size: 14px; font-weight: 700; margin: 12px 0 6px; }
+.news { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14.5px; }
+.src { font-size: 13px; color: var(--muted); }
+
+/* Detail pages */
+.back { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; text-decoration: none; font-weight: 700; }
+.back:hover { text-decoration: underline; }
+.detail h1 { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.08; margin: 6px 0 8px; text-wrap: balance; }
+.detail .lede { font-size: 17px; color: var(--ink-2); max-width: 62ch; margin: 0 0 18px; }
+.detail .kv { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14.5px; color: var(--ink-2); margin: 0 0 18px; }
+.detail .kv span { display: inline-flex; align-items: center; gap: 6px; }
+.detail .kv b { color: var(--ink); }
+.detail h2 { font-size: 21px; margin: 30px 0 10px; }
+.detail .big { font-family: var(--f-display); font-weight: 800; font-size: clamp(34px, 8vw, 52px); line-height: 1; margin: 0 0 6px; font-variant-numeric: tabular-nums; }
+.detail .prose { max-width: 66ch; }
+.detail .prose p { margin: 0 0 10px; }
+.odl { margin: 0; display: grid; gap: 12px; }
+.odl dt { font-weight: 700; }
+.odl dd { margin: 2px 0 0; color: var(--ink-2); }
+.odl dd i { font-style: normal; color: var(--ink); font-weight: 700; }
+.anchors { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.anchors .who { font-weight: 700; }
+.anchors .src { display: block; margin-top: 1px; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.pills a { font-size: 14px; text-decoration: none; color: var(--ink-2); border: 1px solid var(--line-strong); border-radius: 999px; padding: 4px 11px; display: inline-flex; gap: 6px; align-items: center; }
+.pills a:hover { color: var(--ink); border-color: var(--ink-2); }
+.edit { margin-top: 32px; padding: 16px 18px; display: grid; gap: 6px; }
+.edit p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.edit .acts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-weight: 700; }
+
+/* Method, contribute and footer */
+.method ol { margin: 0 0 16px; padding-left: 20px; display: grid; gap: 10px; color: var(--ink-2); max-width: 68ch; }
+.contrib { padding: 18px 20px; display: grid; gap: 12px; }
+.contrib p { margin: 0; color: var(--ink-2); max-width: 64ch; }
+.contrib ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.contrib .acts { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--ink); font-weight: 700; font-size: 15px; text-decoration: none; }
+.btn.primary { background: var(--ink); color: var(--bg); }
+.btn:hover { text-decoration: none; opacity: .88; }
+.sources ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14px; color: var(--ink-2); }
+footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <h1><a href="#">Futures Watch 2030</a></h1>
+    <p class="dek">Four ways the years to 2030 could go, re-scored every week against prediction markets, expert forecasts and live signals.</p>
+    <div id="band"></div>
+    <p class="mast-meta" id="mast-meta"></p>
+  </header>
+  <nav class="jump" aria-label="Sections" id="jump">
+    <a href="#week">This week</a>
+    <a href="#worlds">Worlds</a>
+    <a href="#scifi">Sci-fi lens</a>
+    <a href="#whatifs">What-ifs</a>
+    <a href="#signals">Signals</a>
+    <a href="#milestones">Milestones</a>
+    <a href="#record">Track record</a>
+    <a href="#calendar">Coming up</a>
+    <a href="#log">Log</a>
+    <a href="#contribute">Contribute</a>
+  </nav>
+  <main id="app"><p class="loading" style="padding-top:32px">Loading the latest forecast…</p></main>
+  <footer>
+    <p>A tool for thinking about the future, not financial, legal or career advice.</p>
+    <p id="foot"></p>
+  </footer>
+</div>
+<script>
+(function () {
+  "use strict";
+  var WORLD_IDS = ["climb", "takeoff", "hangover", "fracture"];
+  var SF_IDS = ["utopia", "solarpunk", "singularity", "cyberpunk", "blackmirror", "dystopia", "collapse"];
+  var Q_DOMAINS = { ai: "AI", economy: "Economy", energy: "Energy and climate", geopolitics: "Geopolitics", politics: "Politics", tech: "Tech", education: "Education", health: "Health" };
+  var S_DOMAINS = { ai: "AI", jobs: "Jobs", markets: "Markets", energy: "Energy and climate", world: "Geopolitics and health", politics: "Politics", tech: "Tech", education: "Education" };
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  var DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var TREND = { up: ["↑", "Rising"], down: ["↓", "Falling"], flat: ["→", "Steady"] };
+  var OC_COLORS = ["var(--c1)", "var(--c2)", "var(--c3)", "var(--c4)"];
+
+  var D = null, ui = { qf: "all", sf: "all", lean: null };
+  var openKeys = {};
+  var charts = {};
+
+  // ---------- helpers ----------
+  function $(id) { return document.getElementById(id); }
+  function esc(v) { return String(v == null ? "" : v).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c]; }); }
+  function safeUrl(u) { return (typeof u === "string" && /^https?:\/\/[^\s"'<>]+$/i.test(u)) ? u : null; }
+  function link(url, text) { var u = safeUrl(url); return u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(text) + "</a>" : esc(text); }
+  function host(url) { try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return ""; } }
+  function num(v) { var n = Number(v); return isFinite(n) ? n : 0; }
+  function arr(v) { return Array.isArray(v) ? v : []; }
+  function wid(id) { return WORLD_IDS.indexOf(id) >= 0 ? id : null; }
+  function wcolor(id) { return wid(id) ? "var(--w-" + id + ")" : "var(--muted)"; }
+  function sfcolor(id) { return SF_IDS.indexOf(id) >= 0 ? "var(--sf-" + id + ")" : "var(--muted)"; }
+  function find(list, id) { for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i]; return null; }
+  function wname(id) { var w = D && find(D.worlds, id); return w ? w.name : "Neutral"; }
+  function parseDate(s) { var m = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(String(s || "")); return m ? { y: +m[1], mo: +m[2], d: m[3] ? +m[3] : null } : null; }
+  function fmtDate(s, dow, noYear) {
+    var p = parseDate(s); if (!p) return esc(s || "");
+    if (p.d == null) return MONTHS[p.mo - 1] + " " + p.y;
+    var out = MONTHS[p.mo - 1] + " " + p.d + (noYear ? "" : ", " + p.y);
+    if (dow) out = DAYS[new Date(Date.UTC(p.y, p.mo - 1, p.d)).getUTCDay()] + ", " + out;
+    return out;
+  }
+  function dayNum(s) { var p = parseDate(s); return p ? Date.UTC(p.y, p.mo - 1, p.d || 1) / 864e5 : null; }
+  function todayNum() { var n = new Date(); return Date.UTC(n.getFullYear(), n.getMonth(), n.getDate()) / 864e5; }
+  function deltaHtml(p, prev) {
+    if (prev == null || prev === "") return "";
+    var d = Math.round(num(p) - num(prev));
+    if (d === 0) return '<span class="delta">no change</span>';
+    return '<span class="delta">' + (d > 0 ? "up " : "down ") + Math.abs(d) + "</span>";
+  }
+  function det(key, summary, body) {
+    return '<details data-key="' + esc(key) + '"' + (openKeys[key] ? " open" : "") + "><summary>" + esc(summary) + '</summary><div class="dbody">' + body + "</div></details>";
+  }
+  function ul(items) { return "<ul>" + arr(items).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>"; }
+  function repo() { return (D.meta && D.meta.repo) || "mgodwin/futureswatch"; }
+  function gh(path) { return "https://github.com/" + repo() + (path || ""); }
+  function editUrl(file) { return gh("/edit/main/" + file); }
+  function checkLabel(m) { return String(m.label || "").replace(/^Check\s*·\s*by [^:]+:\s*/i, "").replace(/^./, function (c) { return c.toUpperCase(); }); }
+  function isActive(x) { return x.tracking !== "proposed"; }
+  function bar(p, color) { return '<div class="track"><span style="width:' + Math.max(0, Math.min(100, num(p))) + "%" + (color ? ";background:" + color : "") + '"></span></div>'; }
+
+  // ---------- charts ----------
+  function spark(vals, color, w, h, label) {
+    if (vals.length < 2) return "";
+    var W = w || 120, H = h || 34, P = 4, n = vals.length;
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+    if (hi - lo < 1e-9) { lo -= 1; hi += 1; }
+    function x(i) { return P + (W - 2 * P) * (i / (n - 1)); }
+    function y(v) { return P + (H - 2 * P) * (1 - (v - lo) / (hi - lo)); }
+    var line = vals.map(function (v, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1); }).join(" ");
+    var area = line + " L" + x(n - 1).toFixed(1) + " " + (H - 1) + " L" + x(0).toFixed(1) + " " + (H - 1) + " Z";
+    return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(label || "") + '">' +
+      '<path d="' + area + '" fill="' + color + '" fill-opacity=".14"/>' +
+      '<path d="' + line + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>' +
+      '<circle cx="' + x(n - 1).toFixed(1) + '" cy="' + y(vals[n - 1]).toFixed(1) + '" r="3" fill="' + color + '" stroke="var(--surface)" stroke-width="1.5"/></svg>';
+  }
+  function pctSpark(vals, color, name) {
+    if (vals.length < 2) return '<span class="delta">Trend starts next week</span>';
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+    var padded = vals.slice();
+    if (hi - lo < 8) { padded.push((hi + lo) / 2 + 4); padded.push((hi + lo) / 2 - 4); }
+    // draw only the real points, but scale with the padded range
+    var W = 120, H = 34, P = 4, n = vals.length, mn = Math.min.apply(null, padded), mx = Math.max.apply(null, padded);
+    function x(i) { return P + (W - 2 * P) * (i / (n - 1)); }
+    function y(v) { return P + (H - 2 * P) * (1 - (v - mn) / (mx - mn)); }
+    var line = vals.map(function (v, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1); }).join(" ");
+    var area = line + " L" + x(n - 1).toFixed(1) + " " + (H - 1) + " L" + x(0).toFixed(1) + " " + (H - 1) + " Z";
+    return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(name) + " over " + n + " weeks: " + vals.join("%, ") + '%">' +
+      '<path d="' + area + '" fill="' + color + '" fill-opacity=".14"/><path d="' + line + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>' +
+      '<circle cx="' + x(n - 1).toFixed(1) + '" cy="' + y(vals[n - 1]).toFixed(1) + '" r="3.5" fill="' + color + '" stroke="var(--surface)" stroke-width="2"/></svg>';
+  }
+
+  // series: [{name, color, pts:[{d:"YYYY-MM-DD", v:number}]}]; opts: {id, title, pct, unit}
+  function lineChart(series, opts) {
+    series = series.filter(function (s) { return s.pts.length; });
+    var dates = {};
+    series.forEach(function (s) { s.pts.forEach(function (p) { dates[p.d] = 1; }); });
+    var ds = Object.keys(dates).sort();
+    if (ds.length < 2) {
+      return '<div class="panel chart"><h3>' + esc(opts.title) + '</h3><p class="chart-empty">The line starts once there are two weekly readings.</p></div>';
+    }
+    var W = 640, H = 230, L = 46, R = opts.single ? 24 : 150, T = 12, B = 28;
+    var d0 = dayNum(ds[0]), d1 = dayNum(ds[ds.length - 1]);
+    var all = []; series.forEach(function (s) { s.pts.forEach(function (p) { all.push(p.v); }); });
+    var lo, hi;
+    if (opts.pct) { lo = 0; hi = Math.max(50, Math.ceil(Math.max.apply(null, all) / 10) * 10); }
+    else {
+      lo = Math.min.apply(null, all); hi = Math.max.apply(null, all);
+      var pad = (hi - lo) * 0.15 || Math.abs(hi) * 0.1 || 1; lo -= pad; hi += pad;
+    }
+    function X(dn) { return L + (W - L - R) * ((dn - d0) / (d1 - d0)); }
+    function Y(v) { return T + (H - T - B) * (1 - (v - lo) / (hi - lo)); }
+    function fmtV(v) { return opts.pct ? Math.round(v) + "%" : (Math.abs(v) >= 100 ? Math.round(v).toLocaleString("en-US") : (+v.toFixed(2)).toString()); }
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(opts.title) + '; table view below">';
+    var steps = opts.pct ? hi / (hi > 60 ? 20 : 10) : 4;
+    for (var k = 0; k <= steps; k++) {
+      var v = opts.pct ? (hi / steps) * k : lo + (hi - lo) * k / steps;
+      s += '<line class="' + (k === 0 ? "base" : "gl") + '" x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(v).toFixed(1) + '" y2="' + Y(v).toFixed(1) + '"/>';
+      s += '<text class="ax" x="' + (L - 8) + '" y="' + (Y(v) + 4).toFixed(1) + '" text-anchor="end">' + esc(fmtV(v)) + "</text>";
+    }
+    [0, ds.length - 1].forEach(function (i, k) {
+      s += '<text class="ax" x="' + X(dayNum(ds[i])).toFixed(1) + '" y="' + (H - 8) + '" text-anchor="' + (k ? "end" : "start") + '">' + esc(fmtDate(ds[i], false, true)) + "</text>";
+    });
+    var ends = [];
+    series.forEach(function (sr) {
+      var pts = sr.pts.map(function (p) { return X(dayNum(p.d)).toFixed(1) + "," + Y(p.v).toFixed(1); });
+      s += '<polyline points="' + pts.join(" ") + '" fill="none" stroke="' + sr.color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
+      sr.pts.forEach(function (p, i) { if (i === sr.pts.length - 1 || opts.single) s += '<circle cx="' + X(dayNum(p.d)).toFixed(1) + '" cy="' + Y(p.v).toFixed(1) + '" r="' + (i === sr.pts.length - 1 ? 3.5 : 2.5) + '" fill="' + sr.color + '" stroke="var(--surface)" stroke-width="1.5"/>'; });
+      var last = sr.pts[sr.pts.length - 1];
+      ends.push({ name: sr.name, y: Y(last.v), v: last.v });
+    });
+    if (!opts.single) {
+      ends.sort(function (a, b) { return a.y - b.y; });
+      for (var i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 15) ends[i].y = ends[i - 1].y + 15;
+      var over = ends.length ? ends[ends.length - 1].y - (H - B) : 0;
+      if (over > 0) ends.forEach(function (e) { e.y -= over; });
+      ends.forEach(function (e) {
+        var nm = e.name.length > 18 ? e.name.slice(0, 17) + "…" : e.name;
+        s += '<text class="lab" x="' + (W - R + 10) + '" y="' + (e.y + 4).toFixed(1) + '">' + esc(nm) + ' <tspan class="v">' + esc(fmtV(e.v)) + "</tspan></text>";
+      });
+    }
+    s += '<line class="xh" data-xh="1" x1="0" x2="0" y1="' + T + '" y2="' + (H - B) + '" visibility="hidden"/>';
+    s += '<rect data-hit="1" x="' + L + '" y="' + T + '" width="' + (W - L - R) + '" height="' + (H - T - B) + '" fill="transparent"/></svg>';
+    var table = '<div class="tablewrap"><table><thead><tr><th>Week of</th>' + series.map(function (sr) { return "<th>" + esc(sr.name) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+      ds.slice().reverse().map(function (d) {
+        return "<tr><td>" + fmtDate(d) + "</td>" + series.map(function (sr) {
+          var p = null; sr.pts.forEach(function (q) { if (q.d === d) p = q; });
+          return '<td class="n">' + (p ? esc(p.label || fmtV(p.v)) : "") + "</td>";
+        }).join("") + "</tr>";
+      }).join("") + "</tbody></table></div>";
+    charts[opts.id] = { W: W, X: X, ds: ds, series: series, fmtV: fmtV };
+    return '<div class="panel chart" data-chart="' + esc(opts.id) + '"><h3>' + esc(opts.title) + "</h3>" + s + '<div class="tip" hidden></div>' + det(opts.id + "-table", "Table view", table) + "</div>";
+  }
+  function wireCharts() {
+    Array.prototype.forEach.call(document.querySelectorAll("[data-chart]"), function (box) {
+      var g = charts[box.getAttribute("data-chart")], hit = box.querySelector("[data-hit]"), xh = box.querySelector("[data-xh]"), tip = box.querySelector(".tip");
+      if (!g || !hit) return;
+      var svg = hit.ownerSVGElement;
+      function show(cx) {
+        var r = svg.getBoundingClientRect(), px = (cx - r.left) * (g.W / r.width), best = 0, bd = Infinity;
+        g.ds.forEach(function (d, i) { var dx = Math.abs(g.X(dayNum(d)) - px); if (dx < bd) { bd = dx; best = i; } });
+        var d = g.ds[best], xx = g.X(dayNum(d));
+        xh.setAttribute("x1", xx); xh.setAttribute("x2", xx); xh.setAttribute("visibility", "visible");
+        tip.innerHTML = '<div class="tdate">Week of ' + fmtDate(d) + "</div>" + g.series.map(function (sr) {
+          var p = null; sr.pts.forEach(function (q) { if (q.d === d) p = q; });
+          return p ? '<div class="trow"><span class="sw" style="background:' + sr.color + '"></span><span>' + esc(sr.name) + "</span><span>" + esc(p.label || g.fmtV(p.v)) + "</span></div>" : "";
+        }).join("");
+        tip.hidden = false;
+        var br = box.getBoundingClientRect(), left = (r.left - br.left) + xx * (r.width / g.W) + 12;
+        if (left + tip.offsetWidth > br.width - 8) left = left - tip.offsetWidth - 24;
+        tip.style.left = Math.max(8, left) + "px"; tip.style.top = (r.top - br.top + 8) + "px";
+      }
+      function hide() { tip.hidden = true; xh.setAttribute("visibility", "hidden"); }
+      hit.addEventListener("pointermove", function (e) { show(e.clientX); });
+      hit.addEventListener("pointerdown", function (e) { show(e.clientX); });
+      hit.addEventListener("pointerleave", hide);
+    });
+  }
+  function history() { return arr(D.history).filter(function (h) { return h && parseDate(h.date); }).sort(function (a, b) { return a.date < b.date ? -1 : 1; }); }
+
+  // ---------- masthead ----------
+  function renderMast() {
+    var m = D.meta || {}, ws = D.worlds;
+    var total = ws.reduce(function (a, w) { return a + num(w.prob); }, 0) || 1;
+    var flex = function (w) { return "flex:" + Math.max(num(w.prob), 8) + " 1 0"; };
+    $("band").innerHTML =
+      '<div class="band" role="img" aria-label="' + esc(ws.map(function (w) { return w.name + " " + num(w.prob) + "%"; }).join(", ")) + '">' +
+      ws.map(function (w) { return '<a href="#w-' + esc(w.id) + '" tabindex="-1" title="' + esc(w.name + " " + w.prob + "%") + '" style="flex:' + (num(w.prob) / total * 100).toFixed(2) + " 1 0;background:" + wcolor(w.id) + '"></a>'; }).join("") +
+      '</div><ul class="band-key">' + ws.map(function (w) {
+        return '<li style="' + flex(w) + ";border-color:" + wcolor(w.id) + '"><span class="pc">' + num(w.prob) + "<small>%</small></span>" +
+          '<span class="nm"><a href="#w-' + esc(w.id) + '" style="text-decoration:none">' + esc(w.name) + "</a></span>" +
+          '<span class="tg">' + esc(w.tagline) + "</span>" + (w.prevProb != null ? '<span class="dl">' + (num(w.prob) === num(w.prevProb) ? "No change this week" : (num(w.prob) > num(w.prevProb) ? "Up " : "Down ") + Math.abs(num(w.prob) - num(w.prevProb)) + " this week") + "</span>" : "") + "</li>";
+      }).join("") + "</ul>";
+    var bits = [];
+    if (m.week) bits.push("<span>Week <b>" + esc(m.week) + "</b></span>");
+    if (m.updatedAt) bits.push("<span>Updated <b>" + fmtDate(m.updatedAt, true) + "</b></span>");
+    if (m.nextUpdate) bits.push("<span>Next update <b>" + fmtDate(m.nextUpdate, true, true) + "</b></span>");
+    var days = dayNum(m.horizon || "2029-12-31") - todayNum();
+    bits.push("<span><b>" + (days > 0 ? days.toLocaleString("en-US") : 0) + "</b> days to the horizon, Dec 31, 2029</span>");
+    $("mast-meta").innerHTML = bits.join("");
+    $("foot").innerHTML = (m.updatedAt ? "Last updated " + fmtDate(m.updatedAt, true) + ". " : "") +
+      "Open source: data and code on " + link(gh(), "GitHub") + ".";
+  }
+
+  // ---------- home sections ----------
+  function secWeek() {
+    var m = D.meta || {}, latest = arr(D.updates)[0];
+    var h = '<div class="panel week">' + (m.headline ? '<p class="headline">' + esc(m.headline) + "</p>" : "");
+    if (arr(m.thisWeek).length) h += ul(m.thisWeek);
+    var ch = latest ? arr(latest.changes) : [];
+    h += '<div class="changes"><h3>Odds that moved</h3>';
+    if (ch.length) {
+      h += "<ul>" + ch.slice(0, 6).map(function (c) { return "<li><b>" + esc(c.target) + "</b> " + esc(c.from) + "% to " + esc(c.to) + "%" + (c.why ? ". " + esc(c.why) : "") + "</li>"; }).join("") + "</ul>";
+      if (ch.length > 6) h += '<p><a href="#log">See all ' + ch.length + " changes in the log</a></p>";
+    } else h += "<p>No odds moved this week.</p>";
+    return section("week", "This week's read", "", h + "</div></div>");
+  }
+
+  function secWorlds() {
+    var hist = history(), counts = {};
+    D.signals.filter(isActive).forEach(function (s) { counts[s.leans] = (counts[s.leans] || 0) + 1; });
+    var ranked = D.worlds.slice().sort(function (a, b) { return num(b.prob) - num(a.prob); });
+    var h = '<div class="cards">' + D.worlds.map(function (w) {
+      var n = counts[w.id] || 0, rank = ranked.indexOf(w) + 1;
+      var body = (arr(w.signposts).length ? "<h4>You'll see it coming if</h4>" + ul(w.signposts) : "") + (arr(w.meaning).length ? "<h4>What it would mean</h4>" + ul(w.meaning) : "");
+      var vals = hist.map(function (x) { return num(x.worlds && x.worlds[w.id]); });
+      return '<article class="panel wcard" id="w-' + esc(w.id) + '" style="--wc:' + wcolor(w.id) + '">' +
+        '<div class="whead"><h3>' + esc(w.name) + '</h3><span class="muted" style="font-size:14px">' + (rank === 1 ? "Most likely" : "Ranked " + rank + " of 4") + "</span></div>" +
+        '<div class="wnum"><p class="wpct">' + num(w.prob) + '<small>%</small></p><div class="side"><div class="spark">' + pctSpark(vals, wcolor(w.id), w.name) + "</div>" + deltaHtml(w.prob, w.prevProb) + "</div></div>" +
+        '<p class="wtag">' + esc(w.tagline) + '</p><p class="wsum">' + esc(w.summary) + "</p>" +
+        (w.read ? '<p class="wread"><b>Current read.</b> ' + esc(w.read) + "</p>" : "") +
+        '<p class="pointers">' + (n ? '<button class="linkbtn" type="button" data-lean="' + esc(w.id) + '" data-fromcard="1">' + n + (n === 1 ? " signal points" : " signals point") + " here</button>" : "No signals point here yet") + "</p>" +
+        (body ? det("w-" + w.id, "Signposts and what it would mean", body) : "") + "</article>";
+    }).join("") + "</div>";
+    h += lineChart(D.worlds.map(function (w) {
+      return { name: w.name, color: wcolor(w.id), pts: hist.filter(function (x) { return x.worlds && x.worlds[w.id] != null; }).map(function (x) { return { d: x.date, v: num(x.worlds[w.id]) }; }) };
+    }), { id: "worlds", title: "World odds by week", pct: true });
+    return section("worlds", "Four possible worlds", "Mutually exclusive ways the period through 2029 could be defined. The odds always add up to 100%.", h);
+  }
+
+  function secScifi() {
+    var hist = history(), fs = D.scifi.slice().sort(function (a, b) { return num(b.prob) - num(a.prob); });
+    var h = '<ol class="panel sflist">' + fs.map(function (f) {
+      var dr = arr(f.drivers).map(function (id) { return find(D.questions, id); }).filter(Boolean);
+      var vals = hist.filter(function (x) { return x.scifi && x.scifi[f.id] != null; }).map(function (x) { return num(x.scifi[f.id]); });
+      var body = (f.inspiredBy ? "<p><b>Think:</b> " + esc(f.inspiredBy) + "</p>" : "") + "<p>" + esc(f.summary) + "</p>" +
+        (f.read ? "<p><b>Current read.</b> " + esc(f.read) + "</p>" : "") +
+        (arr(f.signs).length ? "<h4>You'd know it by</h4>" + ul(f.signs) : "") +
+        (dr.length ? '<h4>Built from these what-ifs</h4><div class="pills">' + dr.map(function (q) { return '<a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a>"; }).join("") + "</div>" : "") +
+        (vals.length > 1 ? "<h4>Last " + vals.length + " weeks</h4>" + '<div class="spark">' + pctSpark(vals, sfcolor(f.id), f.name) + "</div>" : "");
+      return '<li class="sf"><span class="nm"><span class="sw" style="background:' + sfcolor(f.id) + '"></span>' + esc(f.name) + '</span><span class="pc">' + num(f.prob) + "%" + deltaHtml(f.prob, f.prevProb) + "</span>" +
+        bar(f.prob, sfcolor(f.id)) + '<p class="tg">' + esc(f.tagline) + "</p>" + det("sf-" + f.id, "The story and what it's built from", body) + "</li>";
+    }).join("") + "</ol>";
+    return section("scifi", "Which sci-fi future are we in?", "The same evidence read as fiction: which story the end of 2029 would most resemble. Seven futures, odds add up to 100%.", h);
+  }
+
+  function chipRow(map, present, key, label) {
+    return '<div class="chips" role="group" aria-label="' + esc(label) + '"><button class="chip" type="button" data-' + key + '="all" aria-pressed="' + (ui[key] === "all") + '">All</button>' +
+      Object.keys(map).filter(function (k) { return present[k]; }).map(function (k) {
+        return '<button class="chip" type="button" data-' + key + '="' + k + '" aria-pressed="' + (ui[key] === k) + '">' + esc(map[k]) + "</button>";
+      }).join("") + "</div>";
+  }
+
+  function qCard(q) {
+    var ocs = arr(q.outcomes), maxP = Math.max.apply(null, ocs.map(function (o) { return num(o.prob); }).concat([0]));
+    return '<article class="panel q"><p class="topic">' + esc(Q_DOMAINS[q.domain] || q.domain) + (isActive(q) ? "" : ' <span class="tag">Proposed</span>') + "</p>" +
+      '<h3><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a></h3>" +
+      '<ol class="ocs">' + ocs.map(function (o) {
+        return '<li class="oc' + (num(o.prob) === maxP ? " lead" : "") + '"><div class="oc-top"><span class="lbl">' + esc(o.label) + '</span><span class="pct">' + num(o.prob) + "%" + deltaHtml(o.prob, o.prevProb) + "</span></div>" + bar(o.prob) + "</li>";
+      }).join("") + "</ol>" +
+      '<p class="more"><a href="#q/' + esc(q.id) + '">Forecasts, signals and history</a></p></article>';
+  }
+  function secQuestions() {
+    var present = {}; D.questions.forEach(function (q) { present[q.domain] = 1; });
+    var shown = D.questions.filter(function (q) { return ui.qf === "all" || q.domain === ui.qf; });
+    var h = chipRow(Q_DOMAINS, present, "qf", "Filter what-ifs by topic") + '<div class="qgrid">' + shown.map(qCard).join("") + "</div>";
+    return section("whatifs", "The big what-ifs", "The uncertainties behind the worlds. Each has outcomes that add up to 100%, the forecasts they rest on and the signals that move them.", h);
+  }
+
+  function sigRow(s) {
+    var t = TREND[s.trend], rd = arr(D.readings[s.id]).filter(function (r) { return typeof r.num === "number"; });
+    var lean = wid(s.leans);
+    return '<li class="sig"><p class="nm"><a href="#s/' + esc(s.id) + '">' + esc(s.name) + "</a>" + (isActive(s) ? "" : ' <span class="tag">Proposed</span>') + '</p><span class="vl">' + esc(s.value) + "</span>" +
+      '<div class="meta"><span><i class="dot' + (lean ? "" : " neutral") + '"' + (lean ? ' style="background:' + wcolor(lean) + '"' : "") + "></i>" + esc(lean ? "Points to " + wname(lean) : "Neutral") + "</span>" +
+      (t ? '<span><span aria-hidden="true">' + t[0] + "</span>" + t[1] + "</span>" : "") + (s.asOf ? "<span>As of " + fmtDate(s.asOf) + "</span>" : "") + "</div>" +
+      '<span class="sk">' + spark(rd.map(function (r) { return r.num; }), "var(--bar)", 92, 26, s.name + " readings") + "</span>" +
+      (s.note ? '<p class="note">' + esc(s.note) + "</p>" : "") + "</li>";
+  }
+  function secSignals() {
+    var sigs = D.signals, counts = { neutral: 0 }, present = {};
+    sigs.forEach(function (s) { var k = wid(s.leans) || "neutral"; counts[k] = (counts[k] || 0) + 1; present[s.domain] = 1; });
+    var h = '<div class="chips" role="group" aria-label="Filter signals by the world they point to"><span class="chiplabel">Pointing to</span>' +
+      WORLD_IDS.concat(["neutral"]).map(function (k) {
+        return '<button class="chip" type="button" data-lean="' + k + '" aria-pressed="' + (ui.lean === k) + '"><i class="dot' + (k === "neutral" ? " neutral" : "") + '"' + (k === "neutral" ? "" : ' style="background:' + wcolor(k) + '"') + "></i>" + esc(k === "neutral" ? "Neutral" : wname(k)) + ' <span class="ct">' + (counts[k] || 0) + "</span></button>";
+      }).join("") + "</div>" + chipRow(S_DOMAINS, present, "sf", "Filter signals by topic");
+    var shown = sigs.filter(function (s) {
+      return (!ui.lean || (ui.lean === "neutral" ? !wid(s.leans) : s.leans === ui.lean)) && (ui.sf === "all" || s.domain === ui.sf);
+    });
+    if (ui.lean) h += '<p class="filterline">Showing ' + shown.length + " signal" + (shown.length === 1 ? "" : "s") + (ui.lean === "neutral" ? " that don't favor any world" : " that point to " + esc(wname(ui.lean))) + '. <button class="linkbtn" type="button" data-clear="1">Show all</button></p>';
+    h += shown.length ? '<ul class="panel sigs">' + shown.map(sigRow).join("") + "</ul>" : '<p class="notice">No signals match this filter.</p>';
+    return section("signals", "Signals to watch", "Indicators re-checked every week. Each shows its latest reading, the world it currently supports and its recent readings. Open one for thresholds and history.", h);
+  }
+
+  function mRow(m, check) {
+    var done = check && m.resolved;
+    var src = safeUrl(m.url) ? ' <span class="src">' + link(m.url, m.source || host(m.url)) + "</span>" : "";
+    return '<li class="m' + (done ? " done" : "") + '"><span class="lbl">' + esc(check ? checkLabel(m) : m.label) + '</span><span class="pct">' +
+      (done ? (m.resolved === "yes" ? "Yes" : "No") : num(m.prob) + "%" + deltaHtml(m.prob, m.prevProb)) + "</span>" +
+      (check ? '<p class="by">' + (done ? "Resolved " + m.resolved : "Resolves by " + fmtDate(m.resolvesBy)) + "</p>" : "") +
+      (done ? "" : bar(m.prob)) + '<p class="note">' + esc(m.note) + src + "</p></li>";
+  }
+  function secMilestones() {
+    return section("milestones", "Milestones and wildcards", "Single events and their odds of happening before 2030.", '<ul class="panel ms">' + D.milestones.map(function (m) { return mRow(m, false); }).join("") + "</ul>");
+  }
+  function secRecord() {
+    var sc = arr((D.meta || {}).scorecard), open = D.checks.filter(function (c) { return !c.resolved; }), done = D.checks.filter(function (c) { return c.resolved; });
+    var avg = sc.length ? sc.reduce(function (a, s) { return a + num(s.brier); }, 0) / sc.length : null;
+    var h = '<div class="score"><div class="panel"><b>' + sc.length + "</b><span>checks resolved</span></div>" +
+      '<div class="panel"><b>' + (avg == null ? "None yet" : avg.toFixed(3)) + "</b><span>average Brier score (0 is perfect, 0.25 is a coin flip)</span></div>" +
+      '<div class="panel"><b>' + open.length + "</b><span>checks still open</span></div></div>";
+    h += '<h3 class="subhead">Open checks</h3><ul class="panel ms">' + open.map(function (m) { return mRow(m, true); }).join("") + "</ul>";
+    if (done.length) h += '<h3 class="subhead">Resolved</h3><ul class="panel ms">' + done.map(function (m) { return mRow(m, true); }).join("") + "</ul>";
+    return section("record", "Track record", "Short-range checks resolve within months, so the forecast can be scored long before 2030. Each one is priced from a market where one exists.", h);
+  }
+
+  function secCalendar() {
+    var today = todayNum(), ev = arr(D.calendar), nextMarked = false;
+    var list = ev.filter(function (e) { return dayNum(e.date) < today; }).slice(-3).concat(ev.filter(function (e) { return dayNum(e.date) >= today; }));
+    var h = '<ul class="cal">' + list.map(function (e) {
+      var past = dayNum(e.date) < today, cls = past ? "past" : (nextMarked ? "" : "next");
+      if (!past) nextMarked = true;
+      return '<li class="' + cls + '"><span class="when">' + esc(e.when || fmtDate(e.date)) + '</span><div><p class="ev">' + (safeUrl(e.url) ? link(e.url, e.event) : esc(e.event)) + "</p>" + (e.why ? '<p class="why">' + esc(e.why) + "</p>" : "") + "</div></li>";
+    }).join("") + "</ul>";
+    return section("calendar", "Coming up", "Scheduled moments that could move the odds.", h);
+  }
+
+  function secLog() {
+    var ups = arr(D.updates);
+    var h = '<div class="entries">' + ups.slice(0, 3).map(function (u) {
+      var ch = arr(u.changes), news = arr(u.news);
+      var x = '<article class="panel entry"><p class="date">' + fmtDate(u.date, true) + (u.week ? ", week " + esc(u.week) : "") + "</p><h3>" + esc(u.headline || "Weekly update") + "</h3>" + (u.summary ? "<p>" + esc(u.summary) + "</p>" : "");
+      if (ch.length) x += '<h4>Odds that moved</h4><div class="tablewrap"><table><thead><tr><th>What</th><th>From</th><th>To</th><th>Why</th></tr></thead><tbody>' +
+        ch.map(function (c) { return "<tr><td>" + esc(c.target) + '</td><td class="n">' + esc(c.from) + '%</td><td class="n">' + esc(c.to) + "%</td><td>" + esc(c.why) + (safeUrl(c.url) ? " " + link(c.url, "Source") : "") + "</td></tr>"; }).join("") + "</tbody></table></div>";
+      if (news.length) x += '<h4>Notable this week</h4><ul class="news">' + news.map(function (n) { return "<li>" + esc(n.text) + ' <span class="src">' + (safeUrl(n.url) ? link(n.url, host(n.url)) : "") + "</span></li>"; }).join("") + "</ul>";
+      return x + "</article>";
+    }).join("") + "</div>";
+    if (ups.length > 3) h += det("older-log", "Older updates (" + (ups.length - 3) + ")", ups.slice(3).map(function (u) { return "<p><b>" + fmtDate(u.date) + ".</b> " + esc(u.headline || "") + " " + esc(u.summary || "") + "</p>"; }).join(""));
+    h += '<p class="filterline" style="margin-top:12px">Every weekly update is also a ' + link(gh("/pulls?q=is%3Apr+label%3Aweekly"), "pull request on GitHub") + ", so you can see each file that changed.</p>";
+    return section("log", "Update log", "What changed each week, and why.", h);
+  }
+
+  function secMethod() {
+    var seen = {}, items = [];
+    function add(url, label) { var u = safeUrl(url); if (!u || seen[u]) return; seen[u] = 1; items.push({ u: u, l: label }); }
+    D.questions.forEach(function (q) { arr(q.anchors).forEach(function (a) { add(a.url, a.who); }); });
+    D.signals.forEach(function (s) { add(s.url, s.source || s.name); });
+    D.milestones.concat(D.checks).forEach(function (m) { add(m.url, m.source || m.label); });
+    var h = "<ol>" +
+      "<li>The four worlds are classified in priority order. A war or pandemic that dominates the period counts as Fracture. Otherwise transformative AI counts as Takeoff. Otherwise an AI bust or recession that defines the period counts as Hangover. Everything else is Steady Climb.</li>" +
+      "<li>The sci-fi lens reads the same evidence as fiction, in priority order: Collapse, Singularity, Dystopia, Utopia, Solarpunk, Cyberpunk, and Black Mirror for the rest. No market prices these, so the odds are judgment built on the what-ifs.</li>" +
+      "<li>Starting odds come from forecasting platforms (Metaculus, Polymarket, Kalshi, Manifold), expert and institutional forecasts and historical base rates.</li>" +
+      "<li>Every week each signal is re-checked against its thresholds. An outcome moves 2 points or more only when a cited market or forecast moved the same way, or a signal crossed its threshold. Moves are capped at 5 points a week unless a major event happens. Every change is logged with its reason and source.</li>" +
+      "<li>These are judgment calls. Some markets trade thinly, some figures come from secondary reports, and lab-reported benchmarks are not independently verified.</li></ol>" +
+      '<p><a href="' + esc(gh("/blob/main/METHODOLOGY.md")) + '">Read the full methodology</a></p>' +
+      '<div class="sources">' + det("sources", "All sources (" + items.length + ")", "<ul>" + items.map(function (it) { return "<li>" + link(it.u, it.l) + ' <span class="src">' + esc(host(it.u)) + "</span></li>"; }).join("") + "</ul>") + "</div>";
+    return '<section id="method" class="method"><h2>How this works</h2>' + h + "</section>";
+  }
+
+  function secContribute() {
+    var proposed = D.signals.filter(function (s) { return !isActive(s); }).length + D.questions.filter(function (q) { return !isActive(q); }).length;
+    var h = '<div class="panel contrib"><p>Futures Watch lives in a public GitHub repository. Every signal, question and milestone is a small text file, and anyone can propose a change. The weekly review checks each proposal against its sources before it moves any odds.</p>' +
+      "<ul><li><b>Add a signal</b> worth watching: a data series, market or benchmark that would tell us which world we're in.</li>" +
+      "<li><b>Add a forecast</b> to a what-if: a market, expert or published estimate the odds should be checked against.</li>" +
+      "<li><b>Fix a fact</b> or a stale reading, with a source.</li>" +
+      "<li><b>Propose a new what-if</b> that changes how the next few years go.</li></ul>" +
+      (proposed ? "<p>" + proposed + " contributor proposal" + (proposed === 1 ? " is" : "s are") + " waiting for the next weekly review.</p>" : "") +
+      '<div class="acts"><a class="btn primary" href="' + esc(gh("/issues/new?template=suggest-a-factor.yml")) + '">Suggest a factor</a>' +
+      '<a class="btn" href="' + esc(gh("/blob/main/CONTRIBUTING.md")) + '">How to contribute</a><a class="btn" href="' + esc(gh()) + '">View on GitHub</a></div></div>';
+    return section("contribute", "Help improve the forecast", "", h);
+  }
+
+  function section(id, title, intro, body) {
+    return '<section id="' + id + '"><h2>' + esc(title) + "</h2>" + (intro ? '<p class="intro">' + esc(intro) + "</p>" : "") + body + "</section>";
+  }
+
+  function renderHome() {
+    $("app").innerHTML = secWeek() + secWorlds() + secScifi() + secQuestions() + secSignals() + secMilestones() + secRecord() + secCalendar() + secLog() + secMethod() + secContribute();
+    wireCharts();
+  }
+
+  // ---------- detail pages ----------
+  function editBlock(file, what) {
+    return '<aside class="panel edit"><p>See something out of date, or a factor we\'re missing? This ' + what + " is one file, <code>" + esc(file) + "</code>.</p>" +
+      '<p class="acts"><a href="' + esc(editUrl(file)) + '">Suggest an edit on GitHub</a><a href="' + esc(gh("/issues/new?template=suggest-a-factor.yml")) + '">Suggest a factor</a><a href="' + esc(gh("/commits/main/" + file)) + '">See its history</a></p></aside>';
+  }
+
+  function renderQuestion(q) {
+    var hist = history(), ocs = arr(q.outcomes), maxP = Math.max.apply(null, ocs.map(function (o) { return num(o.prob); }));
+    var drives = D.scifi.filter(function (f) { return arr(f.drivers).indexOf(q.id) >= 0; });
+    var h = '<article class="detail"><a class="back" href="#whatifs">← All what-ifs</a>' +
+      '<p class="kv"><span>' + esc(Q_DOMAINS[q.domain] || q.domain) + "</span><span>By the end of 2029</span>" + (isActive(q) ? "" : '<span class="tag">Proposed, awaiting review</span>') + "</p>" +
+      "<h1>" + esc(q.title) + '</h1><p class="lede">' + esc(q.short) + "</p>" +
+      '<div class="panel q" style="max-width:620px"><ol class="ocs">' + ocs.map(function (o, i) {
+        return '<li class="oc' + (num(o.prob) === maxP ? " lead" : "") + '"><div class="oc-top"><span class="lbl"><span class="sw" style="background:' + OC_COLORS[i % 4] + ';margin-right:6px"></span>' + esc(o.label) + '</span><span class="pct">' + num(o.prob) + "%" + deltaHtml(o.prob, o.prevProb) + "</span></div>" + bar(o.prob) + "</li>";
+      }).join("") + "</ol></div>" +
+      (q.read ? '<div class="prose" style="margin-top:16px"><p><b>Current read.</b> ' + esc(q.read) + "</p></div>" : "");
+    h += lineChart(ocs.map(function (o, i) {
+      return { name: o.label, color: OC_COLORS[i % 4], pts: hist.filter(function (x) { return x.questions && x.questions[q.id] && x.questions[q.id][o.key] != null; }).map(function (x) { return { d: x.date, v: num(x.questions[q.id][o.key]) }; }) };
+    }), { id: "q-" + q.id, title: "Odds by week", pct: true });
+    h += "<h2>What each outcome means</h2><dl class=\"odl prose\">" + ocs.map(function (o) {
+      return "<div><dt>" + esc(o.label) + ", " + num(o.prob) + "%</dt><dd>" + esc(o.desc) + (o.ifThen ? " <i>If so:</i> " + esc(o.ifThen) : "") + "</dd></div>";
+    }).join("") + "</dl>";
+    if (arr(q.anchors).length) h += "<h2>What forecasters say</h2><ul class=\"anchors prose\">" + q.anchors.map(function (a) {
+      var src = [a.date ? fmtDate(a.date) : "", safeUrl(a.url) ? link(a.url, host(a.url)) : ""].filter(Boolean).join(", ");
+      return '<li><span class="who">' + esc(a.who) + ".</span> " + esc(a.what) + (src ? '<span class="src">' + src + "</span>" : "") + "</li>";
+    }).join("") + "</ul>";
+    var sg = arr(q.signals).map(function (id) { return find(D.signals, id); }).filter(Boolean);
+    if (sg.length) h += "<h2>Signals that move it</h2><ul class=\"panel sigs\">" + sg.map(sigRow).join("") + "</ul>";
+    if (drives.length) h += '<h2>Feeds the sci-fi lens</h2><div class="pills">' + drives.map(function (f) { return '<a href="#scifi"><span class="sw" style="background:' + sfcolor(f.id) + '"></span>' + esc(f.name) + " " + num(f.prob) + "%</a>"; }).join("") + "</div>";
+    h += editBlock(q.file, "what-if") + "</article>";
+    $("app").innerHTML = h;
+    wireCharts();
+  }
+
+  function renderSignal(s) {
+    var rd = arr(D.readings[s.id]), lean = wid(s.leans), t = TREND[s.trend];
+    var usedBy = D.questions.filter(function (q) { return arr(q.signals).indexOf(s.id) >= 0; });
+    var numeric = rd.filter(function (r) { return typeof r.num === "number"; });
+    var unit = numeric.length ? numeric[numeric.length - 1].unit : null;
+    var h = '<article class="detail"><a class="back" href="#signals">← All signals</a>' +
+      '<p class="kv"><span>' + esc(S_DOMAINS[s.domain] || s.domain) + "</span><span>Updates: " + esc(s.cadence) + "</span>" + (isActive(s) ? "" : '<span class="tag">Proposed, awaiting review</span>') + "</p>" +
+      "<h1>" + esc(s.name) + '</h1><p class="lede">' + esc(s.measures) + "</p>" +
+      '<p class="big">' + esc(s.value) + "</p>" +
+      '<p class="kv"><span><i class="dot' + (lean ? "" : " neutral") + '"' + (lean ? ' style="background:' + wcolor(lean) + '"' : "") + "></i>" + esc(lean ? "Points to " + wname(lean) : "Neutral") + "</span>" +
+      (t ? "<span>" + t[0] + " " + t[1] + "</span>" : "") + (s.asOf ? "<span>As of <b>" + fmtDate(s.asOf) + "</b></span>" : "") + "<span>" + link(s.url, s.source || host(s.url)) + "</span></p>" +
+      (s.note ? '<div class="prose"><p>' + esc(s.note) + "</p></div>" : "");
+    h += "<h2>Watch for</h2><div class=\"prose\"><p>" + esc(s.watch) + "</p></div>";
+    if (numeric.length) {
+      h += lineChart([{ name: s.name, color: "var(--bar)", pts: numeric.map(function (r) { return { d: r.date, v: r.num, label: r.value }; }) }], { id: "s-" + s.id, title: "Weekly readings" + (unit ? " (" + unit + ")" : ""), single: true });
+    }
+    if (rd.length) h += "<h2>Every reading</h2><div class=\"tablewrap prose\"><table><thead><tr><th>Checked</th><th>Reading</th><th>Data as of</th></tr></thead><tbody>" +
+      rd.slice().reverse().map(function (r) { return "<tr><td class=\"n\">" + fmtDate(r.date) + "</td><td>" + esc(r.value) + '</td><td class="n">' + fmtDate(r.asOf) + "</td></tr>"; }).join("") + "</tbody></table></div>";
+    if (usedBy.length) h += '<h2>Feeds these what-ifs</h2><div class="pills">' + usedBy.map(function (q) { return '<a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a>"; }).join("") + "</div>";
+    h += editBlock(s.file, "signal") + "</article>";
+    $("app").innerHTML = h;
+    wireCharts();
+  }
+
+  // ---------- routing ----------
+  var lastView = null;
+  function route() {
+    var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    var m = /^(q|s)\/([a-z0-9-]+)$/.exec(h);
+    if (m) {
+      var item = find(m[1] === "q" ? D.questions : D.signals, m[2]);
+      if (item) return { view: m[1], item: item, key: h };
+    }
+    return { view: "home", anchor: h, key: "home" };
+  }
+  function render(keepScroll) {
+    if (!D) return;
+    var r = route(), changed = r.key !== lastView;
+    $("jump").hidden = r.view !== "home";
+    if (r.view === "q") { renderQuestion(r.item); document.title = r.item.title + " | Futures Watch 2030"; }
+    else if (r.view === "s") { renderSignal(r.item); document.title = r.item.name + " | Futures Watch 2030"; }
+    else { if (changed || !keepScroll) renderHome(); else renderHome(); document.title = "Futures Watch 2030"; }
+    if (changed) {
+      if (r.view !== "home") window.scrollTo(0, document.querySelector(".mast").offsetHeight);
+      else if (r.anchor) { var el = document.getElementById(r.anchor); if (el) el.scrollIntoView(); }
+    }
+    lastView = r.key;
+  }
+  window.addEventListener("hashchange", function () { render(false); });
+
+  // ---------- interactions ----------
+  document.addEventListener("toggle", function (e) {
+    var d = e.target;
+    if (d && d.tagName === "DETAILS" && d.dataset && d.dataset.key) { if (d.open) openKeys[d.dataset.key] = true; else delete openKeys[d.dataset.key]; }
+  }, true);
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest("[data-qf],[data-sf],[data-lean],[data-clear]") : null;
+    if (!t) return;
+    var y = window.scrollY;
+    if (t.hasAttribute("data-qf")) ui.qf = t.getAttribute("data-qf");
+    else if (t.hasAttribute("data-sf")) ui.sf = t.getAttribute("data-sf");
+    else if (t.hasAttribute("data-clear")) ui.lean = null;
+    else if (t.hasAttribute("data-lean")) {
+      var k = t.getAttribute("data-lean"), fromCard = t.hasAttribute("data-fromcard");
+      ui.lean = (ui.lean === k && !fromCard) ? null : k;
+      if (fromCard) ui.sf = "all";
+      renderHome();
+      if (fromCard) $("signals").scrollIntoView(); else window.scrollTo(0, y);
+      return;
+    }
+    renderHome(); window.scrollTo(0, y);
+  });
+
+  // ---------- data ----------
+  fetch("data.json", { cache: "no-cache" }).then(function (r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(function (data) {
+    D = data;
+    renderMast();
+    render(false);
+  }).catch(function (err) {
+    $("app").innerHTML = '<p class="notice" style="margin-top:32px">The forecast data didn\'t load (' + esc(err.message) + "). Reload the page to try again.</p>";
+  });
+})();
+</script>
+</body>
+</html>

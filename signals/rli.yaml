@@ -1,0 +1,15 @@
+id: rli
+tracking: active
+name: Remote Labor Index
+domain: ai
+order: 2
+measures: Share of real freelance projects AI completes to a professional standard.
+value: ≈21%
+asOf: '2026-10-19'
+trend: up
+leans: takeoff
+note: Claude Opus 5.5 leads at 21.3%, with GPT-6 Astra at 20.8%. Up from about 16% in July and 2.5% a year ago.
+watch: 40%+ by the end of 2027 points to Takeoff. Stuck under 25% points to Steady Climb.
+cadence: Each evaluation round
+source: Scale Labs via BenchLM
+url: https://benchlm.ai/benchmarks/scale-rli

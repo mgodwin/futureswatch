@@ -1,0 +1,15 @@
+id: csmajors
+tracking: active
+name: Computer science majors
+domain: education
+order: 50
+measures: Change in undergraduate computer science majors at four-year colleges, year over year.
+value: −12.4% (fall 2026)
+asOf: '2026-10-29'
+trend: down
+leans: neutral
+note: Fall computer science enrollment at four-year colleges, per the preliminary report. Two-year programs fell 12.3% and graduate CS 10.4%. Spring 2026 majors were down 8.4%.
+watch: A second year of double-digit drops means students expect AI to shrink coding jobs. A return to growth means the scare is fading.
+cadence: Twice a year (Clearinghouse)
+source: National Student Clearinghouse
+url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/

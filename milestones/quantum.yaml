@@ -1,0 +1,8 @@
+id: quantum
+label: A quantum computer breaks RSA-2048 encryption
+order: 8
+prob: 3
+prevProb: 3
+note: Experts give 28–49% odds within ten years. IBM's 2029 fault-tolerant target is still far short of what code-breaking needs.
+source: Global Risk Institute
+url: https://globalriskinstitute.org/publication/quantum-threat-timeline-report-2025b/

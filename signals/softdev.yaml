@@ -1,0 +1,15 @@
+id: softdev
+tracking: active
+name: Software developer job postings
+domain: jobs
+order: 12
+measures: Indeed's index of software-development postings (February 2020 = 100).
+value: ≈81
+asOf: '2026-10-23'
+trend: up
+leans: neutral
+note: About 19% below pre-pandemic and still edging up, from about 73 in June.
+watch: Below 65 signals deeper disruption. Above 85 signals recovery.
+cadence: Daily
+source: Indeed Hiring Lab via FRED
+url: https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE

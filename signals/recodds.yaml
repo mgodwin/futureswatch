@@ -1,0 +1,15 @@
+id: recodds
+tracking: active
+name: Recession odds (markets)
+domain: markets
+order: 19
+measures: Prediction-market probability of a US recession.
+value: ≈22% for 2027
+asOf: '2026-10-26'
+trend: flat
+leans: neutral
+note: Kalshi, unchanged for a third week despite $117 oil. It hit a record low of 20% in late September.
+watch: 2027 recession odds above 40% point to Hangover. Below 15% supports Steady Climb.
+cadence: Live
+source: Kalshi
+url: https://kalshi.com/markets/kxrecssnber/recession/kxrecssnber-27

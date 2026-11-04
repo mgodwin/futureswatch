@@ -1,0 +1,10 @@
+id: chk-anthropicipo
+label: 'Check · by Dec 31, 2026: Anthropic shares start trading'
+order: 11
+prob: 93
+prevProb: 82
+resolvesBy: '2026-12-31'
+resolved: null
+note: Polymarket prices 93% for trading by year-end and 83% by Nov 30. The roadshow is expected around Nov 10, with a debut reported for Nov 16–20.
+source: Polymarket
+url: https://polymarket.com/event/anthropic-ipo-by

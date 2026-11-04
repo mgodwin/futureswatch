@@ -1,0 +1,15 @@
+id: globaltemp
+tracking: active
+name: Global temperature
+domain: energy
+order: 25
+measures: Monthly global surface temperature above preindustrial (1850–1900).
+value: +1.63°C in September
+asOf: 2026-09
+trend: up
+leans: neutral
+note: Second-warmest September on record and the second month in a row above 1.5°C.
+watch: A 12-month average above 1.6°C during 2027 all but locks the five-year average above 1.5°C.
+cadence: Monthly
+source: Copernicus, via Daily Sabah
+url: https://www.dailysabah.com/life/environment/global-temperatures-mark-2nd-warmest-september-on-record

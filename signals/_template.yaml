@@ -1,0 +1,17 @@
+# Copy to signals/<id>.yaml, fill in every field, and keep tracking: proposed.
+# Field guide: CONTRIBUTING.md
+id: your-signal-id
+tracking: proposed
+name: Short display name
+domain: ai            # ai, jobs, markets, energy, world, politics, tech or education
+order: 99             # next free number
+measures: One sentence on what the number is.
+value: "4.3%"         # latest reading, as text
+asOf: "2026-10"       # YYYY-MM-DD or YYYY-MM
+trend: flat           # up, down or flat
+leans: neutral        # climb, takeoff, hangover, fracture or neutral
+note: One or two sentences of context for the latest reading.
+watch: The threshold that would change the odds, and which world it points to.
+cadence: Monthly
+source: Who publishes it
+url: https://example.org/page-with-the-number

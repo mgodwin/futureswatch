@@ -1,0 +1,15 @@
+id: breakeven
+tracking: active
+name: Breakeven job growth
+domain: jobs
+order: 47
+measures: Monthly job gains needed to keep unemployment flat, given labor-force growth.
+value: Under 10k a month
+asOf: '2026-04-02'
+trend: down
+leans: neutral
+note: A Fed staff note says falling immigration and aging cut it to near zero, from about 250k in 2023. Weak payrolls alone are not a warning.
+watch: Read payrolls against this. Sustained job losses with rising unemployment point to Hangover.
+cadence: Occasional research notes
+source: Federal Reserve (FEDS Notes)
+url: https://federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html

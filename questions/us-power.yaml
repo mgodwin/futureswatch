@@ -1,0 +1,48 @@
+id: us-power
+tracking: active
+title: What if control of Washington shifts?
+short: Which party holds the White House and Congress in 2029, after the 2028 election.
+domain: politics
+order: 14
+read: On the eve of the vote, markets give Democrats 94% for the House and 74% for the Senate. Holding both in 2029 still needs a 2028 win, so divided government stays likeliest.
+outcomes:
+- key: dtrifecta
+  label: Democratic trifecta
+  prob: 32
+  prevProb: 30
+  desc: Democrats win the White House in 2028 and hold both chambers.
+  ifThen: Likely federal AI licensing and labor rules, higher taxes on capital, tighter chip export policy toward China stays.
+- key: divided
+  label: Divided government
+  prob: 49
+  prevProb: 50
+  desc: No party controls the presidency and both chambers.
+  ifThen: Gridlock on big bills; policy moves through executive orders, courts and states.
+- key: rtrifecta
+  label: Republican trifecta
+  prob: 19
+  prevProb: 20
+  desc: Republicans win the White House in 2028 and hold both chambers.
+  ifThen: Lighter AI rules with federal preemption of states, tariffs and energy build-out continue.
+anchors:
+- who: Kalshi / Polymarket
+  what: About 62% that Democrats win the 2028 presidential election.
+  date: 2026-10
+  url: https://defirate.com/prediction-markets/2028-presidential-election-odds
+- who: Kalshi / Polymarket
+  what: 94% that Democrats win the House and 74% the Senate on Nov 3, 2026; about 6% for Republicans to keep both.
+  date: 2026-11
+  url: https://defirate.com/prediction-markets/2026-midterms/
+- who: Cook Political Report
+  what: Democrats most likely gain 9 to 19 House seats, for 224 to 234 in total.
+  date: 2026-10
+  url: https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor
+- who: Congress Countdown
+  what: The House stands at 218 Republicans, 214 Democrats and 1 independent with 2 vacancies; the Senate at 53–47.
+  date: 2026-10
+  url: https://www.congresscountdown.com/info/party-breakdown
+signals:
+- house
+- senate
+- midterms
+- pres2028

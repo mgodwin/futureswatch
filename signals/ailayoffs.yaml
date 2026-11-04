@@ -1,0 +1,15 @@
+id: ailayoffs
+tracking: active
+name: Layoffs blamed on AI
+domain: jobs
+order: 13
+measures: Share of announced US job cuts that cite AI.
+value: ≈9% in Sep · 21% YTD
+asOf: 2026-09
+trend: down
+leans: neutral
+note: AI fell to the fifth-most cited reason in September. On Oct 26 Microsoft offered buyouts to about 60,000 staff; voluntary exits may not count here.
+watch: Above 35% for several months means disruption is accelerating. Below 15% means it is easing.
+cadence: Monthly
+source: Challenger, Gray & Christmas
+url: https://www.challengergray.com/blog/job-cuts-fall-in-september-hiring-plans-up-3-over-2025-on-weak-early-seasonal-hiring/

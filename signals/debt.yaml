@@ -1,0 +1,15 @@
+id: debt
+tracking: active
+name: US debt stress
+domain: markets
+order: 38
+measures: The federal deficit and demand at long-term Treasury auctions, the pressure behind high yields.
+value: Deficit $2.0T · 30-yr 5.43%
+asOf: '2026-10-19'
+trend: up
+leans: hangover
+note: CBO puts the FY2026 deficit at $2.0T, over $200B above FY2025. The Oct 8 30-year auction cleared at 5.62% with solid demand.
+watch: A weak auction or a 30-year yield above 6% points to Hangover. A deficit under $1.5T eases the pressure.
+cadence: Monthly (CBO); auctions weekly
+source: CBO via CRFB
+url: https://www.crfb.org/press-releases/cbo-estimates-20-trillion-deficit-fiscal-year-2026

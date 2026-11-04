@@ -1,0 +1,15 @@
+id: labrev
+tracking: active
+name: Frontier lab revenue
+domain: ai
+order: 4
+measures: Annualized revenue at the leading AI labs, a proxy for real adoption.
+value: OpenAI ≈$50B · Anthropic ≈$67B
+asOf: '2026-10-26'
+trend: up
+leans: takeoff
+note: Anthropic's public S-1 shows $16.3B of first-half revenue, $11.6B in Q2, and a first operating profit. Q3 was reported at $16.8B.
+watch: A combined $400B+ by the end of 2027 points to Takeoff. Growth under 1.5× a year points to Hangover or Steady Climb.
+cadence: Monthly press reports
+source: Anthropic S-1 via TNW
+url: https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1

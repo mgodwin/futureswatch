@@ -1,0 +1,17 @@
+id: solarpunk
+name: Solarpunk
+order: 2
+prob: 5
+prevProb: null
+tagline: Green, local and hopeful.
+inspiredBy: Kim Stanley Robinson's The Ministry for the Future
+summary: Clean energy and climate action define the period. Cities and communities lead, and technology serves repair more than growth.
+read: The hardest one to reach by 2029. Warming is running above 1.5°C, El Niño is heading for record strength, and data centers are pushing power prices up.
+signs:
+- The five-year warming average stays below 1.5°C
+- Electricity prices fall as clean power outruns data-center demand
+- Fusion or other new clean power reaches the grid
+drivers:
+- climate
+- power-grid
+- fusion

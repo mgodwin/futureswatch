@@ -1,0 +1,15 @@
+id: pjm
+tracking: active
+name: Grid stress (PJM)
+domain: energy
+order: 23
+measures: Supply margins on the largest US grid, home to most data-center growth.
+value: 6.8 GW short for 2028/29
+asOf: '2026-07-15'
+trend: up
+leans: neutral
+note: The capacity auction cleared at its price cap. A record 168 GW peak hit on Jul 10, and DOE orders now allow cutting large loads in emergencies.
+watch: Any actual emergency cut to data centers means Strained. Rolling blackouts mean Crisis.
+cadence: Yearly auctions; emergencies as they happen
+source: Maryland Matters
+url: https://marylandmatters.org/2026/07/15/pjm-interconnection-electricity-price-hits-cap-again-in-latest-auction/

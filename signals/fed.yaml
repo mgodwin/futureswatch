@@ -1,0 +1,15 @@
+id: fed
+tracking: active
+name: Fed rate & inflation
+domain: markets
+order: 18
+measures: The Fed's policy rate and consumer price inflation.
+value: 3.75–4.00% · CPI 3.7%
+asOf: '2026-11-02'
+trend: up
+leans: hangover
+note: Held on Oct 28 in a 10–2 vote; two members wanted a hike. Kalshi and Polymarket price about 72% for a December hike, down from about 82% after the meeting. September PCE inflation was 3.6%.
+watch: More hikes, or core inflation above 3%, point to Hangover. Cuts with inflation under 3% ease it.
+cadence: Monthly CPI; Fed every six weeks or so
+source: Fed; Kalshi, Polymarket via PredictionMarketsPicks
+url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026

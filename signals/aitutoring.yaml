@@ -1,0 +1,15 @@
+id: aitutoring
+tracking: active
+name: AI tutoring evidence
+domain: education
+order: 54
+measures: Learning gains from AI tutors in randomized trials.
+value: ≈0.2–0.4 SD in math
+asOf: 2026-09
+trend: up
+leans: neutral
+note: Math pilots show real but modest gains; reading results are mixed. A Harvard physics trial found students learned more with an AI tutor than in active-learning classes.
+watch: Large, lasting gains in big trials would speed the shift to AI-led teaching. Gains that fade point to AI as a supplement.
+cadence: New studies
+source: Beyond Tomorrow review
+url: https://beyondtmrw.org/article/ai-tutoring-rcts-what-k-12-pilots-actually-show-about-learning-gains

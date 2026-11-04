@@ -1,0 +1,10 @@
+id: chk-sparc
+label: 'Check · by Mar 31, 2027: SPARC makes its first plasma'
+order: 12
+prob: 40
+prevProb: 40
+resolvesBy: '2027-03-31'
+resolved: null
+note: CFS expects operation in late 2026 or early 2027. No market covers this, so the odds are judgment.
+source: TechCrunch
+url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m

@@ -1,0 +1,10 @@
+id: chk-fedhike
+label: 'Check · by Dec 31, 2026: the Fed raises rates again'
+order: 10
+prob: 72
+prevProb: 78
+resolvesBy: '2026-12-31'
+resolved: null
+note: Kalshi and Polymarket price about 72% for a hike at the Dec 9 meeting, down after the Fed held on Oct 28. Resolves after the December decision.
+source: Kalshi, Polymarket via PredictionMarketsPicks
+url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026

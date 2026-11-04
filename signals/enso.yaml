@@ -1,0 +1,15 @@
+id: enso
+tracking: active
+name: El Niño strength
+domain: energy
+order: 26
+measures: Sea-surface temperature anomaly in the central Pacific (Niño-3.4).
+value: +2.1°C
+asOf: 2026-09
+trend: up
+leans: neutral
+note: NOAA's Oct 8 update gives 83% odds of record strength (+2.5°C or more) for October–December.
+watch: 2.5°C or more makes a record-warm 2027 near-certain.
+cadence: 'Monthly (next: Oct 8)'
+source: NOAA
+url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml

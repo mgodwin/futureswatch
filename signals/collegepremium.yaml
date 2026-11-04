@@ -1,0 +1,15 @@
+id: collegepremium
+tracking: active
+name: College wage premium
+domain: education
+order: 49
+measures: How much more per hour degree holders earn than workers without a degree.
+value: ≈78% (2026)
+asOf: '2026-09-02'
+trend: down
+leans: neutral
+note: Down from about 87% in 2022, back to mid-1990s levels. A working paper links about 28% of the drop to AI exposure, but calls the link non-causal.
+watch: Below 70% means degrees are losing their pull. A rebound above 85% means the shift was cyclical.
+cadence: Annual (CPS-based studies)
+source: Azar, Giné and Sanz-Espín via Marginal Revolution
+url: https://marginalrevolution.com/marginalrevolution/2026/09/the-college-wage-premium-in-the-generative-ai-era.html

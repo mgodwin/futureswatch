@@ -1,0 +1,15 @@
+id: capex
+tracking: active
+name: Big Tech AI spending
+domain: markets
+order: 15
+measures: Combined capital spending by Amazon, Alphabet, Microsoft, Meta and Oracle.
+value: ≈$725–785B in 2026
+asOf: '2026-10-30'
+trend: up
+leans: takeoff
+note: 'Q3 capex: Amazon $77.3B, Alphabet $51.4B, Microsoft $39.4B. Alphabet held its $195–205B guide and Amazon about $220B; both expect 2027 to rise significantly. Both now burn cash.'
+watch: A guidance cut, or 2027 growth under 10%, points to Hangover. A confirmed $1T in 2027 means the build-out continues.
+cadence: Quarterly earnings
+source: Company reports via Portfolio Terminal
+url: https://portfolio-terminal.com/blog/stock-market-week-in-review-october-30-2026

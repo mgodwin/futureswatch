@@ -1,0 +1,58 @@
+id: ai-cyber
+tracking: active
+title: What if AI drives a major cyberattack?
+short: Whether an attack led by AI causes at least $1B in damage or 100 deaths by the end of 2029.
+domain: ai
+order: 13
+read: Attackers already use AI-written code against industrial controllers, and one hacker used AI agents to breach over 100 firms cheaply. One thin market covers this, so these odds rest mostly on judgment.
+outcomes:
+- key: contained
+  label: Contained
+  prob: 57
+  prevProb: 57
+  desc: AI-assisted attacks keep growing, but no single AI-driven incident causes $1B in damage or 100 deaths.
+  ifThen: Cyber stays a cost of doing business; defenders' AI keeps pace.
+- key: major
+  label: Major incident
+  prob: 35
+  prevProb: 35
+  desc: At least one attack led by AI causes $1B+ in damage or 100+ deaths, without lasting national disruption.
+  ifThen: Fast rules on agent access and model release; a strong push toward Emergency brakes.
+- key: systemic
+  label: Systemic attack
+  prob: 8
+  prevProb: 8
+  desc: An AI-driven attack knocks out power, water, payments or hospitals across a region for days, or kills 1,000+ people.
+  ifThen: Emergency AI controls, a security-first politics and possible military retaliation.
+anchors:
+- who: Manifold market
+  what: 43% that an AI-caused incident costs $1B or 100 lives by the end of 2029, from any cause. Thinly traded.
+  date: 2026-10
+  url: https://manifold.markets/OlegEterevsky/will-ai-cause-an-incident-resulting
+- who: NSA, CISA, FBI, DOE and EPA
+  what: 'Joint alert: attackers are using AI-written scripts to take over industrial controllers at water, energy and chemical sites.'
+  date: 2026-08
+  url: https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960
+- who: OpenAI, Anthropic, Microsoft, AWS and 100+ firms
+  what: Open letter warning that defenders have months to prepare for a wave of AI-enabled attacks on hospitals and utilities.
+  date: 2026-08
+  url: https://www.axios.com/2026/08/27/openai-anthropic-issue-dire-cyber-threat-warning
+- who: Booz Allen Hamilton
+  what: In lab tests, frontier-model agents reached all eight attack goals on an industrial network, one in about 16 minutes.
+  date: 2026-10
+  url: https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450
+- who: Reuters
+  what: One hacker used Claude Code and DeepSeek agents to breach over 100 company sites for about $5,000 in tokens.
+  date: 2026-10
+  url: https://www.staradvertiser.com/2026/10/19/breaking-news/how-one-hacker-used-ai-agents-to-break-into-over-100-company-websites/
+- who: Google
+  what: Limited Gemini 4 Argon to vetted cyber defenders over misuse concerns.
+  date: 2026-10
+  url: https://arynews.tv/google-restricts-access-new-ai-model-safety-concerns
+- who: Anthropic
+  what: Reported the first known espionage campaign run mostly by AI agents, aimed at about 30 organizations.
+  date: 2025-11
+  url: https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf
+signals:
+- cyberinfra
+- incidents

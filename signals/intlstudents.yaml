@@ -1,0 +1,15 @@
+id: intlstudents
+tracking: active
+name: International students
+domain: education
+order: 51
+measures: Projected change in international student enrollment at US colleges this fall.
+value: ≈−9.5% (fall 2026, projected)
+asOf: '2026-08-12'
+trend: down
+leans: neutral
+note: NAFSA projects up to 112,000 fewer students and $3.4B in lost revenue. Doctoral applications fell 21%. Visa rules are the main driver.
+watch: Open Doors data in November confirms the drop. Declines above 15% push more tuition-dependent colleges to close.
+cadence: Annual (Open Doors, November)
+source: NAFSA via Forbes
+url: https://www.forbes.com/sites/michaeltnietzel/2026/08/12/projected-loss-of-international-students-could-bring-a-34-billion-hit/

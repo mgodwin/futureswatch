@@ -1,0 +1,17 @@
+id: climb
+name: Steady Climb
+order: 1
+prob: 32
+prevProb: 32
+tagline: AI keeps getting better. The world absorbs it unevenly.
+summary: 'Frontier AI keeps improving fast but stays jagged: superhuman at coding, math and narrow tasks, unreliable at long open-ended work. Adoption spreads through companies over years, not months. Entry-level white-collar hiring stays weak and some careers shrink, but unemployment stays roughly between 4% and 6%. Markets wobble without breaking, and crises stay contained.'
+read: Labor data still fits this world best. Oil eased on Iran's offer and yields fell below 5%, but AI cash burn weighs on it, so it holds at 32%.
+signposts:
+- Benchmarks keep climbing while real-work measures like the Remote Labor Index stall below 30–40%
+- Unemployment holds between 4% and 5.5%, and the gap for young workers in AI-exposed jobs stops widening
+- Capex growth slows without reversing, and AI stocks avoid a 35%+ crash
+- 'Truces hold: the US–China tariff truce is extended past January 2027 and Hormuz reopens'
+meaning:
+- Careers change more than they vanish; the premium shifts to people who direct and check AI work
+- Entry-level knowledge jobs keep shrinking, so experience holds its value longer than new credentials
+- No single shock dominates, so ordinary planning horizons mostly still work

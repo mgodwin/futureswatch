@@ -1,0 +1,56 @@
+id: recession
+tracking: active
+title: What if a recession hits?
+short: The US economy through 2029.
+domain: economy
+order: 5
+read: Near-term odds hold near 22% for 2027. The Fed paused on Oct 28, but inflation is 3.6–3.7% and markets still expect a December hike.
+outcomes:
+- key: none
+  label: No recession
+  prob: 51
+  prevProb: 51
+  desc: Growth continues; any slowdown stays shallow.
+  ifThen: Rates and yields stay relatively high, and AI investment carries growth.
+- key: mild
+  label: Mild recession
+  prob: 33
+  prevProb: 33
+  desc: A short downturn; unemployment rises one to two points.
+  ifThen: A year or so of layoffs and hiring freezes, followed by rate cuts.
+- key: severe
+  label: Severe or stagflationary
+  prob: 16
+  prevProb: 16
+  desc: Unemployment above 7%, or a recession with inflation above 5%.
+  ifThen: Deep job losses, falling asset prices and a heavy policy response.
+anchors:
+- who: Kalshi / Polymarket
+  what: About 22% for a US recession in 2027 on Kalshi; Polymarket prices 33% by the end of 2027.
+  date: 2026-10
+  url: https://kalshi.com/markets/kxrecssnber/recession/kxrecssnber-27
+- who: BLS / Kalshi
+  what: September CPI was 3.7% with core at 2.6%. After the Oct 28 hold, Kalshi priced about 71% for a December hike.
+  date: 2026-11
+  url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+- who: WSJ economists' survey / Kalshi
+  what: 30% and 35% odds of a recession within 12 months, as of March.
+  date: 2026-03
+  url: https://econbrowser.com/archives/2026/03/recession-probabilities-all-around-30f-35
+- who: Federal Reserve
+  what: Held its range at 3.75–4.00% on Oct 28 in a 10–2 vote; two members wanted another hike.
+  date: 2026-10
+  url: https://hackernoon.com/fed-holds-rates-at-375percent-400percent-in-a-10-2-vote-how-qqq-spy-and-bitcoin-reacted
+- who: Historical base rate (NBER)
+  what: US recessions have started about once every six to seven years since 1945, roughly 30–40% for a three-year window.
+  date: null
+  url: https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions
+signals:
+- unemp
+- payrolls
+- tenyear
+- fed
+- recodds
+- brent
+- debt
+- breakeven

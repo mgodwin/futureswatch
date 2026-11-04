@@ -1,0 +1,24 @@
+name: Report a correction
+description: A stale reading, wrong fact or broken link.
+labels: ["correction"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is it?
+      description: The page or file, e.g. signals/brent.yaml or the "AI jobs" what-if.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong, and what should it say?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source
+      description: A link to the page that states the correct fact.
+    validations:
+      required: true

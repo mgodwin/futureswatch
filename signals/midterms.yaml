@@ -1,0 +1,15 @@
+id: midterms
+tracking: active
+name: Midterm market odds
+domain: politics
+order: 42
+measures: Prediction-market odds that Democrats win each chamber on Nov 3, 2026.
+value: House D 94% · Senate D 74%
+asOf: '2026-11-02'
+trend: up
+leans: neutral
+note: Average of Kalshi and Polymarket the day before the vote. Senate odds rose 10 points in a week. Markets give Republicans about 6% to keep both chambers.
+watch: A Democratic House above 95% or below 80% the week before the vote is a big swing. Results resolve the two checks.
+cadence: Live
+source: DeFi Rate (Kalshi, Polymarket)
+url: https://defirate.com/prediction-markets/2026-midterms/
