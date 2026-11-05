@@ -1,0 +1,41 @@
+id: russia-europe
+name: Russia, Ukraine and European security
+domain: geopolitics
+question: At the end of 2029, is the Russia-Ukraine war frozen or settled, still being fought, or widened into direct NATO-Russia conflict?
+poles:
+- Durable ceasefire and European rearmament
+- Direct NATO-Russia war
+impact: 3
+impact_why: Matters a lot for Europe, much less for daily life in the US and Asia. Only the NATO-Russia tail would define the era.
+uncertainty: 3
+uncertainty_why: Ceasefire versus continued war is near even (repo 55 to 41), and markets on a NATO-Russia clash before 2030 to 2031 range from about 10% to 32% depending on wording.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: us-institutions
+  why: US sanctions and aid policy
+- id: middle-east-energy
+  why: oil revenue funds Russia
+- id: nuclear-risk
+  why: Russian nuclear signaling
+- id: world-order
+  why: a component
+covered_by:
+- questions/ukraine.yaml
+- signals/ukraine.yaml
+sources:
+- title: Germany says Russia could be ready to attack NATO by 2029
+  publisher: European Pravda
+  date: 2026-05
+  url: https://www.eurointegration.com.ua/eng/news/2026/05/15/7237620/
+  supports: Official readiness estimates
+- title: Top Risks 2026
+  publisher: Eurasia Group
+  date: 2026-01
+  url: https://www.eurasiagroup.net/issues/top-risks-2026
+  supports: Russia's second front
+- title: Russia attacks a NATO member before 2031?
+  publisher: Manifold
+  date: unclear
+  url: https://manifold.markets/event/russia-attacks-a-nato-member-before
+  supports: About 32% in one snapshot

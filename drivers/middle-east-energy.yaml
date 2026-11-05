@@ -1,0 +1,42 @@
+id: middle-east-energy
+name: Middle East war and oil shocks
+domain: geopolitics
+question: By the end of 2029, has the Iran war settled with Hormuz open and oil near $70 to 80, or become a recurring or wider Gulf war that keeps oil shocks central?
+poles:
+- Settlement, Hormuz open and a 2027 oil glut
+- Wider Gulf war with oil above $150
+impact: 4
+impact_why: The 2026 war pushed Brent above $100, though the IMF held global growth near 3.1% because the world uses less oil per unit of output. A regional war with oil above $150 for months would plausibly cause a global recession.
+uncertainty: 4
+uncertainty_why: Repo odds are 48 settled, 37 simmering, 15 regional, and 2027 oil forecasts split from about $69 (EIA) to $86 (Rabobank).
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: us-fiscal-inflation
+  why: oil is the main inflation channel
+- id: nuclear-risk
+  why: Iran's enriched uranium
+- id: russia-europe
+  why: oil revenue funds Russia
+- id: world-order
+  why: a component
+covered_by:
+- questions/gulf.yaml
+- signals/hormuz.yaml
+- signals/brent.yaml
+sources:
+- title: IMF upgrades outlook modestly despite war risks
+  publisher: Argus Media
+  date: 2026-10
+  url: https://www.argusmedia.com/es/news-and-insights/latest-market-news/2889923-imf-upgrades-outlook-modestly-despite-war-risks
+  supports: Shock cushioned
+- title: IEA sees 2027 oil glut after Hormuz recovery
+  publisher: Arab News
+  date: 2026-06
+  url: https://www.arabnews.com/node/2647605/business-economy
+  supports: About 5 mb/d surplus if the strait reopens
+- title: EIA sees Middle East oil still offline by end-2027
+  publisher: OilPrice.com
+  date: '2026'
+  url: https://oilprice.com/Energy/Crude-Oil/EIA-Sees-600000-Bpd-of-Middle-East-Oil-Still-Offline-by-End-2027.html
+  supports: Slow recovery; Brent about $69 in 2027

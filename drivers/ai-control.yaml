@@ -1,0 +1,49 @@
+id: ai-control
+name: AI control and governance
+domain: tech
+question: By the end of 2029, is frontier AI governed by binding pre-release controls, or emergency brakes after a major incident, or still an open race?
+poles:
+- A major AI incident triggers sweeping limits or a pause
+- An open race with few binding rules
+impact: 4
+impact_why: The regime sets how fast AI is released and who gets it. 2026 already brought an FTC probe of labs, agent incidents in testing and a model shelved after safety tests.
+uncertainty: 4
+uncertainty_why: No market prices the regime. US federal preemption is stalled with no statute, the EU has delayed high-risk rules to 2027 and 2028, and the repo's judgment-only split is 18 open, 65 managed, 17 brakes.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: ai-capability
+  why: more capability, more incidents and pressure
+- id: us-china-taiwan
+  why: race dynamics argue against brakes
+- id: us-institutions
+  why: capacity to legislate
+- id: info-trust
+  why: public backlash
+covered_by:
+- questions/ai-control.yaml
+- questions/ai-cyber.yaml
+- questions/us-china-ai.yaml
+- signals/incidents.yaml
+- signals/cyberinfra.yaml
+sources:
+- title: White House AI framework puts federal preemption at the center
+  publisher: Morgan Lewis
+  date: 2026-03
+  url: https://www.morganlewis.com/fr/pubs/2026/03/white-house-ai-framework-puts-federal-preemption-at-the-center-of-the-debate
+  supports: Framework is a blueprint, not law
+- title: FTC subpoenas OpenAI and Anthropic
+  publisher: Axios
+  date: 2026-10
+  url: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
+  supports: Regulatory pressure
+- title: OpenAI shelves new model after internal safety tests
+  publisher: The Star (WSJ report)
+  date: 2026-09
+  url: https://www.thestar.com.my/tech/tech-news/2026/09/29/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports
+  supports: Incident pressure
+- title: EU Digital Omnibus on AI enters into force
+  publisher: Hunton
+  date: 2026-07
+  url: https://www.hunton.com/privacy-and-cybersecurity-law-blog/eu-digital-omnibus-on-ai-enters-into-force
+  supports: EU delays to high-risk rules

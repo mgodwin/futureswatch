@@ -1,0 +1,52 @@
+id: ai-diffusion
+name: AI diffusion into work
+domain: tech
+question: By the end of 2029, has AI measurably raised productivity growth and reshaped employment in major economies, or is it still a niche, firm-level effect?
+poles:
+- Broad productivity surge with visible white-collar job restructuring
+- Shallow adoption with little aggregate productivity or job effect
+impact: 5
+impact_why: 'This is how most people would feel AI by 2029: through jobs, wages and prices. Gallup found 52% of US workers using AI in Q2 2026, and Stanford finds entry-level employment in AI-exposed jobs about 19% below peers.'
+uncertainty: 4
+uncertainty_why: 'Adoption is fast but measured effects are small: in an NBER survey of about 6,000 executives, 89% of firms report no productivity impact so far, while expecting about 1.4% over the next three years.'
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: ai-capability
+  why: sets the ceiling
+- id: ai-investment-cycle
+  why: enterprise spending
+- id: us-fiscal-inflation
+  why: a recession confounds job effects
+- id: ai-control
+  why: deployment limits
+covered_by:
+- questions/ai-jobs.yaml
+- signals/unemp.yaml
+- signals/payrolls.yaml
+- signals/gradunemp.yaml
+- signals/canaries.yaml
+- signals/softdev.yaml
+- signals/ailayoffs.yaml
+- signals/productivity.yaml
+sources:
+- title: More US employees are using AI, poll finds
+  publisher: Semafor (Gallup)
+  date: 2026-07
+  url: https://semafor.com/article/07/21/2026/more-us-employees-are-using-ai-poll-finds
+  supports: 52% of US workers use AI
+- title: Firm data on AI (NBER working paper)
+  publisher: WFH Research
+  date: 2026-03
+  url: https://wfhresearch.com/wp-content/uploads/2026/03/Firm-Data-on-AI-March-2026.pdf
+  supports: 89% of firms report no productivity effect yet
+- title: New survey findings on AI adoption and its effects
+  publisher: Federal Reserve System research
+  date: 2026-10
+  url: https://www.frbsf.org/research-and-insights/publications/system-research-st-louis-fed/2026/10/new-survey-findings-ai-adoption-effects-employment-productivity/
+  supports: Adoption about as fast as PCs; productivity effect uncertain
+- title: Canaries in the coal mine, August 2026 update
+  publisher: Stanford Digital Economy Lab
+  date: 2026-08
+  url: https://digitaleconomy.stanford.edu/news/canariesaug26/
+  supports: Entry-level employment gap in exposed jobs

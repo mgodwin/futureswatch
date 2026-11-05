@@ -1,0 +1,38 @@
+id: demographics
+name: Demographics and labor supply
+domain: economy
+question: By the end of 2029, has slowing labor-force growth become a binding constraint on growth and public finances, or been offset by migration and AI?
+poles:
+- Labor shortages and fiscal strain from shrinking workforces
+- Labor supply offset by migration or automation
+impact: 3
+impact_why: 'Real but slow: Fed staff estimate US breakeven job growth has fallen to near zero, and CBO projects deaths exceeding births from 2030.'
+uncertainty: 2
+uncertainty_why: Aging is locked in. Migration policy is the only swing factor. High-certainty background, not a decider.
+resolves_by_2029: 'no'
+scored: '2026-11-04'
+correlated_with:
+- id: us-fiscal-inflation
+  why: wage pressure and entitlement costs
+- id: ai-diffusion
+  why: automation as the offset
+- id: us-institutions
+  why: immigration policy
+covered_by:
+- signals/breakeven.yaml
+sources:
+- title: 'The Demographic Outlook: 2026 to 2056'
+  publisher: CBO
+  date: 2026-01
+  url: https://www.cbo.gov/publication/61879
+  supports: Deaths exceed births from 2030
+- title: Labor force growth, breakeven employment and potential GDP
+  publisher: Federal Reserve FEDS Notes
+  date: 2026-04
+  url: https://federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html
+  supports: Breakeven job growth near zero
+- title: World Population Prospects 2024
+  publisher: UN DESA
+  date: 2024-07
+  url: https://population.un.org/WPP/Publications/Files/WPP2024_Key-Messages.pdf
+  supports: Aging is locked in

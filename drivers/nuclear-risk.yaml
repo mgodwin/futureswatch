@@ -1,0 +1,35 @@
+id: nuclear-risk
+name: Nuclear use, testing and proliferation
+domain: geopolitics
+question: By the end of 2029, has the nuclear order only eroded, or has there been nuclear use, resumed explosive testing by a major power, or a new nuclear state?
+poles:
+- Erosion without use or new testing
+- Nuclear use or a cascade of tests and proliferation
+impact: 3
+impact_why: 'Bimodal: any use would define the era, but the likely range (arms-control collapse, a testing debate) barely touches daily life by 2029. New START lapsed in February 2026.'
+uncertainty: 2
+uncertainty_why: Erosion is the clear direction and use stays a low-probability tail on Metaculus and Manifold. Iran's unverified enriched uranium is the main wildcard.
+resolves_by_2029: 'no'
+scored: '2026-11-04'
+correlated_with:
+- id: russia-europe
+  why: most use scenarios start there
+- id: middle-east-energy
+  why: Iran breakout
+- id: us-china-taiwan
+  why: escalation in a Taiwan war
+- id: world-order
+  why: a component
+covered_by:
+- milestones/nuclear.yaml
+sources:
+- title: Doomsday Clock set closer to midnight than ever
+  publisher: CP24 (AP)
+  date: 2026-01
+  url: https://www.cp24.com/news/world/2026/01/27/atomic-scientists-set-doomsday-clock-closer-to-midnight-than-ever/
+  supports: 85 seconds; New START lapse
+- title: Iran's highly enriched uranium likely still at Isfahan
+  publisher: WTOP (AP)
+  date: 2026-04
+  url: https://wtop.com/world/2026/04/irans-highly-enriched-uranium-likely-is-at-the-isfahan-site-the-un-nuclear-chief-tells-the-ap/
+  supports: IAEA cannot verify the stockpile

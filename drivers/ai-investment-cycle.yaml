@@ -1,0 +1,54 @@
+id: ai-investment-cycle
+name: AI investment cycle and financial stability
+domain: economy
+question: By the end of 2029, has the AI capex boom kept going, gone through a sharp correction and recovered, or busted into credit losses and recession?
+poles:
+- Capex passes $1T a year and stays there, funded from revenue
+- Capex is cut and data-center debt defaults spread into recession
+impact: 5
+impact_why: Big Tech AI capex is about $725 to 785B in 2026, heading toward $1T in 2027, and it props up US growth. The BIS, IMF, Bank of England and RBA all name an AI unwind as a top financial-stability risk.
+uncertainty: 5
+uncertainty_why: The repo splits 29 sustained, 46 correction, 25 bust, with no dominant outcome. Analysts keep raising 2027 capex estimates while several hyperscalers' free cash flow has turned negative and data-center bond yields hit records.
+resolves_by_2029: 'yes'
+scored: '2026-11-04'
+correlated_with:
+- id: ai-capability
+  why: revenue only justifies capex if capability keeps climbing
+- id: ai-diffusion
+  why: enterprise adoption drives revenue
+- id: energy-compute
+  why: power caps the build-out
+- id: us-fiscal-inflation
+  why: rates set the cost of data-center debt
+covered_by:
+- questions/ai-boom.yaml
+- signals/capex.yaml
+- signals/nvda.yaml
+- signals/aicredit.yaml
+- signals/labrev.yaml
+sources:
+- title: Moody's hyperscaler capex forecasts close in on $1T by 2027
+  publisher: DatacenterDynamics
+  date: 2026-05
+  url: https://datacenterdynamics.com/en/news/moodys-hyperscaler-capex-forecasts-marked-up-by-85bn-to-close-in-on-1trn-by-2027/
+  supports: Size of the build-out
+- title: IMF flags circular AI deals
+  publisher: The Next Web
+  date: 2026-10
+  url: https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report
+  supports: About $1.4T in circular commitments
+- title: Polymarket odds of an AI bubble burst
+  publisher: Crypto Briefing
+  date: 2026-10
+  url: https://cryptobriefing.com/polymarket-odds-ai-bubble-burst-year-end/
+  supports: About 10% for 2026, about 20% by mid-2027
+- title: Senate Banking letter on AI infrastructure debt
+  publisher: US Senate Banking Committee
+  date: 2026-01
+  url: https://www.banking.senate.gov/imo/media/doc/20260122_final_letter_to_secretary_bessent_re_ai_debtpdf.pdf
+  supports: Over $1T in projected AI infrastructure debt
+- title: CoreWeave bond yield hits record
+  publisher: Benzinga
+  date: 2026-10
+  url: https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout
+  supports: Credit stress in data-center debt

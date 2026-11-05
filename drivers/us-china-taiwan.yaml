@@ -1,0 +1,41 @@
+id: us-china-taiwan
+name: US-China rivalry and Taiwan
+domain: geopolitics
+question: By the end of 2029, has US-China rivalry stayed managed competition, or has China moved to blockade, quarantine or war over Taiwan?
+poles:
+- Managed rivalry under a trade truce
+- Taiwan blockade or US-China war
+impact: 5
+impact_why: Bloomberg Economics estimates a one-year blockade cuts world GDP about 5% and a war about 10%, and it would set back AI hardware everywhere.
+uncertainty: 3
+uncertainty_why: 'Near-term odds are low (repo: 81 status quo, 14 blockade, 5 war), but longer-horizon forecasts on coercion short of invasion are widely spread.'
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: ai-capability
+  why: chips and a race change Beijing's window
+- id: trade-fragmentation
+  why: the peacetime form of the same rivalry
+- id: world-order
+  why: its largest component
+covered_by:
+- questions/taiwan.yaml
+- questions/us-china-ai.yaml
+- signals/taiwanodds.yaml
+- signals/uschina.yaml
+sources:
+- title: China attacks or blockades Taiwan in 2026
+  publisher: Metaculus
+  date: 2026-10
+  url: https://www.metaculus.com/questions/41139/china-attacksblockades-taiwan-in-2026/
+  supports: About 2% for 2026
+- title: Welcome to 2036 (Global Foresight)
+  publisher: Atlantic Council
+  date: 2026-01
+  url: https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/welcome-to-2036/
+  supports: 70% of experts expect a forcible attempt within a decade
+- title: Surveying the experts on China's approach to Taiwan
+  publisher: CSIS ChinaPower
+  date: 2024-01
+  url: https://chinapower.csis.org/surveying-experts-us-and-taiwan-views-china-approach-taiwan-2024/
+  supports: Blockade seen as more feasible than invasion

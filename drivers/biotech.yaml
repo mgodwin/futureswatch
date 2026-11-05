@@ -1,0 +1,32 @@
+id: biotech
+name: Biotech and medical breakthroughs
+domain: tech
+question: By the end of 2029, have new therapies (GLP-1s, gene therapies, AI-discovered drugs) measurably changed population health and spending, or stayed incremental?
+poles:
+- Mass-market GLP-1s and first AI-discovered approvals visibly bend health trends
+- High prices and slow trials keep gains niche
+impact: 3
+impact_why: GLP-1s already reach about 11% of US adults, but most other breakthroughs will still be small-scale by 2029.
+uncertainty: 2
+uncertainty_why: 'Direction is fairly clear: GLP-1 uptake keeps rising as prices fall, and no AI-discovered drug is approved yet, with a first approval unlikely before 2027 or 2028. Background trend, not a fork.'
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: ai-capability
+  why: AI drug discovery speed
+- id: us-institutions
+  why: FDA capacity and pricing policy
+- id: pandemic-biosecurity
+  why: shared biotech base
+covered_by: []
+sources:
+- title: GLP-1 use hits record high in US
+  publisher: Becker's Hospital Review (Gallup)
+  date: '2026'
+  url: https://www.beckershospitalreview.com/glp-1s/glp-1-use-hits-record-high-in-us-as-obesity-rates-fall-6-things-to-know/
+  supports: 11% of adults
+- title: AI-discovered drugs in clinical trials, 2026
+  publisher: IntuitionLabs
+  date: '2026'
+  url: https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026
+  supports: No approvals yet; lead candidate in Phase 3

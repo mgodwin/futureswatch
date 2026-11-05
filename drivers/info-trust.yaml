@@ -1,0 +1,37 @@
+id: info-trust
+name: Information ecosystem and trust
+domain: tech
+question: By the end of 2029, has AI-generated content broken shared factual baselines, or have trust and provenance norms stabilized?
+poles:
+- Deepfake-driven breakdown with contested elections and collapsing trust
+- Trust stabilizes through provenance, platform norms and adaptation
+impact: 3
+impact_why: It shapes politics and how other shocks are perceived more than daily economics. Global trust in news hit 37% in the 2026 Reuters Digital News Report, the lowest since 2015.
+uncertainty: 2
+uncertainty_why: Slow erosion is the consensus direction. Whether a single AI-misinformation event swings a major election is uncertain, but measured effects on votes so far are weak, and no market prices it.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: ai-capability
+  why: realism and volume of synthetic media
+- id: us-institutions
+  why: election legitimacy
+- id: global-democracy
+  why: polarization feedback
+covered_by: []
+sources:
+- title: 2026 Reuters Institute Digital News Report
+  publisher: GIJN
+  date: 2026-06
+  url: https://gijn.org/stories/2026-reuters-institute-digital-news-report/
+  supports: Trust in news at 37%
+- title: 2026 Edelman Trust Barometer
+  publisher: Edelman
+  date: 2026-01
+  url: https://www.edelman.com/index.php/news-awards/2026-edelman-trust-barometer-society-slides-into-insularity
+  supports: Slide into insularity
+- title: AI deepfakes blur reality in 2026 midterm campaigns
+  publisher: Honolulu Star-Advertiser (Reuters)
+  date: 2026-03
+  url: https://www.staradvertiser.com/2026/03/28/breaking-news/ai-deepfakes-blur-reality-in-2026-us-midterm-campaigns/
+  supports: Campaign deepfake use

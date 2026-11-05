@@ -27,7 +27,9 @@ ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL_RE = re.compile(r"^https?://\S+$")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 MONTH_RE = re.compile(r"^\d{4}-\d{2}(?:-\d{2})?$")
-FOLDERS = ["worlds", "scifi", "questions", "signals", "milestones", "checks"]
+FOLDERS = ["worlds", "scifi", "questions", "signals", "milestones", "checks", "drivers"]
+D_DOMAINS = {"tech", "economy", "geopolitics", "politics", "environment", "health"}
+RESOLVES = {"yes", "partly", "no"}
 
 
 def read_yaml(path: Path):
@@ -234,6 +236,35 @@ def validate(data: dict) -> list[str]:
                 errs.append(f"{w}: bad date '{r['date']}'")
             if r["num"] == "bad":
                 errs.append(f"{w} {r['date']}: num must be a number or empty")
+
+    dids = {d["_file"] for d in data["drivers"]}
+    for d in data["drivers"]:
+        w = f"drivers/{d['_file']}.yaml"
+        if d.get("_bad"):
+            errs.append(f"{w}: file must be a YAML mapping"); continue
+        if d.get("id") != d["_file"] or not ID_RE.match(str(d.get("id"))):
+            errs.append(f"{w}: id must match the file name, lowercase-with-dashes")
+        for k in ("name", "question", "impact_why", "uncertainty_why"):
+            if not _text(d, k):
+                errs.append(f"{w}: '{k}' is required")
+        if d.get("domain") not in D_DOMAINS:
+            errs.append(f"{w}: domain must be one of {', '.join(sorted(D_DOMAINS))}")
+        for k in ("impact", "uncertainty"):
+            if not _int(d.get(k), 1, 5):
+                errs.append(f"{w}: {k} must be a whole number 1-5")
+        if d.get("resolves_by_2029") not in RESOLVES:
+            errs.append(f"{w}: resolves_by_2029 must be yes, partly or no")
+        if not isinstance(d.get("poles"), list) or len(d["poles"]) != 2:
+            errs.append(f"{w}: poles needs exactly two outcomes")
+        for c in d.get("correlated_with") or []:
+            if not isinstance(c, dict) or c.get("id") not in dids:
+                errs.append(f"{w}: correlated_with entries need an id that is a file in drivers/")
+        srcs = d.get("sources") or []
+        if not srcs:
+            errs.append(f"{w}: needs at least one source")
+        for s in srcs:
+            if not isinstance(s, dict) or not s.get("url") or not _url_ok(s.get("url")):
+                errs.append(f"{w}: every source needs an http(s) url")
 
     seen = set()
     for i, e in enumerate(data["calendar"]):

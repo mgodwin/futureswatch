@@ -1,0 +1,44 @@
+id: us-fiscal-inflation
+name: US fiscal path, inflation and rates
+domain: economy
+question: By the end of 2029, has the US absorbed its high debt with inflation back near 2%, or hit a bond-market or stagflation episode?
+poles:
+- Inflation near 2%, rate cuts and orderly Treasury markets
+- Stagflation with a buyers' strike in long Treasuries
+impact: 4
+impact_why: CBO projects record debt (107% of GDP) and record interest costs by 2029. A long-yield spike would reprice mortgages, credit and assets worldwide.
+uncertainty: 3
+uncertainty_why: Rising debt is near-certain; inflation and the bond market are open. September 2026 CPI was 3.7% and markets price a December hike near 72%, yet the Fed's median sees inflation near 2.3% in 2027.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: ai-investment-cycle
+  why: AI capex props up growth
+- id: middle-east-energy
+  why: oil-driven inflation
+- id: trade-fragmentation
+  why: tariff pass-through
+- id: us-institutions
+  why: Fed independence and budget brinkmanship
+covered_by:
+- questions/recession.yaml
+- signals/debt.yaml
+- signals/tenyear.yaml
+- signals/fed.yaml
+- signals/recodds.yaml
+sources:
+- title: CBO's February 2026 Budget and Economic Outlook
+  publisher: CRFB
+  date: 2026-02
+  url: https://www.crfb.org/papers/cbos-february-2026-budget-and-economic-outlook
+  supports: Debt and interest path
+- title: FOMC Summary of Economic Projections
+  publisher: Federal Reserve
+  date: 2026-09
+  url: https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm
+  supports: Inflation and rate projections
+- title: December 2026 Fed rate tracker
+  publisher: PredictionMarketsPicks (Kalshi, Polymarket)
+  date: 2026-11
+  url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+  supports: About 72% for a December hike

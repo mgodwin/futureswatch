@@ -1,0 +1,34 @@
+id: trade-fragmentation
+name: Trade fragmentation
+domain: economy
+question: By the end of 2029, has world trade settled into a stable higher-tariff system, or split into rival blocs with embargoes on critical inputs?
+poles:
+- 'Managed truce: tariffs high but stable, trade rerouted'
+- 'Bloc decoupling: lapsed truce, rare-earth and chip embargoes'
+impact: 3
+impact_why: The 2025 tariff shock was absorbed better than feared, per the IMF. Only full decoupling would be era-defining.
+uncertainty: 3
+uncertainty_why: 'Elevated tariffs are near-certain. Escalation versus truce is open: the US-China truce runs on short rolling extensions and heavy rare-earth exports remain about half their pre-control level.'
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: us-china-taiwan
+  why: truce breakdown and a Taiwan crisis are linked
+- id: china-economy
+  why: export reliance
+- id: us-fiscal-inflation
+  why: tariff pass-through
+covered_by:
+- signals/uschina.yaml
+- signals/chinachips.yaml
+sources:
+- title: State of US tariffs, February 20, 2026
+  publisher: Yale Budget Lab
+  date: 2026-02
+  url: https://budgetlab.yale.edu/research/state-us-tariffs-february-20-2026
+  supports: Effective tariff rate after the IEEPA ruling
+- title: US proposes six-month extension of China trade truce
+  publisher: ROIC News
+  date: 2026-09
+  url: https://www.roic.ai/news/us-proposes-six-month-extension-of-china-trade-truce-beijing-pushes-for-longer-09-21-2026
+  supports: Truce is short-term and rolling

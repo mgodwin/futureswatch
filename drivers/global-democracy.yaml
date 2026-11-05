@@ -1,0 +1,39 @@
+id: global-democracy
+name: Global democracy and populism
+domain: politics
+question: By the end of 2029, have populist-nationalist and authoritarian forces taken power in more major democracies, or has the long decline begun to turn?
+poles:
+- Populist-nationalist wave takes power across Europe
+- Backsliding stalls and democracies rebound
+impact: 3
+impact_why: Who governs France, the UK and other large democracies shapes EU cohesion, Ukraine support and trade, but most people would feel it as policy rather than an era-defining shock.
+uncertainty: 3
+uncertainty_why: 'Signals point both ways: Orban lost in Hungary in April 2026, while the National Rally leads first-round polls for France in 2027 and UK seat forecasts for Reform range from short of a majority to a majority.'
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: us-institutions
+  why: US example
+- id: russia-europe
+  why: Ukraine policy
+- id: trade-fragmentation
+  why: nationalist trade policy
+- id: info-trust
+  why: polarization
+covered_by: []
+sources:
+- title: Freedom in the World 2026
+  publisher: Freedom House
+  date: 2026-03
+  url: https://freedomhouse.org/article/new-report-global-freedom-declined-20th-consecutive-year-2025
+  supports: 20th year of decline
+- title: Hungarian PM Orban concedes defeat
+  publisher: CBS News
+  date: 2026-04
+  url: https://www.cbsnews.com/amp/news/hungary-general-election-viktor-orban-peter-magyar-results/
+  supports: Tisza supermajority
+- title: UK-Elect general election forecast
+  publisher: UK-Elect
+  date: 2026-04
+  url: https://ukelect.co.uk/HTML/forecasts/20260409ForecastUK.html
+  supports: Reform short of a majority in one forecast

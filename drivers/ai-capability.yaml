@@ -1,0 +1,50 @@
+id: ai-capability
+name: AI capability trajectory
+domain: tech
+question: By the end of 2029, can frontier AI do most remote expert knowledge work, or automate most AI research, and is it deployed at scale?
+poles:
+- Transformative, expert-level general agents
+- Powerful but jagged tools that stop short of replacing experts
+impact: 5
+impact_why: 'Capability sits upstream of most other drivers: diffusion, control, compute demand and the investment cycle. METR''s January 2026 update says task horizons are growing faster than the old seven-month doubling.'
+uncertainty: 5
+uncertainty_why: 'Forecasts split widely: Manifold gives 53% for AGI before 2030, Metaculus has a February 2031 median, and the FRI LEAP panel''s medians are 2047 for superforecasters and 2050 for experts. Lab leaders cluster around 2027 to 2030.'
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: energy-compute
+  why: power and chips bound scaling
+- id: ai-investment-cycle
+  why: funding for training runs
+- id: ai-control
+  why: brakes could slow it
+- id: us-china-taiwan
+  why: chip supply shock
+covered_by:
+- questions/ai-capability.yaml
+- signals/metr.yaml
+- signals/rli.yaml
+- signals/arc3.yaml
+- signals/labrev.yaml
+- signals/agiforecast.yaml
+sources:
+- title: Date of Artificial General Intelligence
+  publisher: Metaculus
+  date: 2026-10
+  url: https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/
+  supports: Community median February 2031
+- title: Will we get AGI before 2030?
+  publisher: Manifold
+  date: 2026-10
+  url: https://manifold.markets/RemNi/will-we-get-agi-before-2030
+  supports: 53% for AGI before 2030
+- title: 'LEAP wave 8: AI timelines'
+  publisher: Forecasting Research Institute
+  date: 2026-06
+  url: https://forecastingresearch.substack.com/p/leap-wave-8-ai-timelines
+  supports: Expert median 2050, superforecaster median 2047
+- title: 'METR time horizons: now 10x a year'
+  publisher: LessWrong (secondary analysis)
+  date: '2026'
+  url: https://www.greaterwrong.com/posts/EYb2K9acKfyG2bome/metr-time-horizons-now-10x-year
+  supports: Faster recent trend in task horizons

@@ -1,0 +1,40 @@
+id: climate-impacts
+name: Climate impacts and extreme events
+domain: environment
+question: By the end of 2029, have climate extremes caused system-level shocks in major economies, and has emissions policy sped up or stalled?
+poles:
+- El Nino-driven food and insurance shocks
+- Hot but absorbed while emissions plateau
+impact: 3
+impact_why: El Nino pushed the FAO food price index to its highest since late 2022, but insured catastrophe losses for the first nine months of 2026 were the lowest since 2019. By 2029 effects likely arrive as price pressure, not the defining event.
+uncertainty: 2
+uncertainty_why: Warming's direction is near-certain (WMO gives 70% to a 2025-2029 average above 1.5C). The size of extremes is noise rather than a fork.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: middle-east-energy
+  why: fertilizer and energy costs
+- id: energy-compute
+  why: clean-energy build-out
+- id: china-economy
+  why: whether Chinese emissions peak
+covered_by:
+- questions/climate.yaml
+- signals/globaltemp.yaml
+- signals/enso.yaml
+sources:
+- title: WMO decadal update
+  publisher: World Meteorological Organization
+  date: 2026-05
+  url: https://wmo.int/node/38645
+  supports: 70% for a 2025-2029 average above 1.5C
+- title: Rapidly developing El Nino raises chance of record warm 2026
+  publisher: Carbon Brief
+  date: 2026-07
+  url: https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026
+  supports: About 93% for a record in 2026 or 2027
+- title: Global insured cat losses lowest since 2019
+  publisher: Artemis (Aon)
+  date: '2026'
+  url: https://www.artemis.bm/news/global-insured-natural-catastrophe-losses-reach-91bn-in-9m26-lowest-since-2019-aon/
+  supports: A quiet loss year so far

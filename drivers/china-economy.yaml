@@ -1,0 +1,34 @@
+id: china-economy
+name: China's economic trajectory
+domain: economy
+question: By the end of 2029, is China growing around 4% with deflation behind it, or stuck in a debt-deflation slump near 2 to 3%?
+poles:
+- Steady 4 to 5% growth and tech self-reliance
+- Balance-sheet stagnation and renewed deflation
+impact: 3
+impact_why: China is about a fifth of world output, but a one-to-two-point growth gap matters less to daily life elsewhere than AI, rates or war.
+uncertainty: 2
+uncertainty_why: Recent data are steady (Q3 2026 growth 4.5%, deflator turned positive in Q2) and the consensus range for 2027 to 2029 is narrow.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: trade-fragmentation
+  why: export-led growth
+- id: us-china-taiwan
+  why: shapes Beijing's risk appetite
+- id: demographics
+  why: shrinking workforce
+covered_by:
+- signals/chinachips.yaml
+- signals/chinagap.yaml
+sources:
+- title: China GDP growth beats estimates at 4.5%
+  publisher: Free Press Journal
+  date: 2026-10
+  url: https://www.freepressjournal.in/business/china-gdp-growth-beats-estimates-at-45-in-jul-sep-quarter
+  supports: Q3 2026 growth
+- title: China's first-quarter GDP beats forecasts but deflation weighs
+  publisher: Caixin Global
+  date: 2026-04
+  url: https://www.caixinglobal.com/2026-04-16/chinas-first-quarter-gdp-beats-forecasts-but-deflation-jobs-weigh-102434588.html
+  supports: Deflation context

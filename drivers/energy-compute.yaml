@@ -1,0 +1,51 @@
+id: energy-compute
+name: Energy and compute supply
+domain: tech
+question: By the end of 2029, do power, grid and chip supply keep pace with AI demand, or does supply become the binding limit on AI growth and household bills?
+poles:
+- Supply keeps up and AI growth is not power- or chip-limited
+- Shortages cap the build-out and cause grid emergencies and price spikes
+impact: 4
+impact_why: It reaches daily life through electricity bills and grid reliability, and it gates AI scaling. PJM's 2028/29 auction cleared at the price cap and came in 6.8 GW short.
+uncertainty: 3
+uncertainty_why: Tightness through 2027 and 2028 is near-consensus (memory booked through 2027, a power shortfall estimated near 32 GW). The split is over the end-state, with some analysts expecting data-center overcapacity by 2028.
+resolves_by_2029: 'yes'
+scored: '2026-11-04'
+correlated_with:
+- id: ai-investment-cycle
+  why: the demand side
+- id: us-china-taiwan
+  why: TSMC concentration
+- id: middle-east-energy
+  why: gas and LNG prices
+- id: climate-impacts
+  why: heat peaks
+covered_by:
+- questions/power-grid.yaml
+- questions/orbital-compute.yaml
+- questions/fusion.yaml
+- signals/pjm.yaml
+- signals/elecprice.yaml
+- signals/capex.yaml
+- signals/nvda.yaml
+sources:
+- title: Morgan Stanley on the AI power crunch
+  publisher: The Star
+  date: 2026-10
+  url: https://www.thestar.com.my/tech/tech-news/2026/10/05/nvidia-broadcom-shielded-as-ai-power-crunch-hits-chip-supply-chain-says-morgan-stanley
+  supports: Power shortfall estimate
+- title: PJM price hits cap again in latest auction
+  publisher: Maryland Matters
+  date: 2026-07
+  url: https://marylandmatters.org/2026/07/15/pjm-interconnection-electricity-price-hits-cap-again-in-latest-auction/
+  supports: 6.8 GW short
+- title: TrendForce HBM outlook
+  publisher: TrendForce
+  date: 2026-09
+  url: https://www.trendforce.com/presscenter/news/20260929-13255.html
+  supports: Memory constraints into 2027
+- title: Short-Term Energy Outlook
+  publisher: EIA
+  date: 2026-10
+  url: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php
+  supports: Residential price rise

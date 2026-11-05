@@ -1,0 +1,46 @@
+id: us-institutions
+name: US institutional stability
+domain: politics
+question: By the end of 2029, has the US held a 2028 election whose result was accepted and transferred normally, with courts and Congress working as checks, or did it bring a contested transfer, emergency powers at home or open defiance of courts?
+poles:
+- Normal 2029 transfer with checks restored
+- Contested 2028 transfer under emergency powers
+impact: 4
+impact_why: V-Dem's 2026 report downgraded the US to an electoral democracy. A contested transfer at the reserve-currency issuer would hit markets, the dollar and alliances well beyond the US.
+uncertainty: 4
+uncertainty_why: 'Signals split: a Manifold market gives about 75% to a normal transfer and Bright Line Watch''s expert rating rose to a term high in July 2026, while election experts surveyed in January 2026 worried about federal interference in elections.'
+resolves_by_2029: 'yes'
+scored: '2026-11-04'
+correlated_with:
+- id: global-democracy
+  why: US example and pressure on allies
+- id: info-trust
+  why: disputed results need low trust
+- id: us-fiscal-inflation
+  why: a crisis hits Treasuries and the dollar
+- id: world-order
+  why: alliance credibility
+covered_by:
+- questions/us-power.yaml (party control only)
+- signals/pres2028.yaml
+sources:
+- title: Democracy Report 2026
+  publisher: V-Dem Institute
+  date: 2026-03
+  url: https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf
+  supports: US downgraded to electoral democracy
+- title: A partial democratic rebound? (July 2026 surveys)
+  publisher: Bright Line Watch
+  date: 2026-07
+  url: https://brightlinewatch.org/a-partial-democratic-rebound/
+  supports: Expert rating at a term high
+- title: Experts on troops at polling places in 2026
+  publisher: Votebeat
+  date: 2026-01
+  url: https://www.votebeat.org/2026/01/19/trump-national-guard-troops-polling-places-2026-election-insurrection-act/
+  supports: Election expert survey
+- title: 2028 US election peaceful transfer
+  publisher: Manifold
+  date: unclear
+  url: https://manifold.markets/SuryaPali/2028-us-election-peaceful-transfer
+  supports: About 75% for a normal transfer

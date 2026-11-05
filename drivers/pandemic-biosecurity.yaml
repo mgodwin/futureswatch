@@ -1,0 +1,40 @@
+id: pandemic-biosecurity
+name: Pandemic and biosecurity
+domain: health
+question: By the end of 2029, has a natural or engineered pathogen caused a COVID-scale pandemic, or do outbreaks stay regional?
+poles:
+- Pandemic over 1M deaths reshapes daily life
+- Outbreaks contained regionally
+impact: 4
+impact_why: The tail would define the era. The current Bundibugyo Ebola outbreak has no licensed vaccine and US preparedness is weaker, but the likeliest outcome is containment.
+uncertainty: 2
+uncertainty_why: 'Forecasts lean clearly one way: the repo puts a pandemic killing over 1 million at 6%, near the 4 to 5% historical base rate, and H5N1 shows no person-to-person spread.'
+resolves_by_2029: 'yes'
+scored: '2026-11-04'
+correlated_with:
+- id: biotech
+  why: dual-use tools and countermeasures
+- id: ai-capability
+  why: AI-enabled bio uplift
+- id: ai-control
+  why: a bio-misuse incident would trigger AI limits
+covered_by:
+- questions/pandemic.yaml
+- signals/outbreaks.yaml
+- signals/biouplift.yaml
+sources:
+- title: 'Ebola disease: multi-country outbreak 2026'
+  publisher: ECDC
+  date: 2026-10
+  url: https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda
+  supports: Case counts and PHEIC
+- title: H5N1 global summary
+  publisher: CDC
+  date: 2026-06
+  url: https://www.cdc.gov/bird-flu/spotlights/global-summary-06262026.html
+  supports: No person-to-person spread
+- title: The state of bio-uplift research in mid-2026
+  publisher: EA Forum
+  date: 2026-05
+  url: https://forum.effectivealtruism.org/posts/S6ydgTdTr8sXkfs9x/the-state-of-bio-uplift-research-in-mid-2026
+  supports: No significant wet-lab uplift yet

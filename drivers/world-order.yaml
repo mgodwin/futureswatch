@@ -1,0 +1,48 @@
+id: world-order
+name: 'World order: stable or fractured'
+domain: geopolitics
+question: At the end of 2029, is the international system broadly stable, or has it fractured into hostile blocs with at least one great-power or regional war defining the period?
+poles:
+- Bent but stable order
+- Fractured blocs and a defining war
+impact: 5
+impact_why: 'An umbrella over every era-defining geopolitical tail: a Taiwan war, a NATO-Russia war, a Gulf war with oil above $150, nuclear use.'
+uncertainty: 3
+uncertainty_why: About 41% of Atlantic Council experts expect a multi-front great-power war within a decade, and the repo's Fracture world is 20% through 2029. Combined odds sit well above any single trigger but below even.
+resolves_by_2029: partly
+scored: '2026-11-04'
+correlated_with:
+- id: us-institutions
+  why: US retreat drives order change
+- id: trade-fragmentation
+  why: economic blocs come before military ones
+- id: us-china-taiwan
+  why: component
+- id: russia-europe
+  why: component
+- id: middle-east-energy
+  why: component
+- id: nuclear-risk
+  why: component
+covered_by:
+- worlds/fracture.yaml
+- questions/taiwan.yaml
+- questions/ukraine.yaml
+- questions/gulf.yaml
+notes: 'Works better as a single axis than any of its parts: each part is either a low-probability tail or moderate in impact. Overlaps with us-institutions and trade-fragmentation, so it should not be crossed with either.'
+sources:
+- title: Welcome to 2036 (Global Foresight)
+  publisher: Atlantic Council
+  date: 2026-01
+  url: https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/welcome-to-2036/
+  supports: About 41% expect a multi-front great-power war within a decade
+- title: Top Risks 2026
+  publisher: Eurasia Group
+  date: 2026-01
+  url: https://www.eurasiagroup.net/issues/top-risks-2026
+  supports: Spheres of influence, Europe under siege
+- title: 'Ian Bremmer: US ending its own global order'
+  publisher: Axios
+  date: 2026-01
+  url: https://www.axios.com/2026/01/05/ian-bremmer-us-ending-own-global-order
+  supports: US political shift as the top risk
