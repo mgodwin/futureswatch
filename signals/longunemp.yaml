@@ -1,0 +1,15 @@
+id: longunemp
+tracking: active
+name: Long-term unemployed share
+domain: jobs
+order: 94
+measures: Share of unemployed people who have been out of work 27 weeks or more.
+value: 27.1%
+asOf: 2026-09
+trend: up
+leans: neutral
+note: Near its 2026 high of 27.5% in May and up from 23.2% on average in 2025, with no recession. Richmond Fed work traces it to slow hiring, with AI-exposed jobs at most a third of the rise.
+watch: A 12-month average above 30% points toward lasting exclusion. A fall back below 23%, the 2025 average, says displaced workers are being reabsorbed.
+cadence: Monthly, first Friday
+source: Bureau of Labor Statistics via FRED
+url: https://fred.stlouisfed.org/series/LNS13025703
