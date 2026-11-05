@@ -12,9 +12,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
-/* Layout: one reading column (max 920px). Home: masthead with the four-world band, this week,
-   worlds, sci-fi lens, what-ifs, signals, milestones and checks, calendar, log, method, contribute.
-   Hash routes: home (#, or a section id), #q/<id> question page, #s/<id> signal page. */
+/* Layout (max 1240px). Home: the questions, grouped by life area with search and area chips, plus a
+   right rail (worlds, sci-fi lens, coming up) that stacks below on narrow screens.
+   Hash routes: home (#), pages (#week, #signals, #record, #worlds, #scifi, #method, #contribute),
+   #q/<id> question page, #s/<id> signal page. */
 :root {
   --bg: #edf1f3; --surface: #fbfcfc; --surface-2: #e3e9ec;
   --ink: #0f171c; --ink-2: #43515a; --muted: #5f6d77;
@@ -64,7 +65,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .muted { color: var(--muted); }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-.wrap { --gutter: 16px; max-width: 920px; margin: 0 auto; padding: 20px var(--gutter) 64px; }
+.wrap { --gutter: 16px; max-width: 1240px; margin: 0 auto; padding: 20px var(--gutter) 64px; }
 @media (min-width: 720px) { .wrap { --gutter: 28px; padding-top: 32px; } }
 
 /* Masthead: the title, then the four-world band as the page's one big element */
@@ -90,6 +91,59 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 }
 .mast-meta { display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 14px; color: var(--ink-2); margin: 18px 0 0; }
 .mast-meta b { color: var(--ink); }
+
+/* Top bar */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.brand { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: 18px; text-decoration: none; white-space: nowrap; }
+.topnav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.topnav::-webkit-scrollbar { display: none; }
+.topnav a { flex: none; font-size: 14.5px; color: var(--ink-2); text-decoration: none; padding: 6px 10px; border-radius: 999px; }
+.topnav a:hover { background: var(--surface-2); color: var(--ink); }
+.topnav a[aria-current="page"] { background: var(--surface-2); color: var(--ink); }
+@media (max-width: 639px) { .top { flex-direction: column; align-items: flex-start; gap: 6px; } .topnav { width: 100%; margin: 0 -10px; } }
+
+/* Home: questions in the main column, worlds and the sci-fi lens in a rail */
+.home { display: grid; gap: 36px; padding-top: 28px; }
+@media (min-width: 1080px) { .home { grid-template-columns: minmax(0, 1fr) 330px; gap: 40px; } .rail { position: sticky; top: 20px; max-height: calc(100vh - 40px); overflow-y: auto; scrollbar-width: thin; } }
+.hero h1 { font-family: var(--f-display); font-stretch: 118%; font-weight: 800; font-size: clamp(32px, 6.5vw, 50px); line-height: 1.02; letter-spacing: -.01em; margin: 0 0 10px; text-wrap: balance; }
+.hero .dek { margin: 0 0 8px; max-width: 64ch; }
+.hero .updated { font-size: 14.5px; color: var(--ink-2); margin: 0 0 18px; }
+.search { width: 100%; max-width: 560px; font: inherit; font-size: 16px; color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 10px; padding: 12px 14px; margin: 0 0 14px; }
+.search::placeholder { color: var(--muted); }
+.search:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+.agroup { margin-top: 30px; }
+.agroup:first-child { margin-top: 16px; }
+.agroup > h2 { font-size: 22px; margin: 0 0 4px; display: flex; align-items: baseline; gap: 8px; }
+.agroup > h2 .ct { font-size: 14px; font-weight: 400; color: var(--muted); font-family: var(--f-body); }
+.agroup > p { color: var(--ink-2); margin: 0 0 14px; max-width: 70ch; font-size: 15px; }
+.qgrid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); align-items: start; }
+.q .ans { margin: 0; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.q .ans .al { font-family: var(--f-display); font-stretch: 106%; font-weight: 750; font-size: 21px; line-height: 1.15; }
+.q .ans .ap { font-family: var(--f-display); font-weight: 800; font-size: 26px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.q .rest { list-style: none; margin: 0; padding: 10px 0 0; border-top: 1px solid var(--line); display: grid; gap: 6px; font-size: 14.5px; }
+.q .rest li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; align-items: baseline; color: var(--ink-2); }
+.q .rest .track { grid-column: 1 / -1; height: 3px; }
+.q .rest .p { font-variant-numeric: tabular-nums; color: var(--ink); white-space: nowrap; }
+.q .ans .delta, .q .rest .delta, .rp .delta { font-size: 12px; font-weight: 400; font-family: var(--f-body); }
+.q .more { margin: 0; font-size: 14px; }
+.q .topic { margin: 0 0 -6px; }
+.empty { color: var(--ink-2); }
+
+.rail { display: grid; gap: 14px; align-content: start; }
+.rp { padding: 16px; }
+.rp h2 { font-size: 18px; margin: 0 0 2px; }
+.rp .sub { font-size: 13.5px; color: var(--muted); margin: 0 0 12px; }
+.rp .stack { display: flex; gap: 2px; height: 10px; border-radius: 5px; overflow: hidden; margin: 0 0 12px; }
+.rp ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.rp li .row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.rp li .nm { font-weight: 700; display: inline-flex; align-items: center; gap: 7px; }
+.rp li .pc { font-family: var(--f-display); font-weight: 800; font-size: 18px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.rp li .tg { font-size: 13.5px; color: var(--ink-2); margin: 2px 0 0; line-height: 1.35; }
+.rp li .track { height: 4px; margin-top: 4px; }
+.rp .more { margin: 12px 0 0; font-size: 14px; }
+.rp .cal-mini { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; }
+.rp .cal-mini b { display: block; font-size: 13px; color: var(--muted); font-weight: 400; }
+.page { padding-top: 8px; }
 
 /* Nav */
 .jump { position: sticky; top: 0; z-index: 5; margin: 22px calc(var(--gutter) * -1) 0; padding: 8px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
@@ -323,25 +377,16 @@ footer p { margin: 0 0 6px; }
 </head>
 <body>
 <div class="wrap">
-  <header class="mast">
-    <h1><a href="#">Futures Watch 2030</a></h1>
-    <p class="dek">What the years to 2030 are most likely to look like for work, money, health and everyday life, re-scored every week against prediction markets, expert forecasts and live signals.</p>
-    <div id="band"></div>
-    <p class="mast-meta" id="mast-meta"></p>
+  <header class="top">
+    <a class="brand" href="#">Futures Watch</a>
+    <nav class="topnav" aria-label="Pages">
+      <a href="#week" data-page="week">This week</a>
+      <a href="#signals" data-page="signals">Signals</a>
+      <a href="#record" data-page="record">Track record</a>
+      <a href="#method" data-page="method">How it works</a>
+      <a href="#contribute" data-page="contribute">Contribute</a>
+    </nav>
   </header>
-  <nav class="jump" aria-label="Sections" id="jump">
-    <a href="#week">This week</a>
-    <a href="#portrait">Most likely 2030</a>
-    <a href="#whatifs">Questions</a>
-    <a href="#worlds">Worlds</a>
-    <a href="#scifi">Sci-fi lens</a>
-    <a href="#signals">Signals</a>
-    <a href="#milestones">Milestones</a>
-    <a href="#record">Track record</a>
-    <a href="#calendar">Coming up</a>
-    <a href="#log">Log</a>
-    <a href="#contribute">Contribute</a>
-  </nav>
   <main id="app"><p class="loading" style="padding-top:32px">Loading the latest forecast…</p></main>
   <footer>
     <p>A tool for thinking about the future, not financial, legal or career advice.</p>
@@ -360,7 +405,7 @@ footer p { margin: 0 0 6px; }
   var TREND = { up: ["↑", "Rising"], down: ["↓", "Falling"], flat: ["→", "Steady"] };
   var OC_COLORS = ["var(--c1)", "var(--c2)", "var(--c3)", "var(--c4)"];
 
-  var D = null, ui = { qf: "all", sf: "all", lean: null };
+  var D = null, ui = { qf: "all", sf: "all", lean: null, q: "" };
   var openKeys = {};
   var charts = {};
 
@@ -387,6 +432,12 @@ footer p { margin: 0 0 6px; }
   }
   function dayNum(s) { var p = parseDate(s); return p ? Date.UTC(p.y, p.mo - 1, p.d || 1) / 864e5 : null; }
   function todayNum() { var n = new Date(); return Date.UTC(n.getFullYear(), n.getMonth(), n.getDate()) / 864e5; }
+  // Compact delta for dense lists: shows nothing when the odds didn't move.
+  function moveHtml(p, prev) {
+    if (prev == null || prev === "") return "";
+    var d = Math.round(num(p) - num(prev));
+    return d ? ' <span class="delta" title="Change since last week">' + (d > 0 ? "▲" : "▼") + Math.abs(d) + "</span>" : "";
+  }
   function deltaHtml(p, prev) {
     if (prev == null || prev === "") return "";
     var d = Math.round(num(p) - num(prev));
@@ -525,24 +576,7 @@ footer p { margin: 0 0 6px; }
 
   // ---------- masthead ----------
   function renderMast() {
-    var m = D.meta || {}, ws = D.worlds;
-    var total = ws.reduce(function (a, w) { return a + num(w.prob); }, 0) || 1;
-    var flex = function (w) { return "flex:" + Math.max(num(w.prob), 8) + " 1 0"; };
-    $("band").innerHTML =
-      '<div class="band" role="img" aria-label="' + esc(ws.map(function (w) { return w.name + " " + num(w.prob) + "%"; }).join(", ")) + '">' +
-      ws.map(function (w) { return '<a href="#w-' + esc(w.id) + '" tabindex="-1" title="' + esc(w.name + " " + w.prob + "%") + '" style="flex:' + (num(w.prob) / total * 100).toFixed(2) + " 1 0;background:" + wcolor(w.id) + '"></a>'; }).join("") +
-      '</div><ul class="band-key">' + ws.map(function (w) {
-        return '<li style="' + flex(w) + ";border-color:" + wcolor(w.id) + '"><span class="pc">' + num(w.prob) + "<small>%</small></span>" +
-          '<span class="nm"><a href="#w-' + esc(w.id) + '" style="text-decoration:none">' + esc(w.name) + "</a></span>" +
-          '<span class="tg">' + esc(w.tagline) + "</span>" + (w.prevProb != null ? '<span class="dl">' + (num(w.prob) === num(w.prevProb) ? "No change this week" : (num(w.prob) > num(w.prevProb) ? "Up " : "Down ") + Math.abs(num(w.prob) - num(w.prevProb)) + " this week") + "</span>" : "") + "</li>";
-      }).join("") + "</ul>";
-    var bits = [];
-    if (m.week) bits.push("<span>Week <b>" + esc(m.week) + "</b></span>");
-    if (m.updatedAt) bits.push("<span>Updated <b>" + fmtDate(m.updatedAt, true) + "</b></span>");
-    if (m.nextUpdate) bits.push("<span>Next update <b>" + fmtDate(m.nextUpdate, true, true) + "</b></span>");
-    var days = dayNum(m.horizon || "2029-12-31") - todayNum();
-    bits.push("<span><b>" + (days > 0 ? days.toLocaleString("en-US") : 0) + "</b> days to the horizon, Dec 31, 2029</span>");
-    $("mast-meta").innerHTML = bits.join("");
+    var m = D.meta || {};
     $("foot").innerHTML = (m.updatedAt ? "Last updated " + fmtDate(m.updatedAt, true) + ". " : "") +
       "Open source: data and code on " + link(gh(), "GitHub") + ".";
   }
@@ -625,38 +659,57 @@ footer p { margin: 0 0 6px; }
     var best = null; arr(q.outcomes).forEach(function (o) { if (!best || num(o.prob) > num(best.prob)) best = o; }); return best;
   }
   function qCard(q) {
-    var ocs = arr(q.outcomes), maxP = Math.max.apply(null, ocs.map(function (o) { return num(o.prob); }).concat([0]));
+    var l = leader(q), rest = arr(q.outcomes).filter(function (o) { return o !== l; });
     return '<article class="panel q">' + (isActive(q) ? "" : '<p class="topic"><span class="tag">Proposed</span></p>') +
-      '<h3><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a></h3>" + focusMeter(q) +
-      '<ol class="ocs">' + ocs.map(function (o) {
-        return '<li class="oc' + (num(o.prob) === maxP ? " lead" : "") + '"><div class="oc-top"><span class="lbl">' + esc(o.label) + '</span><span class="pct">' + num(o.prob) + "%" + deltaHtml(o.prob, o.prevProb) + "</span></div>" + bar(o.prob) + "</li>";
-      }).join("") + "</ol>" +
+      '<h3><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a></h3>" +
+      (l ? '<p class="ans"><span class="al">' + esc(l.label) + '</span><span class="ap">' + num(l.prob) + "%</span></p>" : "") + focusMeter(q) +
+      '<ul class="rest">' + rest.map(function (o) {
+        return '<li><span>' + esc(o.label) + '</span><span class="p">' + num(o.prob) + "%" + moveHtml(o.prob, o.prevProb) + "</span>" + bar(o.prob, "var(--bar-soft)") + "</li>";
+      }).join("") + "</ul>" +
       '<p class="more"><a href="#q/' + esc(q.id) + '">Forecasts, signals and history</a></p></article>';
   }
   function areaOf(q) { return (D.areas && D.areas[q.area]) ? q.area : "other"; }
-  function secQuestions() {
-    var areas = D.areas || {}, keys = Object.keys(areas);
-    var present = {}; D.questions.forEach(function (q) { present[areaOf(q)] = 1; });
-    var h = chipRow(areas, present, "qf", "Show one life area");
-    keys.concat(["other"]).filter(function (k) { return present[k] && (ui.qf === "all" || ui.qf === k); }).forEach(function (k) {
-      var qs = D.questions.filter(function (q) { return areaOf(q) === k; });
-      h += '<h3 class="area" id="area-' + esc(k) + '">' + esc(areas[k] || "Other") + ' <span class="ct">' + qs.length + "</span></h3>" +
-        '<div class="qgrid">' + qs.map(qCard).join("") + "</div>";
-    });
-    return section("whatifs", "The questions", "What happens to work, money, health, tech and the world by the end of 2029. Each question's outcomes add up to 100%, and the focus meter shows how settled the odds are.", h);
+  function matches(q, t) {
+    if (!t) return true;
+    var hay = [q.id.replace(/-/g, " "), q.title, q.short, q.read, (D.areas || {})[q.area]].concat(arr(q.outcomes).map(function (o) { return o.label; })).join(" ").toLowerCase();
+    return t.split(/\s+/).every(function (w) { return hay.indexOf(w) >= 0; });
   }
-  function secPortrait() {
-    var pt = D.portrait || {}, secs = arr(pt.sections);
-    if (!secs.length) return "";
-    var h = (pt.intro ? '<p class="dek">' + esc(pt.intro) + "</p>" : "") + '<div class="portrait">' + secs.map(function (sec) {
-      var qs = arr(sec.questions).map(function (id) { return find(D.questions, id); }).filter(Boolean);
-      return '<section class="panel pt"><h3>' + esc((D.areas || {})[sec.area] || sec.area) + "</h3><p>" + esc(sec.text) + "</p>" +
-        (qs.length ? '<ul class="pt-q">' + qs.map(function (q) {
-          var l = leader(q);
-          return '<li><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a><span>" + (l ? esc(l.label) + " " + num(l.prob) + "%" : "") + " · " + esc(focusBand(q.focus) || "") + "</span></li>";
-        }).join("") + "</ul>" : "") + "</section>";
-    }).join("") + "</div>" + (pt.caveat ? '<p class="muted small">' + esc(pt.caveat) + "</p>" : "");
-    return section("portrait", pt.title || "Most likely 2030", pt.dek || "The leading answer to each question, put together.", h);
+  function portraitText(area) {
+    var secs = arr((D.portrait || {}).sections);
+    for (var i = 0; i < secs.length; i++) if (secs[i].area === area) return secs[i].text;
+    return "";
+  }
+  function qList() {
+    var areas = D.areas || {}, t = (ui.q || "").trim().toLowerCase();
+    var shown = D.questions.filter(function (q) { return (ui.qf === "all" || areaOf(q) === ui.qf) && matches(q, t); });
+    if (!shown.length) return '<p class="empty">No questions match that. Try a broader word, or <a href="' + esc(gh("/issues/new?template=suggest-a-factor.yml")) + '">suggest a question</a>.</p>';
+    if (t) return '<p class="muted small" style="margin:0 0 10px">' + shown.length + " question" + (shown.length === 1 ? "" : "s") + '</p><div class="qgrid">' + shown.map(qCard).join("") + "</div>";
+    return Object.keys(areas).concat(["other"]).map(function (k) {
+      var qs = shown.filter(function (q) { return areaOf(q) === k; });
+      if (!qs.length) return "";
+      var txt = portraitText(k);
+      return '<section class="agroup" id="area-' + esc(k) + '"><h2>' + esc(areas[k] || "Other") + ' <span class="ct">' + qs.length + "</span></h2>" +
+        (txt ? "<p>" + esc(txt) + "</p>" : "") + '<div class="qgrid">' + qs.map(qCard).join("") + "</div></section>";
+    }).join("");
+  }
+  function rail() {
+    var ws = D.worlds.slice().sort(function (a, b) { return num(b.prob) - num(a.prob); });
+    var fs = D.scifi.slice().sort(function (a, b) { return num(b.prob) - num(a.prob); });
+    var h = '<section class="panel rp" aria-labelledby="rp-w"><h2 id="rp-w">Which world are we in?</h2><p class="sub">Four ways the period could be defined. Odds add up to 100%.</p>' +
+      '<div class="stack" role="img" aria-label="' + esc(ws.map(function (w) { return w.name + " " + num(w.prob) + "%"; }).join(", ")) + '">' +
+      ws.map(function (w) { return '<span style="flex:' + num(w.prob) + " 1 0;background:" + wcolor(w.id) + '"></span>'; }).join("") + "</div><ol>" +
+      ws.map(function (w) {
+        return '<li><div class="row"><span class="nm"><span class="sw" style="background:' + wcolor(w.id) + '"></span>' + esc(w.name) + '</span><span class="pc">' + num(w.prob) + "%" + moveHtml(w.prob, w.prevProb) + '</span></div><p class="tg">' + esc(w.tagline) + "</p></li>";
+      }).join("") + '</ol><p class="more"><a href="#worlds">The four worlds, signposts and history</a></p></section>';
+    h += '<section class="panel rp" aria-labelledby="rp-s"><h2 id="rp-s">Which sci-fi future?</h2><p class="sub">The same evidence read as fiction.</p><ol>' +
+      fs.map(function (f) {
+        return '<li><div class="row"><span class="nm"><span class="sw" style="background:' + sfcolor(f.id) + '"></span>' + esc(f.name) + '</span><span class="pc">' + num(f.prob) + "%" + moveHtml(f.prob, f.prevProb) + "</span></div>" + bar(f.prob, sfcolor(f.id)) + "</li>";
+      }).join("") + '</ol><p class="more"><a href="#scifi">The seven futures and what they are built from</a></p></section>';
+    var today = todayNum(), next = arr(D.calendar).filter(function (e) { return dayNum(e.date) >= today; }).slice(0, 4);
+    if (next.length) h += '<section class="panel rp" aria-labelledby="rp-c"><h2 id="rp-c">Coming up</h2><ul class="cal-mini" style="margin-top:10px">' +
+      next.map(function (e) { return "<li><b>" + esc(e.when || fmtDate(e.date)) + "</b>" + (safeUrl(e.url) ? link(e.url, e.event) : esc(e.event)) + "</li>"; }).join("") +
+      '</ul><p class="more"><a href="#week">This week\'s read and the full calendar</a></p></section>';
+    return h;
   }
 
   function sigRow(s) {
@@ -766,7 +819,28 @@ footer p { margin: 0 0 6px; }
   }
 
   function renderHome() {
-    $("app").innerHTML = secWeek() + secPortrait() + secQuestions() + secWorlds() + secScifi() + secSignals() + secMilestones() + secRecord() + secCalendar() + secLog() + secMethod() + secContribute();
+    var m = D.meta || {}, pt = D.portrait || {};
+    $("app").innerHTML = '<div class="home"><div class="main"><div class="hero"><h1>What will 2030 look like?</h1>' +
+      (pt.intro ? '<p class="dek">' + esc(pt.intro) + "</p>" : "") +
+      '<p class="updated">' + (m.updatedAt ? "Updated " + fmtDate(m.updatedAt, true) + ". " : "") + '<a href="#week">What changed this week</a></p>' +
+      '<input class="search" id="qsearch" type="search" placeholder="Search: housing, software engineers, aging…" aria-label="Search the questions" value="' + esc(ui.q || "") + '">' +
+      chipRow(D.areas || {}, (function () { var p = {}; D.questions.forEach(function (q) { p[areaOf(q)] = 1; }); return p; })(), "qf", "Show one life area") + "</div>" +
+      '<div id="qlist">' + qList() + "</div>" +
+      (pt.caveat ? '<p class="muted small" style="margin-top:24px">' + esc(pt.caveat) + "</p>" : "") +
+      '</div><aside class="rail" aria-label="The big picture">' + rail() + "</aside></div>";
+  }
+  var PAGES = {
+    week: ["This week", function () { return secWeek() + secCalendar() + secLog(); }],
+    signals: ["Signals", function () { return secSignals(); }],
+    record: ["Track record", function () { return secRecord() + secMilestones(); }],
+    worlds: ["Four worlds", function () { return secWorlds(); }],
+    scifi: ["Sci-fi lens", function () { return secScifi(); }],
+    method: ["How it works", function () { return secMethod(); }],
+    contribute: ["Contribute", function () { return secContribute(); }]
+  };
+  var ALIAS = { calendar: "week", log: "week", milestones: "record" };
+  function renderPage(id) {
+    $("app").innerHTML = '<div class="page">' + PAGES[id][1]() + "</div>";
     wireCharts();
   }
 
@@ -779,7 +853,7 @@ footer p { margin: 0 0 6px; }
   function renderQuestion(q) {
     var hist = history(), ocs = arr(q.outcomes), maxP = Math.max.apply(null, ocs.map(function (o) { return num(o.prob); }));
     var drives = D.scifi.filter(function (f) { return arr(f.drivers).indexOf(q.id) >= 0; });
-    var h = '<article class="detail"><a class="back" href="#whatifs">← All questions</a>' +
+    var h = '<article class="detail"><a class="back" href="#">← All questions</a>' +
       '<p class="kv"><span>' + esc(Q_DOMAINS[q.domain] || q.domain) + "</span><span>By the end of 2029</span>" + (isActive(q) ? "" : '<span class="tag">Proposed, awaiting review</span>') + "</p>" +
       "<h1>" + esc(q.title) + '</h1><p class="lede">' + esc(q.short) + "</p>" +
       '<div class="panel q" style="max-width:620px"><ol class="ocs">' + ocs.map(function (o, i) {
@@ -837,18 +911,23 @@ footer p { margin: 0 0 6px; }
       var item = find(m[1] === "q" ? D.questions : D.signals, m[2]);
       if (item) return { view: m[1], item: item, key: h };
     }
-    return { view: "home", anchor: h, key: "home" };
+    var pg = ALIAS[h] || h;
+    if (PAGES[pg]) return { view: "page", page: pg, anchor: h !== pg ? h : null, key: "p:" + pg };
+    return { view: "home", anchor: /^area-/.test(h) ? h : null, key: "home" };
   }
   function render(keepScroll) {
     if (!D) return;
     var r = route(), changed = r.key !== lastView;
-    $("jump").hidden = r.view !== "home";
+    Array.prototype.forEach.call(document.querySelectorAll(".topnav a"), function (a) {
+      if (r.view === "page" && a.getAttribute("data-page") === r.page) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
     if (r.view === "q") { renderQuestion(r.item); document.title = r.item.title + " | Futures Watch 2030"; }
     else if (r.view === "s") { renderSignal(r.item); document.title = r.item.name + " | Futures Watch 2030"; }
-    else { if (changed || !keepScroll) renderHome(); else renderHome(); document.title = "Futures Watch 2030"; }
+    else if (r.view === "page") { renderPage(r.page); document.title = PAGES[r.page][0] + " | Futures Watch 2030"; }
+    else { renderHome(); document.title = "Futures Watch 2030"; }
     if (changed) {
-      if (r.view !== "home") window.scrollTo(0, document.querySelector(".mast").offsetHeight);
-      else if (r.anchor) { var el = document.getElementById(r.anchor); if (el) el.scrollIntoView(); }
+      var el = r.anchor && document.getElementById(r.anchor);
+      if (el) el.scrollIntoView(); else window.scrollTo(0, 0);
     }
     lastView = r.key;
   }
@@ -870,11 +949,16 @@ footer p { margin: 0 0 6px; }
       var k = t.getAttribute("data-lean"), fromCard = t.hasAttribute("data-fromcard");
       ui.lean = (ui.lean === k && !fromCard) ? null : k;
       if (fromCard) ui.sf = "all";
-      renderHome();
-      if (fromCard) $("signals").scrollIntoView(); else window.scrollTo(0, y);
+      if (fromCard) { location.hash = "signals"; render(false); return; }
+      render(true); window.scrollTo(0, y);
       return;
     }
-    renderHome(); window.scrollTo(0, y);
+    if (t.hasAttribute("data-qf")) { $("qlist").innerHTML = qList(); Array.prototype.forEach.call(document.querySelectorAll("[data-qf]"), function (c) { c.setAttribute("aria-pressed", String(c.getAttribute("data-qf") === ui.qf)); }); return; }
+    render(true); window.scrollTo(0, y);
+  });
+
+  document.addEventListener("input", function (e) {
+    if (e.target && e.target.id === "qsearch") { ui.q = e.target.value; $("qlist").innerHTML = qList(); }
   });
 
   // ---------- data ----------
