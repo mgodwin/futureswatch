@@ -63,7 +63,7 @@ The two highest raw scores, but they are strongly correlated, so two of the four
 
 ## Next steps
 
-1. Pick an axis pair.
+1. Pick an axis pair, or score more drivers together without a 2×2 (draft in [FRAME.md](FRAME.md)).
 2. Set each axis's cut point near 50/50 using the anchors, so all four quadrants are real.
 3. Rewrite `worlds/`, `METHODOLOGY.md` and the weekly prompt for the new frame, and map the old history onto it where it translates.
 
