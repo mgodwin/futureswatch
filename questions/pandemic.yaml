@@ -1,6 +1,6 @@
 id: pandemic
 tracking: active
-title: What if another pandemic hits?
+title: Will another pandemic hit?
 short: A new pandemic that kills more than 1 million people before 2030.
 domain: health
 area: health
@@ -9,12 +9,14 @@ read: Ebola is deadly but spreads slowly, and H5N1 shows no human-to-human trans
 outcomes:
 - key: 'no'
   label: Nothing at that scale
+  says: No pandemic that kills over a million people
   prob: 94
   prevProb: 94
   desc: Outbreaks happen but stay below a million deaths.
   ifThen: Emergencies like this year's Ebola outbreak stay regional.
 - key: 'yes'
   label: Major pandemic
+  says: Yes, one that kills over a million people
   prob: 6
   prevProb: 6
   desc: A WHO-declared emergency that kills more than 1 million people.

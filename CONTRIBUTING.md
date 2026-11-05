@@ -68,12 +68,12 @@ Report political, election and market odds neutrally. No opinions, and no favori
 | Field | What it means |
 |---|---|
 | `id`, `tracking`, `order` | As above. |
-| `title` | Phrased as "What if …?". |
+| `title` | A plain, open question a reader would ask, such as "What happens to home prices?". Every outcome's `says` should read as an answer to it. |
 | `short` | One sentence on what's being forecast, by the end of 2029. |
 | `domain` | `ai`, `economy`, `energy`, `geopolitics`, `politics`, `tech`, `education` or `health`. |
 | `area` | The life area it is grouped under on the site: `ai` (AI itself), `work` (work and learning), `money` (money and home), `health`, `tech` (everyday tech and energy) or `world`. |
 | `read` | Two sentences: the current state of the evidence. |
-| `outcomes` | 2–4 entries of `key`, `label`, `prob`, `prevProb`, `desc` (what the outcome is) and `ifThen` (what it would mean). `prob` values sum to 100. |
+| `outcomes` | 2–4 entries of `key`, `label` (a short name for charts), `says` (a plain sentence under about 60 characters that answers the title, shown on the home page card), `prob`, `prevProb`, `desc` (what the outcome is) and `ifThen` (what it would mean). `prob` values sum to 100. |
 | `anchors` | Forecasts this question rests on: `who`, `what`, `date` (`YYYY-MM`), `url`. Leave `url` empty only for a historical base rate. |
 | `signals` | Ids of signals that move it. |
 

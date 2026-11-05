@@ -1,6 +1,6 @@
 id: orbital-compute
 tracking: active
-title: What if AI compute moves to orbit?
+title: Will AI data centers move to space?
 short: How much AI computing runs in space by the end of 2029.
 domain: tech
 area: tech
@@ -9,18 +9,21 @@ read: Money and filings are pouring in, but only test satellites fly today. Spac
 outcomes:
 - key: demos
   label: Demos only
+  says: Only test satellites and pilots
   prob: 70
   prevProb: 70
   desc: Under 10 MW of compute in orbit; test satellites and small pilots.
   ifThen: The power squeeze stays on the ground; grids and gas turbines carry AI growth.
 - key: early
   label: Early commercial
+  says: First paying customers in orbit
   prob: 24
   prevProb: 24
   desc: 10 to 500 MW in orbit, with paying customers for inference or training.
   ifThen: A new market for launch and space solar; a modest relief valve for grids.
 - key: scale
   label: At scale
+  says: Yes, at the scale of a big data center
   prob: 6
   prevProb: 6
   desc: 500 MW or more in orbit, matching a large ground data center.

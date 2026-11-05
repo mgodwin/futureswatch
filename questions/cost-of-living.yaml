@@ -1,6 +1,6 @@
 id: cost-of-living
 tracking: active
-title: What if abundance makes everyday life cheaper?
+title: Will everyday life get cheaper?
 short: Average yearly US consumer price inflation (CPI-U, December to December) from 2027 through 2029.
 domain: economy
 area: money
@@ -9,24 +9,28 @@ read: Headline inflation is 3.7%, driven by a 20% jump in energy prices, while c
 outcomes:
 - key: cheaper
   label: Living gets noticeably cheaper
+  says: "Yes: inflation under 2%, and some prices fall"
   prob: 18
   prevProb: null
   desc: CPI averages under 2% a year over 2027–2029, with prices for some goods and services actually falling.
   ifThen: Paychecks stretch further, and rate cuts follow. This is the abundance story showing up at the checkout, most likely through cheaper energy and AI-driven services.
 - key: normal
   label: Back to normal
+  says: Inflation back to a normal 2 to 3%
   prob: 47
   prevProb: null
   desc: CPI averages 2% to 3% a year.
   ifThen: Prices keep rising, but slowly enough that most people stop noticing. Any AI savings get absorbed into normal inflation.
 - key: sticky
   label: Sticky
+  says: Inflation stuck at 3 to 4%
   prob: 23
   prevProb: null
   desc: CPI averages 3% to 4% a year.
   ifThen: Cost of living stays a top complaint. Rates stay high, and wages only just keep up.
 - key: high
   label: High inflation
+  says: High inflation, over 4% a year
   prob: 12
   prevProb: null
   desc: CPI averages more than 4% a year, as after an energy shock, tariffs or heavy deficit spending.

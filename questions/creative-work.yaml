@@ -1,6 +1,6 @@
 id: creative-work
 tracking: active
-title: What if AI displaces creative work?
+title: What happens to creative jobs?
 short: Income and work for illustrators, writers, voice actors and musicians by the end of 2029, and how the copyright fights end.
 domain: ai
 area: work
@@ -9,18 +9,21 @@ read: Surveys and platform studies show losses in routine work such as freelance
 outcomes:
 - key: displaced
   label: Broadly displaced
+  says: Most freelance creative income falls a fifth or more
   prob: 22
   prevProb: null
   desc: Paid work and income for most freelance illustrators, writers, voice actors and session musicians fall sharply, by a fifth or more, and courts mostly treat training as fair use, so few creators are paid for it.
   ifThen: Creative work becomes a hobby or a side job for most people who did it for a living. Studios, publishers and brands use AI for most routine output, and a small star tier is left.
 - key: reshaped
   label: Reshaped, with a premium on human-made
+  says: Routine work shrinks, and human-made work earns a premium
   prob: 60
   prevProb: null
   desc: Routine work such as stock images, jingles, ad copy and dubbing shrinks, but licensing deals, labels for AI content and demand for human-made work keep paid channels open.
   ifThen: Fewer entry-level gigs and more pressure on mid-tier freelancers, while known names and human-made labels earn a premium. Creators get some licensing income, mostly through labels, publishers and collecting societies.
 - key: intact
   label: Largely intact
+  says: Creative work holds up, with AI as just a tool
   prob: 18
   prevProb: null
   desc: Creative incomes and job counts stay close to 2025 levels. AI is mainly a tool creators use, and licensing becomes the norm for training data.

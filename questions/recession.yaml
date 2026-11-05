@@ -1,6 +1,6 @@
 id: recession
 tracking: active
-title: What if a recession hits?
+title: Will there be a recession before 2030?
 short: The US economy through 2029.
 domain: economy
 area: money
@@ -9,18 +9,21 @@ read: Near-term odds hold near 22% for 2027. The Fed paused on Oct 28, but infla
 outcomes:
 - key: none
   label: No recession
+  says: No recession
   prob: 51
   prevProb: 51
   desc: Growth continues; any slowdown stays shallow.
   ifThen: Rates and yields stay relatively high, and AI investment carries growth.
 - key: mild
   label: Mild recession
+  says: A short, mild recession
   prob: 33
   prevProb: 33
   desc: A short downturn; unemployment rises one to two points.
   ifThen: A year or so of layoffs and hiring freezes, followed by rate cuts.
 - key: severe
   label: Severe or stagflationary
+  says: A severe recession, or one with high inflation
   prob: 16
   prevProb: 16
   desc: Unemployment above 7%, or a recession with inflation above 5%.

@@ -1,6 +1,6 @@
 id: xr-glasses
 tracking: active
-title: What if smart glasses go mainstream?
+title: Will smart glasses go mainstream?
 short: Whether smart glasses and VR or AR headsets become a mass-market device by the end of 2029, or stay niche.
 domain: tech
 area: tech
@@ -9,18 +9,21 @@ read: Smart glasses are growing fast, led by Meta's Ray-Bans, and now make up ab
 outcomes:
 - key: niche
   label: Stays niche
+  says: No, they stay niche
   prob: 25
   prevProb: null
   desc: Fewer than 25 million smart glasses and headsets ship worldwide in 2029, as counted by IDC.
   ifThen: Smart glasses stay a gadget for early adopters, like VR before them. Privacy worries and weak use cases hold them back, and phones stay the main screen.
 - key: growing
   label: Real but not mainstream
+  says: A real market, but not mainstream
   prob: 60
   prevProb: null
   desc: Between 25 million and 75 million ship in 2029.
   ifThen: Glasses become a familiar sight, much like early smartwatches. Many people use them for calls, music, photos and AI help, but most still don't own a pair.
 - key: mainstream
   label: Goes mainstream
+  says: Yes, as common as smartwatches
   prob: 15
   prevProb: null
   desc: More than 75 million ship in 2029, roughly the scale smartwatches reached.

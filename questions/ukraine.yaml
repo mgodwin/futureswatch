@@ -1,6 +1,6 @@
 id: ukraine
 tracking: active
-title: What if the Ukraine war ends, or widens?
+title: How does the Ukraine war end up?
 short: The Russia–Ukraine war at the end of 2029.
 domain: geopolitics
 area: world
@@ -9,18 +9,21 @@ read: Talks are set for Abu Dhabi in the first half of November, and a local cea
 outcomes:
 - key: ceasefire
   label: Durable ceasefire or deal
+  says: A ceasefire or deal holds
   prob: 55
   prevProb: 55
   desc: Fighting has largely stopped under a ceasefire or settlement.
   ifThen: Lower energy and security risk in Europe, and a reconstruction boom.
 - key: continues
   label: War continues
+  says: "Still fighting at today's pace"
   prob: 41
   prevProb: 41
   desc: Active fighting continues at roughly today's intensity.
   ifThen: An ongoing drain on Europe, with periodic escalation scares.
 - key: nato
   label: NATO–Russia war
+  says: It widens into a NATO–Russia war
   prob: 4
   prevProb: 4
   desc: Direct military conflict between NATO and Russia.

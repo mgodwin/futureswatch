@@ -3,7 +3,7 @@
 # Field guide: CONTRIBUTING.md
 id: your-question-id
 tracking: proposed
-title: What if …?
+title: Will … by 2030?
 short: One sentence on what's forecast, by the end of 2029.
 domain: tech          # ai, economy, energy, geopolitics, politics, tech, education or health
 area: work          # ai, work, money, health, tech or world (the life area it is grouped under)
@@ -12,12 +12,14 @@ read: Two sentences on the current state of the evidence.
 outcomes:
 - key: yes
   label: It happens
+  says: Yes, it happens
   prob: 30
   prevProb: null
   desc: What this outcome means, concretely.
   ifThen: What the world looks like if it does.
 - key: no
   label: It doesn't
+  says: No, it doesn't happen
   prob: 70
   prevProb: null
   desc: What this outcome means, concretely.

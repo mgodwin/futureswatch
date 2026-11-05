@@ -1,6 +1,6 @@
 id: ai-capability
 tracking: active
-title: What if AI matches experts at most knowledge work?
+title: How capable will AI be by 2030?
 short: How capable AI is by the end of 2029.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: Trend data argues for faster progress; expert surveys and deployment frict
 outcomes:
 - key: transformative
   label: Transformative AI
+  says: AI does most expert desk work
   prob: 30
   prevProb: 30
   desc: Does most remote knowledge work at expert level and is deployed at scale, or automates most AI research.
   ifThen: 'The Takeoff world: fast productivity gains, deep disruption in software, finance, law, media and support work, and governments racing to control frontier models.'
 - key: jagged
   label: Powerful but jagged
+  says: Powerful but uneven, not replacing most experts
   prob: 60
   prevProb: 60
   desc: Agents handle multi-day tasks and beat experts in niches like coding and math, but don't replace knowledge workers wholesale.
   ifThen: 'Steady Climb territory: big gains for people who direct AI, with uneven displacement concentrated at entry level.'
 - key: plateau
   label: Plateau
+  says: Progress stalls, only a bit better than today
   prob: 10
   prevProb: 10
   desc: Progress slows sharply; 2029 systems are only modestly better than 2026's.

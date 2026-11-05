@@ -1,6 +1,6 @@
 id: power-grid
 tracking: active
-title: What if AI outgrows the power grid?
+title: Can the power grid keep up with AI?
 short: US grid stress from data-center demand by the end of 2029.
 domain: energy
 area: tech
@@ -9,18 +9,21 @@ read: During July's record peak, PJM came within one step of cutting power to la
 outcomes:
 - key: keepsup
   label: Grid keeps up
+  says: Yes, with modest price rises
   prob: 30
   prevProb: 30
   desc: No forced cuts to large loads; prices rise modestly.
   ifThen: Gas, solar, batteries and restarts fill the gap, and AI growth isn't power-limited.
 - key: strained
   label: Strained
+  says: Strained, with emergency cutoffs to data centers
   prob: 45
   prevProb: 45
   desc: At least one grid operator actually cuts power to data centers in an emergency, and prices spike in hot spots.
   ifThen: Higher bills in places like the PJM region and Texas, and local pushback against data centers.
 - key: crisis
   label: Crisis
+  says: Rolling blackouts, or AI build-outs halted
   prob: 25
   prevProb: 25
   desc: Rolling blackouts tied to load growth, or AI build-out halted by power shortages.

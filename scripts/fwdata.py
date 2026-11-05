@@ -175,6 +175,8 @@ def validate(data: dict) -> list[str]:
                 for k in ("label", "desc"):
                     if not _text(o, k):
                         errs.append(f"{ow}: '{k}' is required")
+                if q.get("tracking") == "active" and not _text(o, "says"):
+                    errs.append(f"{ow}: 'says' is required (a plain-English answer to the title)")
                 _check_prob(o, errs, ow)
             _sum100(ocs, errs, w)
         anchors = q.get("anchors") or []

@@ -1,6 +1,6 @@
 id: us-china-ai
 tracking: active
-title: What if China catches up in AI?
+title: Will China catch up in AI?
 short: Whether the US keeps a clear lead in frontier AI through 2029.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: China's open models trail by roughly 5 to 7 months and Huawei is gaining s
 outcomes:
 - key: uslead
   label: US keeps a clear lead
+  says: No, the US stays 6 months or more ahead
   prob: 55
   prevProb: 55
   desc: China's best models stay 6 or more months behind, held back by chip limits.
   ifThen: Export controls look vindicated; the US sets norms for frontier AI.
 - key: parity
   label: Near parity
+  says: Roughly even, within about 3 months
   prob: 38
   prevProb: 38
   desc: The gap shrinks under about 3 months, or the lead trades back and forth.
   ifThen: A tighter race, more pressure to skip safety holds, and fights over chip and model exports.
 - key: chinalead
   label: China leads
+  says: China takes the lead
   prob: 7
   prevProb: 7
   desc: A Chinese lab holds the top model for most of a year.

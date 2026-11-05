@@ -1,6 +1,6 @@
 id: gulf
 tracking: active
-title: What if the Gulf war widens?
+title: Does the Iran war settle down?
 short: The Iran war and the Strait of Hormuz by the end of 2029.
 domain: geopolitics
 area: world
@@ -9,18 +9,21 @@ read: A mine hit a tanker and Houthis struck at Saudi oil sites, then Iran offer
 outcomes:
 - key: settled
   label: Settled
+  says: "Yes: Hormuz reopens and a ceasefire holds"
   prob: 48
   prevProb: 48
   desc: Hormuz reopens and a durable ceasefire or deal holds.
   ifThen: Oil drifts back toward $70–80 and inflation pressure eases.
 - key: simmering
   label: Simmering
+  says: On-and-off fighting, with Hormuz closing again and again
   prob: 37
   prevProb: 37
   desc: On-and-off fighting with recurring Hormuz disruptions.
   ifThen: Oil stays volatile and elevated, a lasting drag through inflation.
 - key: regional
   label: Regional war
+  says: A wider Gulf war, with oil over $150
   prob: 15
   prevProb: 15
   desc: A sustained wider war involving Gulf states, with oil above $150 for months.

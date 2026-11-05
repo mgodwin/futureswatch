@@ -1,6 +1,6 @@
 id: ai-boom
 tracking: active
-title: What if the AI boom is a bubble?
+title: Is the AI boom a bubble?
 short: AI investment and AI-heavy stocks through 2029.
 domain: economy
 area: money
@@ -9,18 +9,21 @@ read: Demand is real, but the cash is running thin. Alphabet and Amazon now spen
 outcomes:
 - key: sustained
   label: Sustained build-out
+  says: No, AI spending keeps climbing
   prob: 29
   prevProb: 30
   desc: Capex keeps rising through 2029; dips are brief.
   ifThen: Chip, power and data-center businesses keep booming, and AI adoption accelerates.
 - key: correction
   label: Sharp correction, then recovery
+  says: AI stocks crash 35% or more, then recover
   prob: 46
   prevProb: 46
   desc: AI-heavy stocks fall 35% or more from their peak and/or hyperscalers cut capex, then recover.
   ifThen: A rough year for tech jobs and portfolios, then the build-out resumes.
 - key: bust
   label: Deep bust
+  says: It bursts and helps cause a recession
   prob: 25
   prevProb: 24
   desc: The unwind feeds a recession, with losses on data-center debt.

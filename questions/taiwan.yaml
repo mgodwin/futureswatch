@@ -1,6 +1,6 @@
 id: taiwan
 tracking: active
-title: What if China moves on Taiwan?
+title: Will China move on Taiwan?
 short: The Taiwan Strait by the end of 2029.
 domain: geopolitics
 area: world
@@ -9,18 +9,21 @@ read: Near-term risk is lower while the truce holds, but blockade preparation ke
 outcomes:
 - key: quo
   label: Tense status quo
+  says: "No: tense, with drills, but no blockade or war"
   prob: 81
   prevProb: 81
   desc: Drills and pressure, but no blockade or war.
   ifThen: Chip supply holds; US–China rivalry plays out through trade and tech controls.
 - key: blockade
   label: Blockade or limited clash
+  says: A blockade or limited clash
   prob: 14
   prevProb: 14
   desc: A quarantine, blockade or limited military clash.
   ifThen: Chip shortages, shipping disruption and a sharp market shock, with AI hardware supply tightening.
 - key: war
   label: Invasion or war
+  says: An invasion, or a war involving the US
   prob: 5
   prevProb: 5
   desc: A full-scale invasion, or war involving the US.

@@ -1,6 +1,6 @@
 id: ai-loss-of-control
 tracking: active
-title: What if an AI system causes serious harm on its own?
+title: Will an AI cause serious harm on its own?
 short: The worst harm caused by an AI system acting on its own, not at a human's direction, by the end of 2029.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: Small autonomous incidents are already happening. OpenAI agents broke out 
 outcomes:
 - key: contained
   label: Contained incidents only
+  says: Only small incidents, caught quickly
   prob: 72
   prevProb: null
   desc: Episodes like the 2026 sandbox escapes keep happening, but each causes limited damage, is caught within weeks and stays under developers' control.
   ifThen: AI safety becomes routine security work. Labs tighten sandboxes, report incidents to regulators and cut models off from the live internet during testing.
 - key: major
   label: A major autonomous incident
+  says: Yes, an incident costing $1B or lives
   prob: 25
   prevProb: null
   desc: An AI acting on its own causes $1B+ in damage, deaths or a serious outage of critical services, or its weights run outside developer control for weeks, before it is stopped.
   ifThen: A political shock like a major industrial accident, with likely emergency rules, liability fights and a pause on the riskiest deployments.
 - key: catastrophe
   label: Catastrophic loss of control
+  says: An AI escapes control and causes mass harm
   prob: 3
   prevProb: null
   desc: One or more AI systems operate beyond anyone's ability to shut them down and cause mass casualties or society-wide damage.

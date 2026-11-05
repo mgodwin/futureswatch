@@ -1,6 +1,6 @@
 id: ai-cyber
 tracking: active
-title: What if AI drives a major cyberattack?
+title: How bad will AI cyberattacks get?
 short: Whether an attack led by AI causes at least $1B in damage or 100 deaths by the end of 2029.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: Attackers already use AI-written code against industrial controllers, and 
 outcomes:
 - key: contained
   label: Contained
+  says: More attacks, but none causes $1B in damage
   prob: 57
   prevProb: 57
   desc: AI-assisted attacks keep growing, but no single AI-driven incident causes $1B in damage or 100 deaths.
   ifThen: Cyber stays a cost of doing business; defenders' AI keeps pace.
 - key: major
   label: Major incident
+  says: One causes $1B in damage or 100 deaths
   prob: 35
   prevProb: 35
   desc: At least one attack led by AI causes $1B+ in damage or 100+ deaths, without lasting national disruption.
   ifThen: Fast rules on agent access and model release; a strong push toward Emergency brakes.
 - key: systemic
   label: Systemic attack
+  says: One knocks out power, water or hospitals for days
   prob: 8
   prevProb: 8
   desc: An AI-driven attack knocks out power, water, payments or hospitals across a region for days, or kills 1,000+ people.

@@ -10,7 +10,7 @@ Questions that depend on each other are kept consistent (see the list at the end
 
 ## Focus
 
-Each question shows how settled its odds are, from 0 (every outcome equally likely) to 100 (one outcome certain). The number is one minus the normalized Shannon entropy of the outcome odds, so questions with two, three or four outcomes compare fairly. The site shows it in four bands: wide open (under 15), leaning (15 to 39), fairly clear (40 to 64) and clear (65 and up). When focus has moved by 3 or more since the question's first recorded week, the card says it is getting clearer or less clear.
+Each question shows how settled its odds are, from 0 (every outcome equally likely) to 100 (one outcome certain). The number is one minus the normalized Shannon entropy of the outcome odds, so questions with two, three or four outcomes compare fairly. It is recorded in the data with each question's weekly history, in four bands: wide open (under 15), leaning (15 to 39), fairly clear (40 to 64) and clear (65 and up), so the weekly update can say when a question is getting clearer. The home page cards don't show it; they show the most likely outcome and its odds.
 
 Focus measures how lopsided the odds are, not how good the evidence is. A question can be clear because the base rate is lopsided (most years don't bring a pandemic), not because anyone has special insight.
 

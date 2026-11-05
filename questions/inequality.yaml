@@ -1,6 +1,6 @@
 id: inequality
 tracking: active
-title: What if AI's gains go mostly to owners?
+title: Who gets the gains from AI?
 short: Whether workers' share of US income recovers, and whether a guaranteed-income or AI dividend program at real scale exists, by the end of 2029.
 domain: economy
 area: money
@@ -9,18 +9,21 @@ read: Workers' share of business income is at its lowest since records began in 
 outcomes:
 - key: concentrate
   label: Gains concentrate, no new floor
+  says: Mostly owners, with no new income floor
   prob: 67
   prevProb: null
   desc: No new program as defined below, and the BLS labor share index is below 96 in late 2029.
   ifThen: Stock owners and top earners pull further ahead. Pay rises roughly with prices, but the extra output from AI shows up mostly as profits and asset gains.
 - key: recover
   label: Workers' share recovers
+  says: Workers win back their share
   prob: 25
   prevProb: null
   desc: No new program, but the labor share index is back at 96 or higher in late 2029, its 2023–2024 level.
   ifThen: Tight labor markets or a profit squeeze, often in a downturn, give workers back some ground. Inequality stops widening without new policy.
 - key: floor
   label: An income floor appears
+  says: A guaranteed income program appears
   prob: 8
   prevProb: null
   desc: A federal or state law creates a new recurring cash payment of at least $1,000 a year to at least 1 million people, or to most adults in a state. Tax credits and one-off checks don't count.

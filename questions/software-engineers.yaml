@@ -1,6 +1,6 @@
 id: software-engineers
 tracking: active
-title: What if AI shrinks software engineering?
+title: What happens to software engineering jobs?
 short: US software engineer jobs, pay and junior hiring by the end of 2029.
 domain: ai
 area: work
@@ -9,18 +9,21 @@ read: Jobs at tech services firms are about 5% below their 2023 peak and still s
 outcomes:
 - key: grows
   label: Grows again, juniors included
+  says: They grow again, juniors included
   prob: 25
   prevProb: null
   desc: US software developer employment ends 2029 above its 2025 level of about 1.72M, and entry-level hiring recovers enough that young coders no longer trail their peers.
   ifThen: AI makes each engineer more productive and demand for software rises to match. A computer science degree is a good bet again, and the 2024–26 slump looks like a correction.
 - key: squeeze
   label: Juniors squeezed, total holds
+  says: Juniors are squeezed, but total jobs hold
   prob: 55
   prevProb: null
   desc: Total employment stays within about 10% of 2025, but junior hiring stays well below pre-2023 levels. Experienced engineers keep their jobs and pay.
   ifThen: A broken ladder. Seniors who steer AI tools do well, while graduates face long searches, more unpaid projects and fewer first jobs. Computer science enrollment keeps falling.
 - key: decline
   label: Broad decline
+  says: Jobs and pay fall 10% or more
   prob: 20
   prevProb: null
   desc: Software developer employment falls 10% or more from 2025, and real pay falls too, including for experienced engineers.

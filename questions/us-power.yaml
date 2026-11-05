@@ -1,6 +1,6 @@
 id: us-power
 tracking: active
-title: What if control of Washington shifts?
+title: Who will run Washington in 2029?
 short: Which party holds the White House and Congress in 2029, after the 2028 election.
 domain: politics
 area: world
@@ -9,18 +9,21 @@ read: On the eve of the vote, markets give Democrats 94% for the House and 74% f
 outcomes:
 - key: dtrifecta
   label: Democratic trifecta
+  says: Democrats hold the White House and Congress
   prob: 32
   prevProb: 30
   desc: Democrats win the White House in 2028 and hold both chambers.
   ifThen: Likely federal AI licensing and labor rules, higher taxes on capital, tighter chip export policy toward China stays.
 - key: divided
   label: Divided government
+  says: Power is split between the parties
   prob: 49
   prevProb: 50
   desc: No party controls the presidency and both chambers.
   ifThen: Gridlock on big bills; policy moves through executive orders, courts and states.
 - key: rtrifecta
   label: Republican trifecta
+  says: Republicans hold the White House and Congress
   prob: 19
   prevProb: 20
   desc: Republicans win the White House in 2028 and hold both chambers.

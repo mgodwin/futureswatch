@@ -9,24 +9,28 @@ read: Prices are still rising about 2% a year, but inflation is higher, so homes
 outcomes:
 - key: rise
   label: Real prices rise
+  says: They rise more than 5% after inflation
   prob: 15
   prevProb: null
   desc: The Case-Shiller national index beats CPI by more than 5% between August 2026 and December 2029.
   ifThen: Owners keep building wealth and renters fall further behind. This most likely needs mortgage rates to fall back toward 6% while supply stays tight.
 - key: hold
   label: Roughly hold
+  says: They roughly hold after inflation
   prob: 38
   prevProb: null
   desc: Real prices end within 5% of their August 2026 level, either way.
   ifThen: Little change in affordability. Wages slowly catch up, but high rates keep many owners locked in and sales low.
 - key: slide
   label: Slow real slide
+  says: They slide 5 to 15% after inflation
   prob: 37
   prevProb: null
   desc: Real prices fall 5% to 15%, mostly because nominal prices lag inflation rather than crash.
   ifThen: Homes get a little more affordable each year without a crash. Recent buyers feel poorer, and builders slow down.
 - key: drop
   label: Sharp drop
+  says: They drop over 15% after inflation
   prob: 10
   prevProb: null
   desc: Real prices fall more than 15%, as in a recession with forced sales or a spike in rates.

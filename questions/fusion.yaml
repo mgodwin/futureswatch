@@ -1,6 +1,6 @@
 id: fusion
 tracking: active
-title: What if fusion power works?
+title: Will fusion power work by 2030?
 short: Fusion milestones by the end of 2029. Laser fusion already passed scientific ignition at the National Ignition Facility in December 2022.
 domain: energy
 area: tech
@@ -9,18 +9,21 @@ read: Grid power before 2030 rests on Helion alone. SPARC's first plasma, expect
 outcomes:
 - key: grid
   label: Fusion power on the grid
+  says: Yes, fusion electricity reaches the grid
   prob: 5
   prevProb: 5
   desc: Any company delivers fusion electricity to a grid. Helion targets 2028 for Microsoft.
   ifThen: A historic proof point that brings a rush of investment, but too small and too late to change power prices before 2030.
 - key: netgain
   label: Net energy in a power-plant-style machine
+  says: A test reactor makes net energy, but no grid power
   prob: 35
   prevProb: 35
   desc: A magnetic-confinement device such as CFS's SPARC releases more fusion energy than the heating it takes in (Q>1), with no grid power yet.
   ifThen: Credibility for 2030s fusion plants, such as CFS's ARC in Virginia, but no near-term effect on power bills.
 - key: neither
   label: Neither yet
+  says: "Not yet: no net-energy reactor and no grid power"
   prob: 60
   prevProb: 60
   desc: Steady progress, but no Q>1 magnetic device and no grid power before 2030.

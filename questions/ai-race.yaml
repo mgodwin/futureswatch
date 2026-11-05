@@ -1,6 +1,6 @@
 id: ai-race
 tracking: active
-title: What if the AI race deliberately slows down?
+title: Will the AI race slow down on purpose?
 short: Whether frontier labs and governments choose to slow frontier AI development by the end of 2029, through agreements or rules rather than as an emergency response to an incident.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: The four leading US labs now say they want a coordinated slowdown, but the
 outcomes:
 - key: race
   label: Racing continues
+  says: No, the labs keep racing
   prob: 55
   prevProb: null
   desc: No binding compute limits and no lasting multi-lab slowdown. Pauses stay short and unilateral, like OpenAI's training halt for the last third of September 2026.
   ifThen: New frontier models keep arriving every few months, and safety rests on each lab's own testing and voluntary government review.
 - key: paced
   label: Labs pace themselves
+  says: Labs agree to slow down for 6 months or more
   prob: 32
   prevProb: null
   desc: Several leading labs coordinate a real slowdown lasting six months or more, such as capped training runs or agreed release delays, without a binding law or a deal with China.
   ifThen: Fewer and slower frontier jumps from US labs, with open-weight and Chinese models closing the gap, and fights over antitrust and fairness.
 - key: binding
   label: Binding limits
+  says: Governments impose binding limits
   prob: 13
   prevProb: null
   desc: A government sets enforceable limits on frontier training, such as a US compute cap or licensing, or the US and China sign an agreement with verification that actually constrains training.

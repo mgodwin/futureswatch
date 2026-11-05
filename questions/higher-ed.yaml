@@ -1,6 +1,6 @@
 id: higher-ed
 tracking: active
-title: What if AI upends education?
+title: How much will AI shake up college?
 short: Whether AI and money pressures reshape colleges, degrees and how students learn by the end of 2029.
 domain: education
 area: work
@@ -9,18 +9,21 @@ read: Undergraduate enrollment still grew this fall, but only 0.6%. Master's and
 outcomes:
 - key: adapts
   label: Adapts
+  says: Colleges adapt, and degrees still pay
   prob: 50
   prevProb: 50
   desc: Enrollment holds roughly steady, closures stay under about 25 a year and degrees keep a wage premium above 70%. AI becomes a standard study and teaching tool.
   ifThen: A degree still pays, but the major matters more; AI skills get folded into most programs.
 - key: squeezed
   label: Squeezed
+  says: Over 100 colleges close, or degrees pay less
   prob: 40
   prevProb: 40
   desc: Over 100 colleges close or merge from 2026 to 2029, or the wage premium falls below 70%. Majors shift sharply and more employers drop degree requirements.
   ifThen: Small private and regional colleges shrink; families weigh cost and job payoff much harder.
 - key: unbundled
   label: Unbundled
+  says: AI tutors and credentials replace many degrees
   prob: 10
   prevProb: 10
   desc: AI tutoring and skills credentials replace degrees for a large share of students; undergraduate enrollment falls 10% or more from 2025.

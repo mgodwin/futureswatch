@@ -28,6 +28,7 @@
   --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
   --f-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
   --radius: 10px;
+  --a-ai: #2463c4; --a-work: #a85410; --a-money: #127a50; --a-health: #b2305f; --a-tech: #6a44c4; --a-world: #826400;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -39,6 +40,7 @@
     --sf-utopia: #6b93ee; --sf-solarpunk: #5cb865; --sf-singularity: #a782f0; --sf-cyberpunk: #ec64aa;
     --sf-blackmirror: #8a979f; --sf-dystopia: #dc7442; --sf-collapse: #c09544;
     --c1: #cdd6db; --c2: #3fc0c2; --c3: #d08ac4; --c4: #e0a83a;
+  --a-ai: #86b6ff; --a-work: #f2a865; --a-money: #62d3a2; --a-health: #f394b0; --a-tech: #c4a8ff; --a-world: #e9c862;
     color-scheme: dark;
   }
 }
@@ -51,6 +53,7 @@
   --sf-utopia: #6b93ee; --sf-solarpunk: #5cb865; --sf-singularity: #a782f0; --sf-cyberpunk: #ec64aa;
   --sf-blackmirror: #8a979f; --sf-dystopia: #dc7442; --sf-collapse: #c09544;
   --c1: #cdd6db; --c2: #3fc0c2; --c3: #d08ac4; --c4: #e0a83a;
+  --a-ai: #86b6ff; --a-work: #f2a865; --a-money: #62d3a2; --a-health: #f394b0; --a-tech: #c4a8ff; --a-world: #e9c862;
   color-scheme: dark;
 }
 
@@ -102,47 +105,30 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .topnav a[aria-current="page"] { background: var(--surface-2); color: var(--ink); }
 @media (max-width: 639px) { .top { flex-direction: column; align-items: flex-start; gap: 6px; } .topnav { width: 100%; margin: 0 -10px; } }
 
-/* Home: questions in the main column, worlds and the sci-fi lens in a rail */
-.home { display: grid; gap: 36px; padding-top: 28px; }
-@media (min-width: 1080px) { .home { grid-template-columns: minmax(0, 1fr) 330px; gap: 40px; } .rail { position: sticky; top: 20px; max-height: calc(100vh - 40px); overflow-y: auto; scrollbar-width: thin; } }
+/* Home: every question as a card in one masonry grid */
+.home { padding-top: 28px; }
 .hero h1 { font-family: var(--f-display); font-stretch: 118%; font-weight: 800; font-size: clamp(32px, 6.5vw, 50px); line-height: 1.02; letter-spacing: -.01em; margin: 0 0 10px; text-wrap: balance; }
-.hero .dek { margin: 0 0 8px; max-width: 64ch; }
-.hero .updated { font-size: 14.5px; color: var(--ink-2); margin: 0 0 18px; }
-.search { width: 100%; max-width: 560px; font: inherit; font-size: 16px; color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 10px; padding: 12px 14px; margin: 0 0 14px; }
+.hero .dek { margin: 0 0 18px; max-width: 64ch; color: var(--ink-2); font-size: 17px; }
+.search { width: 100%; max-width: 420px; font: inherit; font-size: 16px; color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 999px; padding: 11px 18px; margin: 0 0 12px; }
 .search::placeholder { color: var(--muted); }
 .search:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
-.agroup { margin-top: 30px; }
-.agroup:first-child { margin-top: 16px; }
-.agroup > h2 { font-size: 22px; margin: 0 0 4px; display: flex; align-items: baseline; gap: 8px; }
-.agroup > h2 .ct { font-size: 14px; font-weight: 400; color: var(--muted); font-family: var(--f-body); }
-.agroup > p { color: var(--ink-2); margin: 0 0 14px; max-width: 70ch; font-size: 15px; }
-.qgrid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); align-items: start; }
-.q .ans { margin: 0; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-.q .ans .al { font-family: var(--f-display); font-stretch: 106%; font-weight: 750; font-size: 21px; line-height: 1.15; }
-.q .ans .ap { font-family: var(--f-display); font-weight: 800; font-size: 26px; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.q .rest { list-style: none; margin: 0; padding: 10px 0 0; border-top: 1px solid var(--line); display: grid; gap: 6px; font-size: 14.5px; }
-.q .rest li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; align-items: baseline; color: var(--ink-2); }
-.q .rest .track { grid-column: 1 / -1; height: 3px; }
-.q .rest .p { font-variant-numeric: tabular-nums; color: var(--ink); white-space: nowrap; }
-.q .ans .delta, .q .rest .delta, .rp .delta { font-size: 12px; font-weight: 400; font-family: var(--f-body); }
-.q .more { margin: 0; font-size: 14px; }
-.q .topic { margin: 0 0 -6px; }
+.mason { columns: 4 250px; column-gap: 16px; margin-top: 8px; }
+.qc { break-inside: avoid; display: block; margin: 0 0 16px; padding: 18px 18px 4px; }
+.qc .area { margin: 0 0 8px; font-size: 13px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
+.qc .area i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.qc h3 { margin: 0; font-family: var(--f-body); font-weight: 400; font-size: 16px; line-height: 1.35; }
+.qc h3 a { color: var(--ink-2); text-decoration: none; }
+.qc h3 a:hover { color: var(--ink); text-decoration: underline; }
+.qc .ml { margin: 12px 0 2px; font-size: 13px; color: var(--muted); }
+.qc .ans { margin: 0; font-family: var(--f-display); font-stretch: 106%; font-weight: 750; font-size: 21px; line-height: 1.2; text-wrap: pretty; }
+.qc .ans .ap { white-space: nowrap; }
+.qc .ans .delta { font-size: 12px; font-weight: 400; font-family: var(--f-body); }
+.qc .others { margin-top: 12px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 6px; min-height: 44px; font-size: 14px; text-decoration: none; }
+.qc .others:hover { text-decoration: underline; }
+.qc .others svg { flex: none; }
+.qcount { font-size: 14px; color: var(--muted); margin: 0 0 10px; }
 .empty { color: var(--ink-2); }
 
-.rail { display: grid; gap: 14px; align-content: start; }
-.rp { padding: 16px; }
-.rp h2 { font-size: 18px; margin: 0 0 2px; }
-.rp .sub { font-size: 13.5px; color: var(--muted); margin: 0 0 12px; }
-.rp .stack { display: flex; gap: 2px; height: 10px; border-radius: 5px; overflow: hidden; margin: 0 0 12px; }
-.rp ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.rp li .row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
-.rp li .nm { font-weight: 700; display: inline-flex; align-items: center; gap: 7px; }
-.rp li .pc { font-family: var(--f-display); font-weight: 800; font-size: 18px; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.rp li .tg { font-size: 13.5px; color: var(--ink-2); margin: 2px 0 0; line-height: 1.35; }
-.rp li .track { height: 4px; margin-top: 4px; }
-.rp .more { margin: 12px 0 0; font-size: 14px; }
-.rp .cal-mini { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; }
-.rp .cal-mini b { display: block; font-size: 13px; color: var(--muted); font-weight: 400; }
 .page { padding-top: 8px; }
 
 /* Nav */
@@ -225,6 +211,7 @@ details[open] > summary::before { content: "\2212"; }
 .chip { font: inherit; font-size: 14px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
 .chip:hover { color: var(--ink); border-color: var(--ink-2); }
 .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip .adot { width: 8px; height: 8px; border-radius: 50%; }
 .chip .ct { font-variant-numeric: tabular-nums; opacity: .75; }
 .chiplabel { font-size: 14px; color: var(--muted); align-self: center; margin-right: 4px; }
 
@@ -381,6 +368,8 @@ footer p { margin: 0 0 6px; }
     <a class="brand" href="#">Futures Watch</a>
     <nav class="topnav" aria-label="Pages">
       <a href="#week" data-page="week">This week</a>
+      <a href="#worlds" data-page="worlds">Worlds</a>
+      <a href="#scifi" data-page="scifi">Sci-fi futures</a>
       <a href="#signals" data-page="signals">Signals</a>
       <a href="#record" data-page="record">Track record</a>
       <a href="#method" data-page="method">How it works</a>
@@ -636,80 +625,42 @@ footer p { margin: 0 0 6px; }
   function chipRow(map, present, key, label) {
     return '<div class="chips" role="group" aria-label="' + esc(label) + '"><button class="chip" type="button" data-' + key + '="all" aria-pressed="' + (ui[key] === "all") + '">All</button>' +
       Object.keys(map).filter(function (k) { return present[k]; }).map(function (k) {
-        return '<button class="chip" type="button" data-' + key + '="' + k + '" aria-pressed="' + (ui[key] === k) + '">' + esc(map[k]) + "</button>";
+        return '<button class="chip" type="button" data-' + key + '="' + k + '" aria-pressed="' + (ui[key] === k) + '">' + (key === "qf" ? '<i class="adot" style="background:var(--a-' + k + ')"></i>' : "") + esc(map[k]) + "</button>";
       }).join("") + "</div>";
   }
 
-  // Focus: how lopsided a question's odds are (0 = every outcome equally likely, 100 = settled).
-  function focusBand(f) {
-    if (f == null) return null;
-    return f >= 65 ? "Clear" : f >= 40 ? "Fairly clear" : f >= 15 ? "Leaning" : "Wide open";
-  }
-  function focusMeter(q) {
-    var f = q.focus; if (f == null) return "";
-    var lit = f >= 65 ? 4 : f >= 40 ? 3 : f >= 15 ? 2 : 1, fh = arr(q.focusHistory), move = "";
-    if (fh.length > 1) {
-      var d = num(fh[fh.length - 1].focus) - num(fh[0].focus);
-      if (Math.abs(d) >= 3) move = d > 0 ? ", getting clearer" : ", getting less clear";
-    }
-    return '<p class="focus" title="Focus ' + f + ' of 100: how lopsided the odds are"><span class="meter" aria-hidden="true">' +
-      [1, 2, 3, 4].map(function (i) { return "<i" + (i <= lit ? ' class="on"' : "") + "></i>"; }).join("") + "</span>" + esc(focusBand(f) + move) + "</p>";
-  }
+  // Home order: everyday-life questions first. Any question not listed follows in file order.
+  var HOME_ORDER = ["housing", "ai-jobs", "permanent-underclass", "software-engineers", "energy-bills", "cost-of-living", "recession", "drivers", "higher-ed",
+    "medicine", "longevity", "creative-work", "ai-capability", "ai-boom", "inequality", "xr-glasses", "humanoid-robots", "ai-race", "ai-self-improvement",
+    "ai-loss-of-control", "power-grid", "taiwan", "pandemic", "ai-cyber", "ai-control", "us-china-ai", "fusion", "climate", "ukraine", "gulf", "us-power", "orbital-compute"];
+  function homeRank(q) { var i = HOME_ORDER.indexOf(q.id); return i < 0 ? 1000 + num(q.order) : i; }
   function leader(q) {
     var best = null; arr(q.outcomes).forEach(function (o) { if (!best || num(o.prob) > num(best.prob)) best = o; }); return best;
   }
-  function qCard(q) {
-    var l = leader(q), rest = arr(q.outcomes).filter(function (o) { return o !== l; });
-    return '<article class="panel q">' + (isActive(q) ? "" : '<p class="topic"><span class="tag">Proposed</span></p>') +
-      '<h3><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a></h3>" +
-      (l ? '<p class="ans"><span class="al">' + esc(l.label) + '</span><span class="ap">' + num(l.prob) + "%</span></p>" : "") + focusMeter(q) +
-      '<ul class="rest">' + rest.map(function (o) {
-        return '<li><span>' + esc(o.label) + '</span><span class="p">' + num(o.prob) + "%" + moveHtml(o.prob, o.prevProb) + "</span>" + bar(o.prob, "var(--bar-soft)") + "</li>";
-      }).join("") + "</ul>" +
-      '<p class="more"><a href="#q/' + esc(q.id) + '">Forecasts, signals and history</a></p></article>';
-  }
+  function says(o) { return o.says || o.label; }
   function areaOf(q) { return (D.areas && D.areas[q.area]) ? q.area : "other"; }
+  function acolor(q) { return areaOf(q) === "other" ? "var(--muted)" : "var(--a-" + q.area + ")"; }
+  var CHEV = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
+  function qCard(q) {
+    var l = leader(q), n = arr(q.outcomes).length - 1, href = "#q/" + esc(q.id);
+    return '<article class="panel qc"><p class="area"><i style="background:' + acolor(q) + '"></i>' + esc((D.areas || {})[q.area] || "Other") +
+      (isActive(q) ? "" : ' <span class="tag">Proposed</span>') + "</p>" +
+      '<h3><a href="' + href + '">' + esc(q.title) + "</a></h3>" +
+      (l ? '<p class="ml">Most likely outcome</p><p class="ans">' + esc(says(l)) + ' <span class="ap" style="color:' + acolor(q) + '">' + num(l.prob) + "%</span>" + moveHtml(l.prob, l.prevProb) + "</p>" : "") +
+      '<a class="others" href="' + href + '">See ' + n + " other possible outcome" + (n === 1 ? "" : "s") + CHEV + "</a></article>";
+  }
   function matches(q, t) {
     if (!t) return true;
-    var hay = [q.id.replace(/-/g, " "), q.title, q.short, q.read, (D.areas || {})[q.area]].concat(arr(q.outcomes).map(function (o) { return o.label; })).join(" ").toLowerCase();
+    var hay = [q.id.replace(/-/g, " "), q.title, q.short, q.read, (D.areas || {})[q.area]].concat(arr(q.outcomes).map(function (o) { return o.label + " " + (o.says || ""); })).join(" ").toLowerCase();
     return t.split(/\s+/).every(function (w) { return hay.indexOf(w) >= 0; });
   }
-  function portraitText(area) {
-    var secs = arr((D.portrait || {}).sections);
-    for (var i = 0; i < secs.length; i++) if (secs[i].area === area) return secs[i].text;
-    return "";
-  }
   function qList() {
-    var areas = D.areas || {}, t = (ui.q || "").trim().toLowerCase();
-    var shown = D.questions.filter(function (q) { return (ui.qf === "all" || areaOf(q) === ui.qf) && matches(q, t); });
+    var t = (ui.q || "").trim().toLowerCase();
+    var shown = D.questions.filter(function (q) { return (ui.qf === "all" || areaOf(q) === ui.qf) && matches(q, t); })
+      .sort(function (a, b) { return homeRank(a) - homeRank(b); });
     if (!shown.length) return '<p class="empty">No questions match that. Try a broader word, or <a href="' + esc(gh("/issues/new?template=suggest-a-factor.yml")) + '">suggest a question</a>.</p>';
-    if (t) return '<p class="muted small" style="margin:0 0 10px">' + shown.length + " question" + (shown.length === 1 ? "" : "s") + '</p><div class="qgrid">' + shown.map(qCard).join("") + "</div>";
-    return Object.keys(areas).concat(["other"]).map(function (k) {
-      var qs = shown.filter(function (q) { return areaOf(q) === k; });
-      if (!qs.length) return "";
-      var txt = portraitText(k);
-      return '<section class="agroup" id="area-' + esc(k) + '"><h2>' + esc(areas[k] || "Other") + ' <span class="ct">' + qs.length + "</span></h2>" +
-        (txt ? "<p>" + esc(txt) + "</p>" : "") + '<div class="qgrid">' + qs.map(qCard).join("") + "</div></section>";
-    }).join("");
-  }
-  function rail() {
-    var ws = D.worlds.slice().sort(function (a, b) { return num(b.prob) - num(a.prob); });
-    var fs = D.scifi.slice().sort(function (a, b) { return num(b.prob) - num(a.prob); });
-    var h = '<section class="panel rp" aria-labelledby="rp-w"><h2 id="rp-w">Which world are we in?</h2><p class="sub">Four ways the period could be defined. Odds add up to 100%.</p>' +
-      '<div class="stack" role="img" aria-label="' + esc(ws.map(function (w) { return w.name + " " + num(w.prob) + "%"; }).join(", ")) + '">' +
-      ws.map(function (w) { return '<span style="flex:' + num(w.prob) + " 1 0;background:" + wcolor(w.id) + '"></span>'; }).join("") + "</div><ol>" +
-      ws.map(function (w) {
-        return '<li><div class="row"><span class="nm"><span class="sw" style="background:' + wcolor(w.id) + '"></span>' + esc(w.name) + '</span><span class="pc">' + num(w.prob) + "%" + moveHtml(w.prob, w.prevProb) + '</span></div><p class="tg">' + esc(w.tagline) + "</p></li>";
-      }).join("") + '</ol><p class="more"><a href="#worlds">The four worlds, signposts and history</a></p></section>';
-    h += '<section class="panel rp" aria-labelledby="rp-s"><h2 id="rp-s">Which sci-fi future?</h2><p class="sub">The same evidence read as fiction.</p><ol>' +
-      fs.map(function (f) {
-        return '<li><div class="row"><span class="nm"><span class="sw" style="background:' + sfcolor(f.id) + '"></span>' + esc(f.name) + '</span><span class="pc">' + num(f.prob) + "%" + moveHtml(f.prob, f.prevProb) + "</span></div>" + bar(f.prob, sfcolor(f.id)) + "</li>";
-      }).join("") + '</ol><p class="more"><a href="#scifi">The seven futures and what they are built from</a></p></section>';
-    var today = todayNum(), next = arr(D.calendar).filter(function (e) { return dayNum(e.date) >= today; }).slice(0, 4);
-    if (next.length) h += '<section class="panel rp" aria-labelledby="rp-c"><h2 id="rp-c">Coming up</h2><ul class="cal-mini" style="margin-top:10px">' +
-      next.map(function (e) { return "<li><b>" + esc(e.when || fmtDate(e.date)) + "</b>" + (safeUrl(e.url) ? link(e.url, e.event) : esc(e.event)) + "</li>"; }).join("") +
-      '</ul><p class="more"><a href="#week">This week\'s read and the full calendar</a></p></section>';
-    return h;
+    return (t || ui.qf !== "all" ? '<p class="qcount">' + shown.length + " question" + (shown.length === 1 ? "" : "s") + "</p>" : "") +
+      '<div class="mason">' + shown.map(qCard).join("") + "</div>";
   }
 
   function sigRow(s) {
@@ -819,15 +770,13 @@ footer p { margin: 0 0 6px; }
   }
 
   function renderHome() {
-    var m = D.meta || {}, pt = D.portrait || {};
-    $("app").innerHTML = '<div class="home"><div class="main"><div class="hero"><h1>What will 2030 look like?</h1>' +
-      (pt.intro ? '<p class="dek">' + esc(pt.intro) + "</p>" : "") +
-      '<p class="updated">' + (m.updatedAt ? "Updated " + fmtDate(m.updatedAt, true) + ". " : "") + '<a href="#week">What changed this week</a></p>' +
-      '<input class="search" id="qsearch" type="search" placeholder="Search: housing, software engineers, aging…" aria-label="Search the questions" value="' + esc(ui.q || "") + '">' +
+    var m = D.meta || {}, n = D.questions.filter(isActive).length;
+    $("app").innerHTML = '<div class="home"><div class="hero"><h1>What will 2030 look like?</h1>' +
+      '<p class="dek">' + n + " questions about everyday life, with the odds for every answer, re-scored every Monday against markets, forecasts and live signals." +
+      (m.updatedAt ? " Updated " + fmtDate(m.updatedAt, true) + '. <a href="#week">What changed this week</a>' : "") + "</p>" +
+      '<input class="search" id="qsearch" type="search" placeholder="Try housing, jobs, aging" aria-label="Search the questions" value="' + esc(ui.q || "") + '">' +
       chipRow(D.areas || {}, (function () { var p = {}; D.questions.forEach(function (q) { p[areaOf(q)] = 1; }); return p; })(), "qf", "Show one life area") + "</div>" +
-      '<div id="qlist">' + qList() + "</div>" +
-      (pt.caveat ? '<p class="muted small" style="margin-top:24px">' + esc(pt.caveat) + "</p>" : "") +
-      '</div><aside class="rail" aria-label="The big picture">' + rail() + "</aside></div>";
+      '<div id="qlist">' + qList() + "</div></div>";
   }
   var PAGES = {
     week: ["This week", function () { return secWeek() + secCalendar() + secLog(); }],
@@ -857,14 +806,14 @@ footer p { margin: 0 0 6px; }
       '<p class="kv"><span>' + esc(Q_DOMAINS[q.domain] || q.domain) + "</span><span>By the end of 2029</span>" + (isActive(q) ? "" : '<span class="tag">Proposed, awaiting review</span>') + "</p>" +
       "<h1>" + esc(q.title) + '</h1><p class="lede">' + esc(q.short) + "</p>" +
       '<div class="panel q" style="max-width:620px"><ol class="ocs">' + ocs.map(function (o, i) {
-        return '<li class="oc' + (num(o.prob) === maxP ? " lead" : "") + '"><div class="oc-top"><span class="lbl"><span class="sw" style="background:' + OC_COLORS[i % 4] + ';margin-right:6px"></span>' + esc(o.label) + '</span><span class="pct">' + num(o.prob) + "%" + deltaHtml(o.prob, o.prevProb) + "</span></div>" + bar(o.prob) + "</li>";
+        return '<li class="oc' + (num(o.prob) === maxP ? " lead" : "") + '"><div class="oc-top"><span class="lbl"><span class="sw" style="background:' + OC_COLORS[i % 4] + ';margin-right:6px"></span>' + esc(says(o)) + '</span><span class="pct">' + num(o.prob) + "%" + deltaHtml(o.prob, o.prevProb) + "</span></div>" + bar(o.prob) + "</li>";
       }).join("") + "</ol></div>" +
       (q.read ? '<div class="prose" style="margin-top:16px"><p><b>Current read.</b> ' + esc(q.read) + "</p></div>" : "");
     h += lineChart(ocs.map(function (o, i) {
       return { name: o.label, color: OC_COLORS[i % 4], pts: hist.filter(function (x) { return x.questions && x.questions[q.id] && x.questions[q.id][o.key] != null; }).map(function (x) { return { d: x.date, v: num(x.questions[q.id][o.key]) }; }) };
     }), { id: "q-" + q.id, title: "Odds by week", pct: true });
     h += "<h2>What each outcome means</h2><dl class=\"odl prose\">" + ocs.map(function (o) {
-      return "<div><dt>" + esc(o.label) + ", " + num(o.prob) + "%</dt><dd>" + esc(o.desc) + (o.ifThen ? " <i>If so:</i> " + esc(o.ifThen) : "") + "</dd></div>";
+      return "<div><dt>" + esc(says(o)) + ", " + num(o.prob) + "%</dt><dd>" + esc(o.desc) + (o.ifThen ? " <i>If so:</i> " + esc(o.ifThen) : "") + "</dd></div>";
     }).join("") + "</dl>";
     if (arr(q.anchors).length) h += "<h2>What forecasters say</h2><ul class=\"anchors prose\">" + q.anchors.map(function (a) {
       var src = [a.date ? fmtDate(a.date) : "", safeUrl(a.url) ? link(a.url, host(a.url)) : ""].filter(Boolean).join(", ");
@@ -873,7 +822,7 @@ footer p { margin: 0 0 6px; }
     var sg = arr(q.signals).map(function (id) { return find(D.signals, id); }).filter(Boolean);
     if (sg.length) h += "<h2>Signals that move it</h2><ul class=\"panel sigs\">" + sg.map(sigRow).join("") + "</ul>";
     if (drives.length) h += '<h2>Feeds the sci-fi lens</h2><div class="pills">' + drives.map(function (f) { return '<a href="#scifi"><span class="sw" style="background:' + sfcolor(f.id) + '"></span>' + esc(f.name) + " " + num(f.prob) + "%</a>"; }).join("") + "</div>";
-    h += editBlock(q.file, "what-if") + "</article>";
+    h += editBlock(q.file, "question") + "</article>";
     $("app").innerHTML = h;
     wireCharts();
   }
@@ -896,7 +845,7 @@ footer p { margin: 0 0 6px; }
     }
     if (rd.length) h += "<h2>Every reading</h2><div class=\"tablewrap prose\"><table><thead><tr><th>Checked</th><th>Reading</th><th>Data as of</th></tr></thead><tbody>" +
       rd.slice().reverse().map(function (r) { return "<tr><td class=\"n\">" + fmtDate(r.date) + "</td><td>" + esc(r.value) + '</td><td class="n">' + fmtDate(r.asOf) + "</td></tr>"; }).join("") + "</tbody></table></div>";
-    if (usedBy.length) h += '<h2>Feeds these what-ifs</h2><div class="pills">' + usedBy.map(function (q) { return '<a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a>"; }).join("") + "</div>";
+    if (usedBy.length) h += '<h2>Feeds these questions</h2><div class="pills">' + usedBy.map(function (q) { return '<a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a>"; }).join("") + "</div>";
     h += editBlock(s.file, "signal") + "</article>";
     $("app").innerHTML = h;
     wireCharts();

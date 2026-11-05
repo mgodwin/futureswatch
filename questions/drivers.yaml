@@ -1,6 +1,6 @@
 id: drivers
 tracking: active
-title: What if robotaxis take over city driving?
+title: Will robotaxis take over city driving?
 short: How many US metros have driverless robotaxis by the end of 2029, and what happens to ride-hail, delivery and trucking jobs.
 domain: tech
 area: work
@@ -9,24 +9,28 @@ read: Waymo carries more than 500,000 paid rides a week in 15 US metros, and Tes
 outcomes:
 - key: stall
   label: Rollout stalls
+  says: The rollout stalls after a crash or new rules
   prob: 8
   prevProb: null
   desc: A serious crash, a recall or new rules freeze expansion, and fewer than 15 US metros have public paid driverless rides at the end of 2029.
   ifThen: Robotaxis stay a novelty in a few Sun Belt and West Coast cities. Ride-hail and delivery driving carry on as now.
 - key: spreading
   label: Spreading, jobs hold
+  says: Robotaxis in 15 to 29 cities, and driving jobs hold
   prob: 40
   prevProb: null
   desc: 15–29 metros have public paid driverless rides from any company, and US driving jobs (trucking, couriers and ride-hail) are down less than 10% from 2025.
   ifThen: Hailing a driverless car is normal in many big cities, and ride-hail drivers earn less in those places. Most driving work, including long-haul trucking, still needs a person.
 - key: mainstream
   label: Mainstream in big cities
+  says: Robotaxis in 30 or more cities, and driving jobs hold
   prob: 47
   prevProb: null
   desc: 30 or more metros have public paid driverless rides, but total US driving jobs are still down less than 10% from 2025.
   ifThen: Most large metros have robotaxis, and gig drivers there shift toward suburbs, airports and deliveries. Driverless trucks run a set of Sun Belt freight lanes. The job losses are real but slow.
 - key: jobs-fall
   label: Driving jobs fall broadly
+  says: Driving jobs fall 10% or more
   prob: 5
   prevProb: null
   desc: US driving jobs fall 10% or more from 2025, with robotaxis and driverless trucks a main cause rather than a recession.

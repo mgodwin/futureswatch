@@ -1,6 +1,6 @@
 id: ai-control
 tracking: active
-title: What if an AI incident triggers a crackdown?
+title: How tightly will governments control AI?
 short: How tightly frontier AI is controlled by the end of 2029.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: 'Pressure is building: the FTC subpoenaed OpenAI and Anthropic, eight stat
 outcomes:
 - key: open
   label: Open race
+  says: Hardly at all, and new models ship freely
   prob: 18
   prevProb: 18
   desc: Few binding rules; frontier releases go out largely unhindered.
   ifThen: Faster spread of capabilities, and more room for misuse.
 - key: managed
   label: Managed release
+  says: Governments test new models before release
   prob: 65
   prevProb: 65
   desc: Government pre-release testing and case-by-case approvals become routine, as began in 2026.
   ifThen: Slower, staggered releases; access to the strongest models depends on approvals.
 - key: brakes
   label: Emergency brakes
+  says: An AI incident triggers a pause or hard limits
   prob: 17
   prevProb: 17
   desc: 'A serious AI incident triggers sweeping limits: a moratorium, compute caps or an international pause.'

@@ -1,6 +1,6 @@
 id: humanoid-robots
 tracking: active
-title: What if humanoid robots go to work?
+title: Will humanoid robots go to work?
 short: Whether humanoid and general-purpose robots do real paid work at scale in warehouses, factories and homes by the end of 2029.
 domain: tech
 area: work
@@ -9,18 +9,21 @@ read: Shipments are climbing fast, mostly from Chinese makers, but documented pa
 outcomes:
 - key: scale
   label: Real work at scale
+  says: Yes, over 100,000 doing paid work
   prob: 20
   prevProb: null
   desc: By the end of 2029, at least 100,000 humanoids worldwide do paid productive work, not research, teaching or shows, and at least one maker has 10,000 or more working at customer sites.
   ifThen: Humanoids become a normal sight in big warehouses and car plants, and pressure falls on manual warehouse and line jobs. Early home robots do simple chores for tens of thousands of households.
 - key: niche
   label: Niche fleets
+  says: Thousands, doing narrow jobs for a few big firms
   prob: 60
   prevProb: null
   desc: Thousands to tens of thousands of humanoids do paid work, mostly narrow, repeated tasks at a few large customers. Home robots stay early-adopter gadgets.
   ifThen: Robots fill some hard-to-staff shifts but do not change overall factory or warehouse jobs. Wheeled arms and ordinary automation still do most of the new work.
 - key: stall
   label: Mostly demos
+  says: Mostly demos, with under 5,000 at work
   prob: 20
   prevProb: null
   desc: Fewer than about 5,000 humanoids do paid productive work outside research and education. Reliability, cost or safety problems slow deployment, and funding cools.

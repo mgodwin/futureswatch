@@ -1,6 +1,6 @@
 id: climate
 tracking: active
-title: What if warming accelerates?
+title: How hot will 2025 to 2029 run?
 short: Average global temperature for 2025–2029 above preindustrial, as measured by Copernicus.
 domain: energy
 area: world
@@ -9,18 +9,21 @@ read: El Niño reached +2.1°C and NOAA now gives 83% odds of record strength th
 outcomes:
 - key: below
   label: Below 1.5°C
+  says: Under 1.5°C above preindustrial
   prob: 14
   prevProb: 14
   desc: The five-year average stays under the Paris 1.5°C level.
   ifThen: A little more time, though still with record-warm years.
 - key: over
   label: 1.5–1.6°C
+  says: Just past the 1.5°C line, at 1.5 to 1.6°C
   prob: 72
   prevProb: 72
   desc: The 1.5°C level is exceeded on a five-year average.
   ifThen: '1.5°C is effectively crossed: more heat waves, rising insurance costs and food-price swings.'
 - key: wellover
   label: Above 1.6°C
+  says: Above 1.6°C, running hot
   prob: 14
   prevProb: 14
   desc: Warming runs hot, with 2027 setting a large new record and little cooling after.

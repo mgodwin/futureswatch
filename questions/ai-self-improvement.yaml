@@ -1,6 +1,6 @@
 id: ai-self-improvement
 tracking: active
-title: What if AI starts speeding up AI research itself?
+title: Will AI start speeding up AI research?
 short: How much AI accelerates the labs' own research by the end of 2029, from a useful tool to runaway self-improvement.
 domain: ai
 area: ai
@@ -9,18 +9,21 @@ read: AI already writes most of the code at leading labs, and OpenAI says it has
 outcomes:
 - key: tool
   label: A strong tool
+  says: It helps, but research runs under 3× faster
   prob: 47
   prevProb: null
   desc: AI handles most coding and many experiments, but overall AI research moves less than 3 times faster than it would without AI, and people still set the direction.
   ifThen: Steady, fast progress on today's trend. Labs stay human-led and gains show up as faster products rather than sudden jumps.
 - key: major
   label: A major speedup
+  says: Yes, research runs 3 to 10× faster
   prob: 38
   prevProb: null
   desc: A lab credibly reports AI running most research end to end, or a measured speedup of 3 to 10 times, close to OpenAI's goal of an automated AI researcher by March 2028.
   ifThen: Capabilities improve noticeably faster each year, small research teams can do what big ones did, and pressure grows for oversight of AI-run research.
 - key: runaway
   label: Runaway self-improvement
+  says: "Runaway: over 10× faster, with jumps within months"
   prob: 15
   prevProb: null
   desc: AI does nearly all AI research, progress runs more than 10 times faster than before, and capabilities jump within months.

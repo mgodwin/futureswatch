@@ -1,6 +1,6 @@
 id: ai-jobs
 tracking: active
-title: What if AI causes massive job disruption?
+title: How much will AI disrupt jobs?
 short: Peak US unemployment before 2030, and how much of it AI drives.
 domain: ai
 area: work
@@ -9,18 +9,21 @@ read: AI is clearly cutting entry-level and software hiring, but total unemploym
 outcomes:
 - key: minimal
   label: Minimal overall effect
+  says: Little effect, with unemployment staying under 5.5%
   prob: 40
   prevProb: 40
   desc: Unemployment peaks at or below about 5.5%. AI reshapes tasks more than it removes jobs.
   ifThen: Churn concentrates in specific roles, and most workers adapt in place.
 - key: absorbed
   label: Significant but absorbed
+  says: Real job losses, but unemployment peaks under 8%
   prob: 48
   prevProb: 48
   desc: Clear white-collar and entry-level displacement, with unemployment peaking between 5.5% and 8% (or higher mainly because of a non-AI recession).
   ifThen: Harder job searches for new graduates and displaced mid-career workers; retraining and safety-net debates heat up.
 - key: mass
   label: Mass disruption
+  says: Mass layoffs, with unemployment over 8% because of AI
   prob: 12
   prevProb: 12
   desc: Unemployment above 8% with AI a primary cause.

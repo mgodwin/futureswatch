@@ -1,6 +1,6 @@
 id: longevity
 tracking: active
-title: What if we start slowing aging?
+title: Will we start slowing aging?
 short: Whether any treatment is shown to slow human aging by the end of 2029, and whether US life expectancy rises, stalls or falls.
 domain: health
 area: health
@@ -9,24 +9,28 @@ read: No treatment has been proven to slow aging in humans; the best evidence is
 outcomes:
 - key: breakthrough
   label: Aging slowed in humans
+  says: Yes, a drug is shown to slow aging
   prob: 3
   prevProb: null
   desc: FDA or EMA approves a drug for an aging indication in people, or a large pre-registered trial shows a drug delays several age-related diseases or deaths. Shifts in biological-age clocks and dog drugs do not count. This outcome applies whatever happens to life expectancy.
   ifThen: Aging starts to be treated as something medicine can target. Interest and money surge, but any gain in lifespan takes decades to show up. Escape velocity, where life expectancy grows faster than a year per year, stays far off.
 - key: rise
   label: No aging drug; life expectancy rises
+  says: No, but life expectancy rises past 80
   prob: 45
   prevProb: null
   desc: No proven aging treatment, but the latest NCHS figure published by the end of 2029 shows US life expectancy at 80.0 years or more.
   ifThen: Americans live longer because fewer die from overdoses, heart disease and COVID, and drugs like GLP-1s help. Progress is steady and ordinary, not a longevity revolution.
 - key: stall
   label: No aging drug; life expectancy stalls
+  says: No, and life expectancy stalls
   prob: 41
   prevProb: null
   desc: No proven aging treatment, and the latest NCHS figure is between 79.0 and 79.9 years.
   ifThen: Life expectancy stays near its 2024 record. Longevity clinics and supplements keep selling, but the evidence for slowing aging stays thin.
 - key: fall
   label: No aging drug; life expectancy falls
+  says: No, and life expectancy falls below 79
   prob: 11
   prevProb: null
   desc: No proven aging treatment, and the latest NCHS figure is below 79.0 years, for example after a pandemic or a surge in overdoses.

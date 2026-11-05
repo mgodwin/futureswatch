@@ -1,6 +1,6 @@
 id: energy-bills
 tracking: active
-title: What if AI pushes up household power bills?
+title: Will power bills keep rising?
 short: Whether US residential electricity prices outpace inflation by the end of 2029, measured by the CPI electricity index against all-items CPI from December 2026 to December 2029.
 domain: energy
 area: money
@@ -9,18 +9,21 @@ read: Household electricity prices are up about 42% since 2020 against about 30%
 outcomes:
 - key: faster
   label: Bills outpace inflation
+  says: They rise faster than other prices
   prob: 55
   prevProb: null
   desc: The CPI electricity index rises at least 3% more than all-items CPI over the three years.
   ifThen: Power bills take a growing bite of household budgets, especially near data-center hubs in Virginia, Pennsylvania, Ohio and Texas. Pressure grows to make data centers pay more of grid costs.
 - key: pace
   label: Keep pace
+  says: They rise in line with other prices
   prob: 32
   prevProb: null
   desc: Electricity prices end within 3% of all-items CPI, either way.
   ifThen: Bills keep rising in dollars but not as a share of income. New solar, batteries and gas roughly match new demand.
 - key: cheaper
   label: Fall in real terms
+  says: They get cheaper next to other prices
   prob: 13
   prevProb: null
   desc: Electricity prices rise at least 3% less than all-items CPI.
