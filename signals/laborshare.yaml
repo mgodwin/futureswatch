@@ -1,0 +1,15 @@
+id: laborshare
+tracking: active
+name: Labor share of income
+domain: jobs
+order: 82
+measures: Share of nonfarm business output paid to workers, as an index (2017 = 100).
+value: "93.7"
+asOf: 2026-09
+trend: down
+leans: neutral
+note: Third-quarter reading, the lowest since the series began in 1947. It was about 96 to 97 from 2023 through early 2025.
+watch: A further slide below 92 while profits climb says capital is taking the AI gains. A return above 96 says workers are sharing them.
+cadence: Quarterly
+source: Bureau of Labor Statistics via FRED
+url: https://fred.stlouisfed.org/series/PRS85006173

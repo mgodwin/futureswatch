@@ -1,0 +1,15 @@
+id: safetyindex
+tracking: active
+name: AI Safety Index (FLI)
+domain: ai
+order: 61
+measures: The best overall safety grade any frontier lab gets from the Future of Life Institute's expert panel.
+value: C+ (Anthropic, 2.66/4)
+asOf: '2026-07'
+trend: flat
+leans: neutral
+note: OpenAI and Google DeepMind got a C, and xAI, DeepSeek and Mistral failed. The best existential-safety grade was a D+.
+watch: A top grade of B or better, or a C or better on existential safety, points to safety keeping pace. Grades slipping while capabilities climb raise the odds of a serious incident.
+cadence: Twice a year
+source: Future of Life Institute
+url: https://futureoflife.org/index

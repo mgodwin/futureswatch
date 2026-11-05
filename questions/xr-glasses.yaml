@@ -1,0 +1,59 @@
+id: xr-glasses
+tracking: active
+title: What if smart glasses go mainstream?
+short: Whether smart glasses and VR or AR headsets become a mass-market device by the end of 2029, or stay niche.
+domain: tech
+area: tech
+order: 33
+read: Smart glasses are growing fast, led by Meta's Ray-Bans, and now make up about 85% of XR shipments while VR headsets shrink. Still, IDC counted only about 3.5 million devices in the second quarter of 2026, and about 5% of US adults own camera glasses.
+outcomes:
+- key: niche
+  label: Stays niche
+  prob: 25
+  prevProb: null
+  desc: Fewer than 25 million smart glasses and headsets ship worldwide in 2029, as counted by IDC.
+  ifThen: Smart glasses stay a gadget for early adopters, like VR before them. Privacy worries and weak use cases hold them back, and phones stay the main screen.
+- key: growing
+  label: Real but not mainstream
+  prob: 60
+  prevProb: null
+  desc: Between 25 million and 75 million ship in 2029.
+  ifThen: Glasses become a familiar sight, much like early smartwatches. Many people use them for calls, music, photos and AI help, but most still don't own a pair.
+- key: mainstream
+  label: Goes mainstream
+  prob: 15
+  prevProb: null
+  desc: More than 75 million ship in 2029, roughly the scale smartwatches reached.
+  ifThen: AI glasses become a common everyday device. People talk to assistants through their glasses, and camera glasses in public prompt new privacy rules.
+anchors:
+- who: IDC (via TechNode)
+  what: 3.547 million smart glasses and headsets shipped worldwide in Q2 2026, up 35%; VR headsets fell 23% to 548,000.
+  date: "2026-09"
+  url: https://technode.com/2026/09/17/global-smart-eyewear-shipments-q2-2026/
+- who: IDC (via Mixed)
+  what: Glasses were about 85% of XR shipments in Q2 2026; unit growth forecast at 26% in 2026, 41% in 2027 and 26% in 2028.
+  date: "2026-09"
+  url: https://mixed-news.com/en/idc-smart-glasses-shipments-q2-2026-vr-headsets-decline
+- who: Counterpoint Research
+  what: AI glasses shipments rose 263% year on year in H1 2026; 96% had no display, and Meta had about 94% of display-less shipments.
+  date: "2026-09"
+  url: https://counterpointresearch.com/en/insights/global-ai-glasses-shipments-surge-263-percent-yoy-with-display-less-ai-glasses
+- who: EssilorLuxottica (via UploadVR)
+  what: Over 7 million Ray-Ban and Oakley Meta smart glasses sold in 2025, more than triple 2024.
+  date: "2026-02"
+  url: https://uploadvr.com/meta-essilorluxottica-sold-7-million-smart-glasses-in-2025/
+- who: Meta (via MoguraVR)
+  what: Reality Labs lost $4.13 billion in Q3 2026 on $443 million revenue, down 6% as Quest sales fell; Meta expects losses to shrink to about $15 billion in 2027.
+  date: "2026-10"
+  url: https://www.moguravr.com/?p=379912
+- who: Security.org survey
+  what: About 5% of US adults owned camera smart glasses in July 2026 (1,096 adults surveyed); no weekly-use figure published.
+  date: "2026-08"
+  url: https://www.security.org/resources/smart-glasses-statistics-report/
+- who: 9to5Mac (reported rumor)
+  what: Apple's display-less smart glasses are reportedly targeted for 2027; AR display glasses are several years away.
+  date: "2026-09"
+  url: https://9to5mac.com/2026/09/21/report-ai-glasses-shipments-surged-263-in-h1-2026-as-apple-prepares-to-enter-the-market/
+signals:
+- smartglasses
+- realitylabs

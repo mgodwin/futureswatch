@@ -1,0 +1,15 @@
+id: topwealth
+tracking: active
+name: Top 1% wealth share
+domain: markets
+order: 83
+measures: Share of US household net worth held by the wealthiest 1%.
+value: 32.5%
+asOf: 2026-06
+trend: up
+leans: neutral
+note: Second-quarter reading, a record in Fed data going back to 1989. It was 30.4% in early 2024.
+watch: Above 33% means stock gains keep concentrating wealth. A fall below 31% would suggest a broad market drop or wider gains.
+cadence: Quarterly
+source: Federal Reserve (Distributional Financial Accounts) via FRED
+url: https://fred.stlouisfed.org/series/WFRBST01134

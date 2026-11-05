@@ -1,0 +1,15 @@
+id: smartglasses
+tracking: active
+name: Smart glasses and headset shipments
+domain: tech
+order: 92
+measures: Smart glasses and VR or AR headsets shipped worldwide in a quarter, per IDC.
+value: 3.55 million in Q2 2026
+asOf: "2026-09-17"
+trend: up
+leans: neutral
+note: Up 35% from a year earlier. Glasses were about 85% of units, mostly display-less audio and camera glasses, while VR headsets fell 23%.
+watch: More than 8 million in a quarter by the end of 2027 points to glasses going mainstream. Under 4 million a quarter through 2027 means they stay niche.
+cadence: Quarterly
+source: IDC via TechNode
+url: https://technode.com/2026/09/17/global-smart-eyewear-shipments-q2-2026/

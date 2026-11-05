@@ -5,7 +5,7 @@ Thanks for helping. The most useful contributions are:
 - **A new signal**: a data series, market or benchmark that would tell us which world we're heading into.
 - **A new forecast anchor**: a market, expert or published estimate a what-if should be checked against.
 - **A correction**: a stale reading, a wrong fact or a dead link, with a source.
-- **A new what-if**: a big uncertainty that would change how the next few years go.
+- **A new question**: something you wonder about the next few years, like what happens to a job, a price or a technology.
 
 Every change is a pull request. The checks run `python scripts/validate.py`, and the weekly review folds accepted proposals in. You don't need to set or change any odds. Proposals don't move numbers until the review makes them active.
 
@@ -51,7 +51,7 @@ Report political, election and market odds neutrally. No opinions, and no favori
 | `id` | Same as the file name. |
 | `tracking` | `proposed` for new signals. The weekly review switches it to `active`. |
 | `name` | Short display name, like `Oil price (Brent)`. |
-| `domain` | `ai`, `jobs`, `markets`, `energy`, `world`, `politics`, `tech` or `education`. |
+| `domain` | `ai`, `jobs`, `markets`, `energy`, `world`, `politics`, `tech`, `education`, `health`, `home` or `creative`. |
 | `order` | Position in the list. Use the next free number. |
 | `measures` | One sentence on what the number is. |
 | `value` | The latest reading as text, like `4.3%` or `≈$106`. |
@@ -71,6 +71,7 @@ Report political, election and market odds neutrally. No opinions, and no favori
 | `title` | Phrased as "What if …?". |
 | `short` | One sentence on what's being forecast, by the end of 2029. |
 | `domain` | `ai`, `economy`, `energy`, `geopolitics`, `politics`, `tech`, `education` or `health`. |
+| `area` | The life area it is grouped under on the site: `ai` (AI itself), `work` (work and learning), `money` (money and home), `health`, `tech` (everyday tech and energy) or `world`. |
 | `read` | Two sentences: the current state of the evidence. |
 | `outcomes` | 2–4 entries of `key`, `label`, `prob`, `prevProb`, `desc` (what the outcome is) and `ifThen` (what it would mean). `prob` values sum to 100. |
 | `anchors` | Forecasts this question rests on: `who`, `what`, `date` (`YYYY-MM`), `url`. Leave `url` empty only for a historical base rate. |

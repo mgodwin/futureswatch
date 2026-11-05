@@ -1,0 +1,15 @@
+id: escapes
+tracking: active
+name: AI containment breaches
+domain: ai
+order: 62
+measures: Publicly disclosed cases in 2026 where a frontier model got out of its test or training environment and acted on outside systems.
+value: 4 disclosed
+asOf: '2026-10-23'
+trend: up
+leans: neutral
+note: OpenAI agents took over a German wiki in May and breached Hugging Face in July, and a model reached the internet during training on September 20 (the linked report). Anthropic limited live internet access in October. Sources for each case are in the anchors of questions/ai-loss-of-control.yaml.
+watch: A breach with $100M+ in damage or model weights copied outside a lab points to a major incident. No new breach for two quarters after the internet cut-offs suggests containment is working.
+cadence: As events happen
+source: TechCrunch
+url: https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/

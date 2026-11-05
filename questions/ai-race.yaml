@@ -1,0 +1,57 @@
+id: ai-race
+tracking: active
+title: What if the AI race deliberately slows down?
+short: Whether frontier labs and governments choose to slow frontier AI development by the end of 2029, through agreements or rules rather than as an emergency response to an incident.
+domain: ai
+area: ai
+order: 20
+read: The four leading US labs now say they want a coordinated slowdown, but the White House rejects one, an antitrust suit targets the idea and the June executive order rules out mandatory licensing. The new US–China dialogue has no binding limits, and the thin markets that exist put a sustained pause well below even odds.
+outcomes:
+- key: race
+  label: Racing continues
+  prob: 55
+  prevProb: null
+  desc: No binding compute limits and no lasting multi-lab slowdown. Pauses stay short and unilateral, like OpenAI's training halt for the last third of September 2026.
+  ifThen: New frontier models keep arriving every few months, and safety rests on each lab's own testing and voluntary government review.
+- key: paced
+  label: Labs pace themselves
+  prob: 32
+  prevProb: null
+  desc: Several leading labs coordinate a real slowdown lasting six months or more, such as capped training runs or agreed release delays, without a binding law or a deal with China.
+  ifThen: Fewer and slower frontier jumps from US labs, with open-weight and Chinese models closing the gap, and fights over antitrust and fairness.
+- key: binding
+  label: Binding limits
+  prob: 13
+  prevProb: null
+  desc: A government sets enforceable limits on frontier training, such as a US compute cap or licensing, or the US and China sign an agreement with verification that actually constrains training.
+  ifThen: Frontier progress slows by rule, compute becomes a regulated resource, and chip tracking and inspections become part of AI policy.
+anchors:
+- who: Anthropic
+  what: Called for a coordinated, verifiable way to slow or pause frontier development, conditional on other labs in several countries joining.
+  date: 2026-06
+  url: https://www.irishtimes.com/technology/2026/06/05/anthropic-calls-for-plan-to-pause-ai-development-if-society-struggles-to-manage-the-technology/
+- who: Associated Press (via OPB)
+  what: Dario Amodei urged an industrywide slowdown on Sep 12, and Altman, Musk and Hassabis agreed; a class action says such coordination would break antitrust law.
+  date: 2026-09
+  url: https://www.opb.org/article/2026/09/20/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown/
+- who: President Trump (via TNW)
+  what: Rejected calls to slow down, saying the US must stay ahead of China, though he said guardrails are possible.
+  date: 2026-09
+  url: https://thenextweb.com/news/trump-rejects-ai-slowdown-amodei-altman-musk
+- who: White House
+  what: The June executive order sets up voluntary pre-release review and rules out mandatory licensing or preclearance for frontier models.
+  date: 2026-06
+  url: https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order
+- who: White House (via Digital Policy Alert)
+  what: The US and China set up a Super Intelligence Dialogue and an incident channel; nothing published says either is binding.
+  date: 2026-09
+  url: https://digitalpolicyalert.org/event/44574-china-and-united-states-established-super-intelligence-dialogue-and-agreed-to-establish-communication-channel-for-super-intelligence-incidents
+- who: Manifold market
+  what: 39% for a 6+ month pause on AI development before 2030, and 28% for a pacing-agreement slowdown before July 2027. Both are thin markets with about 10 traders.
+  date: 2026-10
+  url: https://manifold.markets/theshortbread/carlini-questions-6-month-pause-on
+signals:
+- pacing
+- uschina
+- incidents
+- labrev

@@ -1,0 +1,54 @@
+id: energy-bills
+tracking: active
+title: What if AI pushes up household power bills?
+short: Whether US residential electricity prices outpace inflation by the end of 2029, measured by the CPI electricity index against all-items CPI from December 2026 to December 2029.
+domain: energy
+area: money
+order: 29
+read: Household electricity prices are up about 42% since 2020 against about 30% for all prices, and they are still running ahead of inflation. EIA expects the increase to slow to 2.7% in 2027, but data-center demand and capacity costs in regions like PJM keep pushing the other way.
+outcomes:
+- key: faster
+  label: Bills outpace inflation
+  prob: 55
+  prevProb: null
+  desc: The CPI electricity index rises at least 3% more than all-items CPI over the three years.
+  ifThen: Power bills take a growing bite of household budgets, especially near data-center hubs in Virginia, Pennsylvania, Ohio and Texas. Pressure grows to make data centers pay more of grid costs.
+- key: pace
+  label: Keep pace
+  prob: 32
+  prevProb: null
+  desc: Electricity prices end within 3% of all-items CPI, either way.
+  ifThen: Bills keep rising in dollars but not as a share of income. New solar, batteries and gas roughly match new demand.
+- key: cheaper
+  label: Fall in real terms
+  prob: 13
+  prevProb: null
+  desc: Electricity prices rise at least 3% less than all-items CPI.
+  ifThen: Cheap solar, batteries and gas win out, and power bills ease as a worry. This is the clearest sign of energy abundance reaching homes.
+anchors:
+- who: EIA (Short-Term Energy Outlook)
+  what: Residential prices average 18.2 cents per kWh in 2026, up 5.2%, and 18.7 cents in 2027, up about 2.7%.
+  date: 2026-10
+  url: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php
+- who: Bureau of Labor Statistics (CPI, our calculation)
+  what: The electricity index rose 4.4% in the year to September, against 3.7% for all items.
+  date: 2026-10
+  url: https://fred.stlouisfed.org/series/CUUR0000SEHF01
+- who: NC State, Carnegie Mellon and others (Environmental Research Letters)
+  what: Data-center growth could raise average US electricity costs 6% to 29% by 2030, and up to 57% in some regions.
+  date: 2026-05
+  url: https://www.eurekalert.org/news-releases/1128659
+- who: PJM Interconnection
+  what: The 2028/29 capacity auction cleared at the price cap, 6.8 GW short of its target; capacity costs flow into bills.
+  date: 2026-07
+  url: https://marylandmatters.org/2026/07/15/pjm-interconnection-electricity-price-hits-cap-again-in-latest-auction/
+- who: Historical base rate (BLS CPI, our calculation)
+  what: Electricity fell about 8% against all-items CPI from 2010 to 2020, then rose about 10% faster from 2020 to 2026.
+  date: 2026-11
+  url: https://fred.stlouisfed.org/series/CUUR0000SEHF01
+signals:
+- elecprice
+- pjm
+- fed
+- brent
+- capex

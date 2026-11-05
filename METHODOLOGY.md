@@ -1,17 +1,35 @@
 # Methodology
 
-Futures Watch forecasts how the period from now to **December 31, 2029** will be defined. The odds are judgment calls anchored to markets, published forecasts and base rates, and they move only on evidence.
+Futures Watch tracks what the years to **December 31, 2029** are most likely to look like: for AI itself, work, money and home, health, everyday tech and the wider world. The odds are judgment calls anchored to markets, published forecasts and base rates, and they move only on evidence.
+
+## Questions
+
+The core of the site is a set of separate questions, like "What happens to software engineers?" or "Will home prices hold?". Each has two to four mutually exclusive outcomes whose odds sum to 100, the forecasts they're anchored to, and the signals that would move them. Questions are grouped by life area, and each one stands on its own: you can read the housing question without accepting anything about the worlds below.
+
+Questions that depend on each other are kept consistent (see the list at the end of the worlds section), but nothing assumes they move together unless the evidence says so.
+
+## Focus
+
+Each question shows how settled its odds are, from 0 (every outcome equally likely) to 100 (one outcome certain). The number is one minus the normalized Shannon entropy of the outcome odds, so questions with two, three or four outcomes compare fairly. The site shows it in four bands: wide open (under 15), leaning (15 to 39), fairly clear (40 to 64) and clear (65 and up). When focus has moved by 3 or more since the question's first recorded week, the card says it is getting clearer or less clear.
+
+Focus measures how lopsided the odds are, not how good the evidence is. A question can be clear because the base rate is lopsided (most years don't bring a pandemic), not because anyone has special insight.
+
+## Most likely 2030
+
+The portrait in `tracker/portrait.yaml` puts the leading outcome of each question into a few plain paragraphs, one per life area. It is rewritten when the leading outcomes change. It states clear questions plainly and marks wide-open ones as open.
+
+With many separate questions, the exact combination of every leading outcome is itself unlikely, even when each piece is the single best bet. The portrait is "the most likely answer to each question", not a prediction that all of them come true together.
 
 ## The four worlds
 
-The worlds are mutually exclusive and their odds always sum to 100. A period is classified in priority order:
+The worlds are a summary layer: a short answer to "which kind of period is this?" They are mutually exclusive and their odds always sum to 100. A period is classified in priority order:
 
 1. **Fracture**: a war or pandemic shock dominates the period. That means a Taiwan blockade or war, a NATO–Russia war, a regional Gulf war, a pandemic that kills over a million people, or nuclear use. Overlap between these is allowed for.
-2. **Takeoff**: otherwise, transformative AI arrives. As a guide, Takeoff ≈ P(`ai-capability` = transformative) × (1 − Fracture).
+2. **Takeoff**: otherwise, transformative AI arrives. Takeoff is the chance of transformative AI *and* no Fracture. That equals P(`ai-capability` = transformative) × (1 − Fracture) only if the two are independent, and they aren't quite: a Taiwan shock would cut chip supply, while a race could speed AI up.
 3. **Hangover**: otherwise, an AI bust (`ai-boom` = bust) or a recession defines the period.
 4. **Steady Climb**: everything else.
 
-After each re-score these relationships should hold within about 3 points. The Takeoff formula is a guide, not a rule. When Fracture rises for a reason that would not slow AI progress (a Gulf war, say), Takeoff can hold and the point comes from Steady Climb or Hangover. When the reason could speed an AI race (a Taiwan crisis), the change says so. Any deviation is explained in the change's `why`.
+After each re-score these relationships should hold within about 3 points. The product is a starting point, not a rule. When Fracture rises for a reason that would not slow AI progress (a Gulf war, say), Takeoff can hold and the point comes from Steady Climb or Hangover. When the reason could speed an AI race (a Taiwan crisis), the change says so. Any deviation is explained in the change's `why`.
 
 Some questions don't feed the worlds directly but must stay consistent with others:
 

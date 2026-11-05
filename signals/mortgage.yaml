@@ -1,0 +1,15 @@
+id: mortgage
+tracking: active
+name: 30-year mortgage rate
+domain: home
+order: 81
+measures: Freddie Mac's weekly average rate on a 30-year fixed mortgage.
+value: 7.24%
+asOf: '2026-10-29'
+trend: down
+leans: neutral
+note: Down from 7.40% two weeks earlier, the highest since November 2023. A year ago it was 6.17%.
+watch: Above 7.5% for months keeps sales frozen and prices soft. Below 6.5% would revive demand and lift prices.
+cadence: Weekly (Thursday)
+source: Freddie Mac
+url: https://www.freddiemac.com/pmms

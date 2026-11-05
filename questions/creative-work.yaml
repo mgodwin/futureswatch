@@ -1,0 +1,59 @@
+id: creative-work
+tracking: active
+title: What if AI displaces creative work?
+short: Income and work for illustrators, writers, voice actors and musicians by the end of 2029, and how the copyright fights end.
+domain: ai
+area: work
+order: 25
+read: Surveys and platform studies show losses in routine work such as freelance writing and illustration, but no sign yet of a collapse in creative incomes overall. Courts are split on AI training, and the money so far comes from settlements and licensing deals rather than a clear rule.
+outcomes:
+- key: displaced
+  label: Broadly displaced
+  prob: 22
+  prevProb: null
+  desc: Paid work and income for most freelance illustrators, writers, voice actors and session musicians fall sharply, by a fifth or more, and courts mostly treat training as fair use, so few creators are paid for it.
+  ifThen: Creative work becomes a hobby or a side job for most people who did it for a living. Studios, publishers and brands use AI for most routine output, and a small star tier is left.
+- key: reshaped
+  label: Reshaped, with a premium on human-made
+  prob: 60
+  prevProb: null
+  desc: Routine work such as stock images, jingles, ad copy and dubbing shrinks, but licensing deals, labels for AI content and demand for human-made work keep paid channels open.
+  ifThen: Fewer entry-level gigs and more pressure on mid-tier freelancers, while known names and human-made labels earn a premium. Creators get some licensing income, mostly through labels, publishers and collecting societies.
+- key: intact
+  label: Largely intact
+  prob: 18
+  prevProb: null
+  desc: Creative incomes and job counts stay close to 2025 levels. AI is mainly a tool creators use, and licensing becomes the norm for training data.
+  ifThen: The panic of 2023–26 fades, much like earlier fears about digital photography or home recording. Disputes shift to pay rates in licensing deals.
+anchors:
+- who: US District Court, Northern District of California (via Writer Beware)
+  what: Final approval of the $1.5B Bartz v. Anthropic settlement over pirated books, about $3,100 per claimed work; appeals filed since may delay payouts.
+  date: 2026-07
+  url: https://writerbeware.blog/2026/07/23/anthropic-settlement-update-final-settlement-approved/
+- who: US Court of Appeals for the Third Circuit (via LawNext)
+  what: First appeals ruling on AI training holds that copying Westlaw headnotes was not fair use, but stresses the tool was not generative AI.
+  date: 2026-10
+  url: https://www.lawnext.com/2026/10/no-more-than-an-ordinary-copyright-case-3rd-circuit-unseals-its-opinion-in-thomson-reuters-case-against-ross.html
+- who: Universal Music Group and Udio (via Music Business Worldwide)
+  what: Settled their lawsuit and agreed to launch a licensed AI music service in 2026; terms undisclosed.
+  date: 2025-10
+  url: https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform
+- who: CISAC (study by PMP Strategy)
+  what: Projects 24% of music creators' revenue and 21% of audiovisual creators' revenue at risk by 2028 without new rules. Commissioned by collecting societies.
+  date: 2024-12
+  url: https://www.cisac.org/Newsroom/news-releases/global-economic-study-shows-human-creators-future-risk-generative-ai
+- who: Hui, Reshef and Zhou (via TheWrap)
+  what: After ChatGPT, Upwork freelance writers saw about 2% fewer jobs and 5.2% lower monthly earnings; top earners were hit most.
+  date: 2023-11
+  url: https://thewrap.com/study-finds-chatgpt-drives-down-freelance-work-pay
+- who: Nikkei and the Freelance Association (via Asia Economy)
+  what: 22% of about 300 Japanese creators, including illustrators, said their income fell in the past year because of generative AI.
+  date: 2026-05
+  url: https://www.asiae.co.kr/en/article/2026051817392815042
+- who: Deezer
+  what: Fully AI-generated tracks passed 50% of daily uploads in June 2026 but make up only 1–3% of streams.
+  date: 2026-07
+  url: https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/
+signals:
+- aicopyright
+- aimusic

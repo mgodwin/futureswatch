@@ -3,7 +3,7 @@
 id: your-signal-id
 tracking: proposed
 name: Short display name
-domain: ai            # ai, jobs, markets, energy, world, politics, tech or education
+domain: ai            # ai, jobs, markets, energy, world, politics, tech, education, health, home or creative
 order: 99             # next free number
 measures: One sentence on what the number is.
 value: "4.3%"         # latest reading, as text

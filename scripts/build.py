@@ -18,7 +18,7 @@ if validate(data):
     sys.exit(1)
 out.mkdir(parents=True, exist_ok=True)
 site = compile_site(data)
-(out / "data.json").write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+(out / "data.json").write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":"), default=str), encoding="utf-8")
 for f in (ROOT / "site").iterdir():
     if f.is_file():
         shutil.copy2(f, out / f.name)

@@ -1,0 +1,15 @@
+id: aidrugs
+tracking: active
+name: AI-discovered drug approvals
+domain: health
+order: 90
+measures: New drugs discovered with AI that have won full FDA approval.
+value: "0"
+asOf: "2026-10-15"
+trend: flat
+leans: neutral
+note: Takeda's zasocitinib, often called AI- or computer-designed, faces an FDA decision in early 2027. Insilico's rentosertib is in phase 3 in China.
+watch: Zasocitinib approved in 2027 and a second AI-discovered approval by 2028 point to a few AI drugs by 2029. A rejection or delay, with no other phase 3 successes, points to incremental change.
+cadence: With each FDA decision
+source: IntuitionLabs
+url: https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals

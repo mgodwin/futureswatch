@@ -1,0 +1,15 @@
+id: inflexp
+tracking: active
+name: Inflation expectations (5-year)
+domain: markets
+order: 84
+measures: Average yearly CPI inflation over the next five years implied by Treasury bond prices.
+value: 2.30%
+asOf: '2026-11-04'
+trend: down
+leans: neutral
+note: Down from 2.46% on Oct 30, even with headline CPI at 3.7%. Markets expect today's energy-driven inflation to fade.
+watch: Above 2.8% says inflation is becoming entrenched. Below 2% would point to cheaper living ahead.
+cadence: Daily
+source: FRED (Federal Reserve Bank of St. Louis)
+url: https://fred.stlouisfed.org/series/T5YIE

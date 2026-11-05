@@ -1,0 +1,66 @@
+id: housing
+tracking: active
+title: What happens to home prices?
+short: Where US home prices stand after inflation at the end of 2029, measured by the Case-Shiller national index against CPI from August 2026.
+domain: economy
+area: money
+order: 27
+read: Prices are still rising about 2% a year, but inflation is higher, so homes have lost real value for 15 straight months. With mortgage rates above 7% and forecasters expecting under 1% price growth in 2027, a slow real slide is the central case.
+outcomes:
+- key: rise
+  label: Real prices rise
+  prob: 15
+  prevProb: null
+  desc: The Case-Shiller national index beats CPI by more than 5% between August 2026 and December 2029.
+  ifThen: Owners keep building wealth and renters fall further behind. This most likely needs mortgage rates to fall back toward 6% while supply stays tight.
+- key: hold
+  label: Roughly hold
+  prob: 38
+  prevProb: null
+  desc: Real prices end within 5% of their August 2026 level, either way.
+  ifThen: Little change in affordability. Wages slowly catch up, but high rates keep many owners locked in and sales low.
+- key: slide
+  label: Slow real slide
+  prob: 37
+  prevProb: null
+  desc: Real prices fall 5% to 15%, mostly because nominal prices lag inflation rather than crash.
+  ifThen: Homes get a little more affordable each year without a crash. Recent buyers feel poorer, and builders slow down.
+- key: drop
+  label: Sharp drop
+  prob: 10
+  prevProb: null
+  desc: Real prices fall more than 15%, as in a recession with forced sales or a spike in rates.
+  ifThen: Falling equity, more defaults in some markets and a hit to consumer spending, but a real opening for first-time buyers. Even with cheap goods from AI and energy, land and good locations stay scarce, so a drop like this would come from credit and jobs, not abundance.
+anchors:
+- who: S&P Cotality Case-Shiller
+  what: The national index rose 2.1% in the year to August, behind 3.4% inflation; real prices fell for a 15th month.
+  date: 2026-10
+  url: https://press.spglobal.com/2026-10-27-S-P-Cotality-Case-Shiller-Index-Reports-Annual-Gain-in-August-2026
+- who: FHFA
+  what: Its house price index rose 2.4% in the year to August, with regions ranging from +0.5% to +4.4%.
+  date: 2026-10
+  url: https://www.fhfa.gov/news/news-release/fhfa-house-price-index-up-0.3-percent-in-august-up-2.4-percent-from-last-year
+- who: Freddie Mac
+  what: The 30-year fixed rate averaged 7.24% on Oct 29, against 6.17% a year earlier.
+  date: 2026-10
+  url: https://www.freddiemac.com/pmms
+- who: Fannie Mae Economic and Strategic Research
+  what: Expects home prices to rise 0.6% in 2027, with 30-year rates averaging 7.5% all year (as reported by Florida Realtors).
+  date: 2026-10
+  url: https://www.floridarealtors.org/news-media/news-articles/2026/10/fannie-mae-raises-2027-mortgage-rate-forecast
+- who: Goldman Sachs Research
+  what: Expects prices to rise 1.1% in 2026 and 0.8% in 2027, with rates easing to about 6.4% by late 2027 (as reported by MPA).
+  date: 2026-11
+  url: https://www.mpamag.com/us/mortgage-industry/market-updates/us-housing-market-faces-fresh-affordability-headwind-in-2027/595816
+- who: Historical base rate (Case-Shiller vs CPI, our calculation)
+  what: Since 1987, real prices rose more than 5% in about 55% of 40-month windows, fell more than 5% in 23% and fell more than 15% in 10%.
+  date: 2026-11
+  url: https://fred.stlouisfed.org/series/CSUSHPINSA
+signals:
+- homeprices
+- mortgage
+- tenyear
+- fed
+- inflexp
+- unemp
+- recodds

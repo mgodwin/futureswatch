@@ -1,0 +1,15 @@
+id: truckjobs
+tracking: active
+name: Trucking jobs
+domain: jobs
+order: 71
+measures: US payroll jobs in the truck transportation industry.
+value: 1.47M
+asOf: 2026-09
+trend: flat
+leans: neutral
+note: Level with a year earlier and about 7% below the October 2022 peak of 1.59M. The drop so far tracks a freight downturn, not automation.
+watch: Below 1.35M while driverless trucks pass 1,000 on the road points to automation cutting driving jobs. Steady above 1.45M means it has not yet.
+cadence: Monthly (first Friday)
+source: BLS Current Employment Statistics via FRED
+url: https://fred.stlouisfed.org/series/CES4348400001

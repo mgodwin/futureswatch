@@ -1,0 +1,27 @@
+# The "Most likely 2030" portrait on the home page.
+# One section per life area, built from the leading outcome of each listed question.
+# Rewrite a section when a listed question's leading outcome changes, or its focus band moves.
+# State clear questions plainly and mark wide-open ones as open. Field guide: METHODOLOGY.md
+title: Most likely 2030
+dek: The leading answer to each question, put together. Written 2026-11-05.
+intro: The best single guess is a world that is changed by AI but still recognizable. AI keeps getting stronger without replacing experts wholesale, the labs keep racing, and the effects show up first in entry-level work, power bills and how creative work gets paid. Most of the money questions are still close to coin flips.
+sections:
+- area: ai
+  text: AI is powerful but jagged, a strong tool that speeds up AI research without running it. The labs keep racing; slowing down has public support from lab leaders but no deal. Contained incidents, with models slipping out of test environments, keep happening, and a major autonomous incident is a real one-in-four risk. Whether AI starts improving itself fast is one of the most open questions here.
+  questions: [ai-capability, ai-race, ai-loss-of-control, ai-self-improvement]
+- area: work
+  text: Work changes more than it disappears. Junior roles take the hit first, in software and other entry-level knowledge work, while total employment holds. Robotaxis are probably mainstream in big US cities, though driving jobs mostly hold through 2029. Creative work is reshaped, with a premium on things made by people. Humanoid robots work in niche fleets, not everywhere.
+  questions: [ai-jobs, software-engineers, drivers, creative-work, humanoid-robots]
+- area: money
+  text: This is the least settled area. The best guess is that the AI boom goes through a sharp correction and recovers, with a recession about as likely as not. Home prices roughly hold in real terms, with a slow slide nearly as likely. Electricity bills probably outpace inflation, and the gains from AI mostly go to owners, with no new income floor.
+  questions: [ai-boom, recession, housing, energy-bills, inequality]
+- area: health
+  text: Medicine moves forward incrementally. A few AI-discovered drugs may be approved, but a wave of cures by 2029 is unlikely. Nothing slows human aging yet, and life expectancy is about as likely to stall as to rise. A pandemic on the scale of COVID is unlikely in any given few years.
+  questions: [medicine, longevity, pandemic]
+- area: tech
+  text: Smart glasses become a real product category but not an everyday one. Fusion most likely doesn't reach net energy in a power-plant-style machine before 2030, though about a one-in-three chance says it does. The power grid is strained by AI data centers, and data centers in orbit stay at the demo stage.
+  questions: [xr-glasses, fusion, power-grid, orbital-compute]
+- area: world
+  text: The Taiwan Strait stays tense with no war, one of the clearest calls here. A Ukraine ceasefire is slightly more likely than not, and the Gulf leans toward settling, with on-and-off fighting a close second. Warming runs at 1.5 to 1.6°C.
+  questions: [taiwan, ukraine, gulf, climate]
+caveat: Each piece is the single most likely answer to its own question. Many pieces taken together are much less likely than any one of them, so read this as the best guess on each question, not one prediction.

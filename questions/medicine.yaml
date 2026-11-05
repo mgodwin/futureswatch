@@ -1,0 +1,58 @@
+id: medicine
+tracking: active
+title: What if AI-driven medicine starts curing things?
+short: How many AI-discovered drugs win FDA or EMA approval by the end of 2029, and whether that comes with big advances against major diseases.
+domain: health
+area: health
+order: 31
+read: No AI-discovered drug has full FDA approval yet, but Takeda's zasocitinib, often described as AI- or computer-designed, faces an FDA decision in early 2027, and Insilico's rentosertib entered phase 3 in September 2026. Separately, a personalized mRNA melanoma vaccine and a Huntington's gene therapy are nearing regulators, though neither is an AI-discovered drug.
+outcomes:
+- key: incremental
+  label: Incremental
+  prob: 50
+  prevProb: null
+  desc: Zero or one new AI-discovered drug wins FDA or EMA approval by the end of 2029. Repurposed old drugs do not count. Zasocitinib alone would land here.
+  ifThen: AI speeds up early research, but medicine changes at its usual pace. Big advances in 2027–2029, such as cancer vaccines or gene therapies, come mostly from methods that predate the AI boom.
+- key: few
+  label: A few AI drugs, plus notable advances
+  prob: 40
+  prevProb: null
+  desc: Two to four new AI-discovered drugs are approved by the end of 2029, for example zasocitinib plus rentosertib or another phase 3 candidate.
+  ifThen: AI-designed medicines become a normal part of the pharmacy shelf for some chronic conditions. Drug development feels somewhat faster, but cures for major diseases are still rare.
+- key: wave
+  label: Transformative wave
+  prob: 10
+  prevProb: null
+  desc: Five or more new AI-discovered drugs are approved by the end of 2029, or one of them cures or transforms a major disease affecting over a million people.
+  ifThen: AI becomes the main way new drugs are found. Approvals speed up, investment pours in, and patients see new options for diseases that had few.
+anchors:
+- who: IntuitionLabs (industry tracker)
+  what: No AI-discovered drug had full FDA approval as of mid-October 2026; whether zasocitinib counts depends on how AI-discovered is defined.
+  date: "2026-10"
+  url: https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals
+- who: Takeda
+  what: FDA accepted the zasocitinib psoriasis application under priority review, with a decision due in the first quarter of 2027; EMA is also reviewing it.
+  date: "2026-09"
+  url: https://www.takeda.com/newsroom/newsreleases/2026/fda-priority-review-zasocitinib-psoriasis/
+- who: Insilico Medicine
+  what: First patient dosed in a 320-person, 52-week phase 3 of rentosertib for lung fibrosis in China; the lead investigator expects three to four years to approval at best.
+  date: "2026-09"
+  url: https://insilico.com/news/isn1009261-insilico-medicine-doses-first-patient-genesis-ipf-3
+- who: Isomorphic Labs (via Reuters)
+  what: Its first clinical trials are now expected by the end of 2026, a slip from an earlier end-of-2025 goal.
+  date: "2026-01"
+  url: https://www.investing.com/news/stock-market-news/googlebacked-ai-drug-discovery-startup-isomorphic-labs-delays-clinical-trial-timeline-4456134
+- who: Merck and Moderna
+  what: The personalized mRNA melanoma vaccine plus Keytruda met its phase 3 recurrence-free survival endpoint; regulatory filings are planned.
+  date: "2026-08"
+  url: https://s2.q4cdn.com/584635680/files/doc_news/Merck-and-Moderna-Announce-Phase-3-INTerpath-001-Trial-of-Intismeran-Autogene-Plus-KEYTRUDA-Met-Endpoints-of-Recurrence-Free-Survival-FOTAJ.pdf
+- who: uniQure (via BioPharm International)
+  what: FDA accepted the AMT-130 Huntington's gene therapy application for priority review, with a May 2027 target date; four-year data were weaker than three-year data.
+  date: "2026-11"
+  url: https://www.biopharminternational.com/view/fda-accepts-uniqure-s-huntington-s-disease-gene-therapy-bla-for-priority-review
+- who: Manifold forecasters
+  what: 26% that the FDA approves an AI-developed cure for a major, previously incurable illness before 2030.
+  date: "2026-11"
+  url: https://manifold.markets/RealityQuotient/the-fda-will-approve-an-ai-develope
+signals:
+- aidrugs

@@ -3,6 +3,7 @@ tracking: active
 title: What if AI drives a major cyberattack?
 short: Whether an attack led by AI causes at least $1B in damage or 100 deaths by the end of 2029.
 domain: ai
+area: ai
 order: 13
 read: Attackers already use AI-written code against industrial controllers, and one hacker used AI agents to breach over 100 firms cheaply. One thin market covers this, so these odds rest mostly on judgment.
 outcomes:

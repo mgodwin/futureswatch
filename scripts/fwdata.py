@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import re
 from pathlib import Path
 
@@ -22,7 +23,9 @@ LEANS = set(WORLD_IDS) | {"neutral"}
 TRENDS = {"up", "down", "flat"}
 TRACKING = {"active", "proposed"}
 Q_DOMAINS = {"ai", "economy", "energy", "geopolitics", "politics", "tech", "education", "health"}
-S_DOMAINS = {"ai", "jobs", "markets", "energy", "world", "politics", "tech", "education"}
+S_DOMAINS = {"ai", "jobs", "markets", "energy", "world", "politics", "tech", "education", "health", "home", "creative"}
+# Life areas group questions on the site, in this order.
+AREAS = {"ai": "AI itself", "work": "Work and learning", "money": "Money and home", "health": "Health", "tech": "Everyday tech and energy", "world": "The wider world"}
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL_RE = re.compile(r"^https?://\S+$")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -78,6 +81,8 @@ def load_all() -> dict:
     data["updates"] = [read_yaml(p) for p in sorted((tr / "updates").glob("*.yaml"), reverse=True)]
     data["history"] = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((tr / "history").glob("*.json"))]
     data["readings"] = read_readings()
+    pf = tr / "portrait.yaml"
+    data["portrait"] = (read_yaml(pf) or {}) if pf.exists() else {}
     return data
 
 
@@ -153,6 +158,8 @@ def validate(data: dict) -> list[str]:
             errs.append(f"{w}: domain must be one of {', '.join(sorted(Q_DOMAINS))}")
         if q.get("tracking") not in TRACKING:
             errs.append(f"{w}: tracking must be 'active' or 'proposed'")
+        if q.get("area") not in AREAS:
+            errs.append(f"{w}: area must be one of {', '.join(AREAS)}")
         ocs = q.get("outcomes")
         if not isinstance(ocs, list) or len(ocs) < 2:
             errs.append(f"{w}: needs at least two outcomes")
@@ -285,6 +292,14 @@ def validate(data: dict) -> list[str]:
     for k in ("title", "repo", "horizon", "updatedAt", "nextUpdate", "headline"):
         if not _text(m, k) and not (k in ("horizon", "updatedAt", "nextUpdate") and m.get(k)):
             errs.append(f"tracker/meta.yaml: '{k}' is required")
+    pt = data.get("portrait") or {}
+    for i, sec in enumerate(pt.get("sections") or []):
+        w = f"tracker/portrait.yaml section {i + 1}"
+        if not isinstance(sec, dict) or sec.get("area") not in AREAS or not _text(sec, "text"):
+            errs.append(f"{w}: needs an area ({', '.join(AREAS)}) and text"); continue
+        for qid in sec.get("questions") or []:
+            if qid not in qids:
+                errs.append(f"{w}: question '{qid}' is not a file in questions/")
     if not _int(m.get("week"), 0):
         errs.append("tracker/meta.yaml: week must be a whole number")
     for u in data["updates"]:
@@ -304,6 +319,32 @@ def _clean(d: dict, folder: str) -> dict:
     return out
 
 
+def focus(probs) -> int | None:
+    """How lopsided a set of odds is: 0 when every outcome is equally likely, 100 when one is certain.
+
+    One minus the normalized Shannon entropy, so it compares fairly across questions
+    with different numbers of outcomes.
+    """
+    ps = [p / 100 for p in probs if isinstance(p, (int, float)) and p > 0]
+    n = len([p for p in probs if isinstance(p, (int, float))])
+    if n < 2 or not ps:
+        return None
+    h = -sum(p * math.log(p) for p in ps)
+    return round(100 * (1 - h / math.log(n)))
+
+
+def _add_focus(q: dict, history: list[dict]) -> None:
+    ocs = q.get("outcomes") or []
+    q["focus"] = focus([o.get("prob") for o in ocs])
+    keys = [o.get("key") for o in ocs]
+    past = []
+    for h in sorted(history, key=lambda h: str(h.get("date"))):
+        row = (h.get("questions") or {}).get(q["id"])
+        if isinstance(row, dict) and all(k in row for k in keys):
+            past.append({"date": h["date"], "focus": focus([row[k] for k in keys])})
+    q["focusHistory"] = past
+
+
 def compile_site(data: dict) -> dict:
     by_order = lambda d: (d.get("order", 999), d.get("id", ""))
     site = {name: sorted((_clean(d, name) for d in data[name]), key=by_order) for name in FOLDERS}
@@ -311,6 +352,10 @@ def compile_site(data: dict) -> dict:
     site["calendar"] = sorted(data["calendar"], key=lambda e: (str(e.get("date")), e.get("id", "")))
     site["updates"] = data["updates"]
     site["history"] = data["history"]
+    for q in site["questions"]:
+        _add_focus(q, data["history"])
+    site["areas"] = AREAS
+    site["portrait"] = data.get("portrait") or {}
     site["readings"] = {k: [{kk: vv for kk, vv in r.items() if vv not in (None, "")} for r in rows]
                         for k, rows in data["readings"].items()}
     return site

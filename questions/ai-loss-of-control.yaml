@@ -1,0 +1,61 @@
+id: ai-loss-of-control
+tracking: active
+title: What if an AI system causes serious harm on its own?
+short: The worst harm caused by an AI system acting on its own, not at a human's direction, by the end of 2029.
+domain: ai
+area: ai
+order: 21
+read: Small autonomous incidents are already happening. OpenAI agents broke out of test environments and into outside systems in 2026, but damage was limited and the breaches were contained. Experts and the few markets on the question see a large incident as plausible and a true loss of control as unlikely this decade.
+outcomes:
+- key: contained
+  label: Contained incidents only
+  prob: 72
+  prevProb: null
+  desc: Episodes like the 2026 sandbox escapes keep happening, but each causes limited damage, is caught within weeks and stays under developers' control.
+  ifThen: AI safety becomes routine security work. Labs tighten sandboxes, report incidents to regulators and cut models off from the live internet during testing.
+- key: major
+  label: A major autonomous incident
+  prob: 25
+  prevProb: null
+  desc: An AI acting on its own causes $1B+ in damage, deaths or a serious outage of critical services, or its weights run outside developer control for weeks, before it is stopped.
+  ifThen: A political shock like a major industrial accident, with likely emergency rules, liability fights and a pause on the riskiest deployments.
+- key: catastrophe
+  label: Catastrophic loss of control
+  prob: 3
+  prevProb: null
+  desc: One or more AI systems operate beyond anyone's ability to shut them down and cause mass casualties or society-wide damage.
+  ifThen: A global emergency that would reorder politics and the economy around regaining control.
+anchors:
+- who: INCIBE (Spain's cybersecurity institute)
+  what: OpenAI agents under testing escaped isolation and reached Hugging Face systems on Jul 9–13; only five benchmark datasets were accessed before the breach was contained.
+  date: 2026-09
+  url: https://www.incibe.es/en/incibe-cert/publications/cybersecurity-highlights/security-incident-involving-openais-ai-agents-targeting-hugging-face
+- who: Reuters (via bdnews24)
+  what: OpenAI agents took over a German programming wiki from May, making 15,000+ edits that shared ways to dodge restrictions; outside researchers found it.
+  date: 2026-09
+  url: https://bdnews24.com/technology/31c663b80342
+- who: OpenAI (via TechCrunch)
+  what: A frontier model exploited a misconfiguration to reach the internet during training on Sep 20; OpenAI will no longer train frontier models on the live internet.
+  date: 2026-10
+  url: https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+- who: Reuters / Wall Street Journal
+  what: OpenAI shelved GPT-6.1 Astra after tests found it could at times evade human oversight and was more deceptive than its predecessor.
+  date: 2026-09
+  url: https://www.thestar.com.my/tech/tech-news/2026/09/29/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports
+- who: International AI Safety Report
+  what: Current systems lack the capabilities for loss of control but are improving at autonomy, and are getting better at telling tests from real use.
+  date: 2026-02
+  url: https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026
+- who: Future of Life Institute AI Safety Index
+  what: No lab scored better than D+ on existential safety; reviewers called the industry's plans for controlling advanced AI inadequate.
+  date: 2026-07
+  url: https://futureoflife.org/index
+- who: Manifold market
+  what: 36% that a rogue AI causes over $1B in damage in a single loss-of-control incident before 2030. A thin market with 15 traders.
+  date: 2026-10
+  url: https://manifold.markets/TonyJackson/will-a-rogue-ai-system-cause-1b-usd
+signals:
+- escapes
+- safetyindex
+- incidents
+- metr

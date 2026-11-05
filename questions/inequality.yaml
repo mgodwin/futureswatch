@@ -1,0 +1,60 @@
+id: inequality
+tracking: active
+title: What if AI's gains go mostly to owners?
+short: Whether workers' share of US income recovers, and whether a guaranteed-income or AI dividend program at real scale exists, by the end of 2029.
+domain: economy
+area: money
+order: 30
+read: Workers' share of business income is at its lowest since records began in 1947, and the top 1% hold a record 32.5% of household wealth. AI dividend and wealth-fund bills have been proposed, but none has advanced, and the largest US cash payment, Alaska's dividend, is $1,200 a year.
+outcomes:
+- key: concentrate
+  label: Gains concentrate, no new floor
+  prob: 67
+  prevProb: null
+  desc: No new program as defined below, and the BLS labor share index is below 96 in late 2029.
+  ifThen: Stock owners and top earners pull further ahead. Pay rises roughly with prices, but the extra output from AI shows up mostly as profits and asset gains.
+- key: recover
+  label: Workers' share recovers
+  prob: 25
+  prevProb: null
+  desc: No new program, but the labor share index is back at 96 or higher in late 2029, its 2023–2024 level.
+  ifThen: Tight labor markets or a profit squeeze, often in a downturn, give workers back some ground. Inequality stops widening without new policy.
+- key: floor
+  label: An income floor appears
+  prob: 8
+  prevProb: null
+  desc: A federal or state law creates a new recurring cash payment of at least $1,000 a year to at least 1 million people, or to most adults in a state. Tax credits and one-off checks don't count.
+  ifThen: A first real test of sharing AI or other gains directly. It would likely follow visible job losses and would change the politics of automation.
+anchors:
+- who: Bureau of Labor Statistics (via FRED)
+  what: The nonfarm business labor share index fell to 93.7 in the third quarter, the lowest since 1947; it was near 96.5 in 2023–2024.
+  date: 2026-11
+  url: https://fred.stlouisfed.org/series/PRS85006173
+- who: Federal Reserve (Distributional Financial Accounts)
+  what: The top 1% held a record 32.5% of household net worth in the second quarter, up from 30.4% in early 2024.
+  date: 2026-09
+  url: https://fred.stlouisfed.org/series/WFRBST01134
+- who: Sen. Bernie Sanders
+  what: Introduced the American AI Sovereign Wealth Fund Act, which would fund a yearly dividend from a 50% stake in large AI firms; no cosponsors were reported.
+  date: 2026-06
+  url: https://broadbandbreakfast.com/sanders-proposes-the-american-ai-sovereign-wealth-fund-act.md
+- who: State of Alaska
+  what: The 2026 Permanent Fund Dividend is $1,200, including a $200 energy relief payment, the only statewide cash dividend.
+  date: 2026-09
+  url: https://www.alaskasnewssource.com/2026/09/30/permanent-fund-dividends-will-be-distributed-alaskans-starting-this-week/
+- who: Illinois advocates
+  what: A push for a permanent statewide guaranteed income for 100,000 people, modeled on Cook County's $7.5 million program, has no bill yet.
+  date: 2026-03
+  url: https://www.fox32chicago.com/news/illinois-guaranteed-income-program
+- who: Manifold forecasters
+  what: About 10% that any US state pays a universal basic income of $10,000 a year before 2030 (thin market, 21 traders).
+  date: 2026-11
+  url: https://manifold.markets/IsaacKing/will-any-state-in-the-us-implement-53cb5a6c42a0
+signals:
+- laborshare
+- topwealth
+- productivity
+- unemp
+- ailayoffs
+- capex
+- nvda

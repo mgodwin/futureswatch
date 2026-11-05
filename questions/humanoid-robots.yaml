@@ -1,0 +1,54 @@
+id: humanoid-robots
+tracking: active
+title: What if humanoid robots go to work?
+short: Whether humanoid and general-purpose robots do real paid work at scale in warehouses, factories and homes by the end of 2029.
+domain: tech
+area: work
+order: 26
+read: Shipments are climbing fast, mostly from Chinese makers, but documented paid work is still a few small fleets moving totes and parts. Tesla only started early Optimus production in October 2026, and the first home robots have not reached many buyers.
+outcomes:
+- key: scale
+  label: Real work at scale
+  prob: 20
+  prevProb: null
+  desc: By the end of 2029, at least 100,000 humanoids worldwide do paid productive work, not research, teaching or shows, and at least one maker has 10,000 or more working at customer sites.
+  ifThen: Humanoids become a normal sight in big warehouses and car plants, and pressure falls on manual warehouse and line jobs. Early home robots do simple chores for tens of thousands of households.
+- key: niche
+  label: Niche fleets
+  prob: 60
+  prevProb: null
+  desc: Thousands to tens of thousands of humanoids do paid work, mostly narrow, repeated tasks at a few large customers. Home robots stay early-adopter gadgets.
+  ifThen: Robots fill some hard-to-staff shifts but do not change overall factory or warehouse jobs. Wheeled arms and ordinary automation still do most of the new work.
+- key: stall
+  label: Mostly demos
+  prob: 20
+  prevProb: null
+  desc: Fewer than about 5,000 humanoids do paid productive work outside research and education. Reliability, cost or safety problems slow deployment, and funding cools.
+  ifThen: Humanoids look like the robotaxis of 2018, years behind the promises. Factories keep investing in conventional automation instead.
+anchors:
+- who: Tesla (via TechCrunch)
+  what: Began early Optimus production in Fremont in October 2026; Musk says 20,000 a week by the end of 2027. No volumes disclosed.
+  date: 2026-10
+  url: https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/
+- who: Manifold market
+  what: 29% that Tesla sells Optimus to the general public, with delivery, in 2027. Thinly traded.
+  date: 2026-11
+  url: https://manifold.markets/nonnihil/tesla-sells-humanoid-robots-to-the
+- who: Figure AI
+  what: Figure 02 robots worked 11 months at BMW Spartanburg, logging 1,250+ hours and handling 90,000+ parts.
+  date: 2025-11
+  url: https://www.figure.ai/news/production-at-bmw
+- who: Agility Robotics (via Robotics and Automation News)
+  what: Digit has moved 100,000+ totes for GXO and adds two GXO sites in early 2027; no total fleet count given.
+  date: 2026-11
+  url: https://roboticsandautomationnews.com/2026/11/02/agility-robotics-says-more-than-30-companies-considering-digit-humanoid-robot/106595/
+- who: Goldman Sachs (via Humanoid.guide, secondary)
+  what: Raised its forecast to about 890,000 humanoid shipments in 2030, from 256,000, and about 6.5M in 2035.
+  date: 2026-09
+  url: https://humanoid.guide/goldman-raises-2035-humanoid-robot-forecast-to-6-5-million/
+- who: 1X (via heise)
+  what: Plans first NEO home robot deliveries to US buyers by the end of 2026 at $20,000 or about $500 a month.
+  date: 2026-05
+  url: https://heise.de/-11287205
+signals:
+- humanoids

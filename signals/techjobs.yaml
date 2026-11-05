@@ -1,0 +1,15 @@
+id: techjobs
+tracking: active
+name: Tech services jobs
+domain: jobs
+order: 70
+measures: US payroll jobs in computer systems design and related services, the industry that employs the most software developers.
+value: 2.36M
+asOf: 2026-09
+trend: down
+leans: neutral
+note: About 5% below the March 2023 peak of 2.48M and 1.3% lower than a year earlier. It has slipped every month since May.
+watch: Below 2.25M (10% off the peak) points to a broad decline in software work. Back above 2.45M points to recovery.
+cadence: Monthly (first Friday)
+source: BLS Current Employment Statistics via FRED
+url: https://fred.stlouisfed.org/series/CES6054150001

@@ -1,0 +1,55 @@
+id: software-engineers
+tracking: active
+title: What if AI shrinks software engineering?
+short: US software engineer jobs, pay and junior hiring by the end of 2029.
+domain: ai
+area: work
+order: 23
+read: Jobs at tech services firms are about 5% below their 2023 peak and still slipping, and young workers in AI-exposed jobs trail their peers by about 19%. Postings are up on a year earlier, though, and experienced workers show no comparable gap, so the squeeze so far falls on new entrants.
+outcomes:
+- key: grows
+  label: Grows again, juniors included
+  prob: 25
+  prevProb: null
+  desc: US software developer employment ends 2029 above its 2025 level of about 1.72M, and entry-level hiring recovers enough that young coders no longer trail their peers.
+  ifThen: AI makes each engineer more productive and demand for software rises to match. A computer science degree is a good bet again, and the 2024–26 slump looks like a correction.
+- key: squeeze
+  label: Juniors squeezed, total holds
+  prob: 55
+  prevProb: null
+  desc: Total employment stays within about 10% of 2025, but junior hiring stays well below pre-2023 levels. Experienced engineers keep their jobs and pay.
+  ifThen: A broken ladder. Seniors who steer AI tools do well, while graduates face long searches, more unpaid projects and fewer first jobs. Computer science enrollment keeps falling.
+- key: decline
+  label: Broad decline
+  prob: 20
+  prevProb: null
+  desc: Software developer employment falls 10% or more from 2025, and real pay falls too, including for experienced engineers.
+  ifThen: Coding becomes a shrinking trade, like typesetting. Mid-career layoffs spread, salaries reset lower and the wider tech economy rests on far fewer people.
+anchors:
+- who: US Bureau of Labor Statistics
+  what: About 1.72M software developers in 2025 with median pay of $135,980; projects 10% growth from 2025 to 2035.
+  date: 2026-08
+  url: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
+- who: BLS payroll survey (via FRED)
+  what: Computer systems design jobs were 2.36M in September 2026, down from a 2.48M peak in March 2023 and 1.3% lower than a year earlier.
+  date: 2026-10
+  url: https://fred.stlouisfed.org/series/CES6054150001
+- who: Indeed Hiring Lab (via Fortune)
+  what: Software development postings were up 14% on a year earlier in April 2026, and more than 47% mention AI.
+  date: 2026-05
+  url: https://fortune.com/2026/05/19/indeed-chief-economist-svenja-gudell-sectors-most-exposed-ai-big-job-growth/
+- who: Stanford Digital Economy Lab
+  what: Workers aged 22–25 in the most AI-exposed jobs are about 19% below where they would be had they kept pace with peers; not specific to software.
+  date: 2026-08
+  url: https://digitaleconomy.stanford.edu/news/canariesaug26/
+- who: Manifold market
+  what: 36% that the BLS software developer page shows at least 1.8M jobs when it resolves; the page now lists 1.72M. Thinly traded.
+  date: 2026-11
+  url: https://manifold.markets/ZviMowshowitz/will-the-bls-show-growth-in-softwar
+signals:
+- softdev
+- techjobs
+- canaries
+- gradunemp
+- csmajors
+- metr

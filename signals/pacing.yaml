@@ -1,0 +1,15 @@
+id: pacing
+tracking: active
+name: Coordinated AI slowdown
+domain: ai
+order: 60
+measures: Whether labs and governments are moving toward a deliberate, coordinated slowdown of frontier AI.
+value: Labs willing · no deal
+asOf: '2026-09-25'
+trend: up
+leans: neutral
+note: Anthropic, OpenAI, SpaceXAI and Google back slowing down in principle, but the White House opposes it and an antitrust suit targets any joint agreement. The US–China Super Intelligence Dialogue has no binding terms.
+watch: An antitrust waiver, a signed multi-lab pacing agreement or a verified US–China training limit points to a real slowdown. Labs releasing on a normal schedule through 2027 points to the race continuing.
+cadence: As events happen
+source: Associated Press via OPB
+url: https://www.opb.org/article/2026/09/20/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown/

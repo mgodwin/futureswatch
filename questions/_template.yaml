@@ -6,6 +6,7 @@ tracking: proposed
 title: What if …?
 short: One sentence on what's forecast, by the end of 2029.
 domain: tech          # ai, economy, energy, geopolitics, politics, tech, education or health
+area: work          # ai, work, money, health, tech or world (the life area it is grouped under)
 order: 99
 read: Two sentences on the current state of the evidence.
 outcomes:

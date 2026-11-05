@@ -1,0 +1,53 @@
+id: ai-self-improvement
+tracking: active
+title: What if AI starts speeding up AI research itself?
+short: How much AI accelerates the labs' own research by the end of 2029, from a useful tool to runaway self-improvement.
+domain: ai
+area: ai
+order: 22
+read: AI already writes most of the code at leading labs, and OpenAI says it has an automated research intern, but measured gains in overall research speed are still around 1.5 to 2 times. Whether that becomes a large speedup depends on AI taking over research judgment as well as engineering, which nobody has shown yet.
+outcomes:
+- key: tool
+  label: A strong tool
+  prob: 47
+  prevProb: null
+  desc: AI handles most coding and many experiments, but overall AI research moves less than 3 times faster than it would without AI, and people still set the direction.
+  ifThen: Steady, fast progress on today's trend. Labs stay human-led and gains show up as faster products rather than sudden jumps.
+- key: major
+  label: A major speedup
+  prob: 38
+  prevProb: null
+  desc: A lab credibly reports AI running most research end to end, or a measured speedup of 3 to 10 times, close to OpenAI's goal of an automated AI researcher by March 2028.
+  ifThen: Capabilities improve noticeably faster each year, small research teams can do what big ones did, and pressure grows for oversight of AI-run research.
+- key: runaway
+  label: Runaway self-improvement
+  prob: 15
+  prevProb: null
+  desc: AI does nearly all AI research, progress runs more than 10 times faster than before, and capabilities jump within months.
+  ifThen: An intelligence explosion like the AI 2027 scenario, where the key questions become who controls the leading system and whether it can be kept safe.
+anchors:
+- who: Anthropic Institute
+  what: Claude wrote over 80% of Anthropic's merged code by May 2026. Research staff gave a self-reported median of about 4 times their output, which the authors think overstates it.
+  date: 2026-09
+  url: https://www.anthropic.com/institute/recursive-self-improvement
+- who: OpenAI (via Engadget)
+  what: Says by its own measures it reached an automated research intern that handles multi-day tasks, and still aims for an automated AI researcher by March 2028.
+  date: 2026-09
+  url: https://engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern/
+- who: METR survey
+  what: The median of 349 technical workers put AI's boost to the value of their work at 1.4 to 2 times; self-reports likely run high.
+  date: 2026-05
+  url: https://evals.alignment.org/blog/2026-05-11-ai-usage-survey/
+- who: AI Futures Project
+  what: Puts today's coding speedup at about 2 times, against roughly 20 times needed for a fully automated coder; the medians for that coder range from late 2027 to 2030.
+  date: 2026-08
+  url: https://blog.aifutures.org/p/q25-2026-timelines-update-uplift
+- who: Manifold market
+  what: 7%, with 124 traders, that AI had begun meaningfully improving itself by August 2026, on a strict bar of models training more capable successors.
+  date: 2026-10
+  url: https://manifold.markets/MaxHarms/will-ai-be-recursively-self-improvi
+signals:
+- rnd
+- metr
+- agiforecast
+- labrev

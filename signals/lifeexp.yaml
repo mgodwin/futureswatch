@@ -1,0 +1,15 @@
+id: lifeexp
+tracking: active
+name: US life expectancy
+domain: health
+order: 91
+measures: Life expectancy at birth in the US, from final death records.
+value: 79.0 years (2024)
+asOf: "2026-01"
+trend: up
+leans: neutral
+note: A record high, up 0.6 years from 2023. The provisional 2025 death rate fell 4.6% to a record low, which points to another gain.
+watch: 80.0 or more in any year through 2028 means life expectancy keeps rising. A figure below 79.0 means a setback.
+cadence: Yearly (final data about a year after year end)
+source: CDC (NCHS)
+url: https://cdc.gov/nchs/products/databriefs/db548.htm

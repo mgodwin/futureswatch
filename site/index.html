@@ -175,6 +175,21 @@ details[open] > summary::before { content: "\2212"; }
 .chiplabel { font-size: 14px; color: var(--muted); align-self: center; margin-right: 4px; }
 
 /* What-ifs */
+.area { font-family: var(--f-display); font-size: 21px; margin: 28px 0 10px; display: flex; align-items: baseline; gap: 8px; }
+.area .ct { font-size: 14px; color: var(--muted); font-weight: 400; }
+.focus { margin: -4px 0 0; font-size: 13.5px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.focus .meter { display: inline-flex; gap: 3px; }
+.focus .meter i { width: 14px; height: 6px; border-radius: 2px; background: var(--line); }
+.focus .meter i.on { background: var(--bar); }
+.portrait { display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 760px) { .portrait { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pt { padding: 16px; }
+.pt h3 { font-size: 17px; margin: 0 0 6px; }
+.pt p { margin: 0 0 10px; color: var(--ink-2); }
+.pt-q { list-style: none; margin: 0; padding: 10px 0 0; border-top: 1px solid var(--line); display: grid; gap: 6px; font-size: 14px; }
+.pt-q li { display: grid; gap: 1px; }
+.pt-q span { color: var(--muted); }
+.small { font-size: 14px; }
 .qgrid { display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); align-items: start; }
 @media (min-width: 760px) { .qgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .q { padding: 16px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
@@ -310,15 +325,16 @@ footer p { margin: 0 0 6px; }
 <div class="wrap">
   <header class="mast">
     <h1><a href="#">Futures Watch 2030</a></h1>
-    <p class="dek">Four ways the years to 2030 could go, re-scored every week against prediction markets, expert forecasts and live signals.</p>
+    <p class="dek">What the years to 2030 are most likely to look like for work, money, health and everyday life, re-scored every week against prediction markets, expert forecasts and live signals.</p>
     <div id="band"></div>
     <p class="mast-meta" id="mast-meta"></p>
   </header>
   <nav class="jump" aria-label="Sections" id="jump">
     <a href="#week">This week</a>
+    <a href="#portrait">Most likely 2030</a>
+    <a href="#whatifs">Questions</a>
     <a href="#worlds">Worlds</a>
     <a href="#scifi">Sci-fi lens</a>
-    <a href="#whatifs">What-ifs</a>
     <a href="#signals">Signals</a>
     <a href="#milestones">Milestones</a>
     <a href="#record">Track record</a>
@@ -590,20 +606,57 @@ footer p { margin: 0 0 6px; }
       }).join("") + "</div>";
   }
 
+  // Focus: how lopsided a question's odds are (0 = every outcome equally likely, 100 = settled).
+  function focusBand(f) {
+    if (f == null) return null;
+    return f >= 65 ? "Clear" : f >= 40 ? "Fairly clear" : f >= 15 ? "Leaning" : "Wide open";
+  }
+  function focusMeter(q) {
+    var f = q.focus; if (f == null) return "";
+    var lit = f >= 65 ? 4 : f >= 40 ? 3 : f >= 15 ? 2 : 1, fh = arr(q.focusHistory), move = "";
+    if (fh.length > 1) {
+      var d = num(fh[fh.length - 1].focus) - num(fh[0].focus);
+      if (Math.abs(d) >= 3) move = d > 0 ? ", getting clearer" : ", getting less clear";
+    }
+    return '<p class="focus" title="Focus ' + f + ' of 100: how lopsided the odds are"><span class="meter" aria-hidden="true">' +
+      [1, 2, 3, 4].map(function (i) { return "<i" + (i <= lit ? ' class="on"' : "") + "></i>"; }).join("") + "</span>" + esc(focusBand(f) + move) + "</p>";
+  }
+  function leader(q) {
+    var best = null; arr(q.outcomes).forEach(function (o) { if (!best || num(o.prob) > num(best.prob)) best = o; }); return best;
+  }
   function qCard(q) {
     var ocs = arr(q.outcomes), maxP = Math.max.apply(null, ocs.map(function (o) { return num(o.prob); }).concat([0]));
-    return '<article class="panel q"><p class="topic">' + esc(Q_DOMAINS[q.domain] || q.domain) + (isActive(q) ? "" : ' <span class="tag">Proposed</span>') + "</p>" +
-      '<h3><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a></h3>" +
+    return '<article class="panel q">' + (isActive(q) ? "" : '<p class="topic"><span class="tag">Proposed</span></p>') +
+      '<h3><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a></h3>" + focusMeter(q) +
       '<ol class="ocs">' + ocs.map(function (o) {
         return '<li class="oc' + (num(o.prob) === maxP ? " lead" : "") + '"><div class="oc-top"><span class="lbl">' + esc(o.label) + '</span><span class="pct">' + num(o.prob) + "%" + deltaHtml(o.prob, o.prevProb) + "</span></div>" + bar(o.prob) + "</li>";
       }).join("") + "</ol>" +
       '<p class="more"><a href="#q/' + esc(q.id) + '">Forecasts, signals and history</a></p></article>';
   }
+  function areaOf(q) { return (D.areas && D.areas[q.area]) ? q.area : "other"; }
   function secQuestions() {
-    var present = {}; D.questions.forEach(function (q) { present[q.domain] = 1; });
-    var shown = D.questions.filter(function (q) { return ui.qf === "all" || q.domain === ui.qf; });
-    var h = chipRow(Q_DOMAINS, present, "qf", "Filter what-ifs by topic") + '<div class="qgrid">' + shown.map(qCard).join("") + "</div>";
-    return section("whatifs", "The big what-ifs", "The uncertainties behind the worlds. Each has outcomes that add up to 100%, the forecasts they rest on and the signals that move them.", h);
+    var areas = D.areas || {}, keys = Object.keys(areas);
+    var present = {}; D.questions.forEach(function (q) { present[areaOf(q)] = 1; });
+    var h = chipRow(areas, present, "qf", "Show one life area");
+    keys.concat(["other"]).filter(function (k) { return present[k] && (ui.qf === "all" || ui.qf === k); }).forEach(function (k) {
+      var qs = D.questions.filter(function (q) { return areaOf(q) === k; });
+      h += '<h3 class="area" id="area-' + esc(k) + '">' + esc(areas[k] || "Other") + ' <span class="ct">' + qs.length + "</span></h3>" +
+        '<div class="qgrid">' + qs.map(qCard).join("") + "</div>";
+    });
+    return section("whatifs", "The questions", "What happens to work, money, health, tech and the world by the end of 2029. Each question's outcomes add up to 100%, and the focus meter shows how settled the odds are.", h);
+  }
+  function secPortrait() {
+    var pt = D.portrait || {}, secs = arr(pt.sections);
+    if (!secs.length) return "";
+    var h = (pt.intro ? '<p class="dek">' + esc(pt.intro) + "</p>" : "") + '<div class="portrait">' + secs.map(function (sec) {
+      var qs = arr(sec.questions).map(function (id) { return find(D.questions, id); }).filter(Boolean);
+      return '<section class="panel pt"><h3>' + esc((D.areas || {})[sec.area] || sec.area) + "</h3><p>" + esc(sec.text) + "</p>" +
+        (qs.length ? '<ul class="pt-q">' + qs.map(function (q) {
+          var l = leader(q);
+          return '<li><a href="#q/' + esc(q.id) + '">' + esc(q.title) + "</a><span>" + (l ? esc(l.label) + " " + num(l.prob) + "%" : "") + " · " + esc(focusBand(q.focus) || "") + "</span></li>";
+        }).join("") + "</ul>" : "") + "</section>";
+    }).join("") + "</div>" + (pt.caveat ? '<p class="muted small">' + esc(pt.caveat) + "</p>" : "");
+    return section("portrait", pt.title || "Most likely 2030", pt.dek || "The leading answer to each question, put together.", h);
   }
 
   function sigRow(s) {
@@ -713,7 +766,7 @@ footer p { margin: 0 0 6px; }
   }
 
   function renderHome() {
-    $("app").innerHTML = secWeek() + secWorlds() + secScifi() + secQuestions() + secSignals() + secMilestones() + secRecord() + secCalendar() + secLog() + secMethod() + secContribute();
+    $("app").innerHTML = secWeek() + secPortrait() + secQuestions() + secWorlds() + secScifi() + secSignals() + secMilestones() + secRecord() + secCalendar() + secLog() + secMethod() + secContribute();
     wireCharts();
   }
 
@@ -726,7 +779,7 @@ footer p { margin: 0 0 6px; }
   function renderQuestion(q) {
     var hist = history(), ocs = arr(q.outcomes), maxP = Math.max.apply(null, ocs.map(function (o) { return num(o.prob); }));
     var drives = D.scifi.filter(function (f) { return arr(f.drivers).indexOf(q.id) >= 0; });
-    var h = '<article class="detail"><a class="back" href="#whatifs">← All what-ifs</a>' +
+    var h = '<article class="detail"><a class="back" href="#whatifs">← All questions</a>' +
       '<p class="kv"><span>' + esc(Q_DOMAINS[q.domain] || q.domain) + "</span><span>By the end of 2029</span>" + (isActive(q) ? "" : '<span class="tag">Proposed, awaiting review</span>') + "</p>" +
       "<h1>" + esc(q.title) + '</h1><p class="lede">' + esc(q.short) + "</p>" +
       '<div class="panel q" style="max-width:620px"><ol class="ocs">' + ocs.map(function (o, i) {

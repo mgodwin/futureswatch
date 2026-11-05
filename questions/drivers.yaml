@@ -1,0 +1,61 @@
+id: drivers
+tracking: active
+title: What if robotaxis take over city driving?
+short: How many US metros have driverless robotaxis by the end of 2029, and what happens to ride-hail, delivery and trucking jobs.
+domain: tech
+area: work
+order: 24
+read: Waymo carries more than 500,000 paid rides a week in 15 US metros, and Tesla runs small driverless fleets in Texas. Trucking jobs are flat on a year earlier, and Aurora plans about 200 driverless trucks by year-end against about 2.2M truck drivers.
+outcomes:
+- key: stall
+  label: Rollout stalls
+  prob: 8
+  prevProb: null
+  desc: A serious crash, a recall or new rules freeze expansion, and fewer than 15 US metros have public paid driverless rides at the end of 2029.
+  ifThen: Robotaxis stay a novelty in a few Sun Belt and West Coast cities. Ride-hail and delivery driving carry on as now.
+- key: spreading
+  label: Spreading, jobs hold
+  prob: 40
+  prevProb: null
+  desc: 15–29 metros have public paid driverless rides from any company, and US driving jobs (trucking, couriers and ride-hail) are down less than 10% from 2025.
+  ifThen: Hailing a driverless car is normal in many big cities, and ride-hail drivers earn less in those places. Most driving work, including long-haul trucking, still needs a person.
+- key: mainstream
+  label: Mainstream in big cities
+  prob: 47
+  prevProb: null
+  desc: 30 or more metros have public paid driverless rides, but total US driving jobs are still down less than 10% from 2025.
+  ifThen: Most large metros have robotaxis, and gig drivers there shift toward suburbs, airports and deliveries. Driverless trucks run a set of Sun Belt freight lanes. The job losses are real but slow.
+- key: jobs-fall
+  label: Driving jobs fall broadly
+  prob: 5
+  prevProb: null
+  desc: US driving jobs fall 10% or more from 2025, with robotaxis and driverless trucks a main cause rather than a recession.
+  ifThen: One of the largest groups of non-college jobs starts to shrink fast. Pressure grows for retraining money, robotaxi taxes and limits on driverless trucks.
+anchors:
+- who: Electrek
+  what: Waymo says it operates in 15 US metros with more than 500,000 paid rides a week; Tesla's Houston fleet is about 34 vehicles.
+  date: 2026-10
+  url: https://electrek.co/2026/10/27/waymo-expansion-250-square-miles-five-cities/
+- who: Manifold market
+  what: 59% that Waymo serves 20–29 of the top 50 US metros at the end of 2027, 22% for 30–39 and 4% for 40 or more. Thinly traded.
+  date: 2026-11
+  url: https://manifold.markets/JoshYou/waymo-service-in-how-many-top50-us
+- who: Aurora Innovation (via Trucking Dive)
+  what: Expects 200 driverless trucks in operation at the end of 2026 and targets more than 30,000 by 2030.
+  date: 2026-10
+  url: https://www.truckingdive.com/news/aurora-targets-30k-driverless-trucks-5b-revenue-in-2030/833800/
+- who: US Bureau of Labor Statistics
+  what: About 2.22M heavy truck drivers in 2025, with 4% growth projected from 2025 to 2035.
+  date: 2026-08
+  url: https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm
+- who: US Bureau of Labor Statistics
+  what: About 455,700 taxi and ride-hail drivers and chauffeurs in 2025, with 9% growth projected from 2025 to 2035.
+  date: 2026-08
+  url: https://www.bls.gov/ooh/transportation-and-material-moving/taxi-drivers-and-chauffeurs.htm
+- who: BLS payroll survey (via FRED)
+  what: Truck transportation jobs were 1.47M in September 2026, flat on a year earlier and about 7% below the 2022 peak.
+  date: 2026-10
+  url: https://fred.stlouisfed.org/series/CES4348400001
+signals:
+- waymo
+- truckjobs

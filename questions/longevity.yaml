@@ -1,0 +1,64 @@
+id: longevity
+tracking: active
+title: What if we start slowing aging?
+short: Whether any treatment is shown to slow human aging by the end of 2029, and whether US life expectancy rises, stalls or falls.
+domain: health
+area: health
+order: 32
+read: No treatment has been proven to slow aging in humans; the best evidence is small shifts in biological-age clocks, and the TAME metformin trial was still short of funding when last reported. US life expectancy hit a record 79.0 years in 2024, and a record-low death rate in 2025 points to a further gain.
+outcomes:
+- key: breakthrough
+  label: Aging slowed in humans
+  prob: 3
+  prevProb: null
+  desc: FDA or EMA approves a drug for an aging indication in people, or a large pre-registered trial shows a drug delays several age-related diseases or deaths. Shifts in biological-age clocks and dog drugs do not count. This outcome applies whatever happens to life expectancy.
+  ifThen: Aging starts to be treated as something medicine can target. Interest and money surge, but any gain in lifespan takes decades to show up. Escape velocity, where life expectancy grows faster than a year per year, stays far off.
+- key: rise
+  label: No aging drug; life expectancy rises
+  prob: 45
+  prevProb: null
+  desc: No proven aging treatment, but the latest NCHS figure published by the end of 2029 shows US life expectancy at 80.0 years or more.
+  ifThen: Americans live longer because fewer die from overdoses, heart disease and COVID, and drugs like GLP-1s help. Progress is steady and ordinary, not a longevity revolution.
+- key: stall
+  label: No aging drug; life expectancy stalls
+  prob: 41
+  prevProb: null
+  desc: No proven aging treatment, and the latest NCHS figure is between 79.0 and 79.9 years.
+  ifThen: Life expectancy stays near its 2024 record. Longevity clinics and supplements keep selling, but the evidence for slowing aging stays thin.
+- key: fall
+  label: No aging drug; life expectancy falls
+  prob: 11
+  prevProb: null
+  desc: No proven aging treatment, and the latest NCHS figure is below 79.0 years, for example after a pandemic or a surge in overdoses.
+  ifThen: A setback like 2020–2021. Health worries move from living longer to avoiding early deaths.
+anchors:
+- who: CDC (NCHS)
+  what: US life expectancy at birth rose 0.6 years to a record 79.0 in 2024, with the age-adjusted death rate down 3.8%.
+  date: "2026-01"
+  url: https://cdc.gov/nchs/products/databriefs/db548.htm
+- who: CDC (NCHS)
+  what: Provisional 2025 death rate fell 4.6% to a record low of 689.2 per 100,000; no 2025 life expectancy figure yet.
+  date: "2026-07"
+  url: https://cdc.gov/nchs/blog/posts/2026/07/provisional-data-u-s-death-rate-fell-to-a-record-low-in-2025.html
+- who: Olshansky and colleagues (Nature Aging)
+  what: Life expectancy gains in the longest-lived countries have slowed sharply since 1990; radical life extension this century is implausible without slowing aging itself.
+  date: "2024-10"
+  url: https://www.news-medical.net/news/20241008/Study-suggests-humans-are-approaching-a-biological-limit-to-life.aspx
+- who: COSMOS trial (Nature Medicine)
+  what: A daily multivitamin slowed biological-age clocks by about four months over two years in 958 older adults; significant on two of five clocks.
+  date: "2026-03"
+  url: https://press-news.org/221456-cosmos-trial-results-show-daily-multivitamin-use-may-slow-biological-aging.html
+- who: TAME trial (via NPR)
+  what: The six-year, 3,000-person metformin aging trial had about $5 million of a $45–70 million budget and had not started; 2024 report, no newer confirmed update found.
+  date: "2024-04"
+  url: https://www.michiganpublic.org/health/2024-04-22/a-cheap-drug-may-slow-down-aging-a-study-will-determine-if-it-works
+- who: Manifold forecasters
+  what: 11% that experts or regulators declare humans have reached longevity escape velocity before 2030.
+  date: "2026-11"
+  url: https://manifold.markets/Jack1/longevity-escape-velocity-before-20
+- who: Loyal
+  what: Its senior-dog lifespan drug has two of three FDA sections accepted; manufacturing review and conditional approval are still pending (company statement).
+  date: "2026-11"
+  url: https://loyal.com/for-vets
+signals:
+- lifeexp

@@ -1,0 +1,15 @@
+id: aicopyright
+tracking: active
+name: AI copyright lawsuits
+domain: creative
+order: 72
+measures: Running count of US copyright suits filed against AI companies.
+value: 161 suits
+asOf: 2026-11-04
+trend: up
+leans: neutral
+note: Up from 139 at the end of August, with news publishers filing many of the newest cases. The count includes cases later merged or dismissed.
+watch: A Supreme Court or second appeals ruling that generative AI training is not fair use points to paid licensing as the norm. Clear fair-use wins for AI firms point toward displacement.
+cadence: Weekly or faster (tracker updates)
+source: Chat GPT Is Eating the World (litigation tracker)
+url: https://chatgptiseatingtheworld.com/2026/11/04/latest-us-map-of-copyright-suits-v-ai-total-161/
