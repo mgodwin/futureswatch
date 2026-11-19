@@ -52,3 +52,6 @@ anchors:
 signals:
 - taiwanodds
 - uschina
+- tsmcrev
+- gpr
+- plaactivity

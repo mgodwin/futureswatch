@@ -26,6 +26,9 @@ covered_by:
 - signals/nvda.yaml
 - signals/aicredit.yaml
 - signals/labrev.yaml
+- signals/gpurent.yaml
+- signals/hyspread.yaml
+- signals/tsmcrev.yaml
 sources:
 - title: Moody's hyperscaler capex forecasts close in on $1T by 2027
   publisher: DatacenterDynamics

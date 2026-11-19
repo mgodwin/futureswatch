@@ -29,6 +29,7 @@ covered_by:
 - questions/taiwan.yaml
 - questions/ukraine.yaml
 - questions/gulf.yaml
+- signals/gpr.yaml
 notes: 'Works better as a single axis than any of its parts: each part is either a low-probability tail or moderate in impact. Overlaps with us-institutions and trade-fragmentation, so it should not be crossed with either.'
 sources:
 - title: Welcome to 2036 (Global Foresight)

@@ -1,0 +1,15 @@
+id: nucleartest
+tracking: active
+name: Nuclear test odds
+domain: world
+order: 105
+measures: Prediction market odds that the US conducts a nuclear weapons test by the end of 2026.
+value: 2% by end-2026
+asOf: '2026-11-19'
+trend: flat
+leans: climb
+note: New START expired in February with no replacement, and US officials have said they are ready for low-yield tests, but traders see no test this year.
+watch: Odds above 15%, or any explosive test by a major power, point to Fracture.
+cadence: Live
+source: Polymarket, via Frenzy Capital
+url: https://www.frenzycap.com/predictions/event/polymarket/us-nuclear-test-by

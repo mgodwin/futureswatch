@@ -21,6 +21,7 @@ correlated_with:
 covered_by:
 - signals/uschina.yaml
 - signals/chinachips.yaml
+- signals/tariffrate.yaml
 sources:
 - title: State of US tariffs, February 20, 2026
   publisher: Yale Budget Lab

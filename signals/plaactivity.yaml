@@ -1,0 +1,15 @@
+id: plaactivity
+tracking: active
+name: Chinese military activity near Taiwan
+domain: world
+order: 101
+measures: PLA aircraft sorties around Taiwan each month, from Taiwan's defense ministry daily reports.
+value: 232 sorties (Oct)
+asOf: 2026-10
+trend: down
+leans: climb
+note: 159 entered the air defense zone. Air activity is down 27% on October 2025 and about half of 2025 so far this year, though Chinese government ships hit a 2026 high of 165.
+watch: A month above 500 sorties, or a large blockade-style drill, points to Fracture. Staying under 300 supports the tense status quo.
+cadence: Monthly
+source: Taiwan Security Monitor (George Mason University)
+url: https://tsm.schar.gmu.edu/strait-snapshot-october-2026-update/

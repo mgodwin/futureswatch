@@ -1,0 +1,15 @@
+id: tariffrate
+tracking: active
+name: US effective tariff rate
+domain: markets
+order: 102
+measures: Average US tariff rate on imports, before buyers switch suppliers, from the Yale Budget Lab.
+value: 10.9%
+asOf: 2026-08
+trend: down
+leans: neutral
+note: Down from over 22% after the April 2025 tariffs, after the Supreme Court ruling and trade truces, but still about four times the 2024 level. The US–China truce runs to January 2027.
+watch: Back above 15%, or a lapsed China truce, points to Fracture and higher prices. Under 8% says trade is normalizing.
+cadence: Daily tracker; periodic reports
+source: Yale Budget Lab, via Skrzypczyński tracker
+url: https://sites.google.com/view/pskrzypczynski/home/average-effective-tariff-rate-in-the-u-s

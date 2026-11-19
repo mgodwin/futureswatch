@@ -1,0 +1,15 @@
+id: gpurent
+tracking: active
+name: GPU rental prices
+domain: markets
+order: 95
+measures: What it costs to rent an Nvidia H100 AI chip on a one-year contract, in dollars per GPU-hour.
+value: ≈$2.80/hr
+asOf: '2026-10-01'
+trend: up
+leans: takeoff
+note: SemiAnalysis data put the one-year contract midpoint near $2.80, up about 65% from a $1.70 trough in October 2025, even as new chips come online. Demand is still outrunning supply.
+watch: Rents falling below $2.00 while capex keeps rising points to overbuild and Hangover. Rents holding above $2.50 as newer chips ship supports Takeoff.
+cadence: Daily index; monthly reading
+source: SemiAnalysis GPU index, via FourWeekMBA
+url: https://fourweekmba.com/ai-patels-data-puts-nvidia-h100-rent-up-65-in-a-year-at-2-80/

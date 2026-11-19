@@ -62,3 +62,7 @@ signals:
 - brent
 - debt
 - breakeven
+- hyspread
+- claims
+- tariffrate
+- termpremium

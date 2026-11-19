@@ -1,0 +1,15 @@
+id: h5wastewater
+tracking: active
+name: Bird flu in wastewater
+domain: health
+order: 104
+measures: H5 avian flu detections in US wastewater sampling sites, from CDC surveillance.
+value: Scattered detections; first in Hawaii
+asOf: '2026-11-07'
+trend: flat
+leans: neutral
+note: Hawaii reported its first H5 detection from a Nov 7 Oahu sample. About 200 CDC sites have a data gap while a new testing contract starts.
+watch: Detections across many states with no animal source nearby would point to spread in people and Fracture. Sparse farm-linked hits are background.
+cadence: Weekly, Friday
+source: CDC National Wastewater Surveillance System; CIDRAP
+url: https://www.cidrap.umn.edu/avian-influenza-bird-flu/hawaii-reports-first-h5-avian-flu-detection-wastewater

@@ -1,0 +1,15 @@
+id: aiadoption
+tracking: active
+name: Businesses using AI
+domain: ai
+order: 98
+measures: Share of US businesses that used AI in any business function in the past two weeks, from the Census Bureau survey.
+value: 24.6%
+asOf: '2026-10-18'
+trend: up
+leans: takeoff
+note: A record for the series, up from 17.3% when the question started in November 2025. 28.6% expect to use AI within six months. Use is far higher in information and finance than in construction or retail.
+watch: Above 35% by late 2027 points to fast diffusion and Takeoff. Stalling near 25% supports Steady Climb.
+cadence: Every two weeks
+source: Census Bureau BTOS, via FourWeekMBA
+url: https://fourweekmba.com/ai-goldmans-ai-gauge-hits-record-24-6-firms-beat-forecast/

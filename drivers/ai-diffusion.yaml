@@ -29,6 +29,8 @@ covered_by:
 - signals/softdev.yaml
 - signals/ailayoffs.yaml
 - signals/productivity.yaml
+- signals/aiadoption.yaml
+- signals/claims.yaml
 sources:
 - title: More US employees are using AI, poll finds
   publisher: Semafor (Gallup)

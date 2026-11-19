@@ -1,0 +1,15 @@
+id: transferodds
+tracking: active
+name: Normal 2028 transfer odds
+domain: politics
+order: 106
+measures: Forecast market odds of a peaceful 2028 US transfer of power to a non-authoritarian leader.
+value: 75%
+asOf: '2026-11-19'
+trend: flat
+leans: neutral
+note: A thin market (17 traders). Bright Line Watch experts rated US democracy at a term high in July 2026, while V-Dem downgraded the US earlier in the year.
+watch: Under 60% points to a contested transfer and strain on US institutions. Above 85% says markets expect a normal handover.
+cadence: Live
+source: Manifold
+url: https://manifold.markets/SuryaPali/2028-us-election-peaceful-transfer
