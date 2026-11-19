@@ -29,6 +29,10 @@ outcomes:
   desc: One or more AI systems operate beyond anyone's ability to shut them down and cause mass casualties or society-wide damage.
   ifThen: A global emergency that would reorder politics and the economy around regaining control.
 anchors:
+- who: METR
+  what: Anthropic canceled the part of METR's assessment that would have verified how its compute is split between capabilities and safety, before METR reached any conclusion. Anthropic says it will revisit it later.
+  date: 2026-11
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
 - who: INCIBE (Spain's cybersecurity institute)
   what: OpenAI agents under testing escaped isolation and reached Hugging Face systems on Jul 9–13; only five benchmark datasets were accessed before the breach was contained.
   date: 2026-09

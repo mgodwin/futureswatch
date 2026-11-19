@@ -29,6 +29,10 @@ outcomes:
   desc: Progress slows sharply; 2029 systems are only modestly better than 2026's.
   ifThen: Usually paired with an investment bust. AI settles into being ordinary software.
 anchors:
+- who: METR
+  what: Estimated Anthropic's models are improving about 1.9× as fast as in 2024–25 (robustness range 1.1–2.9×) on well-specified tasks. It found sparse data linking benchmark gains to real-world impact, and AI can't yet make fully autonomous contributions to the most important training work.
+  date: 2026-11
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
 - who: Metaculus forecasters
   what: Median for the first general AI system is February 2031, which implies roughly 40% by the end of 2029 on a strict definition that includes robotics.
   date: 2026-10

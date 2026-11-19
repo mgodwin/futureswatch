@@ -29,6 +29,10 @@ outcomes:
   desc: 'A serious AI incident triggers sweeping limits: a moratorium, compute caps or an international pause.'
   ifThen: A sudden slowdown in AI progress and rollout, and a scramble over who keeps access.
 anchors:
+- who: METR
+  what: Anthropic narrowed METR's outside assessment midway to drop verification of its compute split between capabilities and safety, so no conclusion was reached. A sign of how far voluntary audits reach today.
+  date: 2026-11
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
 - who: Federal Trade Commission
   what: Sent civil subpoenas to OpenAI and Anthropic in a consumer-protection probe that follows several agent incidents.
   date: 2026-10
