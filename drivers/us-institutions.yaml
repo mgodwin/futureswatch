@@ -23,6 +23,7 @@ correlated_with:
 covered_by:
 - questions/us-power.yaml (party control only)
 - signals/pres2028.yaml
+- signals/transferodds.yaml
 sources:
 - title: Democracy Report 2026
   publisher: V-Dem Institute

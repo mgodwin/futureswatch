@@ -56,3 +56,4 @@ anchors:
 signals:
 - hormuz
 - brent
+- gpr

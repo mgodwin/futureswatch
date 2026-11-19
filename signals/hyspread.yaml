@@ -1,0 +1,15 @@
+id: hyspread
+tracking: active
+name: Junk bond spread
+domain: markets
+order: 96
+measures: Extra yield investors demand to hold US high-yield corporate bonds over Treasuries, in percentage points.
+value: 3.23 pts
+asOf: '2026-11-13'
+trend: up
+leans: neutral
+note: Still low by historical standards, but up 0.52 points in three months, and the riskiest CCC tier (13.2 points) is doing most of the widening.
+watch: A spread above 5 points points to Hangover or recession. Back under 3 says credit markets see no strain.
+cadence: Daily
+source: Trefis, high-yield index data
+url: https://www.trefis.com/stock/spx/articles/625542/junk-bonds-have-split-in-two-the-index-hides-it/2026-11-17

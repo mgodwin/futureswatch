@@ -26,6 +26,9 @@ covered_by:
 - signals/tenyear.yaml
 - signals/fed.yaml
 - signals/recodds.yaml
+- signals/termpremium.yaml
+- signals/hyspread.yaml
+- signals/tariffrate.yaml
 sources:
 - title: CBO's February 2026 Budget and Economic Outlook
   publisher: CRFB

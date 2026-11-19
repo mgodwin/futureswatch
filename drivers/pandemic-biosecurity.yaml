@@ -22,6 +22,7 @@ covered_by:
 - questions/pandemic.yaml
 - signals/outbreaks.yaml
 - signals/biouplift.yaml
+- signals/h5wastewater.yaml
 sources:
 - title: 'Ebola disease: multi-country outbreak 2026'
   publisher: ECDC

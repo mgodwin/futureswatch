@@ -23,6 +23,8 @@ covered_by:
 - questions/us-china-ai.yaml
 - signals/taiwanodds.yaml
 - signals/uschina.yaml
+- signals/plaactivity.yaml
+- signals/tsmcrev.yaml
 sources:
 - title: China attacks or blockades Taiwan in 2026
   publisher: Metaculus

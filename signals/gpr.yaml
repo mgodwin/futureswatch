@@ -1,0 +1,15 @@
+id: gpr
+tracking: active
+name: Geopolitical risk index
+domain: world
+order: 100
+measures: Caldara and Iacoviello index of war and tension coverage in major newspapers, where the 1985–2019 average is 100.
+value: '150.5'
+asOf: 2026-10
+trend: down
+leans: neutral
+note: Down from a 2026 peak of 330 in March, when the Iran war began, but still well above the long-run average of 100.
+watch: Above 250 for two months points to Fracture. Back under 120 says the world is calming.
+cadence: Monthly; daily series too
+source: Caldara and Iacoviello (Federal Reserve), via MacroDataHub
+url: https://macrodatahub.com/data/us-geopolitical-risk-index-gpr-1244

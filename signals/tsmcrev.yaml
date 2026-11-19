@@ -1,0 +1,15 @@
+id: tsmcrev
+tracking: active
+name: TSMC monthly revenue
+domain: tech
+order: 99
+measures: TSMC's monthly sales, the earliest hard number on AI chip demand.
+value: NT$586.9B, +59.7% y/y
+asOf: 2026-10
+trend: up
+leans: takeoff
+note: A record month, 14.7% above September. January to October sales are up 43% on 2025.
+watch: Two months of falling year-on-year sales point to Hangover. Growth above 30% supports the build-out. A sudden stop would mean a Taiwan shock.
+cadence: Monthly, around the 10th
+source: TSMC, via Focus Taiwan
+url: https://focustaiwan.tw/business/202611100014

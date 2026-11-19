@@ -22,6 +22,7 @@ correlated_with:
   why: a component
 covered_by:
 - milestones/nuclear.yaml
+- signals/nucleartest.yaml
 sources:
 - title: Doomsday Clock set closer to midnight than ever
   publisher: CP24 (AP)

@@ -1,0 +1,15 @@
+id: termpremium
+tracking: active
+name: Treasury term premium
+domain: markets
+order: 103
+measures: Extra yield investors want for holding 10-year Treasuries instead of rolling short bills, from the New York Fed model.
+value: 0.62%
+asOf: '2026-10-30'
+trend: flat
+leans: neutral
+note: Positive all year, after a decade near or below zero. A rising premium means investors want more pay for US fiscal and inflation risk.
+watch: Above 1.2% points to debt stress and Hangover. Back near zero says fiscal worries have eased.
+cadence: Daily, monthly reading
+source: New York Fed (ACM model), via eco3min
+url: https://eco3min.fr/en/us-term-premium-dataset/

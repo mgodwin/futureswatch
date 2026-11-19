@@ -28,6 +28,7 @@ covered_by:
 - signals/elecprice.yaml
 - signals/capex.yaml
 - signals/nvda.yaml
+- signals/gpurent.yaml
 sources:
 - title: Morgan Stanley on the AI power crunch
   publisher: The Star
