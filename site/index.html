@@ -112,8 +112,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .search { width: 100%; max-width: 420px; font: inherit; font-size: 16px; color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 999px; padding: 11px 18px; margin: 0 0 12px; }
 .search::placeholder { color: var(--muted); }
 .search:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
-.mason { columns: 4 250px; column-gap: 16px; margin-top: 8px; }
-.qc { break-inside: avoid; display: block; margin: 0 0 16px; padding: 18px 18px 4px; }
+.mason { display: flex; gap: 16px; align-items: flex-start; margin-top: 8px; }
+.mcol { flex: 1 1 0; min-width: 0; }
+.qc { display: block; margin: 0 0 16px; padding: 18px 18px 4px; }
 .qc .area { margin: 0 0 8px; font-size: 13px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
 .qc .area i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
 .qc h3 { margin: 0; font-family: var(--f-body); font-weight: 400; font-size: 16px; line-height: 1.35; }
@@ -126,7 +127,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .qc .others { margin-top: 12px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 6px; min-height: 44px; font-size: 14px; text-decoration: none; }
 .qc .others:hover { text-decoration: underline; }
 .qc .others svg { flex: none; }
-.qcount { font-size: 14px; color: var(--muted); margin: 0 0 10px; }
+.qbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
+.qcount { font-size: 14px; color: var(--muted); margin: 0; }
+.sorts { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; }
+.sortb { font: inherit; font-size: 13px; border: 0; background: none; color: var(--ink-2); padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.sortb[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.sortb:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.qc .area .mv { margin-left: auto; font-size: 12px; color: var(--muted); }
 .empty { color: var(--ink-2); }
 
 .page { padding-top: 8px; }
@@ -394,7 +401,7 @@ footer p { margin: 0 0 6px; }
   var TREND = { up: ["↑", "Rising"], down: ["↓", "Falling"], flat: ["→", "Steady"] };
   var OC_COLORS = ["var(--c1)", "var(--c2)", "var(--c3)", "var(--c4)"];
 
-  var D = null, ui = { qf: "all", sf: "all", lean: null, q: "" };
+  var D = null, ui = { qf: "all", sf: "all", lean: null, q: "", sort: "moved" };
   var openKeys = {};
   var charts = {};
 
@@ -634,6 +641,11 @@ footer p { margin: 0 0 6px; }
     "medicine", "longevity", "creative-work", "ai-capability", "ai-boom", "inequality", "xr-glasses", "humanoid-robots", "ai-race", "ai-self-improvement",
     "ai-loss-of-control", "power-grid", "taiwan", "pandemic", "ai-cyber", "ai-control", "us-china-ai", "fusion", "climate", "ukraine", "gulf", "us-power", "orbital-compute"];
   function homeRank(q) { var i = HOME_ORDER.indexOf(q.id); return i < 0 ? 1000 + num(q.order) : i; }
+  // Points of probability that changed hands since the last update (half the sum of every outcome's move).
+  function shift(q) {
+    var t = 0; arr(q.outcomes).forEach(function (o) { if (o.prevProb != null && o.prevProb !== "") t += Math.abs(num(o.prob) - num(o.prevProb)); });
+    return Math.round(t / 2);
+  }
   function leader(q) {
     var best = null; arr(q.outcomes).forEach(function (o) { if (!best || num(o.prob) > num(best.prob)) best = o; }); return best;
   }
@@ -644,7 +656,7 @@ footer p { margin: 0 0 6px; }
   function qCard(q) {
     var l = leader(q), n = arr(q.outcomes).length - 1, href = "#q/" + esc(q.id);
     return '<article class="panel qc"><p class="area"><i style="background:' + acolor(q) + '"></i>' + esc((D.areas || {})[q.area] || "Other") +
-      (isActive(q) ? "" : ' <span class="tag">Proposed</span>') + "</p>" +
+      (isActive(q) ? "" : ' <span class="tag">Proposed</span>') + (shift(q) ? '<span class="mv">' + shift(q) + (shift(q) === 1 ? " point" : " points") + " moved</span>" : "") + "</p>" +
       '<h3><a href="' + href + '">' + esc(q.title) + "</a></h3>" +
       (l ? '<p class="ml">Most likely outcome</p><p class="ans">' + esc(says(l)) + ' <span class="ap" style="color:' + acolor(q) + '">' + num(l.prob) + "%</span>" + moveHtml(l.prob, l.prevProb) + "</p>" : "") +
       '<a class="others" href="' + href + '">See ' + n + " other possible outcome" + (n === 1 ? "" : "s") + CHEV + "</a></article>";
@@ -657,11 +669,32 @@ footer p { margin: 0 0 6px; }
   function qList() {
     var t = (ui.q || "").trim().toLowerCase();
     var shown = D.questions.filter(function (q) { return (ui.qf === "all" || areaOf(q) === ui.qf) && matches(q, t); })
-      .sort(function (a, b) { return homeRank(a) - homeRank(b); });
+      .sort(function (a, b) { return (ui.sort === "moved" ? shift(b) - shift(a) : 0) || homeRank(a) - homeRank(b); });
     if (!shown.length) return '<p class="empty">No questions match that. Try a broader word, or <a href="' + esc(gh("/issues/new?template=suggest-a-factor.yml")) + '">suggest a question</a>.</p>';
-    return (t || ui.qf !== "all" ? '<p class="qcount">' + shown.length + " question" + (shown.length === 1 ? "" : "s") + "</p>" : "") +
+    var sorts = { moved: "Biggest moves", life: "Everyday life first" };
+    return '<div class="qbar"><p class="qcount">' + (t || ui.qf !== "all" ? shown.length + " question" + (shown.length === 1 ? "" : "s") : "Sorted by") + '</p><div class="sorts" role="group" aria-label="Sort the questions">' +
+      Object.keys(sorts).map(function (k) { return '<button class="sortb" type="button" data-sort="' + k + '" aria-pressed="' + (ui.sort === k) + '">' + sorts[k] + "</button>"; }).join("") + "</div></div>" +
       '<div class="mason">' + shown.map(qCard).join("") + "</div>";
   }
+
+  // Masonry that keeps reading order across rows: card i goes to the shortest column, so the top
+  // of the list stays at the top-left and runs left to right.
+  function layoutMason() {
+    var m = document.querySelector(".mason"); if (!m) return;
+    var cards = Array.prototype.slice.call(m.querySelectorAll(".qc"));
+    var n = Math.max(1, Math.min(4, Math.floor((m.clientWidth + 16) / 266)));
+    if (m.getAttribute("data-n") === String(n)) return;
+    var cols = [], h = [];
+    m.innerHTML = "";
+    for (var i = 0; i < n; i++) { var c = document.createElement("div"); c.className = "mcol"; m.appendChild(c); cols.push(c); h.push(0); }
+    cards.forEach(function (card) {
+      var k = h.indexOf(Math.min.apply(null, h));
+      cols[k].appendChild(card); h[k] += card.offsetHeight + 16;
+    });
+    m.setAttribute("data-n", String(n));
+  }
+  function setQList() { $("qlist").innerHTML = qList(); layoutMason(); }
+  var masonT; window.addEventListener("resize", function () { clearTimeout(masonT); masonT = setTimeout(layoutMason, 120); });
 
   function sigRow(s) {
     var t = TREND[s.trend], rd = arr(D.readings[s.id]).filter(function (r) { return typeof r.num === "number"; });
@@ -873,7 +906,7 @@ footer p { margin: 0 0 6px; }
     if (r.view === "q") { renderQuestion(r.item); document.title = r.item.title + " | Futures Watch 2030"; }
     else if (r.view === "s") { renderSignal(r.item); document.title = r.item.name + " | Futures Watch 2030"; }
     else if (r.view === "page") { renderPage(r.page); document.title = PAGES[r.page][0] + " | Futures Watch 2030"; }
-    else { renderHome(); document.title = "Futures Watch 2030"; }
+    else { renderHome(); layoutMason(); document.title = "Futures Watch 2030"; }
     if (changed) {
       var el = r.anchor && document.getElementById(r.anchor);
       if (el) el.scrollIntoView(); else window.scrollTo(0, 0);
@@ -888,9 +921,10 @@ footer p { margin: 0 0 6px; }
     if (d && d.tagName === "DETAILS" && d.dataset && d.dataset.key) { if (d.open) openKeys[d.dataset.key] = true; else delete openKeys[d.dataset.key]; }
   }, true);
   document.addEventListener("click", function (e) {
-    var t = e.target.closest ? e.target.closest("[data-qf],[data-sf],[data-lean],[data-clear]") : null;
+    var t = e.target.closest ? e.target.closest("[data-qf],[data-sf],[data-lean],[data-clear],[data-sort]") : null;
     if (!t) return;
     var y = window.scrollY;
+    if (t.hasAttribute("data-sort")) { ui.sort = t.getAttribute("data-sort"); setQList(); return; }
     if (t.hasAttribute("data-qf")) ui.qf = t.getAttribute("data-qf");
     else if (t.hasAttribute("data-sf")) ui.sf = t.getAttribute("data-sf");
     else if (t.hasAttribute("data-clear")) ui.lean = null;
@@ -902,12 +936,12 @@ footer p { margin: 0 0 6px; }
       render(true); window.scrollTo(0, y);
       return;
     }
-    if (t.hasAttribute("data-qf")) { $("qlist").innerHTML = qList(); Array.prototype.forEach.call(document.querySelectorAll("[data-qf]"), function (c) { c.setAttribute("aria-pressed", String(c.getAttribute("data-qf") === ui.qf)); }); return; }
+    if (t.hasAttribute("data-qf")) { setQList(); Array.prototype.forEach.call(document.querySelectorAll("[data-qf]"), function (c) { c.setAttribute("aria-pressed", String(c.getAttribute("data-qf") === ui.qf)); }); return; }
     render(true); window.scrollTo(0, y);
   });
 
   document.addEventListener("input", function (e) {
-    if (e.target && e.target.id === "qsearch") { ui.q = e.target.value; $("qlist").innerHTML = qList(); }
+    if (e.target && e.target.id === "qsearch") { ui.q = e.target.value; setQList(); }
   });
 
   // ---------- data ----------
