@@ -5,11 +5,11 @@ domain: markets
 order: 19
 measures: Prediction-market probability of a US recession.
 value: ≈22% for 2027
-asOf: '2026-10-26'
+asOf: '2026-11-19'
 trend: flat
 leans: neutral
-note: Kalshi, unchanged for a third week despite $117 oil. It hit a record low of 20% in late September.
+note: Kalshi, about where it has been since October even as December hike odds rose. Polymarket prices about 31% for a recession by the end of 2027, down from 33%.
 watch: 2027 recession odds above 40% point to Hangover. Below 15% supports Steady Climb.
 cadence: Live
-source: Kalshi
+source: Kalshi; Polymarket
 url: https://kalshi.com/markets/kxrecssnber/recession/kxrecssnber-27

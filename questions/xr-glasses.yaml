@@ -5,27 +5,27 @@ short: Whether smart glasses and VR or AR headsets become a mass-market device b
 domain: tech
 area: tech
 order: 33
-read: Smart glasses are growing fast, led by Meta's Ray-Bans, and now make up about 85% of XR shipments while VR headsets shrink. Still, IDC counted only about 3.5 million devices in the second quarter of 2026, and about 5% of US adults own camera glasses.
+read: Smart glasses are growing fast, led by Meta's Ray-Bans, and now make up about 85% of XR shipments; Samsung and Google's first pair ships Dec 10. Still, IDC counted only about 3.5 million devices in the second quarter of 2026, and about 5% of US adults own camera glasses.
 outcomes:
 - key: niche
   label: Stays niche
   says: No, they stay niche
   prob: 25
-  prevProb: null
+  prevProb: 25
   desc: Fewer than 25 million smart glasses and headsets ship worldwide in 2029, as counted by IDC.
   ifThen: Smart glasses stay a gadget for early adopters, like VR before them. Privacy worries and weak use cases hold them back, and phones stay the main screen.
 - key: growing
   label: Real but not mainstream
   says: A real market, but not mainstream
   prob: 60
-  prevProb: null
+  prevProb: 60
   desc: Between 25 million and 75 million ship in 2029.
   ifThen: Glasses become a familiar sight, much like early smartwatches. Many people use them for calls, music, photos and AI help, but most still don't own a pair.
 - key: mainstream
   label: Goes mainstream
   says: Yes, as common as smartwatches
   prob: 15
-  prevProb: null
+  prevProb: 15
   desc: More than 75 million ship in 2029, roughly the scale smartwatches reached.
   ifThen: AI glasses become a common everyday device. People talk to assistants through their glasses, and camera glasses in public prompt new privacy rules.
 anchors:
@@ -53,6 +53,10 @@ anchors:
   what: About 5% of US adults owned camera smart glasses in July 2026 (1,096 adults surveyed); no weekly-use figure published.
   date: "2026-08"
   url: https://www.security.org/resources/smart-glasses-statistics-report/
+- who: Samsung and Google (via Android Central)
+  what: Their display-less Android XR glasses opened preorders Nov 12 from $395, below Meta's prices, and launch Dec 10 in the US.
+  date: "2026-11"
+  url: https://www.androidcentral.com/wearables/google-and-samsungs-smart-glasses-are-here-and-theyre-cheaper-than-metas
 - who: 9to5Mac (reported rumor)
   what: Apple's display-less smart glasses are reportedly targeted for 2027; AR display glasses are several years away.
   date: "2026-09"

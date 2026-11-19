@@ -1,10 +1,10 @@
 id: chk-anthropicipo
 label: 'Check · by Dec 31, 2026: Anthropic shares start trading'
 order: 11
-prob: 93
-prevProb: 82
+prob: 100
+prevProb: 93
 resolvesBy: '2026-12-31'
-resolved: null
-note: Polymarket prices 93% for trading by year-end and 83% by Nov 30. The roadshow is expected around Nov 10, with a debut reported for Nov 16–20.
-source: Polymarket
-url: https://polymarket.com/event/anthropic-ipo-by
+resolved: 'yes'
+note: Resolved yes on 2026-11-19; last forecast 93%. Anthropic priced at $83 a share, above its $70–78 range, and began trading on Nasdaq as ANT at $111.50.
+source: Fox Business
+url: https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo

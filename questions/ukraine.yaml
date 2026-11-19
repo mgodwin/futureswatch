@@ -5,19 +5,19 @@ short: The Russia–Ukraine war at the end of 2029.
 domain: geopolitics
 area: world
 order: 10
-read: Talks are set for Abu Dhabi in the first half of November, and a local ceasefire began in Oleshky. Markets still see a full ceasefire this year as unlikely.
+read: Three-way talks in Abu Dhabi on Nov 10–11 agreed a prisoner swap but no ceasefire, and long-range strikes escalated. Markets cut the odds of a ceasefire by the end of 2027.
 outcomes:
 - key: ceasefire
   label: Durable ceasefire or deal
   says: A ceasefire or deal holds
-  prob: 55
+  prob: 52
   prevProb: 55
   desc: Fighting has largely stopped under a ceasefire or settlement.
   ifThen: Lower energy and security risk in Europe, and a reconstruction boom.
 - key: continues
   label: War continues
   says: "Still fighting at today's pace"
-  prob: 41
+  prob: 44
   prevProb: 41
   desc: Active fighting continues at roughly today's intensity.
   ifThen: An ongoing drain on Europe, with periodic escalation scares.
@@ -29,10 +29,10 @@ outcomes:
   desc: Direct military conflict between NATO and Russia.
   ifThen: 'The Fracture world: a European war and a global economic shock.'
 anchors:
-- who: Kremlin / AP
-  what: Putin agreed in principle to resume three-way talks with the US and Ukraine after Nov 10.
-  date: 2026-10
-  url: https://www.hawaiinewsnow.com/2026/10/21/trump-envoy-witkoff-meets-putin-st-petersburg-ukraine-war-talks/?outputType=amp
+- who: Al Jazeera
+  what: The Abu Dhabi round produced a prisoner swap but no breakthrough; no next round is set.
+  date: 2026-11
+  url: https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates
 - who: White House / RFE/RL
   what: Trump waived nearly all sanctions in the Graham Act on Oct 16, two days before they took effect; Zelensky criticized the move.
   date: 2026-10
@@ -54,8 +54,8 @@ anchors:
   date: 2026-09
   url: https://www.kuow.org/npr-news/2026-09-15/nato-jets-down-drone-in-lithuanian-airspace
 - who: Polymarket
-  what: About 10% for a ceasefire agreement by the end of 2026, 24% by March 2027 and 53% by the end of 2027.
+  what: About 9.5% for a ceasefire by the end of 2026, 17.5% by March 2027 and 44% by the end of 2027.
   date: 2026-11
-  url: https://cryptoslate.com/predictions/market/russia-x-ukraine-ceasefire-agreement-by/
+  url: https://www.riotimesonline.com/ukraine-ceasefire-odds-fall-polymarket-2026/
 signals:
 - ukraine

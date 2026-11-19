@@ -52,18 +52,6 @@
   event: October jobs report
   why: Unemployment and payrolls, the core disruption and recession gauges.
   url: https://www.bls.gov/news.release/empsit.nr0.htm
-- id: 2026-11-08-starship
-  date: '2026-11-08'
-  when: No earlier than Nov 8
-  event: Starship Flight 15
-  why: Begins testing docking hardware needed for orbital refueling.
-  url: https://en.wikipedia.org/wiki/Starship_flight_15
-- id: 2026-10-12-update
-  date: '2026-11-09'
-  when: Nov 9
-  event: Next Futures Watch update
-  why: Weekly re-check of every signal and the odds.
-  url: null
 - id: 2026-11-09-anthropic-ipo
   date: '2026-11-09'
   when: Week of Nov 9 (reported)
@@ -94,60 +82,132 @@
   event: NOAA El Niño update
   why: Shows whether El Niño reaches record strength, which drives 2027 heat odds.
   url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
-- id: 2026-11-15-apec
-  date: '2026-11-15'
-  when: Nov
-  event: APEC summit, Shenzhen
-  why: The next Trump–Xi meeting point.
-  url: null
-- id: 2026-11-16-anthropic-listing
-  date: '2026-11-16'
-  when: Week of Nov 16 (reported)
-  event: Anthropic shares could start trading
-  why: The S-1 is public; listing would resolve the Anthropic IPO check and test appetite for AI stocks.
-  url: https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1
+- id: 2026-11-08-starship
+  date: '2026-11-13'
+  when: Nov 13
+  event: Starship Flight 15
+  why: Flew Nov 13; the ship was caught by the tower from orbit for the first time, but the booster was lost.
+  url: https://thenextweb.com/news/spacex-starship-catch-upper-stage-flight-15
 - id: 2026-11-16-opendoors
   date: '2026-11-16'
-  when: Mid-Nov (expected)
+  when: Nov 16
   event: Open Doors international student report
   why: Confirms how far international enrollment fell this fall.
   url: null
 - id: 2026-11-19-nvda
-  date: '2026-11-19'
-  when: Late Nov
+  date: '2026-11-17'
+  when: Nov 17
   event: Nvidia earnings
-  why: The bellwether for AI chip demand.
-  url: https://investor.nvidia.com
+  why: Revenue rose 103% from a year earlier to $115.8 billion, the bellwether for AI chip demand.
+  url: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
+- id: 2026-11-15-apec
+  date: '2026-11-18'
+  when: Nov 18–19
+  event: APEC summit, Shenzhen
+  why: The next Trump–Xi meeting point.
+  url: https://chinaglobalsouth.com/analysis/apec-summit-2026-china-shenzhen-trump-xi-putin/
+- id: 2026-11-16-anthropic-listing
+  date: '2026-11-19'
+  when: Nov 19
+  event: Anthropic shares could start trading
+  why: Priced at $83 and opened at $111.50 on Nasdaq, resolving the Anthropic IPO check yes.
+  url: https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo
+- id: 2026-10-12-update
+  date: '2026-11-23'
+  when: Nov 23
+  event: Next Futures Watch update
+  why: Weekly re-check of every signal and the odds.
+  url: null
+- id: 2026-11-24-caseshiller
+  date: '2026-11-24'
+  when: Nov 24
+  event: Case-Shiller home prices (September)
+  why: Shows whether higher rates are cooling house prices.
+  url: https://www.thetrading.tools/economic-calendar/case-shiller
+- id: 2026-12-04-jobs
+  date: '2026-12-04'
+  when: Dec 4
+  event: November jobs report
+  why: The last jobs data before the Fed decides on a December hike.
+  url: https://www.bls.gov/schedule/news_release/empsit.htm
 - id: 2026-12-09-fomc
   date: '2026-12-09'
-  when: Dec 9
+  when: Dec 8–9
   event: Fed rate decision
-  why: Markets price about 72% for a hike; resolves the Fed-hike check.
+  why: Markets price about 96% for a hike; resolves the Fed-hike check.
   url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
-- id: 2026-12-10-g20
+- id: 2026-12-10-cpi
   date: '2026-12-10'
-  when: Dec
+  when: Dec 10
+  event: November inflation report
+  why: Lands the day after the Fed decision; shapes January hike odds.
+  url: https://www.bls.gov/schedule/news_release/cpi.htm
+- id: 2026-12-10-enso
+  date: '2026-12-10'
+  when: Dec 10
+  event: NOAA El Niño update
+  why: A strong-to-very strong El Niño is likely through early 2027, which drives 2027 heat odds.
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+- id: 2026-12-10-g20
+  date: '2026-12-14'
+  when: Dec 14–15
   event: G20 summit, Miami
   why: Another US–China touchpoint before the trade truce runs out.
-  url: null
+  url: https://www.cityofdoral.com/Elected-officials/Christi-Fraga/Doral-at-the-Center-of-G20
+- id: 2026-12-29-caseshiller
+  date: '2026-12-29'
+  when: Dec 29
+  event: Case-Shiller home prices (October)
+  why: Shows whether higher rates are cooling house prices.
+  url: https://www.thetrading.tools/economic-calendar/case-shiller
 - id: 2026-12-31-sparc
   date: '2026-12-31'
   when: Late 2026–early 2027
   event: SPARC first plasma (expected)
   why: The first step toward a Q>1 fusion test in 2027.
   url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m
+- id: 2026-12-31-topmodel
+  date: '2026-12-31'
+  when: Dec 31
+  event: Year-end LMArena leaderboard
+  why: Resolves the top-model check; markets favor Google about 83%.
+  url: https://polymarket.com/event/which-company-has-best-ai-model-end-of-2026
 - id: 2027-01-03-congress
   date: '2027-01-03'
   when: Jan 3, 2027
   event: New Congress sworn in
   why: The midterm result takes effect; sets the agenda on AI, trade and the budget.
   url: null
+- id: 2027-01-08-jobs
+  date: '2027-01-08'
+  when: Jan 8, 2027
+  event: December jobs report
+  why: Unemployment and payrolls ahead of the January Fed meeting.
+  url: https://www.bls.gov/schedule/news_release/empsit.htm
 - id: 2027-01-15-truce
-  date: '2027-01-15'
-  when: Jan 2027
+  date: '2027-01-10'
+  when: Jan 10, 2027
   event: US–China tariff truce expires
-  why: Lapse or renewal is a major Taiwan and trade signal.
-  url: https://militarnyi.com/en/articles/xi-jinping-s-washington-visit/
+  why: The extended truce lapses unless renewed or replaced; a major Taiwan and trade signal.
+  url: https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/092426-us-says-trade-truce-with-china-extended-till-jan-10-2027-ahead-of-trump-xi-meet
+- id: 2027-01-13-cpi
+  date: '2027-01-13'
+  when: Jan 13, 2027
+  event: December inflation report
+  why: The last inflation read before the January Fed decision.
+  url: https://www.bls.gov/schedule/news_release/cpi.htm
+- id: 2027-01-14-temp
+  date: '2027-01-14'
+  when: Mid-Jan 2027 (expected)
+  event: NASA and NOAA global temperatures for 2026
+  why: Resolves whether 2026 ranks as the warmest year on record.
+  url: https://polymarket.com/event/where-will-2026-rank-among-the-hottest-years-on-record
+- id: 2027-01-27-fomc
+  date: '2027-01-27'
+  when: Jan 26–27, 2027
+  event: Fed rate decision
+  why: Markets price about 62% for another hike; resolves the January Fed check.
+  url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 - id: 2027-03-31-ascend
   date: '2027-03-31'
   when: Q1 2027

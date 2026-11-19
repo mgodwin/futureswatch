@@ -4,12 +4,12 @@ name: 10-year Treasury yield
 domain: markets
 order: 17
 measures: The US government's long-term borrowing cost, which sets the price of money for everyone else.
-value: ≈4.93%
-asOf: '2026-10-30'
-trend: down
+value: 5.10%
+asOf: '2026-11-17'
+trend: up
 leans: neutral
-note: Closed at 4.929% on Oct 30, its lowest since Sept 9, as tech stocks sold off. Down from 4.988% a week earlier.
+note: Back above 5% after the hot October CPI and Fed hike talk. It hit 5.15% on Nov 13, up from a low of 4.84% on Nov 5.
 watch: Above 5.5% points to Hangover. Below 4.5% eases the pressure.
 cadence: Daily
-source: Portfolio Terminal
-url: https://portfolio-terminal.com/blog/stock-market-week-in-review-october-30-2026
+source: Federal Reserve H.15 via FRED
+url: https://fred.stlouisfed.org/series/DGS10

@@ -5,7 +5,7 @@ short: Fusion milestones by the end of 2029. Laser fusion already passed scienti
 domain: energy
 area: tech
 order: 6
-read: Grid power before 2030 rests on Helion alone. SPARC's first plasma, expected late 2026 or early 2027, is the key near-term signpost.
+read: Grid power before 2030 rests on Helion alone. CFS now says it will switch SPARC on in 2027, so first plasma, the key near-term signpost, is no longer due this year.
 outcomes:
 - key: grid
   label: Fusion power on the grid
@@ -30,9 +30,9 @@ outcomes:
   ifThen: Fusion stays a 2030s–2040s story. Gas, solar, batteries and fission restarts meet nearer-term demand.
 anchors:
 - who: Commonwealth Fusion Systems
-  what: SPARC has not reached first plasma; operation is expected in late 2026 or early 2027, with Q>1 targeted for 2027.
-  date: 2026-08
-  url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m
+  what: SPARC is still being assembled and CFS expects to turn it on in 2027; it plans two routes to Q>1 but gave no date.
+  date: 2026-11
+  url: https://onestopesg.com/esg-news/commonwealth-fusion-sparc-net-energy-gain
 - who: Helion
   what: Its Polaris machine produced deuterium–tritium fusion in January but has published no electricity-recovery data; it still targets 2028 power for Microsoft.
   date: 2026-02

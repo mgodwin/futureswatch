@@ -3,13 +3,13 @@ tracking: active
 name: International students
 domain: education
 order: 51
-measures: Projected change in international student enrollment at US colleges this fall.
-value: ≈−9.5% (fall 2026, projected)
-asOf: '2026-08-12'
+measures: Change in international student enrollment at US colleges this fall.
+value: −9% (fall 2026)
+asOf: '2026-11-16'
 trend: down
 leans: neutral
-note: NAFSA projects up to 112,000 fewer students and $3.4B in lost revenue. Doctoral applications fell 21%. Visa rules are the main driver.
-watch: Open Doors data in November confirms the drop. Declines above 15% push more tuition-dependent colleges to close.
+note: IIE's fall snapshot of 809 colleges, in line with NAFSA's projected 9.5% drop. New students fell 15% and graduate students 15%. Open Doors counts 2025-26 down 2.7%.
+watch: Declines above 15% next fall push more tuition-dependent colleges to close. A rebound in new students points to a passing visa shock.
 cadence: Annual (Open Doors, November)
-source: NAFSA via Forbes
-url: https://www.forbes.com/sites/michaeltnietzel/2026/08/12/projected-loss-of-international-students-could-bring-a-34-billion-hit/
+source: Institute of International Education via Higher Ed Dive
+url: https://highereddive.com/news/international-student-enrollment-fell-27-in-2025-26/874661

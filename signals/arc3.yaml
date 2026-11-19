@@ -4,12 +4,12 @@ name: ARC-AGI-3 (novel puzzles)
 domain: ai
 order: 3
 measures: Reasoning on unfamiliar interactive puzzles that humans solve easily.
-value: 62.7%
-asOf: '2026-09-06'
+value: 81.2%
+asOf: '2026-11-09'
 trend: up
 leans: takeoff
-note: OpenAI's GPT-6 Astra on ARC Prize's own test setup, up from under 1% at launch in March. Humans solve nearly every task.
+note: Claude Fable 5.2 on ARC Prize's standard setup, ahead of GPT-6.2 Astra at 70.3% and Gemini 4 Carbon at 65.1%. Humans solve nearly every task.
 watch: 90%+ by the end of 2027 points to Takeoff. Under 75% points to slower progress.
 cadence: With each major model
-source: The Next Web
-url: https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions
+source: ARC Prize
+url: https://arcprize.org/leaderboard

@@ -45,6 +45,10 @@ anchors:
   what: Xi's September state visit extended the tariff truce to January 2027; a roughly $14B Taiwan arms package remains paused.
   date: 2026-09
   url: https://militarnyi.com/en/articles/xi-jinping-s-washington-visit/
+- who: Taiwan's defense ministry, via SCMP
+  what: 49 PLA aircraft sorties on Nov 4, the year's highest daily total, with no declared drill.
+  date: 2026-11
+  url: https://www.scmp.com/news/china/military/article/3373249/taiwan-flags-massive-pla-naval-mobilisation-spike-air-sorties
 signals:
 - taiwanodds
 - uschina

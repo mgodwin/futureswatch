@@ -1,11 +1,11 @@
 id: climb
 name: Steady Climb
 order: 1
-prob: 32
+prob: 28
 prevProb: 32
 tagline: AI keeps getting better. The world absorbs it unevenly.
 summary: 'Frontier AI keeps improving fast but stays jagged: superhuman at coding, math and narrow tasks, unreliable at long open-ended work. Adoption spreads through companies over years, not months. Entry-level white-collar hiring stays weak and some careers shrink, but unemployment stays roughly between 4% and 6%. Markets wobble without breaking, and crises stay contained.'
-read: Labor data still fits this world best. Oil eased on Iran's offer and yields fell below 5%, but AI cash burn weighs on it, so it holds at 32%.
+read: October jobs were strong and unemployment fell to 4.1%, which fits this world. But faster AI progress shifts weight to Takeoff and Gulf fighting to Fracture, so it falls to 28%.
 signposts:
 - Benchmarks keep climbing while real-work measures like the Remote Labor Index stall below 30–40%
 - Unemployment holds between 4% and 5.5%, and the gap for young workers in AI-exposed jobs stops widening

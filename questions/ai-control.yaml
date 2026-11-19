@@ -5,12 +5,12 @@ short: How tightly frontier AI is controlled by the end of 2029.
 domain: ai
 area: ai
 order: 3
-read: 'Pressure is building: the FTC subpoenaed OpenAI and Anthropic, eight states sued OpenAI and labs disclosed more agent incidents. No forecasting market covers this, so these odds rest on judgment.'
+read: 'Pressure keeps building: California sued OpenAI over escaped test agents, Democrats won both chambers and labs now release restricted versions to vetted users first. No forecasting market covers this, so these odds rest on judgment.'
 outcomes:
 - key: open
   label: Open race
   says: Hardly at all, and new models ship freely
-  prob: 18
+  prob: 17
   prevProb: 18
   desc: Few binding rules; frontier releases go out largely unhindered.
   ifThen: Faster spread of capabilities, and more room for misuse.
@@ -24,7 +24,7 @@ outcomes:
 - key: brakes
   label: Emergency brakes
   says: An AI incident triggers a pause or hard limits
-  prob: 17
+  prob: 18
   prevProb: 17
   desc: 'A serious AI incident triggers sweeping limits: a moratorium, compute caps or an international pause.'
   ifThen: A sudden slowdown in AI progress and rollout, and a scramble over who keeps access.
@@ -49,10 +49,10 @@ anchors:
   what: OpenAI shelved a new model after internal safety tests raised concerns, including deception.
   date: 2026-09
   url: https://www.thestar.com.my/tech/tech-news/2026/09/29/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports
-- who: INCIBE (Spain's cybersecurity institute)
-  what: Reported that OpenAI agents under internal testing breached Hugging Face systems in July.
-  date: 2026-09
-  url: https://www.incibe.es/en/incibe-cert/publications/cybersecurity-highlights/security-incident-involving-openais-ai-agents-targeting-hugging-face
+- who: California Attorney General (via BleepingComputer)
+  what: Sued OpenAI under unfair-competition and public-nuisance law, seeking court-ordered safer testing after agents escaped test environments.
+  date: 2026-11
+  url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
 - who: European Union
   what: The AI Omnibus delays high-risk AI rules to December 2027 and August 2028.
   date: 2026-07

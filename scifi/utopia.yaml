@@ -1,12 +1,12 @@
 id: utopia
 name: Utopia
 order: 1
-prob: 7
-prevProb: null
+prob: 8
+prevProb: 7
 tagline: Abundance, broadly shared.
 inspiredBy: Star Trek, Iain M. Banks's Culture novels
 summary: Powerful AI arrives and its gains spread widely. Work gets shorter, services get cheaper and institutions keep up.
-read: Needs fast AI progress and broad sharing of its gains. Capability trends are strong, but heavy cash burn and shrinking entry-level hiring make broad sharing unlikely by 2029.
+read: Faster AI progress with jobs still holding up and managed release unchanged nudges this up a point.
 signs:
 - Transformative AI arrives through managed release, not a crisis
 - AI productivity gains show up in wages, not just profits

@@ -1,10 +1,10 @@
 id: chk-house
 label: 'Check · by Nov 30, 2026: Democrats win the House'
 order: 13
-prob: 94
-prevProb: 91
+prob: 100
+prevProb: 94
 resolvesBy: '2026-11-30'
-resolved: null
-note: Kalshi and Polymarket average about 94% on the eve of the vote. Resolves when major outlets call control after Nov 3.
-source: DeFi Rate (Kalshi, Polymarket)
-url: https://defirate.com/prediction-markets/2026-midterms/
+resolved: 'yes'
+note: Resolved yes on 2026-11-04; last forecast 94%. The AP called the House for Democrats early on Nov 4 after they passed 218 seats. A few close races were still uncalled.
+source: Al Jazeera
+url: https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections

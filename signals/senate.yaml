@@ -4,12 +4,12 @@ name: Senate makeup
 domain: politics
 order: 41
 measures: Seats held by each party in the US Senate (independents counted with the party they caucus with).
-value: 53 R · 47 D
-asOf: '2026-10-12'
-trend: flat
+value: 56 D · 44 R
+asOf: '2026-11-17'
+trend: down
 leans: neutral
-note: Includes two independents who caucus with Democrats. Democrats need a net gain of four seats for control.
+note: Democrats flipped nine seats on Nov 3, the last being Alaska, called on Nov 17. The count includes two independents and takes effect in January.
 watch: A Democratic Senate shapes confirmations, including Fed nominees, and treaty votes.
 cadence: After elections and vacancies
-source: Congress Countdown
-url: https://www.congresscountdown.com/info/party-breakdown
+source: AP, via CNBC
+url: https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html

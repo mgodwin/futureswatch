@@ -5,19 +5,19 @@ short: Peak US unemployment before 2030, and how much of it AI drives.
 domain: ai
 area: work
 order: 2
-read: AI is clearly cutting entry-level and software hiring, but total unemployment is flat at 4.2%. Whether it climbs past 5.5% depends mostly on whether a recession hits.
+read: AI is clearly cutting entry-level and software hiring, but unemployment dipped to 4.1% in October as hiring picked up. Whether it climbs past 5.5% depends mostly on whether a recession hits.
 outcomes:
 - key: minimal
   label: Minimal overall effect
   says: Little effect, with unemployment staying under 5.5%
-  prob: 40
+  prob: 41
   prevProb: 40
   desc: Unemployment peaks at or below about 5.5%. AI reshapes tasks more than it removes jobs.
   ifThen: Churn concentrates in specific roles, and most workers adapt in place.
 - key: absorbed
   label: Significant but absorbed
   says: Real job losses, but unemployment peaks under 8%
-  prob: 48
+  prob: 47
   prevProb: 48
   desc: Clear white-collar and entry-level displacement, with unemployment peaking between 5.5% and 8% (or higher mainly because of a non-AI recession).
   ifThen: Harder job searches for new graduates and displaced mid-career workers; retraining and safety-net debates heat up.

@@ -11,21 +11,21 @@ outcomes:
   label: Incremental
   says: Not yet, with one AI drug approved at most
   prob: 50
-  prevProb: null
+  prevProb: 50
   desc: Zero or one new AI-discovered drug wins FDA or EMA approval by the end of 2029. Repurposed old drugs do not count. Zasocitinib alone would land here.
   ifThen: AI speeds up early research, but medicine changes at its usual pace. Big advances in 2027–2029, such as cancer vaccines or gene therapies, come mostly from methods that predate the AI boom.
 - key: few
   label: A few AI drugs, plus notable advances
   says: Two to four AI drugs approved
   prob: 40
-  prevProb: null
+  prevProb: 40
   desc: Two to four new AI-discovered drugs are approved by the end of 2029, for example zasocitinib plus rentosertib or another phase 3 candidate.
   ifThen: AI-designed medicines become a normal part of the pharmacy shelf for some chronic conditions. Drug development feels somewhat faster, but cures for major diseases are still rare.
 - key: wave
   label: Transformative wave
   says: Five or more, or a cure for a major disease
   prob: 10
-  prevProb: null
+  prevProb: 10
   desc: Five or more new AI-discovered drugs are approved by the end of 2029, or one of them cures or transforms a major disease affecting over a million people.
   ifThen: AI becomes the main way new drugs are found. Approvals speed up, investment pours in, and patients see new options for diseases that had few.
 anchors:

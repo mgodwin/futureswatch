@@ -5,46 +5,50 @@ short: Which party holds the White House and Congress in 2029, after the 2028 el
 domain: politics
 area: world
 order: 14
-read: On the eve of the vote, markets give Democrats 94% for the House and 74% for the Senate. Holding both in 2029 still needs a 2028 win, so divided government stays likeliest.
+read: Democrats won the House by about 258 seats to 173 and the Senate 56 to 44, and markets now give them 66% for 2028. Those margins make a Republican sweep in 2028 hard, so divided government and a Democratic trifecta are close.
 outcomes:
 - key: dtrifecta
   label: Democratic trifecta
   says: Democrats hold the White House and Congress
-  prob: 32
-  prevProb: 30
+  prob: 43
+  prevProb: 32
   desc: Democrats win the White House in 2028 and hold both chambers.
   ifThen: Likely federal AI licensing and labor rules, higher taxes on capital, tighter chip export policy toward China stays.
 - key: divided
   label: Divided government
   says: Power is split between the parties
-  prob: 49
-  prevProb: 50
+  prob: 46
+  prevProb: 49
   desc: No party controls the presidency and both chambers.
   ifThen: Gridlock on big bills; policy moves through executive orders, courts and states.
 - key: rtrifecta
   label: Republican trifecta
   says: Republicans hold the White House and Congress
-  prob: 19
-  prevProb: 20
+  prob: 11
+  prevProb: 19
   desc: Republicans win the White House in 2028 and hold both chambers.
   ifThen: Lighter AI rules with federal preemption of states, tariffs and energy build-out continue.
 anchors:
 - who: Kalshi / Polymarket
-  what: About 62% that Democrats win the 2028 presidential election.
-  date: 2026-10
+  what: About 66% that Democrats win the 2028 presidential election.
+  date: 2026-11
   url: https://defirate.com/prediction-markets/2028-presidential-election-odds
 - who: Kalshi / Polymarket
-  what: 94% that Democrats win the House and 74% the Senate on Nov 3, 2026; about 6% for Republicans to keep both.
+  what: Gave 94% for a Democratic House and 74% for a Democratic Senate the day before the vote; both resolved yes.
   date: 2026-11
   url: https://defirate.com/prediction-markets/2026-midterms/
+- who: AP, via CNBC
+  what: Peltola's Alaska win gives Democrats 56 Senate seats from January.
+  date: 2026-11
+  url: https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html
+- who: AP and NBC calls, via Wikipedia
+  what: Democrats hold about 258 House seats to 173, a net gain of about 43, with 4 uncalled.
+  date: 2026-11
+  url: https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections
 - who: Cook Political Report
-  what: Democrats most likely gain 9 to 19 House seats, for 224 to 234 in total.
+  what: Pre-election, expected Democrats to gain 9 to 19 House seats; the actual gain ran far larger.
   date: 2026-10
   url: https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor
-- who: Congress Countdown
-  what: The House stands at 218 Republicans, 214 Democrats and 1 independent with 2 vacancies; the Senate at 53–47.
-  date: 2026-10
-  url: https://www.congresscountdown.com/info/party-breakdown
 signals:
 - house
 - senate

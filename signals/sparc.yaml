@@ -5,11 +5,11 @@ domain: energy
 order: 21
 measures: Progress toward the first magnetic-confinement fusion shot that releases more energy than it uses.
 value: No first plasma yet
-asOf: 2026-08
+asOf: '2026-11-02'
 trend: flat
 leans: neutral
-note: Magnet installation began in January; operation expected late 2026 or early 2027, with Q>1 targeted for 2027.
+note: CFS said on Nov 2 that SPARC is still being assembled and it expects to turn it on in 2027, later than the earlier late-2026 hope. It plans two routes to Q>1.
 watch: First plasma by mid-2027 makes Q>1 by 2029 plausible. A slip past 2027 makes it unlikely.
 cadence: Company announcements
-source: TechCrunch
-url: https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m
+source: CFS via OneStopESG
+url: https://onestopesg.com/esg-news/commonwealth-fusion-sparc-net-energy-gain

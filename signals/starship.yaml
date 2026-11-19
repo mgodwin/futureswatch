@@ -5,11 +5,11 @@ domain: tech
 order: 34
 measures: SpaceX's in-orbit propellant transfer, needed for Moon and Mars landings.
 value: Not yet demonstrated
-asOf: '2026-09-03'
+asOf: '2026-11-14'
 trend: flat
 leans: neutral
-note: The V3 rocket first flew May 22. The 2026 Mars window was shelved.
+note: On Flight 15 the ship reached orbit, deployed 26 Starlink V3 satellites and was caught by the tower on Nov 14, a first; the booster was lost. No propellant transfer yet.
 watch: Refueling by early 2027 keeps a 2028 Moon landing plausible. None by the end of 2027 means slips.
 cadence: Each flight
-source: SpaceX
-url: https://www.spacex.com/vehicles/starship/
+source: CBS Austin
+url: https://cbsaustin.com/news/nation-world/spacex-catches-starship-after-orbit-in-historic-first-as-booster-explodes-over-gulf

@@ -5,10 +5,10 @@ domain: ai
 order: 44
 measures: How many months China's best model trails the US frontier on Epoch's Capabilities Index.
 value: ≈5–7 months
-asOf: '2026-10-12'
-trend: down
+asOf: '2026-11-07'
+trend: flat
 leans: neutral
-note: Mid-2026 gap was about 7 months; Kimi K3 in July implied 4 to 5. A US government test put one Chinese model about 4 months behind on cyber tasks.
+note: The tracker's Nov 7 review keeps the gap at about six months. Epoch data put the index gap at about 10 points by Oct 30, the widest since 2023, before Fable 5.2 and GPT-6.2 Astra reached 174.
 watch: Under 3 months means near parity. Over 9 months means export controls are biting.
 cadence: As models are scored
 source: AI 2027 Tracker (Epoch data)

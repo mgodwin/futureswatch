@@ -1,12 +1,12 @@
 id: singularity
 name: Singularity
 order: 3
-prob: 9
-prevProb: null
+prob: 10
+prevProb: 9
 tagline: The machines set the pace.
 inspiredBy: Vernor Vinge, Charles Stross's Accelerando, AI 2027
 summary: AI systems do most research and make many key decisions. Progress gets hard for people to follow, for better or worse.
-read: The sharp edge of the Takeoff world. Benchmarks keep climbing, but METR's tests are saturating and labs still call recent gains incremental, so this stays a tail.
+read: Transformative AI odds rose to 34% and METR found AI is speeding up AI research, so this edges up a point.
 signs:
 - AI does most of the research inside a frontier lab
 - AI task horizons stretch from hours to weeks

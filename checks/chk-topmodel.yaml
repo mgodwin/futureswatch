@@ -1,0 +1,10 @@
+id: chk-topmodel
+label: 'Check · by Dec 31, 2026: Google has the top model on LMArena'
+order: 19
+prob: 83
+prevProb: null
+resolvesBy: '2026-12-31'
+resolved: null
+note: Polymarket prices about 83% for Google, 12% for Anthropic and 3% for OpenAI to lead the LMArena text leaderboard at year-end. A Gemini 4 test model holds first place now.
+source: Polymarket
+url: https://polymarket.com/event/which-company-has-best-ai-model-end-of-2026

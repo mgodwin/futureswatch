@@ -4,12 +4,12 @@ name: House makeup
 domain: politics
 order: 40
 measures: Seats held by each party in the US House (218 needed for a majority).
-value: 218 R · 214 D · 1 I
-asOf: '2026-10-12'
-trend: flat
+value: 258 D · 173 R · 4 uncalled
+asOf: '2026-11-19'
+trend: down
 leans: neutral
-note: Two seats are vacant. The independent is Kevin Kiley of California. All 435 seats are on the ballot on Nov 3.
+note: Democrats won the House on Nov 3, a net gain of about 43 seats, and take control in January. Two Louisiana seats go to Dec 12 runoffs, and two others are in recounts.
 watch: A Democratic majority from January 2027 shifts oversight, budgets and AI and trade bills. A Republican hold keeps current policy.
 cadence: After elections and vacancies
-source: Congress Countdown
-url: https://www.congresscountdown.com/info/party-breakdown
+source: AP and NBC race calls, via Wikipedia tally
+url: https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections

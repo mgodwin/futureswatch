@@ -5,26 +5,26 @@ short: How capable AI is by the end of 2029.
 domain: ai
 area: ai
 order: 1
-read: Trend data argues for faster progress; expert surveys and deployment friction argue for slower. Lab leaders cluster around 2027–2030, while skeptics sit in the 2040s.
+read: Fable 5.2 doubled the best Remote Labor Index score to 41%, and METR found Anthropic's progress running about twice its old pace. Expert surveys, Epoch's real-work tests and deployment friction still argue for slower change.
 outcomes:
 - key: transformative
   label: Transformative AI
   says: AI does most expert desk work
-  prob: 30
+  prob: 34
   prevProb: 30
   desc: Does most remote knowledge work at expert level and is deployed at scale, or automates most AI research.
   ifThen: 'The Takeoff world: fast productivity gains, deep disruption in software, finance, law, media and support work, and governments racing to control frontier models.'
 - key: jagged
   label: Powerful but jagged
   says: Powerful but uneven, not replacing most experts
-  prob: 60
+  prob: 58
   prevProb: 60
   desc: Agents handle multi-day tasks and beat experts in niches like coding and math, but don't replace knowledge workers wholesale.
   ifThen: 'Steady Climb territory: big gains for people who direct AI, with uneven displacement concentrated at entry level.'
 - key: plateau
   label: Plateau
   says: Progress stalls, only a bit better than today
-  prob: 10
+  prob: 8
   prevProb: 10
   desc: Progress slows sharply; 2029 systems are only modestly better than 2026's.
   ifThen: Usually paired with an investment bust. AI settles into being ordinary software.
@@ -34,8 +34,8 @@ anchors:
   date: 2026-10
   url: https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/
 - who: Manifold market
-  what: 53% that AGI arrives before 2030.
-  date: 2026-10
+  what: 52% that AGI arrives before 2030.
+  date: 2026-11
   url: https://manifold.markets/RemNi/will-we-get-agi-before-2030
 - who: AI Futures Project
   what: Daniel Kokotajlo's median for an AI that fully automates coding moved to November 2027; colleague Eli Lifland's is January 2030.

@@ -4,11 +4,11 @@ name: 2028 presidential odds
 domain: politics
 order: 43
 measures: Prediction-market odds of which party wins the 2028 presidential election.
-value: Democrats ≈62%
-asOf: '2026-10-26'
-trend: flat
+value: Democrats ≈66%
+asOf: '2026-11-19'
+trend: up
 leans: neutral
-note: Average of Kalshi (59.5%) and Polymarket (65%). JD Vance leads the Republican nominee market at about 38%.
+note: Average of Kalshi (66.5%) and Polymarket (64.5%), up after the midterms. JD Vance leads the Republican nominee market at about 34%, Jon Ossoff the Democratic one at 27%.
 watch: Sets who controls AI, trade and energy policy in 2029. Moves of 10 points or more after the midterms matter.
 cadence: Live
 source: DeFi Rate (Kalshi, Polymarket)

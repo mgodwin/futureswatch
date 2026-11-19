@@ -11,21 +11,21 @@ outcomes:
   label: Real work at scale
   says: Yes, over 100,000 doing paid work
   prob: 20
-  prevProb: null
+  prevProb: 20
   desc: By the end of 2029, at least 100,000 humanoids worldwide do paid productive work, not research, teaching or shows, and at least one maker has 10,000 or more working at customer sites.
   ifThen: Humanoids become a normal sight in big warehouses and car plants, and pressure falls on manual warehouse and line jobs. Early home robots do simple chores for tens of thousands of households.
 - key: niche
   label: Niche fleets
   says: Thousands, doing narrow jobs for a few big firms
   prob: 60
-  prevProb: null
+  prevProb: 60
   desc: Thousands to tens of thousands of humanoids do paid work, mostly narrow, repeated tasks at a few large customers. Home robots stay early-adopter gadgets.
   ifThen: Robots fill some hard-to-staff shifts but do not change overall factory or warehouse jobs. Wheeled arms and ordinary automation still do most of the new work.
 - key: stall
   label: Mostly demos
   says: Mostly demos, with under 5,000 at work
   prob: 20
-  prevProb: null
+  prevProb: 20
   desc: Fewer than about 5,000 humanoids do paid productive work outside research and education. Reliability, cost or safety problems slow deployment, and funding cools.
   ifThen: Humanoids look like the robotaxis of 2018, years behind the promises. Factories keep investing in conventional automation instead.
 anchors:
@@ -45,6 +45,10 @@ anchors:
   what: Digit has moved 100,000+ totes for GXO and adds two GXO sites in early 2027; no total fleet count given.
   date: 2026-11
   url: https://roboticsandautomationnews.com/2026/11/02/agility-robotics-says-more-than-30-companies-considering-digit-humanoid-robot/106595/
+- who: IDC (via Humanoids Daily)
+  what: Nearly 25,000 humanoids shipped worldwide in H1 2026, up 432%; forecasts more than 750,000 a year by 2030.
+  date: 2026-09
+  url: https://www.humanoidsdaily.com/news/idc-h1-2026-humanoid-shipments-agibot
 - who: Goldman Sachs (via Humanoid.guide, secondary)
   what: Raised its forecast to about 890,000 humanoid shipments in 2030, from 256,000, and about 6.5M in 2035.
   date: 2026-09

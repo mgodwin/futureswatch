@@ -5,7 +5,7 @@ short: The US economy through 2029.
 domain: economy
 area: money
 order: 5
-read: Near-term odds hold near 22% for 2027. The Fed paused on Oct 28, but inflation is 3.6–3.7% and markets still expect a December hike.
+read: Near-term odds hold near 22% for 2027, and cheaper oil eases one pressure. But October prices rose 0.4%, and markets now see a December hike as nearly certain.
 outcomes:
 - key: none
   label: No recession
@@ -30,11 +30,11 @@ outcomes:
   ifThen: Deep job losses, falling asset prices and a heavy policy response.
 anchors:
 - who: Kalshi / Polymarket
-  what: About 22% for a US recession in 2027 on Kalshi; Polymarket prices 33% by the end of 2027.
-  date: 2026-10
+  what: About 22% for a US recession in 2027 on Kalshi; Polymarket prices about 31% by the end of 2027.
+  date: 2026-11
   url: https://kalshi.com/markets/kxrecssnber/recession/kxrecssnber-27
 - who: BLS / Kalshi
-  what: September CPI was 3.7% with core at 2.6%. After the Oct 28 hold, Kalshi priced about 71% for a December hike.
+  what: October CPI rose 0.4% and core 0.3% on the month. Kalshi now prices about 96% for a December hike, up from 71%.
   date: 2026-11
   url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
 - who: WSJ economists' survey / Kalshi
@@ -45,6 +45,10 @@ anchors:
   what: Held its range at 3.75–4.00% on Oct 28 in a 10–2 vote; two members wanted another hike.
   date: 2026-10
   url: https://hackernoon.com/fed-holds-rates-at-375percent-400percent-in-a-10-2-vote-how-qqq-spy-and-bitcoin-reacted
+- who: Fed Governor Christopher Waller
+  what: Backs a quarter-point hike on Dec 9 and says a half point should be considered if core prices keep rising 0.3% a month.
+  date: 2026-11
+  url: https://www.mpamag.com/us/mortgage-industry/industry-trends/fed-rate-hike-odds-hit-100-as-waller-floats-bigger-december-move/596880
 - who: Historical base rate (NBER)
   what: US recessions have started about once every six to seven years since 1945, roughly 30–40% for a three-year window.
   date: null

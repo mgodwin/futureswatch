@@ -5,7 +5,7 @@ short: Whether AI and money pressures reshape colleges, degrees and how students
 domain: education
 area: work
 order: 17
-read: Undergraduate enrollment still grew this fall, but only 0.6%. Master's and computer science enrollment fell sharply. No forecasting market covers this, so these odds rest on judgment.
+read: Undergraduate enrollment still grew this fall, but only 0.6%, while master's, computer science and international enrollment fell sharply. No forecasting market covers this, so these odds rest on judgment.
 outcomes:
 - key: adapts
   label: Adapts
@@ -37,10 +37,10 @@ anchors:
   what: Undergraduate enrollment rose 0.6% this fall, led by community colleges. Master's fell 3.7% and computer science at four-year colleges fell 12.4%.
   date: 2026-10
   url: https://www.studentclearinghouse.org/news/total-higher-ed-enrollment-holds-steady-in-preliminary-fall-enrollment-trends-report/
-- who: NAFSA
-  what: Projects up to 112,000 fewer international students this fall and $3.4B in lost revenue.
-  date: 2026-08
-  url: https://www.forbes.com/sites/michaeltnietzel/2026/08/12/projected-loss-of-international-students-could-bring-a-34-billion-hit/
+- who: Institute of International Education (via Higher Ed Dive)
+  what: International enrollment fell 9% this fall in a snapshot of 809 colleges, with new students down 15%. Open Doors counts 2025-26 down 2.7%.
+  date: 2026-11
+  url: https://highereddive.com/news/international-student-enrollment-fell-27-in-2025-26/874661
 - who: Moody's
   what: Kept a negative outlook for higher education in 2026, citing federal cuts, loan caps and expenses outpacing revenue.
   date: 2025-11
@@ -53,6 +53,10 @@ anchors:
   what: 71% of UF's spring 2026 graduates took an AI course; Ohio State aims to make every student AI-fluent by 2029.
   date: 2026-08
   url: https://fortune.com/2026/08/06/computer-science-enrollment-plunging-ai-college-campus/
+- who: University of Maryland trial (EdWorkingPapers)
+  what: Among 2,379 undergraduates, access to a course AI tutor cut final grades by 0.37 SD and course participation by 0.90 SD.
+  date: 2026-10
+  url: https://edworkingpapers.com/ai26-1598
 signals:
 - collegepremium
 - csmajors

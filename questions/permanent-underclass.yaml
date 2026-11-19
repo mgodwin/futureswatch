@@ -5,37 +5,37 @@ short: Whether, by the end of 2029, a lasting group of working-age Americans is 
 domain: economy
 area: work
 order: 34
-read: Prime-age employment is near its highest in 25 years at 80.7%, so few working-age people are shut out overall. But 27% of the unemployed have been looking for six months or more, the highest share since early 2022, because firms are hiring slowly rather than laying off.
+read: Prime-age employment held at 80.7% in October, near its highest in 25 years, so few working-age people are shut out overall. But 27.6% of the unemployed have been looking for six months or more, the highest share since late 2021, because firms are hiring slowly rather than laying off.
 outcomes:
 - key: reabsorbed
   label: Displaced workers are reabsorbed
   says: No, people pushed out mostly find work again
   prob: 52
-  prevProb: null
+  prevProb: 52
   desc: Averaged over the 12 months from December 2028 to November 2029, the prime-age (25–54) employment-to-population ratio (BLS, FRED LNS12300060) is 79.6% or higher, within one point of its 2025 average of 80.6%, and the long-term unemployed (27 weeks or more) are under 30% of all unemployed (FRED LNS13025703).
   ifThen: AI changes which jobs exist, and some people lose years to it, but nearly all who want work get back in. The fight is over pay and job quality, not exclusion.
 - key: scarred
   label: Lasting scars, no locked-out class
   says: Lasting scars, but no group locked out
   prob: 38
-  prevProb: null
+  prevProb: 38
   desc: Neither of the other outcomes. Either the prime-age ratio averages below 79.6%, or the long-term share averages 30% or more, but not both underclass conditions together while the economy grows. This includes a downturn that is still pushing real GDP down over the four quarters to the third quarter of 2029.
   ifThen: Long job searches become normal for laid-off office workers and new graduates, often in or after a recession. Retraining and unemployment-insurance debates heat up, but most of the damage looks repairable.
 - key: underclass
   label: A lasting shut-out group forms
   says: Yes, a lasting group is shut out even as the economy grows
   prob: 10
-  prevProb: null
+  prevProb: 10
   desc: Over the same 12 months the prime-age ratio averages 78.6% or lower (at least two points below 2025, about 2.6 million fewer prime-age people in work), the long-term share averages 30% or more, and real GDP (BEA, FRED GDPC1) still grew over the four quarters to the third quarter of 2029.
   ifThen: Output rises while a large group of working-age people can't get back in, the pattern Fed Governor Barr called a jobless boom. Calls for an income floor, AI taxes and job guarantees become central politics.
 anchors:
 - who: Bureau of Labor Statistics (via FRED)
-  what: The prime-age employment-to-population ratio was 80.7% in September 2026; it averaged 80.6% in 2025 (October 2025 missing) and 80.7% in 2023–2024, close to the 81.9% record of April 2000.
+  what: The prime-age employment-to-population ratio was 80.7% in October 2026; it averaged 80.6% in 2025 (October 2025 missing) and 80.7% in 2023–2024, close to the 81.9% record of April 2000.
   date: 2026-10
   url: https://fred.stlouisfed.org/series/LNS12300060
 - who: Bureau of Labor Statistics (via FRED)
-  what: 27.1% of the unemployed had been out of work 27 weeks or more in September 2026, up from a 23.2% average in 2025 and 19.3% in 2023. The record was 45.5% in April 2010.
-  date: 2026-10
+  what: 27.6% of the unemployed had been out of work 27 weeks or more in October 2026, up from a 23.2% average in 2025 and 19.3% in 2023. The record was 45.5% in April 2010.
+  date: 2026-11
   url: https://fred.stlouisfed.org/series/LNS13025703
 - who: Richmond Fed economists
   what: The rise in long-term unemployment since mid-2022 comes from a falling job-finding rate, not layoffs; workers in AI-exposed jobs explain at most about a third of it.

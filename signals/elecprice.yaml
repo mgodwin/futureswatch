@@ -4,12 +4,12 @@ name: US electricity prices
 domain: energy
 order: 24
 measures: Average residential price per kilowatt-hour.
-value: 18.2¢ (+5.2%)
-asOf: '2026-10-06'
+value: 18.2¢ in 2026
+asOf: '2026-11-10'
 trend: up
 leans: neutral
-note: EIA's 2026 estimate, with 18.7¢ forecast for 2027.
+note: EIA's November outlook keeps its 2026 estimate, up from 17.2¢ in 2025, with 18.7¢ forecast for 2027. The CPI electricity index rose 0.9% in October, seasonally adjusted.
 watch: Rises above 5% a year signal stress. Under 3% signals the grid is keeping up.
 cadence: Monthly
-source: EIA
+source: EIA; BLS
 url: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php

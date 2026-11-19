@@ -1,0 +1,10 @@
+id: chk-hottest
+label: 'Check · by Jan 31, 2027: NASA ranks 2026 the warmest year on record'
+order: 18
+prob: 92
+prevProb: null
+resolvesBy: '2027-01-31'
+resolved: null
+note: Polymarket prices about 92% that NASA's temperature index ranks 2026 first, after a record October. Copernicus, a different dataset, gives only about 20% that 2026 beats 2024. Resolves when NASA publishes its 2026 figure.
+source: Polymarket
+url: https://polymarket.com/event/where-will-2026-rank-among-the-hottest-years-on-record

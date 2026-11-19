@@ -5,53 +5,53 @@ short: Average yearly US consumer price inflation (CPI-U, December to December) 
 domain: economy
 area: money
 order: 28
-read: Headline inflation is 3.7%, driven by a 20% jump in energy prices, while core inflation is 2.6%. The Fed and bond markets both expect inflation to settle near its usual range, so a real fall in living costs from AI and cheap energy is possible but not the base case.
+read: Prices rose 0.4% in October and core prices 0.3%, after 3.7% annual inflation in September, though oil has since fallen nearly 20%. The Fed, bond markets and Fannie Mae all expect inflation to settle near or below its usual range, so cheaper living is possible but not the base case.
 outcomes:
 - key: cheaper
   label: Living gets noticeably cheaper
   says: "Yes: inflation under 2%, and some prices fall"
-  prob: 18
-  prevProb: null
+  prob: 19
+  prevProb: 18
   desc: CPI averages under 2% a year over 2027–2029, with prices for some goods and services actually falling.
   ifThen: Paychecks stretch further, and rate cuts follow. This is the abundance story showing up at the checkout, most likely through cheaper energy and AI-driven services.
 - key: normal
   label: Back to normal
   says: Inflation back to a normal 2 to 3%
   prob: 47
-  prevProb: null
+  prevProb: 47
   desc: CPI averages 2% to 3% a year.
   ifThen: Prices keep rising, but slowly enough that most people stop noticing. Any AI savings get absorbed into normal inflation.
 - key: sticky
   label: Sticky
   says: Inflation stuck at 3 to 4%
   prob: 23
-  prevProb: null
+  prevProb: 23
   desc: CPI averages 3% to 4% a year.
   ifThen: Cost of living stays a top complaint. Rates stay high, and wages only just keep up.
 - key: high
   label: High inflation
   says: High inflation, over 4% a year
-  prob: 12
-  prevProb: null
+  prob: 11
+  prevProb: 12
   desc: CPI averages more than 4% a year, as after an energy shock, tariffs or heavy deficit spending.
   ifThen: Real wages fall and savings lose value. The Fed hikes hard, raising the odds of a recession.
 anchors:
 - who: Bureau of Labor Statistics
-  what: September CPI rose 3.7% over the year; core 2.6%, energy 20.4%, shelter 3.2%.
-  date: 2026-10
+  what: October CPI rose 0.4% on the month and core 0.3%; no annual rate, as October 2025 data are missing. September was 3.7%.
+  date: 2026-11
   url: https://www.bls.gov/news.release/cpi.nr0.htm
 - who: Federal Reserve (Summary of Economic Projections)
   what: Median PCE inflation falls from 3.7% in 2026 to 2.3% in 2027, 2.1% in 2028 and 2.0% in 2029. CPI usually runs a little above PCE.
   date: 2026-09
   url: https://federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm
 - who: Treasury market (5-year breakeven)
-  what: Bond prices imply about 2.3% yearly CPI inflation over the next five years.
+  what: Bond prices imply about 2.2% yearly CPI inflation over the next five years.
   date: 2026-11
   url: https://fred.stlouisfed.org/series/T5YIE
 - who: Fannie Mae Economic and Strategic Research
-  what: Expects CPI inflation of 1.9% year over year in the fourth quarter of 2027 (as reported by HousingWire).
-  date: 2026-10
-  url: https://www.housingwire.com/articles/fannie-mae-cuts-2027-mortgage-forecast/
+  what: Expects CPI inflation of 1.6% year over year in the fourth quarter of 2027, down from 1.9% (as reported by Scotsman Guide).
+  date: 2026-11
+  url: https://www.scotsmanguide.com/?p=131220
 - who: Historical base rate (BLS CPI, our calculation)
   what: December-to-December CPI ran 0.6% to 3.1% a year from 2011 to 2020, then 2.7% to 7.2% from 2021 to 2025.
   date: 2026-11

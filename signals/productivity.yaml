@@ -4,11 +4,11 @@ name: Labor productivity
 domain: jobs
 order: 14
 measures: Output per hour worked in the US nonfarm business sector, year over year.
-value: +2.2%
-asOf: 2026-06
+value: +2.1%
+asOf: 2026-09
 trend: flat
 leans: climb
-note: Second-quarter reading; +1.4% annualized for the quarter itself.
+note: Third-quarter preliminary reading. The quarter itself rose 3.6% annualized as output grew 3.7% while hours were nearly flat.
 watch: Above 3% with falling hours points to AI replacing workers (Takeoff). Above 2.5% with rising jobs is benign.
 cadence: Quarterly
 source: Bureau of Labor Statistics

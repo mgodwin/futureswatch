@@ -4,11 +4,11 @@ name: US unemployment rate
 domain: jobs
 order: 8
 measures: Share of the labor force out of work and looking.
-value: 4.2%
-asOf: 2026-09
+value: 4.1%
+asOf: 2026-10
 trend: flat
 leans: climb
-note: In a 4.1–4.3% band since March. Broader underemployment (U-6) is 7.6%.
+note: October edged down to 4.1%, still in the 4.1–4.3% band held since March. Broader underemployment (U-6) rose to 7.9%.
 watch: A rise toward 5% (the Sahm-rule recession signal) points to Hangover. Holding at 4.3% or below supports Steady Climb.
 cadence: Monthly, first Friday
 source: Bureau of Labor Statistics

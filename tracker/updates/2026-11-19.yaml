@@ -1,0 +1,264 @@
+date: '2026-11-19'
+week: 6
+headline: Democrats sweep the midterms and AI posts a record fortnight, lifting Takeoff to 27% while Steady Climb stays most likely at 28%.
+summary: This update covers Nov 2 to 19. Democrats won both chambers, so a Democratic trifecta in 2029 rose to 43%. Record model releases and METR's assessment lifted transformative AI to 34% and Takeoff to 27%, and three checks resolved yes.
+changes:
+- target: 'US power: Democratic trifecta'
+  from: 32
+  to: 43
+  why: 'Major discrete event, past the 5-point cap: Democrats won both chambers on Nov 3 by wide margins, and 2028 Democratic odds rose to about 66%.'
+  url: https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html
+- target: 'US power: Divided government'
+  from: 49
+  to: 46
+  why: 'Election result: what''s left after the trifecta odds moved.'
+  url: https://defirate.com/prediction-markets/2028-presidential-election-odds
+- target: 'US power: Republican trifecta'
+  from: 19
+  to: 11
+  why: 'Major discrete event, past the 5-point cap: Republicans would need to flip both chambers from deep minorities in 2028.'
+  url: https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections
+- target: 'AI capability: Transformative AI'
+  from: 30
+  to: 34
+  why: 'A watch threshold was crossed: Fable 5.2 reached 41% on the Remote Labor Index, past the 40% Takeoff mark, and METR measured about 2x faster progress.'
+  url: https://benchlm.ai/benchmarks/scale-rli
+- target: 'AI capability: Powerful but jagged'
+  from: 60
+  to: 58
+  why: Same evidence; Epoch's Nov 17 real-work test found no model met its staff standard, so this stays the clear favorite.
+  url: https://epoch.ai/publications/how-good-are-fable-5-2-and-gpt-6-2-astra-at-real-work
+- target: 'AI capability: Plateau'
+  from: 10
+  to: 8
+  why: Same threshold crossing; four frontier releases in two weeks all set records.
+  url: https://arcprize.org/leaderboard
+- target: 'AI self-improvement: A strong tool'
+  from: 47
+  to: 44
+  why: 'METR''s published assessment: progress at about 2x the old pace, about 80% due to AI, with no clear bottleneck for 12 months.'
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- target: 'AI self-improvement: A major speedup'
+  from: 38
+  to: 40
+  why: Same METR assessment.
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- target: 'AI self-improvement: Runaway self-improvement'
+  from: 15
+  to: 16
+  why: Same METR assessment; its no-bottleneck finding is low confidence.
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- target: 'AI cyber: Contained'
+  from: 57
+  to: 55
+  why: The cited Manifold market rose from 43% to 47%, and the FBI warned of an AI attack kit used at scale.
+  url: https://manifold.markets/OlegEterevsky/will-ai-cause-an-incident-resulting
+- target: 'AI cyber: Major incident'
+  from: 35
+  to: 37
+  why: Same Manifold and FBI evidence.
+  url: https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223
+- target: 'AI control: Open race'
+  from: 18
+  to: 17
+  why: California sued OpenAI and Democrats won Congress; no market moved, so one point.
+  url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+- target: 'AI control: Emergency brakes'
+  from: 17
+  to: 18
+  why: More alleged agent escapes and higher major-cyber odds; one point.
+  url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+- target: 'AI loss of control: Contained incidents only'
+  from: 72
+  to: 71
+  why: Escapes keep coming but damage stayed limited; one point.
+  url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+- target: 'AI loss of control: A major autonomous incident'
+  from: 25
+  to: 26
+  why: Same evidence; one point.
+  url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+- target: 'AI race: Racing continues'
+  from: 55
+  to: 56
+  why: Three labs shipped frontier models within days; the pause market held, so one point.
+  url: https://startupfortune.com/trump-tells-apec-in-shenzhen-he-wont-let-regulation-stifle-the-ai-industry/
+- target: 'AI race: Labs pace themselves'
+  from: 32
+  to: 31
+  why: Same evidence; one point.
+  url: https://startupfortune.com/trump-tells-apec-in-shenzhen-he-wont-let-regulation-stifle-the-ai-industry/
+- target: 'US-China AI: US keeps a clear lead'
+  from: 55
+  to: 56
+  why: Epoch's index gap widened to about 10 points, the widest since 2023; one point.
+  url: https://officechai.com/ai/gap-between-us-and-open-chinese-models-is-now-among-the-largest-in-last-2-years/
+- target: 'US-China AI: Near parity'
+  from: 38
+  to: 37
+  why: Same evidence; one point.
+  url: https://officechai.com/ai/gap-between-us-and-open-chinese-models-is-now-among-the-largest-in-last-2-years/
+- target: 'AI jobs: Minimal overall effect'
+  from: 40
+  to: 41
+  why: October payrolls rose 165k with upward revisions and unemployment fell to 4.1%; no market moved, so one point.
+  url: https://www.bls.gov/news.release/empsit.nr0.htm
+- target: 'AI jobs: Significant but absorbed'
+  from: 48
+  to: 47
+  why: Same evidence; one point.
+  url: https://www.bls.gov/news.release/empsit.nr0.htm
+- target: 'AI boom: Sustained build-out'
+  from: 29
+  to: 30
+  why: Nvidia beat and raised, but its CEO resigned and rates are rising, so one point.
+  url: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
+- target: 'AI boom: Sharp correction, then recovery'
+  from: 46
+  to: 45
+  why: Offsets the move above.
+  url: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
+- target: 'Cost of living: Living gets noticeably cheaper'
+  from: 18
+  to: 19
+  why: The 5-year breakeven fell to 2.23% and Fannie Mae cut its 2027 inflation forecast; one point.
+  url: https://www.scotsmanguide.com/?p=131220
+- target: 'Cost of living: High inflation'
+  from: 12
+  to: 11
+  why: Brent fell nearly 20% in November; one point.
+  url: https://cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html
+- target: 'Climate: Above 1.6°C'
+  from: 14
+  to: 18
+  why: 'Watch thresholds crossed: October was a record 1.75°C and Niño-3.4 hit +2.5°C.'
+  url: https://climate.copernicus.eu/surface-air-temperature-october-2026
+- target: 'Climate: Below 1.5°C'
+  from: 14
+  to: 11
+  why: Same evidence.
+  url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+- target: 'Climate: 1.5–1.6°C'
+  from: 72
+  to: 71
+  why: Rebalance after the moves above.
+  url: https://climate.copernicus.eu/surface-air-temperature-october-2026
+- target: 'Ukraine: Durable ceasefire or deal'
+  from: 55
+  to: 52
+  why: Polymarket's end-2027 ceasefire odds fell from 53% to 44%, and Abu Dhabi produced only a prisoner swap.
+  url: https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates
+- target: 'Ukraine: War continues'
+  from: 41
+  to: 44
+  why: Same market move, plus escalating long-range strikes.
+  url: https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates
+- target: 'Gulf: Settled'
+  from: 48
+  to: 46
+  why: 'A watch threshold was crossed: Iranian drone attacks on US sites in Bahrain, with Hormuz nearly shut and talks failing.'
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+- target: 'Gulf: Simmering'
+  from: 37
+  to: 38
+  why: Same evidence.
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+- target: 'Gulf: Regional war'
+  from: 15
+  to: 16
+  why: Same evidence, held to one point because oil supply now exceeds demand and Washington eased talk of a wider strike.
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+- target: Takeoff (world)
+  from: 24
+  to: 27
+  why: Transformative AI rose to 34%; 34% × (1 − 21%) is about 27.
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- target: Fracture (world)
+  from: 20
+  to: 21
+  why: Gulf regional-war odds rose a point; Taiwan and NATO held. A Gulf war wouldn't slow AI, so the point comes from Steady Climb.
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+- target: Steady Climb (world)
+  from: 32
+  to: 28
+  why: Strong jobs data fit this world, but weight moved to Takeoff and Fracture.
+  url: https://www.bls.gov/news.release/empsit.nr0.htm
+- target: Singularity (sci-fi)
+  from: 9
+  to: 10
+  why: 'Its drivers moved: transformative AI and self-improvement odds rose.'
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- target: Utopia (sci-fi)
+  from: 7
+  to: 8
+  why: Transformative AI rose while jobs held and managed release was unchanged.
+  url: https://benchlm.ai/benchmarks/scale-rli
+- target: Cyberpunk (sci-fi)
+  from: 28
+  to: 29
+  why: 'Its drivers moved: major AI-cyber odds and sustained build-out rose.'
+  url: https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223
+- target: Dystopia (sci-fi)
+  from: 14
+  to: 15
+  why: 'Its drivers moved: Gulf regional war and AI emergency brakes each rose a point.'
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+- target: Solarpunk (sci-fi)
+  from: 5
+  to: 4
+  why: 'Its driver moved: a hotter warming path became likelier.'
+  url: https://climate.copernicus.eu/surface-air-temperature-october-2026
+- target: Black Mirror (sci-fi)
+  from: 32
+  to: 29
+  why: Weight moved to the AI-driven and conflict-driven futures; it is now tied with Cyberpunk.
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- target: 'Check: Democrats win the House'
+  from: 94
+  to: 100
+  why: Resolved yes on Nov 4 when AP called the House.
+  url: https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections
+- target: 'Check: Democrats win the Senate'
+  from: 74
+  to: 100
+  why: Resolved yes on Nov 3 on AP projections.
+  url: https://aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections
+- target: 'Check: Anthropic shares start trading'
+  from: 93
+  to: 100
+  why: 'Resolved yes: priced at $83 and opened on Nasdaq at $111.50 on Nov 19.'
+  url: https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo
+- target: 'Check: The Fed raises rates again by Dec 31'
+  from: 72
+  to: 96
+  why: Kalshi prices about 96% for a December hike after the hot October CPI.
+  url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+- target: 'Check: SPARC first plasma by Mar 31, 2027'
+  from: 40
+  to: 25
+  why: CFS now says SPARC turns on next year with no date, after missing its end-of-summer goal.
+  url: https://blog.cfs.energy/how-cfs-will-rev-up-our-sparc-tokamak-for-its-q1-fusion-moment/
+- target: 'Check: Russia–Ukraine ceasefire by Mar 31, 2027'
+  from: 24
+  to: 29
+  why: Polymarket now prices 29% by Mar 31.
+  url: https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by
+news:
+- text: Democrats won the House and the Senate in the midterms, about 258–173 and 56–44.
+  date: '2026-11-17'
+  url: https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html
+- text: METR found Anthropic's capability progress running about twice its old pace, mostly because of AI.
+  date: '2026-11-05'
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- text: Fable 5.2, Gemini 4 and GPT-6.2 launched; Fable 5.2 leads ARC-AGI-3 at 81.2% and the Remote Labor Index at 41%.
+  date: '2026-11-17'
+  url: https://arcprize.org/leaderboard
+- text: Jensen Huang resigned as Nvidia CEO; days later Nvidia reported $115.8B in quarterly revenue.
+  date: '2026-11-17'
+  url: https://www.thewrap.com/industry-news/business/nvidia-ceo-jensen-huang-resignation-stock-reaction/
+- text: Iran drone-attacked US sites in Bahrain and Hormuz stayed nearly shut after Muscat talks failed.
+  date: '2026-11-17'
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+- text: Anthropic raised $81.3B in its IPO and opened about 34% above its $83 price.
+  date: '2026-11-19'
+  url: https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo

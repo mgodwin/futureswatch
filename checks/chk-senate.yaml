@@ -1,10 +1,10 @@
 id: chk-senate
 label: 'Check · by Nov 30, 2026: Democrats win the Senate'
 order: 14
-prob: 74
-prevProb: 64
+prob: 100
+prevProb: 74
 resolvesBy: '2026-12-31'
-resolved: null
-note: Kalshi and Polymarket average about 74%, up 10 points in a week. Resolves when control is called; a December runoff could delay it.
-source: DeFi Rate (Kalshi, Polymarket)
-url: https://defirate.com/prediction-markets/2026-midterms/
+resolved: 'yes'
+note: Resolved yes on 2026-11-03; last forecast 74%. AP projections late on election night gave Democrats at least 54 seats. A few races were still being counted.
+source: Al Jazeera
+url: https://aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections

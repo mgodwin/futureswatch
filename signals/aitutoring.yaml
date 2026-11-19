@@ -4,12 +4,12 @@ name: AI tutoring evidence
 domain: education
 order: 54
 measures: Learning gains from AI tutors in randomized trials.
-value: ≈0.2–0.4 SD in math
-asOf: 2026-09
-trend: up
+value: ≈0.15–0.26 SD in K-12 math
+asOf: '2026-11-10'
+trend: flat
 leans: neutral
-note: Math pilots show real but modest gains; reading results are mixed. A Harvard physics trial found students learned more with an AI tutor than in active-learning classes.
+note: A Stanford review finds mixed results, with gains in some trials, others show no benefit. A Maryland college trial found an AI tutor cut grades by 0.37 SD, while a 19-university trial of instructor-built tools found gains.
 watch: Large, lasting gains in big trials would speed the shift to AI-led teaching. Gains that fade point to AI as a supplement.
 cadence: New studies
-source: Beyond Tomorrow review
-url: https://beyondtmrw.org/article/ai-tutoring-rcts-what-k-12-pilots-actually-show-about-learning-gains
+source: Stanford SCALE evidence review
+url: https://scale.stanford.edu/ai/evidence-base-review/evidence-base-ai-k12-november-review

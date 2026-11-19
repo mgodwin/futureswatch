@@ -4,11 +4,11 @@ name: Recent-graduate unemployment
 domain: jobs
 order: 10
 measures: Unemployment for college graduates aged 22–27, a proxy for entry-level white-collar work.
-value: 5.6%
-asOf: 2026-06
-trend: flat
+value: 5.2%
+asOf: 2026-09
+trend: down
 leans: neutral
-note: Second-quarter reading, unchanged from the first quarter and well above the overall rate of 4.2%.
+note: Third-quarter reading, the lowest in more than a year, down from 5.6%. Underemployment rose slightly to 42.5%.
 watch: Above 6.5% means displacement is spreading. Below 5% means it is easing.
 cadence: Quarterly
 source: New York Fed

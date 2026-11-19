@@ -5,26 +5,26 @@ short: The Iran war and the Strait of Hormuz by the end of 2029.
 domain: geopolitics
 area: world
 order: 11
-read: A mine hit a tanker and Houthis struck at Saudi oil sites, then Iran offered a two-day plan to reopen Hormuz. No deal yet, and talks continue.
+read: Iran's plan to reopen Hormuz stalled over its terms, and the strait stays nearly shut. Iran struck US sites in Bahrain and the US hit back on Qeshm Island, though Washington has eased talk of a wider strike.
 outcomes:
 - key: settled
   label: Settled
   says: "Yes: Hormuz reopens and a ceasefire holds"
-  prob: 48
+  prob: 46
   prevProb: 48
   desc: Hormuz reopens and a durable ceasefire or deal holds.
   ifThen: Oil drifts back toward $70–80 and inflation pressure eases.
 - key: simmering
   label: Simmering
   says: On-and-off fighting, with Hormuz closing again and again
-  prob: 37
+  prob: 38
   prevProb: 37
   desc: On-and-off fighting with recurring Hormuz disruptions.
   ifThen: Oil stays volatile and elevated, a lasting drag through inflation.
 - key: regional
   label: Regional war
   says: A wider Gulf war, with oil over $150
-  prob: 15
+  prob: 16
   prevProb: 15
   desc: A sustained wider war involving Gulf states, with oil above $150 for months.
   ifThen: An oil shock big enough to tip the world into recession.
@@ -37,10 +37,10 @@ anchors:
   what: October is the worst month for attacks on Hormuz shipping since March, with 10 in one week and one ship sunk.
   date: 2026-10
   url: https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/
-- who: White House
-  what: Trump said any strike on Iran would wait until after the Nov 3 midterms while he weighs a deal.
-  date: 2026-10
-  url: https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/
+- who: AFP, via Khaleej Times
+  what: Iran's third drone attack on Bahrain in five days; a third US carrier group arrived.
+  date: 2026-11
+  url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
 - who: Timeline
   what: US–Israeli strikes on Iran began Feb 28; ceasefires in April and June broke down by July.
   date: 2026-10

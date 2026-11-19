@@ -4,12 +4,12 @@ name: AI attacks on infrastructure
 domain: ai
 order: 39
 measures: Confirmed attacks on critical infrastructure that used AI-built tools or AI agents.
-value: AI agents breached 100+ firms
-asOf: '2026-10-19'
+value: 'FBI: AI attack kit used at scale'
+asOf: '2026-11-13'
 trend: up
 leans: neutral
-note: Reuters found one hacker used Claude Code and DeepSeek agents to breach over 100 company sites for about $5,000. Firms report limited damage.
+note: An FBI flash alert says attackers worldwide use the ARTEX AI agent framework against banks, energy and health firms, sometimes gaining privileged access within three hours. No dollar damage was given.
 watch: A confirmed AI-driven attack with $1B+ in damage or a multi-day outage means a Major incident. Months without new alerts ease it.
 cadence: As reported
-source: Reuters via Star-Advertiser
-url: https://www.staradvertiser.com/2026/10/19/breaking-news/how-one-hacker-used-ai-agents-to-break-into-over-100-company-websites/
+source: The Register
+url: https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223

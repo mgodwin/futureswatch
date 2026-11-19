@@ -2,7 +2,7 @@ id: collapse
 name: Collapse
 order: 7
 prob: 5
-prevProb: null
+prevProb: 5
 tagline: Things fall apart.
 inspiredBy: Mad Max, Station Eleven, Children of Men
 summary: 'A catastrophe breaks basic systems across a major region: a great-power war, a nuclear strike or a deadly pandemic.'

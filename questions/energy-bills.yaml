@@ -11,27 +11,27 @@ outcomes:
   label: Bills outpace inflation
   says: They rise faster than other prices
   prob: 55
-  prevProb: null
+  prevProb: 55
   desc: The CPI electricity index rises at least 3% more than all-items CPI over the three years.
   ifThen: Power bills take a growing bite of household budgets, especially near data-center hubs in Virginia, Pennsylvania, Ohio and Texas. Pressure grows to make data centers pay more of grid costs.
 - key: pace
   label: Keep pace
   says: They rise in line with other prices
   prob: 32
-  prevProb: null
+  prevProb: 32
   desc: Electricity prices end within 3% of all-items CPI, either way.
   ifThen: Bills keep rising in dollars but not as a share of income. New solar, batteries and gas roughly match new demand.
 - key: cheaper
   label: Fall in real terms
   says: They get cheaper next to other prices
   prob: 13
-  prevProb: null
+  prevProb: 13
   desc: Electricity prices rise at least 3% less than all-items CPI.
   ifThen: Cheap solar, batteries and gas win out, and power bills ease as a worry. This is the clearest sign of energy abundance reaching homes.
 anchors:
 - who: EIA (Short-Term Energy Outlook)
-  what: Residential prices average 18.2 cents per kWh in 2026, up 5.2%, and 18.7 cents in 2027, up about 2.7%.
-  date: 2026-10
+  what: Residential prices average 18.2 cents per kWh in 2026, up from 17.2 cents in 2025, and 18.7 cents in 2027.
+  date: 2026-11
   url: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php
 - who: Bureau of Labor Statistics (CPI, our calculation)
   what: The electricity index rose 4.4% in the year to September, against 3.7% for all items.

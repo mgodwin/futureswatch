@@ -4,12 +4,12 @@ name: Oil price (Brent)
 domain: markets
 order: 20
 measures: Global benchmark crude price per barrel.
-value: ≈$106 (Nov 2, intraday)
-asOf: '2026-11-02'
+value: ≈$92 (Nov 19, intraday)
+asOf: '2026-11-19'
 trend: down
-leans: hangover
-note: Fell about 6% on Nov 2 after Iran offered a two-day plan to reopen Hormuz. The January contract settled at $113.43 on Oct 30, and Brent rose 13.6% in October.
+leans: neutral
+note: Down nearly 20% this month on expectations of a supply surplus, though Hormuz traffic is still mostly blocked and Iran reported tankers hit by mines on Nov 19. Brent settled at $92.94 on Nov 17.
 watch: Above $130 for weeks points to Fracture or Hangover. Below $80 eases inflation.
 cadence: Daily
-source: FinanceFeeds; The Nation
-url: https://financefeeds.com/oil-prices-fall-6-brent-106-wti-breaks-100/
+source: CNBC; EIA via FRED
+url: https://cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html

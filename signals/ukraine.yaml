@@ -4,12 +4,12 @@ name: Russia–Ukraine war
 domain: world
 order: 29
 measures: Front-line momentum and the state of peace talks.
-value: Talks set for first half of Nov
-asOf: '2026-10-24'
+value: Abu Dhabi talks yield swap, no ceasefire
+asOf: '2026-11-17'
 trend: flat
 leans: neutral
-note: Technical talks are planned in Abu Dhabi. A local ceasefire in Oleshky began Oct 27, and each side freed 270 prisoners. Polymarket gives about 10% for a ceasefire by year-end.
+note: Three-way talks on Nov 10–11 agreed a prisoner exchange but no ceasefire, and no next round is set. Long-range strikes escalated. Polymarket gives about 10% for a ceasefire by year-end.
 watch: Talks resuming or a ceasefire points to a durable deal. Russian gains above 500 km² a month, or NATO casualties, point to escalation.
 cadence: Daily
-source: The Moscow Times; Polymarket
-url: https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069
+source: Al Jazeera; Polymarket
+url: https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates

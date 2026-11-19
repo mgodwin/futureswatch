@@ -4,12 +4,12 @@ name: Epoch Capabilities Index
 domain: ai
 order: 37
 measures: A composite of many benchmarks that tracks how fast top models improve.
-value: 167 (Opus 5.5)
-asOf: '2026-09-22'
+value: 174 (Fable 5.2 · GPT-6.2 Astra)
+asOf: '2026-11-17'
 trend: up
-leans: neutral
-note: Top score, just ahead of GPT-6 Astra at 166. Epoch puts the frontier trend at about 14 points a year.
+leans: takeoff
+note: Fable 5.2 set a record of 174 on Nov 9 and GPT-6.2 Astra tied it in pre-launch testing. Both sit above Epoch's earlier trend line, and Epoch now scores GPT-6 Astra at 169.
 watch: Gains well above 14 points a year point to Takeoff. A flat year points to a plateau.
 cadence: As new models are scored
-source: Epoch AI via AI 2027 Tracker
-url: https://ai2027-tracker.com/
+source: Epoch AI via Crypto Briefing
+url: https://cryptobriefing.com/gpt-6-2-astra-epoch-capabilities-index-174/

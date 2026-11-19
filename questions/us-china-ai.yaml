@@ -5,19 +5,19 @@ short: Whether the US keeps a clear lead in frontier AI through 2029.
 domain: ai
 area: ai
 order: 15
-read: China's open models trail by roughly 5 to 7 months and Huawei is gaining share at home. The gap has narrowed this year, but chip limits still cap China's scale. These odds rest on judgment.
+read: China's best models trail by roughly 6 months, and Epoch's index shows the gap widening this fall as US labs set new records. A Nov 16 US rule targets chips reaching Chinese firms through overseas data centers, while Huawei keeps gaining share at home.
 outcomes:
 - key: uslead
   label: US keeps a clear lead
   says: No, the US stays 6 months or more ahead
-  prob: 55
+  prob: 56
   prevProb: 55
   desc: China's best models stay 6 or more months behind, held back by chip limits.
   ifThen: Export controls look vindicated; the US sets norms for frontier AI.
 - key: parity
   label: Near parity
   says: Roughly even, within about 3 months
-  prob: 38
+  prob: 37
   prevProb: 38
   desc: The gap shrinks under about 3 months, or the lead trades back and forth.
   ifThen: A tighter race, more pressure to skip safety holds, and fights over chip and model exports.
@@ -30,8 +30,8 @@ outcomes:
   ifThen: A US national-security push on AI, more state funding and possibly harder curbs on Chinese tech.
 anchors:
 - who: Epoch AI, via AI 2027 Tracker
-  what: China's best model trailed the US frontier by about 7 months at mid-2026.
-  date: 2026-10
+  what: Leading Chinese lab about 6 months behind the US frontier, reviewed Nov 7.
+  date: 2026-11
   url: https://ai2027-tracker.com/predictions/china-model-gap/
 - who: Epoch AI
   what: Kimi K3 in July implied a narrower gap of about 4 to 5 months.
@@ -45,6 +45,10 @@ anchors:
   what: Huawei took 28% of China's AI chip market in the first half of 2026, closing on Nvidia's 34%.
   date: 2026-10
   url: https://www.cxodigitalpulse.com/?p=63391
+- who: Epoch AI, via OfficeChai
+  what: Kimi K3's index score sat about 10 points below GPT-6 Astra, the widest gap since 2023.
+  date: 2026-10
+  url: https://officechai.com/ai/gap-between-us-and-open-chinese-models-is-now-among-the-largest-in-last-2-years/
 signals:
 - chinagap
 - chinachips

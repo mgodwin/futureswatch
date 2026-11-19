@@ -5,7 +5,7 @@ short: A new pandemic that kills more than 1 million people before 2030.
 domain: health
 area: health
 order: 12
-read: Ebola is deadly but spreads slowly, and H5N1 shows no human-to-human transmission. Weakened WHO and CDC capacity nudges the risk up.
+read: Ebola has passed 11,000 cases in DRC and Africa CDC says it is not under control, but it spreads slowly. H5N1 killed a Washington dairy worker in November, still with no human-to-human spread.
 outcomes:
 - key: 'no'
   label: Nothing at that scale
@@ -23,13 +23,17 @@ outcomes:
   ifThen: 'The Fracture world: lockdown-style disruption, supply shocks and a hit to growth.'
 anchors:
 - who: ECDC
-  what: The DRC Ebola outbreak reached 9,704 confirmed cases and 4,687 deaths by Oct 21; Kenya has 9 linked cases.
-  date: 2026-10
+  what: The DRC Ebola outbreak reached 11,376 confirmed cases and 5,568 deaths by Nov 15; Kenya has 9 linked cases.
+  date: 2026-11
   url: https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda
 - who: CDC
   what: 12 human H5N1 cases worldwide from August 2025 to June 2026 with no person-to-person spread; risk to the US public rated low.
   date: 2026-06
   url: https://www.cdc.gov/bird-flu/spotlights/global-summary-06262026.html
+- who: ECDC (H5N1, United States)
+  what: Three H5N1 cases in Yakima County, Washington, two of them dairy workers; one died. No human-to-human spread reported.
+  date: 2026-11
+  url: https://www.ecdc.europa.eu/en/public-health-events/2024-irv-00003
 - who: Bio-uplift studies (review)
   what: A 2026 randomized wet-lab trial found no significant gain for novices using AI; computer-based tests showed large gains.
   date: 2026-05
