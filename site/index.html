@@ -135,6 +135,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .fchip i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
 .fchip b { color: var(--ink); font-weight: 650; }
 .fchip .fd { color: var(--muted); font-size: 12px; }
+.fchip .fk { color: var(--muted); }
 .fsep { width: 1px; height: 18px; background: var(--line-strong); margin: 0 4px; }
 @media (max-width: 600px) {
   .fchips { flex-wrap: nowrap; overflow-x: auto; margin-left: -16px; margin-right: -16px; padding: 0 16px 4px; scrollbar-width: none; }
@@ -815,7 +816,7 @@ footer p { margin: 0 0 6px; }
     return '<section id="' + id + '"><h2>' + esc(title) + "</h2>" + (intro ? '<p class="intro">' + esc(intro) + "</p>" : "") + body + "</section>";
   }
 
-  // Quick read of the summary layers under the headline: every world, plus the two likeliest sci-fi futures.
+  // Quick read of the summary layers under the headline: the likeliest world and the likeliest sci-fi future.
   // Futures with the same odds share one split chip.
   function futureChips() {
     function byProb(a, b) { return num(b.prob) - num(a.prob); }
@@ -826,16 +827,14 @@ footer p { margin: 0 0 6px; }
       var x = g[0], tie = g.length > 1, names = g.map(function (y) { return y.name; });
       var d = (tie || x.prevProb == null || x.prevProb === "") ? 0 : Math.round(num(x.prob) - num(x.prevProb));
       var dot = tie ? "linear-gradient(90deg," + g.map(function (y, i) { var a = 100 * i / g.length, b = 100 * (i + 1) / g.length; return colorOf(y.id) + " " + a + "% " + b + "%"; }).join(",") + ")" : colorOf(x.id);
-      return '<a class="fchip" href="' + href + '" title="' + esc(kind + ": " + names.join(" and ") + (tie ? ", tied" : "")) + '"><i style="background:' + dot + '"></i>' + esc(names.join(" / ")) +
+      return '<a class="fchip" href="' + href + '" title="' + esc(kind + ": " + names.join(" and ") + (tie ? ", tied" : "")) + '"><span class="fk">' + kind + '</span><i style="background:' + dot + '"></i>' + esc(names.join(" / ")) +
         ' <b>' + num(x.prob) + "%</b>" + (tie ? '<span class="fd">each</span>' : d ? '<span class="fd">' + (d > 0 ? "+" : "−") + Math.abs(d) + "</span>" : "") + "</a>";
     }
-    var w = groups(arr(D.worlds).slice().sort(byProb)), f = [], n = 0;
-    groups(arr(D.scifi).slice().sort(byProb)).forEach(function (g) { if (n < 2) { f.push(g); n += g.length; } });
+    var w = groups(arr(D.worlds).slice().sort(byProb)).slice(0, 1), f = groups(arr(D.scifi).slice().sort(byProb)).slice(0, 1);
     if (!w.length && !f.length) return "";
     return '<nav class="fchips" aria-label="Worlds and sci-fi futures">' +
-      w.map(function (g) { return chip(g, "#worlds", wcolor, "World"); }).join("") +
-      (f.length ? '<span class="fsep" aria-hidden="true"></span>' : "") +
-      f.map(function (g) { return chip(g, "#scifi", sfcolor, "Sci-fi future"); }).join("") + "</nav>";
+      w.map(function (g) { return chip(g, "#worlds", wcolor, "Likeliest world"); }).join("") +
+      f.map(function (g) { return chip(g, "#scifi", sfcolor, "Likeliest sci-fi"); }).join("") + "</nav>";
   }
   function renderHome() {
     var m = D.meta || {}, n = D.questions.filter(isActive).length;
