@@ -19,6 +19,7 @@ correlated_with:
 - id: us-fiscal-inflation
   why: tariff pass-through
 covered_by:
+- questions/trade-blocs.yaml
 - signals/uschina.yaml
 - signals/chinachips.yaml
 - signals/tariffrate.yaml

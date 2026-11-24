@@ -1,0 +1,55 @@
+id: nuclear-restraint
+tracking: active
+title: Will nuclear testing come back?
+short: Whether the US, Russia or China sets off a nuclear explosive test, or anyone uses a nuclear weapon in conflict, by the end of 2029.
+domain: geopolitics
+area: world
+order: 38
+read: New START expired in February with no replacement, and US officials say they are ready to run low-yield tests. Prediction markets still see almost no chance of a US test this year, and no major power has tested since 1996.
+outcomes:
+- key: restraint
+  label: Restraint holds
+  says: No major power tests a nuclear weapon
+  prob: 75
+  prevProb: null
+  desc: No explosive nuclear test by the US, Russia or China, and no use in conflict. North Korean tests don't count here.
+  ifThen: An arms race in numbers and missiles, but the testing taboo holds.
+- key: test
+  label: A major power tests
+  says: The US, Russia or China tests a nuclear weapon
+  prob: 22
+  prevProb: null
+  desc: At least one of the three sets off an explosive test, of any size, with no nuclear use in conflict.
+  ifThen: The others likely follow, the test-ban regime collapses, and the world order looks more fractured.
+- key: use
+  label: Nuclear use
+  says: A nuclear weapon is used in conflict
+  prob: 3
+  prevProb: null
+  desc: Any country detonates a nuclear weapon in conflict, matching the nuclear-use milestone.
+  ifThen: The defining event of the period; the Fracture world and Collapse in the sci-fi lens.
+anchors:
+- who: Polymarket, via Frenzy Capital
+  what: About 2% that the US conducts a nuclear test by the end of 2026.
+  date: 2026-11
+  url: https://www.frenzycap.com/predictions/event/polymarket/us-nuclear-test-by
+- who: Arms Control Association
+  what: New START expired in February 2026 while the US called for a modernized treaty that includes China.
+  date: 2026-03
+  url: https://www.armscontrol.org/act/2026-03/news/new-start-expires-us-urges-modernized-treaty
+- who: ARY News, citing a US official
+  what: The US says it is ready to carry out low-yield nuclear tests.
+  date: 2026-02
+  url: https://arynews.tv/us-ready-carry-out-low-yield-nuclear-tests-official
+- who: Bulletin of the Atomic Scientists, via AP
+  what: Set the Doomsday Clock closer to midnight than ever in January 2026.
+  date: 2026-01
+  url: https://www.cp24.com/news/world/2026/01/27/atomic-scientists-set-doomsday-clock-closer-to-midnight-than-ever/
+- who: Historical base rate
+  what: No US, Russian or Chinese explosive test since China's in 1996; only North Korea has tested since 1998.
+  date: 2026-11
+  url: null
+signals:
+- nucleartest
+- gpr
+- ukraine

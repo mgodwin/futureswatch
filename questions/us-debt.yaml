@@ -1,0 +1,53 @@
+id: us-debt
+tracking: active
+title: Will markets lose faith in US debt?
+short: Whether investors keep buying US Treasuries calmly through 2029, or a bond or dollar scare forces the government or the Fed to act.
+domain: economy
+area: money
+order: 37
+read: The deficit runs about $2.1 trillion a year, the 30-year yield is near 5.5%, and investors again demand extra pay to hold long bonds. The Supreme Court kept Fed Governor Lisa Cook in her job in June, which eased fears about Fed independence.
+outcomes:
+- key: orderly
+  label: Orderly
+  says: Investors keep buying US debt calmly
+  prob: 55
+  prevProb: null
+  desc: Yields move with growth and inflation, auctions clear normally, and no episode forces emergency action.
+  ifThen: High deficits stay a slow drag on rates and mortgages, not a crisis.
+- key: stress
+  label: Stress episodes
+  says: Bond scares hit, but pass without a crisis
+  prob: 35
+  prevProb: null
+  desc: At least one scare, such as the 30-year above 6% for a month, a badly received auction that moves markets, or another credit downgrade, without forced Fed action.
+  ifThen: Higher mortgage and borrowing costs for a while, and pressure on Congress to cut deficits.
+- key: crisis
+  label: Debt crisis
+  says: A debt or dollar crisis forces the Fed to step in
+  prob: 10
+  prevProb: null
+  desc: The Fed buys Treasuries or caps yields to calm the market outside a recession, or the 10-year yield tops 7%, or the dollar falls sharply as foreign buyers leave.
+  ifThen: Inflation and rates jump together, home prices and stocks fall, and the US's financial standing takes a lasting hit.
+anchors:
+- who: CBO, via CRFB
+  what: The 12-month rolling deficit reached $2.1 trillion in October 2026, up from a year earlier.
+  date: 2026-11
+  url: https://www.crfb.org/blogs/12-month-rolling-deficit-21-trillion-october-2026
+- who: CBO, via CRFB
+  what: The February 2026 outlook has debt rising steadily as a share of the economy through the decade.
+  date: 2026-02
+  url: https://www.crfb.org/papers/cbos-february-2026-budget-and-economic-outlook
+- who: Fortune
+  what: The Supreme Court's June ruling kept Lisa Cook at the Fed, which bond investors read as a check on political pressure over rates.
+  date: 2026-06
+  url: https://fortune.com/2026/06/29/supreme-court-fed-independence-lisa-cook-us-debt-treasury-bonds/
+- who: New York Fed (ACM model), via eco3min
+  what: The 10-year term premium was about 0.62% at the end of October, positive all year after a decade near zero.
+  date: 2026-10
+  url: https://eco3min.fr/en/us-term-premium-dataset/
+signals:
+- debt
+- termpremium
+- tenyear
+- inflexp
+- fed

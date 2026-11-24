@@ -1,0 +1,51 @@
+id: trade-blocs
+tracking: active
+title: Will the world split into trade blocs?
+short: How high US tariffs stand at the end of 2029, measured by the Yale Budget Lab's average effective tariff rate.
+domain: economy
+area: world
+order: 36
+read: The average US tariff rate is about 11%, down from over 22% after the April 2025 tariffs but about four times the 2024 level. The US–China truce runs to January 10, 2027, and markets favor Democrats in 2028, which makes a partial rollback plausible.
+outcomes:
+- key: rolledback
+  label: Rolled back
+  says: Tariffs come back down toward normal
+  prob: 30
+  prevProb: null
+  desc: The average effective tariff rate is under 8% at the end of 2029, after deals, court rulings or a new administration cut tariffs.
+  ifThen: Goods prices ease, supply chains stop reshuffling, and trade is no longer a source of Fracture risk.
+- key: stayshigh
+  label: Stays high
+  says: Tariffs stay high, but trade keeps flowing
+  prob: 55
+  prevProb: null
+  desc: The rate stays between 8% and 20%, with truces renewed and no broad decoupling from China.
+  ifThen: A permanent tax on imports that keeps goods inflation sticky, but no split into rival blocs.
+- key: blocs
+  label: Blocs harden
+  says: The world splits into rival trade blocs
+  prob: 15
+  prevProb: null
+  desc: The rate is above 20%, or the US and China decouple broadly in chips, rare earths and key goods, with allies following one side.
+  ifThen: Higher prices, a hit to growth and chip supply, and a world that looks much more like Fracture.
+anchors:
+- who: Yale Budget Lab
+  what: Average effective tariff rate of 10.9% as of late August 2026, before buyers switch suppliers.
+  date: 2026-08
+  url: https://sites.google.com/view/pskrzypczynski/home/average-effective-tariff-rate-in-the-u-s
+- who: Yale Budget Lab
+  what: Updated the tariff picture after the Supreme Court's February ruling on emergency tariffs.
+  date: 2026-02
+  url: https://budgetlab.yale.edu/research/state-us-tariffs-february-20-2026
+- who: ROIC, citing Reuters
+  what: The US proposed a six-month extension of the China trade truce, while Beijing pushed for longer.
+  date: 2026-09
+  url: https://www.roic.ai/news/us-proposes-six-month-extension-of-china-trade-truce-beijing-pushes-for-longer-09-21-2026
+- who: Kalshi / Polymarket
+  what: About 66% that Democrats win the 2028 presidential election.
+  date: 2026-11
+  url: https://defirate.com/prediction-markets/2028-presidential-election-odds
+signals:
+- tariffrate
+- uschina
+- chinachips
