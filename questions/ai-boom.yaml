@@ -5,20 +5,20 @@ short: AI investment and AI-heavy stocks through 2029.
 domain: economy
 area: money
 order: 4
-read: Demand is real. Nvidia beat forecasts and guided to $130B next quarter, days after its CEO resigned. But the cash is thin, CoreWeave's bonds yield above 15%, and rates are rising again.
+read: 'AI stocks had their roughest week of the boom: the Nasdaq fell 5.3% on Nov 20 amid an SEC review of Nvidia''s accounting, then jumped 6.5% when Nvidia rehired Jensen Huang. Demand is still real, but cash is thin and rates are high.'
 outcomes:
 - key: sustained
   label: Sustained build-out
   says: No, AI spending keeps climbing
-  prob: 30
-  prevProb: 29
+  prob: 29
+  prevProb: 30
   desc: Capex keeps rising through 2029; dips are brief.
   ifThen: Chip, power and data-center businesses keep booming, and AI adoption accelerates.
 - key: correction
   label: Sharp correction, then recovery
   says: AI stocks crash 35% or more, then recover
-  prob: 45
-  prevProb: 46
+  prob: 46
+  prevProb: 45
   desc: AI-heavy stocks fall 35% or more from their peak and/or hyperscalers cut capex, then recover.
   ifThen: A rough year for tech jobs and portfolios, then the build-out resumes.
 - key: bust
@@ -45,10 +45,10 @@ anchors:
   what: Q3 data-center revenue was $107.6B, up 110% from a year earlier, with $130B in total revenue guided for next quarter.
   date: 2026-11
   url: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
-- who: Alphabet / Amazon
-  what: Alphabet's free cash flow was negative for a second quarter and its stock fell 12.6%, its worst day since listing. Amazon's 12-month free cash flow is a $42B outflow.
-  date: 2026-10
-  url: https://www.heygotrade.com/en/news/google-googl-stock-news-october-30-2026/
+- who: Charles Schwab
+  what: On Nov 20 the Nasdaq fell 5.3% and Nvidia 14%, leaving the main indexes in correction territory; they rebounded on Nov 23.
+  date: 2026-11
+  url: https://www.schwab.com/learn/story/market-volatility
 - who: IMF
   what: Flagged circular AI deals worth about $1.4T in promised revenue as a risk that could deepen a market correction.
   date: 2026-10

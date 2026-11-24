@@ -5,20 +5,20 @@ short: Whether an attack led by AI causes at least $1B in damage or 100 deaths b
 domain: ai
 area: ai
 order: 13
-read: An FBI alert says attackers worldwide now run AI agent frameworks against banks, energy and health firms, and the one market on the question rose to 47%. No single AI-driven attack has yet been shown to cause $1B in damage.
+read: Attackers using an AI hacking framework kept European Commission payroll and medical claims systems offline for over 10 days, and the FBI warns the same kit is in wide use. No single AI-driven attack has yet been shown to cause $1B in damage.
 outcomes:
 - key: contained
   label: Contained
   says: More attacks, but none causes $1B in damage
-  prob: 55
-  prevProb: 57
+  prob: 54
+  prevProb: 55
   desc: AI-assisted attacks keep growing, but no single AI-driven incident causes $1B in damage or 100 deaths.
   ifThen: Cyber stays a cost of doing business; defenders' AI keeps pace.
 - key: major
   label: Major incident
   says: One causes $1B in damage or 100 deaths
-  prob: 37
-  prevProb: 35
+  prob: 38
+  prevProb: 37
   desc: At least one attack led by AI causes $1B+ in damage or 100+ deaths, without lasting national disruption.
   ifThen: Fast rules on agent access and model release; a strong push toward Emergency brakes.
 - key: systemic
@@ -57,6 +57,10 @@ anchors:
   what: Reported the first known espionage campaign run mostly by AI agents, aimed at about 30 organizations.
   date: 2025-11
   url: https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf
+- who: European Commission (via The Register)
+  what: An attack using the ARTEX AI framework kept staff payroll and medical claims systems offline for over 10 days; no damage figure given.
+  date: 2026-11
+  url: https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103
 signals:
 - cyberinfra
 - incidents

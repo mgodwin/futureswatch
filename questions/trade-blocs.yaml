@@ -11,21 +11,21 @@ outcomes:
   label: Rolled back
   says: Tariffs come back down toward normal
   prob: 30
-  prevProb: null
+  prevProb: 30
   desc: The average effective tariff rate is under 8% at the end of 2029, after deals, court rulings or a new administration cut tariffs.
   ifThen: Goods prices ease, supply chains stop reshuffling, and trade is no longer a source of Fracture risk.
 - key: stayshigh
   label: Stays high
   says: Tariffs stay high, but trade keeps flowing
   prob: 55
-  prevProb: null
+  prevProb: 55
   desc: The rate stays between 8% and 20%, with truces renewed and no broad decoupling from China.
   ifThen: A permanent tax on imports that keeps goods inflation sticky, but no split into rival blocs.
 - key: blocs
   label: Blocs harden
   says: The world splits into rival trade blocs
   prob: 15
-  prevProb: null
+  prevProb: 15
   desc: The rate is above 20%, or the US and China decouple broadly in chips, rare earths and key goods, with allies following one side.
   ifThen: Higher prices, a hit to growth and chip supply, and a world that looks much more like Fracture.
 anchors:
@@ -42,9 +42,9 @@ anchors:
   date: 2026-09
   url: https://www.roic.ai/news/us-proposes-six-month-extension-of-china-trade-truce-beijing-pushes-for-longer-09-21-2026
 - who: Kalshi / Polymarket
-  what: About 66% that Democrats win the 2028 presidential election.
+  what: About 67% that Democrats win the 2028 presidential election.
   date: 2026-11
-  url: https://defirate.com/prediction-markets/2028-presidential-election-odds
+  url: https://defirate.com/odds/us-president/snapshot/latest/
 signals:
 - tariffrate
 - uschina

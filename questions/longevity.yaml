@@ -38,31 +38,31 @@ outcomes:
 anchors:
 - who: CDC (NCHS)
   what: US life expectancy at birth rose 0.6 years to a record 79.0 in 2024, with the age-adjusted death rate down 3.8%.
-  date: "2026-01"
+  date: 2026-01
   url: https://cdc.gov/nchs/products/databriefs/db548.htm
 - who: CDC (NCHS)
   what: Provisional 2025 death rate fell 4.6% to a record low of 689.2 per 100,000; no 2025 life expectancy figure yet.
-  date: "2026-07"
+  date: 2026-07
   url: https://cdc.gov/nchs/blog/posts/2026/07/provisional-data-u-s-death-rate-fell-to-a-record-low-in-2025.html
 - who: Olshansky and colleagues (Nature Aging)
   what: Life expectancy gains in the longest-lived countries have slowed sharply since 1990; radical life extension this century is implausible without slowing aging itself.
-  date: "2024-10"
+  date: 2024-10
   url: https://www.news-medical.net/news/20241008/Study-suggests-humans-are-approaching-a-biological-limit-to-life.aspx
 - who: COSMOS trial (Nature Medicine)
   what: A daily multivitamin slowed biological-age clocks by about four months over two years in 958 older adults; significant on two of five clocks.
-  date: "2026-03"
+  date: 2026-03
   url: https://press-news.org/221456-cosmos-trial-results-show-daily-multivitamin-use-may-slow-biological-aging.html
 - who: TAME trial (via NPR)
   what: The six-year, 3,000-person metformin aging trial had about $5 million of a $45–70 million budget and had not started; 2024 report, no newer confirmed update found.
-  date: "2024-04"
+  date: 2024-04
   url: https://www.michiganpublic.org/health/2024-04-22/a-cheap-drug-may-slow-down-aging-a-study-will-determine-if-it-works
 - who: Manifold forecasters
   what: 11% that experts or regulators declare humans have reached longevity escape velocity before 2030.
-  date: "2026-11"
+  date: 2026-11
   url: https://manifold.markets/Jack1/longevity-escape-velocity-before-20
 - who: Loyal
   what: Its senior-dog lifespan drug has two of three FDA sections accepted; manufacturing review and conditional approval are still pending (company statement).
-  date: "2026-11"
+  date: 2026-11
   url: https://loyal.com/for-vets
 signals:
 - lifeexp

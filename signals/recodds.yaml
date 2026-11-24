@@ -4,12 +4,12 @@ name: Recession odds (markets)
 domain: markets
 order: 19
 measures: Prediction-market probability of a US recession.
-value: ≈22% for 2027
-asOf: '2026-11-19'
+value: ≈21% for 2027
+asOf: '2026-11-24'
 trend: flat
 leans: neutral
-note: Kalshi, about where it has been since October even as December hike odds rose. Polymarket prices about 31% for a recession by the end of 2027, down from 33%.
+note: Kalshi, down a point despite the stock selloff; its 2026 market sits at 3%. Kalshi resolves on two quarters of falling GDP, not an NBER call.
 watch: 2027 recession odds above 40% point to Hangover. Below 15% supports Steady Climb.
 cadence: Live
 source: Kalshi; Polymarket
-url: https://kalshi.com/markets/kxrecssnber/recession/kxrecssnber-27
+url: https://kalshi.com/economics/recession-odds

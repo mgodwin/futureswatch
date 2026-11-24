@@ -30,13 +30,13 @@ outcomes:
   ifThen: Deep job losses, falling asset prices and a heavy policy response.
 anchors:
 - who: Kalshi / Polymarket
-  what: About 22% for a US recession in 2027 on Kalshi; Polymarket prices about 31% by the end of 2027.
+  what: About 21% for a US recession in 2027 on Kalshi, which resolves on two quarters of falling GDP; Polymarket last priced about 31% by the end of 2027.
   date: 2026-11
-  url: https://kalshi.com/markets/kxrecssnber/recession/kxrecssnber-27
+  url: https://kalshi.com/economics/recession-odds
 - who: BLS / Kalshi
-  what: October CPI rose 0.4% and core 0.3% on the month. Kalshi now prices about 96% for a December hike, up from 71%.
+  what: Kalshi prices about 94% for a December hike and 54% for another in January.
   date: 2026-11
-  url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+  url: https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26dec
 - who: WSJ economists' survey / Kalshi
   what: 30% and 35% odds of a recession within 12 months, as of March.
   date: 2026-03

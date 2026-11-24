@@ -4,12 +4,12 @@ name: Weekly jobless claims
 domain: jobs
 order: 97
 measures: New claims for US unemployment insurance, four-week average.
-value: 195,250 (4-week avg)
-asOf: '2026-11-07'
-trend: flat
+value: 197,750 (4-week avg)
+asOf: '2026-11-14'
+trend: up
 leans: climb
-note: Initial claims were 200,000 in the week to Nov 7, near historic lows, and continuing claims fell to 1.70 million. Layoffs are not yet showing up in claims.
+note: Initial claims rose to 203,000 in the week to Nov 14, above the 197,000 expected but still low. Continuing claims jumped 70,000 to 1.76 million, the most since late August.
 watch: A four-week average above 260,000 is a classic early recession sign and points to Hangover. Under 220,000 says layoffs stay rare.
 cadence: Weekly, Thursday
-source: Department of Labor, via Verified Investing
-url: https://verifiedinvesting.com/blogs/us-economic-metrics/jobless-claims-week-ending-november-7-2026
+source: Department of Labor, via StockAnalysis
+url: https://stockanalysis.com/news/jobless-claims-rise-third-week-november-2026/

@@ -11,21 +11,21 @@ outcomes:
   label: Orderly
   says: Investors keep buying US debt calmly
   prob: 55
-  prevProb: null
+  prevProb: 55
   desc: Yields move with growth and inflation, auctions clear normally, and no episode forces emergency action.
   ifThen: High deficits stay a slow drag on rates and mortgages, not a crisis.
 - key: stress
   label: Stress episodes
   says: Bond scares hit, but pass without a crisis
   prob: 35
-  prevProb: null
+  prevProb: 35
   desc: At least one scare, such as the 30-year above 6% for a month, a badly received auction that moves markets, or another credit downgrade, without forced Fed action.
   ifThen: Higher mortgage and borrowing costs for a while, and pressure on Congress to cut deficits.
 - key: crisis
   label: Debt crisis
   says: A debt or dollar crisis forces the Fed to step in
   prob: 10
-  prevProb: null
+  prevProb: 10
   desc: The Fed buys Treasuries or caps yields to calm the market outside a recession, or the 10-year yield tops 7%, or the dollar falls sharply as foreign buyers leave.
   ifThen: Inflation and rates jump together, home prices and stocks fall, and the US's financial standing takes a lasting hit.
 anchors:

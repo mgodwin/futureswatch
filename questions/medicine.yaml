@@ -31,31 +31,31 @@ outcomes:
 anchors:
 - who: IntuitionLabs (industry tracker)
   what: No AI-discovered drug had full FDA approval as of mid-October 2026; whether zasocitinib counts depends on how AI-discovered is defined.
-  date: "2026-10"
+  date: 2026-10
   url: https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals
 - who: Takeda
   what: FDA accepted the zasocitinib psoriasis application under priority review, with a decision due in the first quarter of 2027; EMA is also reviewing it.
-  date: "2026-09"
+  date: 2026-09
   url: https://www.takeda.com/newsroom/newsreleases/2026/fda-priority-review-zasocitinib-psoriasis/
 - who: Insilico Medicine
   what: First patient dosed in a 320-person, 52-week phase 3 of rentosertib for lung fibrosis in China; the lead investigator expects three to four years to approval at best.
-  date: "2026-09"
+  date: 2026-09
   url: https://insilico.com/news/isn1009261-insilico-medicine-doses-first-patient-genesis-ipf-3
 - who: Isomorphic Labs (via Reuters)
   what: Its first clinical trials are now expected by the end of 2026, a slip from an earlier end-of-2025 goal.
-  date: "2026-01"
+  date: 2026-01
   url: https://www.investing.com/news/stock-market-news/googlebacked-ai-drug-discovery-startup-isomorphic-labs-delays-clinical-trial-timeline-4456134
 - who: Merck and Moderna
   what: The personalized mRNA melanoma vaccine plus Keytruda met its phase 3 recurrence-free survival endpoint; regulatory filings are planned.
-  date: "2026-08"
+  date: 2026-08
   url: https://s2.q4cdn.com/584635680/files/doc_news/Merck-and-Moderna-Announce-Phase-3-INTerpath-001-Trial-of-Intismeran-Autogene-Plus-KEYTRUDA-Met-Endpoints-of-Recurrence-Free-Survival-FOTAJ.pdf
 - who: uniQure (via BioPharm International)
   what: FDA accepted the AMT-130 Huntington's gene therapy application for priority review, with a May 2027 target date; four-year data were weaker than three-year data.
-  date: "2026-11"
+  date: 2026-11
   url: https://www.biopharminternational.com/view/fda-accepts-uniqure-s-huntington-s-disease-gene-therapy-bla-for-priority-review
 - who: Manifold forecasters
   what: 26% that the FDA approves an AI-developed cure for a major, previously incurable illness before 2030.
-  date: "2026-11"
+  date: 2026-11
   url: https://manifold.markets/RealityQuotient/the-fda-will-approve-an-ai-develope
 signals:
 - aidrugs

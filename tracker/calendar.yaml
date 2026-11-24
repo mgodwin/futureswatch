@@ -112,18 +112,18 @@
   event: Anthropic shares could start trading
   why: Priced at $83 and opened at $111.50 on Nasdaq, resolving the Anthropic IPO check yes.
   url: https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo
-- id: 2026-10-12-update
-  date: '2026-11-23'
-  when: Nov 23
-  event: Next Futures Watch update
-  why: Weekly re-check of every signal and the odds.
-  url: null
 - id: 2026-11-24-caseshiller
   date: '2026-11-24'
   when: Nov 24
   event: Case-Shiller home prices (September)
-  why: Shows whether higher rates are cooling house prices.
-  url: https://www.thetrading.tools/economic-calendar/case-shiller
+  why: September prices rose 2.1% from a year earlier, behind 3.7% inflation, a 16th month of real declines.
+  url: https://calculatedrisk.substack.com/p/case-shiller-national-house-price-3e2
+- id: 2026-10-12-update
+  date: '2026-11-30'
+  when: Nov 30
+  event: Next Futures Watch update
+  why: Weekly re-check of every signal and the odds.
+  url: null
 - id: 2026-12-04-jobs
   date: '2026-12-04'
   when: Dec 4
@@ -134,7 +134,7 @@
   date: '2026-12-09'
   when: Dec 8–9
   event: Fed rate decision
-  why: Markets price about 96% for a hike; resolves the Fed-hike check.
+  why: Markets price about 94% for a hike; resolves the Fed-hike check.
   url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
 - id: 2026-12-10-cpi
   date: '2026-12-10'
@@ -202,11 +202,17 @@
   event: NASA and NOAA global temperatures for 2026
   why: Resolves whether 2026 ranks as the warmest year on record.
   url: https://polymarket.com/event/where-will-2026-rank-among-the-hottest-years-on-record
+- id: 2027-01-15-iran-deadline
+  date: '2027-01-15'
+  when: Early 2027
+  event: Trump's deadline for an Iran deal
+  why: Trump warned large-scale strikes could resume if no deal is reached; past deadlines have slipped.
+  url: https://alhurra.com/en/57025
 - id: 2027-01-27-fomc
   date: '2027-01-27'
   when: Jan 26–27, 2027
   event: Fed rate decision
-  why: Markets price about 62% for another hike; resolves the January Fed check.
+  why: Markets price about 54% for another hike; resolves the January Fed check.
   url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 - id: 2027-03-31-ascend
   date: '2027-03-31'

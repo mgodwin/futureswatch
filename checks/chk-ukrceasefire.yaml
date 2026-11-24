@@ -2,7 +2,7 @@ id: chk-ukrceasefire
 label: 'Check · by Mar 31, 2027: Russia and Ukraine agree a ceasefire'
 order: 16
 prob: 29
-prevProb: 24
+prevProb: 29
 resolvesBy: '2027-03-31'
 resolved: null
 note: Polymarket prices about 29% for a ceasefire agreement by Mar 31, 2027, and 10% by year-end. The Nov 10–11 Abu Dhabi talks agreed a prisoner swap but no ceasefire; another round is planned.

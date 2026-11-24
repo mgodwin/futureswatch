@@ -11,21 +11,21 @@ outcomes:
   label: Below 1.5°C
   says: Under 1.5°C above preindustrial
   prob: 11
-  prevProb: 14
+  prevProb: 11
   desc: The five-year average stays under the Paris 1.5°C level.
   ifThen: A little more time, though still with record-warm years.
 - key: over
   label: 1.5–1.6°C
   says: Just past the 1.5°C line, at 1.5 to 1.6°C
   prob: 71
-  prevProb: 72
+  prevProb: 71
   desc: The 1.5°C level is exceeded on a five-year average.
   ifThen: '1.5°C is effectively crossed: more heat waves, rising insurance costs and food-price swings.'
 - key: wellover
   label: Above 1.6°C
   says: Above 1.6°C, running hot
   prob: 18
-  prevProb: 14
+  prevProb: 18
   desc: Warming runs hot, with 2027 setting a large new record and little cooling after.
   ifThen: Faster-than-expected warming, stronger extremes and harder fights over adaptation costs.
 anchors:

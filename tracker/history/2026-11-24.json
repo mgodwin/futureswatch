@@ -1,0 +1,224 @@
+{
+ "date": "2026-11-24",
+ "milestones": {
+  "agiclaim": 70,
+  "aidrug": 5,
+  "chk-anthropicipo": 100,
+  "chk-enroll": 100,
+  "chk-fedhike": 94,
+  "chk-fedjan": 54,
+  "chk-hottest": 92,
+  "chk-house": 100,
+  "chk-senate": 100,
+  "chk-sparc": 25,
+  "chk-topmodel": 80,
+  "chk-ukrceasefire": 29,
+  "fusiongrid": 5,
+  "humanoid": 65,
+  "mars": 10,
+  "moon": 40,
+  "nuclear": 3,
+  "quantum": 3,
+  "robotaxi": 75
+ },
+ "questions": {
+  "ai-boom": {
+   "bust": 25,
+   "correction": 46,
+   "sustained": 29
+  },
+  "ai-capability": {
+   "jagged": 58,
+   "plateau": 8,
+   "transformative": 34
+  },
+  "ai-control": {
+   "brakes": 19,
+   "managed": 65,
+   "open": 16
+  },
+  "ai-cyber": {
+   "contained": 54,
+   "major": 38,
+   "systemic": 8
+  },
+  "ai-jobs": {
+   "absorbed": 47,
+   "mass": 12,
+   "minimal": 41
+  },
+  "ai-loss-of-control": {
+   "catastrophe": 3,
+   "contained": 71,
+   "major": 26
+  },
+  "ai-race": {
+   "binding": 13,
+   "paced": 32,
+   "race": 55
+  },
+  "ai-self-improvement": {
+   "major": 40,
+   "runaway": 16,
+   "tool": 44
+  },
+  "climate": {
+   "below": 11,
+   "over": 71,
+   "wellover": 18
+  },
+  "cost-of-living": {
+   "cheaper": 19,
+   "high": 11,
+   "normal": 47,
+   "sticky": 23
+  },
+  "creative-work": {
+   "displaced": 22,
+   "intact": 18,
+   "reshaped": 60
+  },
+  "drivers": {
+   "jobs-fall": 5,
+   "mainstream": 47,
+   "spreading": 40,
+   "stall": 8
+  },
+  "energy-bills": {
+   "cheaper": 13,
+   "faster": 55,
+   "pace": 32
+  },
+  "fusion": {
+   "grid": 5,
+   "neither": 60,
+   "netgain": 35
+  },
+  "gulf": {
+   "regional": 16,
+   "settled": 46,
+   "simmering": 38
+  },
+  "higher-ed": {
+   "adapts": 50,
+   "squeezed": 40,
+   "unbundled": 10
+  },
+  "housing": {
+   "drop": 10,
+   "hold": 38,
+   "rise": 15,
+   "slide": 37
+  },
+  "humanoid-robots": {
+   "niche": 60,
+   "scale": 20,
+   "stall": 20
+  },
+  "inequality": {
+   "concentrate": 67,
+   "floor": 8,
+   "recover": 25
+  },
+  "longevity": {
+   "breakthrough": 3,
+   "fall": 11,
+   "rise": 45,
+   "stall": 41
+  },
+  "medicine": {
+   "few": 40,
+   "incremental": 50,
+   "wave": 10
+  },
+  "nuclear-restraint": {
+   "restraint": 75,
+   "test": 22,
+   "use": 3
+  },
+  "orbital-compute": {
+   "demos": 70,
+   "early": 24,
+   "scale": 6
+  },
+  "pandemic": {
+   "no": 94,
+   "yes": 6
+  },
+  "permanent-underclass": {
+   "reabsorbed": 52,
+   "scarred": 38,
+   "underclass": 10
+  },
+  "power-grid": {
+   "crisis": 25,
+   "keepsup": 30,
+   "strained": 45
+  },
+  "recession": {
+   "mild": 33,
+   "none": 51,
+   "severe": 16
+  },
+  "software-engineers": {
+   "decline": 20,
+   "grows": 25,
+   "squeeze": 55
+  },
+  "taiwan": {
+   "blockade": 14,
+   "quo": 81,
+   "war": 5
+  },
+  "trade-blocs": {
+   "blocs": 15,
+   "rolledback": 30,
+   "stayshigh": 55
+  },
+  "ukraine": {
+   "ceasefire": 52,
+   "continues": 44,
+   "nato": 4
+  },
+  "us-china-ai": {
+   "chinalead": 7,
+   "parity": 37,
+   "uslead": 56
+  },
+  "us-debt": {
+   "crisis": 10,
+   "orderly": 55,
+   "stress": 35
+  },
+  "us-power": {
+   "divided": 46,
+   "dtrifecta": 43,
+   "rtrifecta": 11
+  },
+  "us-transfer": {
+   "contested": 15,
+   "crisis": 10,
+   "normal": 75
+  },
+  "xr-glasses": {
+   "growing": 60,
+   "mainstream": 15,
+   "niche": 25
+  }
+ },
+ "scifi": {
+  "blackmirror": 29,
+  "collapse": 5,
+  "cyberpunk": 29,
+  "dystopia": 15,
+  "singularity": 10,
+  "solarpunk": 4,
+  "utopia": 8
+ },
+ "worlds": {
+  "climb": 28,
+  "fracture": 21,
+  "hangover": 24,
+  "takeoff": 27
+ }
+}

@@ -5,11 +5,11 @@ domain: markets
 order: 18
 measures: The Fed's policy rate and consumer price inflation.
 value: 3.75–4.00% · CPI 3.7%
-asOf: '2026-11-19'
+asOf: '2026-11-24'
 trend: up
 leans: hangover
-note: October prices rose 0.4% and core 0.3%; BLS gave no annual rate because October 2025 data are missing. After Governor Waller backed a hike, Kalshi prices about 96% for a December hike, up from 72%.
+note: No new inflation data this week; September CPI was 3.7% and October rose 0.4% on the month. Kalshi prices about 94% for a December hike, down slightly from 96%, and 54% for another in January.
 watch: More hikes, or core inflation above 3%, point to Hangover. Cuts with inflation under 3% ease it.
 cadence: Monthly CPI; Fed every six weeks or so
-source: BLS; Kalshi, Polymarket via PredictionMarketsPicks
-url: https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026
+source: BLS; Kalshi
+url: https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26dec

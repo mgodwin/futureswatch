@@ -11,14 +11,14 @@ outcomes:
   label: Minimal overall effect
   says: Little effect, with unemployment staying under 5.5%
   prob: 41
-  prevProb: 40
+  prevProb: 41
   desc: Unemployment peaks at or below about 5.5%. AI reshapes tasks more than it removes jobs.
   ifThen: Churn concentrates in specific roles, and most workers adapt in place.
 - key: absorbed
   label: Significant but absorbed
   says: Real job losses, but unemployment peaks under 8%
   prob: 47
-  prevProb: 48
+  prevProb: 47
   desc: Clear white-collar and entry-level displacement, with unemployment peaking between 5.5% and 8% (or higher mainly because of a non-AI recession).
   ifThen: Harder job searches for new graduates and displaced mid-career workers; retraining and safety-net debates heat up.
 - key: mass

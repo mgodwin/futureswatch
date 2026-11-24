@@ -9,9 +9,9 @@ read: Prices rose 0.4% in October and core prices 0.3%, after 3.7% annual inflat
 outcomes:
 - key: cheaper
   label: Living gets noticeably cheaper
-  says: "Yes: inflation under 2%, and some prices fall"
+  says: 'Yes: inflation under 2%, and some prices fall'
   prob: 19
-  prevProb: 18
+  prevProb: 19
   desc: CPI averages under 2% a year over 2027–2029, with prices for some goods and services actually falling.
   ifThen: Paychecks stretch further, and rate cuts follow. This is the abundance story showing up at the checkout, most likely through cheaper energy and AI-driven services.
 - key: normal
@@ -32,7 +32,7 @@ outcomes:
   label: High inflation
   says: High inflation, over 4% a year
   prob: 11
-  prevProb: 12
+  prevProb: 11
   desc: CPI averages more than 4% a year, as after an energy shock, tariffs or heavy deficit spending.
   ifThen: Real wages fall and savings lose value. The Fed hikes hard, raising the odds of a recession.
 anchors:

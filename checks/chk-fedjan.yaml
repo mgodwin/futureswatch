@@ -1,10 +1,10 @@
 id: chk-fedjan
 label: 'Check · by Jan 27, 2027: the Fed raises rates at its January meeting'
 order: 17
-prob: 62
-prevProb: null
+prob: 54
+prevProb: 62
 resolvesBy: '2027-01-27'
 resolved: null
-note: Kalshi and Polymarket price about 62% for a quarter-point hike over a hold at the Jan 26–27 meeting. CME futures imply about 72%. A second straight hike would mean inflation is not cooling.
-source: Kalshi, Polymarket via PredictionMarketsPicks
-url: https://predictionmarketspicks.com/tools/fed-rate-tracker/january-2027
+note: Kalshi prices about 54% for a quarter-point hike at the Jan 26–27 meeting, down from 62%, with 42% for a hold. A second straight hike would mean inflation is not cooling.
+source: Kalshi, via Frenzy Capital
+url: https://www.frenzycap.com/predictions/kalshi/KXFEDDECISION-27JAN-H25

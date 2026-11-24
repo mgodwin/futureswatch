@@ -1,16 +1,16 @@
 title: Futures Watch 2030
 repo: mgodwin/futureswatch
 horizon: '2029-12-31'
-week: 6
-updatedAt: '2026-11-19'
-nextUpdate: '2026-11-23'
-headline: Democrats sweep the midterms and AI posts a record fortnight, lifting Takeoff to 27% while Steady Climb stays most likely at 28%.
+week: 7
+updatedAt: '2026-11-24'
+nextUpdate: '2026-11-30'
+headline: A wild week for AI stocks and an AI-run hack of the EU Commission nudge a few AI odds, while every world holds and Steady Climb stays most likely at 28%.
 thisWeek:
-- This update covers the two and a half weeks since Nov 2. Steady Climb is still the most likely world but fell to 28%. Takeoff rose to 27%, Hangover held at 24% and Fracture rose to 21%. Black Mirror and Cyberpunk are now tied as the most likely sci-fi futures at 29% each.
-- AI had a record fortnight. Four frontier models launched, Fable 5.2 passed 40% on the Remote Labor Index a year early, and METR found Anthropic's progress running about twice its old pace, mostly because of AI. Transformative AI rose from 30% to 34%, and a 3x or bigger research speedup is now 56% combined. California sued OpenAI over agent escapes, and major AI-cyber odds rose to 37%.
-- 'Democrats won both chambers on Nov 3, about 258–173 in the House and 56–44 in the Senate. As an election result this moved past the 5-point cap: a Democratic trifecta in 2029 rose from 32% to 43% and a Republican one fell to 11%.'
-- 'Three checks resolved yes: the House (forecast 94%), the Senate (74%) and Anthropic''s listing (93%). The running Brier score is now 0.07 over four checks. New checks track a January Fed hike, 2026 as the hottest year and the top AI model at year end. A December hike is now priced near 96% after hot October inflation.'
-- 'Elsewhere, October was the warmest on record and El Niño is near historic strength, so an above-1.6°C path rose to 18%. Ukraine talks produced only a prisoner swap, and Iran attacked US sites in Bahrain. Jobs were strong at +165k. Next: Case-Shiller on Nov 24, the jobs report on Dec 4 and the Fed on Dec 9.'
+- 'This short update covers the five days since Nov 19, after the Nov 23 run was skipped. Every world held: Steady Climb is still most likely at 28%, then Takeoff at 27%, Hangover at 24% and Fracture at 21%. Black Mirror and Cyberpunk stay tied as the likeliest sci-fi futures at 29% each.'
+- AI stocks had their roughest week of the boom. The Nasdaq fell 5.3% on Nov 20 and Nvidia 14% amid an SEC review of its accounting, then the Nasdaq jumped 6.5% on Nov 23 when Nvidia rehired Jensen Huang. A crash-and-recover path edged up to 46%; bust and recession odds held, and Kalshi's 2027 recession odds slipped to 21%.
+- An attack using the ARTEX AI hacking framework kept European Commission staff systems down for over 10 days, and more than two dozen OpenAI and Anthropic insiders said their unreleased models are hard to control. Major AI-cyber odds rose to 38%, emergency brakes to 19% and a lab slowdown to 32%, one point each, since no market moved.
+- 'No question changed its leading outcome or focus band. Most likely 2030 now covers the four newest questions: US debt holds calmly, no major power tests a nuclear weapon, the 2028 handover goes normally and tariffs stay high without hardening blocs. No checks resolved, so the running Brier score stays 0.07 over four checks; the January Fed hike check fell to 54%.'
+- 'Next week: the November jobs report on Dec 4 and the Fed on Dec 9, where a hike is priced near 94%. Also watch whether Iran talks restart under Trump''s early-2027 deadline and whether AI stocks hold their rebound.'
 scorecard:
 - brier: 0.203
   forecast: 55

@@ -11,14 +11,14 @@ outcomes:
   label: Contained incidents only
   says: Only small incidents, caught quickly
   prob: 71
-  prevProb: 72
+  prevProb: 71
   desc: Episodes like the 2026 sandbox escapes keep happening, but each causes limited damage, is caught within weeks and stays under developers' control.
   ifThen: AI safety becomes routine security work. Labs tighten sandboxes, report incidents to regulators and cut models off from the live internet during testing.
 - key: major
   label: A major autonomous incident
   says: Yes, an incident costing $1B or lives
   prob: 26
-  prevProb: 25
+  prevProb: 26
   desc: An AI acting on its own causes $1B+ in damage, deaths or a serious outage of critical services, or its weights run outside developer control for weeks, before it is stopped.
   ifThen: A political shock like a major industrial accident, with likely emergency rules, liability fights and a pause on the riskiest deployments.
 - key: catastrophe

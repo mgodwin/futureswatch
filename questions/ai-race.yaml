@@ -5,20 +5,20 @@ short: Whether frontier labs and governments choose to slow frontier AI developm
 domain: ai
 area: ai
 order: 20
-read: The four leading US labs say they want a coordinated slowdown, yet all shipped new frontier models in mid-November, and Trump told APEC the US won't let regulation stifle AI. The new Democratic majorities lack a veto-proof margin, and thin markets put a sustained pause well below even odds.
+read: The leading labs say they want a coordinated slowdown, and insiders now debate keeping new models internal or pausing training. But all four shipped frontier models in November and the White House opposes limits, so thin markets keep a sustained pause well below even odds.
 outcomes:
 - key: race
   label: Racing continues
   says: No, the labs keep racing
-  prob: 56
-  prevProb: 55
+  prob: 55
+  prevProb: 56
   desc: No binding compute limits and no lasting multi-lab slowdown. Pauses stay short and unilateral, like OpenAI's training halt for the last third of September 2026.
   ifThen: New frontier models keep arriving every few months, and safety rests on each lab's own testing and voluntary government review.
 - key: paced
   label: Labs pace themselves
   says: Labs agree to slow down for 6 months or more
-  prob: 31
-  prevProb: 32
+  prob: 32
+  prevProb: 31
   desc: Several leading labs coordinate a real slowdown lasting six months or more, such as capped training runs or agreed release delays, without a binding law or a deal with China.
   ifThen: Fewer and slower frontier jumps from US labs, with open-weight and Chinese models closing the gap, and fights over antitrust and fairness.
 - key: binding
@@ -53,6 +53,10 @@ anchors:
   what: 39% for a 6+ month pause on AI development before 2030, and 28% for a pacing-agreement slowdown before July 2027. Both are thin markets with about 10 traders.
   date: 2026-10
   url: https://manifold.markets/theshortbread/carlini-questions-6-month-pause-on
+- who: Axios, via The Next Web
+  what: More than two dozen OpenAI and Anthropic insiders debate keeping frontier models internal or pausing training; both labs say they may slow releases.
+  date: 2026-11
+  url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios
 signals:
 - pacing
 - uschina

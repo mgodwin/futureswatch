@@ -11,14 +11,14 @@ outcomes:
   label: US keeps a clear lead
   says: No, the US stays 6 months or more ahead
   prob: 56
-  prevProb: 55
+  prevProb: 56
   desc: China's best models stay 6 or more months behind, held back by chip limits.
   ifThen: Export controls look vindicated; the US sets norms for frontier AI.
 - key: parity
   label: Near parity
   says: Roughly even, within about 3 months
   prob: 37
-  prevProb: 38
+  prevProb: 37
   desc: The gap shrinks under about 3 months, or the lead trades back and forth.
   ifThen: A tighter race, more pressure to skip safety holds, and fights over chip and model exports.
 - key: chinalead

@@ -2,11 +2,11 @@ id: cyberpunk
 name: Cyberpunk
 order: 4
 prob: 29
-prevProb: 28
+prevProb: 29
 tagline: High tech, low life.
 inspiredBy: William Gibson's Neuromancer, Blade Runner
 summary: Technology races ahead while the gains pool in a few giant firms. Work gets precarious, inequality grows and AI agents roam the networks.
-read: AI attack kits in use at scale, rising major-incident odds and Nvidia's surge lift this a point.
+read: An AI hacking kit kept European Commission systems down for over 10 days, and major-incident odds edged up again. It holds at 29%, tied with Black Mirror.
 signs:
 - A handful of firms control frontier AI and the compute behind it
 - Young and entry-level workers lose ground as AI spreads
