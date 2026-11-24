@@ -97,6 +97,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 
 /* Top bar */
 .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.brandrow { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; min-width: 0; }
+.updchip { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-2); text-decoration: none; white-space: nowrap;
+  padding: 3px 10px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); }
+.updchip:hover { color: var(--ink); border-color: var(--ink-2); }
+.updchip[hidden] { display: none; }
+.updchip i { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); flex: none; }
+.updchip.fresh i { background: #2e9d5b; }
+.updchip b { color: var(--ink); font-weight: 650; }
 .brand { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: 18px; text-decoration: none; white-space: nowrap; }
 .topnav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 .topnav::-webkit-scrollbar { display: none; }
@@ -386,7 +394,10 @@ footer p { margin: 0 0 6px; }
 <body>
 <div class="wrap">
   <header class="top">
-    <a class="brand" href="#">Futures Watch</a>
+    <div class="brandrow">
+      <a class="brand" href="#">Futures Watch</a>
+      <a class="updchip" id="updchip" href="#week" hidden></a>
+    </div>
     <nav class="topnav" aria-label="Pages">
       <a href="#week" data-page="week">This week</a>
       <a href="#worlds" data-page="worlds">Worlds</a>
@@ -587,6 +598,14 @@ footer p { margin: 0 0 6px; }
   // ---------- masthead ----------
   function renderMast() {
     var m = D.meta || {};
+    var uc = $("updchip"), ud = dayNum(m.updatedAt);
+    if (uc && ud != null) {
+      var age = todayNum() - ud;
+      uc.className = "updchip" + (age <= 8 ? " fresh" : "");
+      uc.title = "Odds last re-scored " + fmtDate(m.updatedAt, true) + (m.nextUpdate ? ". Next update " + fmtDate(m.nextUpdate, true) : "") + ". See what changed this week.";
+      uc.innerHTML = '<i aria-hidden="true"></i>Updated <b>' + fmtDate(m.updatedAt, false, true) + "</b>" + (m.week ? ' <span class="muted">· week ' + esc(String(m.week)) + "</span>" : "");
+      uc.hidden = false;
+    }
     $("foot").innerHTML = (m.updatedAt ? "Last updated " + fmtDate(m.updatedAt, true) + ". " : "") +
       "Open source: data and code on " + link(gh(), "GitHub") + ".";
   }
