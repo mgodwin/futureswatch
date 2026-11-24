@@ -1,0 +1,76 @@
+date: '2026-11-24'
+week: 7
+headline: A wild week for AI stocks and an AI-run hack of the EU Commission nudge a few AI odds, while every world holds and Steady Climb stays most likely at 28%.
+summary: This short update covers Nov 19 to 24. AI stocks fell into a correction and then rebounded when Nvidia rehired Jensen Huang, so a crash-and-recover path edged up to 46%. An AI-assisted attack on the European Commission and an insider warning about unreleased models moved the AI cyber, control and race questions a point each; no world moved.
+changes:
+- target: 'AI boom: Sustained build-out'
+  from: 30
+  to: 29
+  why: No market covers this; one point after the Nasdaq fell 5.3% and Nvidia 14% on Nov 20 amid an SEC review of its accounting.
+  url: https://www.schwab.com/learn/story/market-volatility
+- target: 'AI boom: Sharp correction, then recovery'
+  from: 45
+  to: 46
+  why: Same selloff, which put the main indexes in correction before a 6.5% Nasdaq rebound on Nov 23; one point.
+  url: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-23-221613542.html
+- target: 'AI cyber: Contained'
+  from: 55
+  to: 54
+  why: An ARTEX-driven attack kept EU Commission staff systems offline for over 10 days, but the cited Manifold market held at 47% and no damage figure was given, so one point.
+  url: https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103
+- target: 'AI cyber: Major incident'
+  from: 37
+  to: 38
+  why: Same attack; it meets the signal's multi-day outage mark only for back-office systems, so one point.
+  url: https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103
+- target: 'AI control: Open race'
+  from: 17
+  to: 16
+  why: Insiders at OpenAI and Anthropic say internal models are hard to control; no market moved, so one point.
+  url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios
+- target: 'AI control: Emergency brakes'
+  from: 18
+  to: 19
+  why: Same insider report, plus higher major-cyber odds, which by rule push toward brakes; one point.
+  url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios
+- target: 'AI race: Racing continues'
+  from: 56
+  to: 55
+  why: Staff at both labs now debate keeping models internal or pausing training, and both labs say they may slow releases; one point.
+  url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios
+- target: 'AI race: Labs pace themselves'
+  from: 31
+  to: 32
+  why: Same report; no market moved, so one point.
+  url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios
+- target: 'Check: The Fed raises rates again by Dec 31'
+  from: 96
+  to: 94
+  why: Kalshi now prices about 94% for a December hike.
+  url: https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26dec
+- target: 'Check: The Fed hikes at its January meeting'
+  from: 62
+  to: 54
+  why: Kalshi prices about 54% for a January hike, down from 62%, as stocks fell and oil eased.
+  url: https://www.frenzycap.com/predictions/kalshi/KXFEDDECISION-27JAN-H25
+- target: 'Check: Google has the top model on LMArena'
+  from: 83
+  to: 80
+  why: Polymarket cut Google to about 80% and raised Anthropic to 18%.
+  url: https://www.frenzycap.com/predictions/event/polymarket/which-company-has-best-ai-model-end-of-2026
+news:
+- text: The Nasdaq fell 5.3% on Nov 20 as Nvidia dropped 14%, then jumped 6.5% on Nov 23 after Nvidia rehired Jensen Huang.
+  date: '2026-11-23'
+  url: https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026
+- text: An attack using the ARTEX AI hacking framework kept European Commission staff systems offline for over 10 days.
+  date: '2026-11-19'
+  url: https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103
+- text: More than two dozen OpenAI and Anthropic insiders told Axios their unreleased models are hard to control.
+  date: '2026-11-24'
+  url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios
+- text: Trump gave Iran until early 2027 to make a deal, as tankers were hit again near Hormuz and Brent fell below $89.
+  date: '2026-11-23'
+  url: https://alhurra.com/en/57025
+- text: Home prices rose 2.1% in the year to September, a 16th month of real declines.
+  date: '2026-11-24'
+  url: https://calculatedrisk.substack.com/p/case-shiller-national-house-price-3e2

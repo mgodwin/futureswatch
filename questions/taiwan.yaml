@@ -9,7 +9,7 @@ read: Near-term risk is lower while the truce holds, but blockade preparation ke
 outcomes:
 - key: quo
   label: Tense status quo
-  says: "No: tense, with drills, but no blockade or war"
+  says: 'No: tense, with drills, but no blockade or war'
   prob: 81
   prevProb: 81
   desc: Drills and pressure, but no blockade or war.
@@ -49,6 +49,10 @@ anchors:
   what: 49 PLA aircraft sorties on Nov 4, the year's highest daily total, with no declared drill.
   date: 2026-11
   url: https://www.scmp.com/news/china/military/article/3373249/taiwan-flags-massive-pla-naval-mobilisation-spike-air-sorties
+- who: China Foreign Ministry
+  what: At the Nov 19 Shenzhen meeting, Trump said the US does not support Taiwan independence; both sides will draft a strategic-stability plan.
+  date: 2026-11
+  url: https://www.mfa.gov.cn/eng./xw/zyxw/202611/t20261119_12063139.html
 signals:
 - taiwanodds
 - uschina

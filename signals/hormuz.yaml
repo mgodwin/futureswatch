@@ -4,12 +4,12 @@ name: Strait of Hormuz
 domain: world
 order: 30
 measures: Whether the Gulf's oil shipping lane is open, the main channel from the Iran war to world prices.
-value: Closed; mines and strikes on Gulf bases
-asOf: '2026-11-18'
-trend: down
+value: Closed; tankers hit; deal deadline early 2027
+asOf: '2026-11-23'
+trend: flat
 leans: fracture
-note: Iran's two-day reopening plan stalled over its terms, and Muscat talks on Nov 17 ended without a deal. Iran hit US sites in Bahrain three times in five days, and US jets struck Qeshm Island.
+note: Iran still controls traffic and tankers were hit on Nov 20 and 21. Trump said he wants a permanent deal and gave Iran until early 2027, holding off strikes, while Treasury added sanctions.
 watch: Attacks on shipping or Gulf states point to Fracture. Transits reopening ease oil and inflation.
 cadence: Daily
-source: AFP via Khaleej Times; Gulf News
-url: https://www.khaleejtimes.com/world/mena/iran-drone-attacks-bahrain-middle-east-war-ramps-up
+source: Alhurra; CBS News
+url: https://alhurra.com/en/57025

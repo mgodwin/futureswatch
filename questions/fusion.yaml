@@ -23,7 +23,7 @@ outcomes:
   ifThen: Credibility for 2030s fusion plants, such as CFS's ARC in Virginia, but no near-term effect on power bills.
 - key: neither
   label: Neither yet
-  says: "Not yet: no net-energy reactor and no grid power"
+  says: 'Not yet: no net-energy reactor and no grid power'
   prob: 60
   prevProb: 60
   desc: Steady progress, but no Q>1 magnetic device and no grid power before 2030.

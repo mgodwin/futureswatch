@@ -11,21 +11,21 @@ outcomes:
   label: Restraint holds
   says: No major power tests a nuclear weapon
   prob: 75
-  prevProb: null
+  prevProb: 75
   desc: No explosive nuclear test by the US, Russia or China, and no use in conflict. North Korean tests don't count here.
   ifThen: An arms race in numbers and missiles, but the testing taboo holds.
 - key: test
   label: A major power tests
   says: The US, Russia or China tests a nuclear weapon
   prob: 22
-  prevProb: null
+  prevProb: 22
   desc: At least one of the three sets off an explosive test, of any size, with no nuclear use in conflict.
   ifThen: The others likely follow, the test-ban regime collapses, and the world order looks more fractured.
 - key: use
   label: Nuclear use
   says: A nuclear weapon is used in conflict
   prob: 3
-  prevProb: null
+  prevProb: 3
   desc: Any country detonates a nuclear weapon in conflict, matching the nuclear-use milestone.
   ifThen: The defining event of the period; the Fracture world and Collapse in the sci-fi lens.
 anchors:

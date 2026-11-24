@@ -4,12 +4,12 @@ name: AI attacks on infrastructure
 domain: ai
 order: 39
 measures: Confirmed attacks on critical infrastructure that used AI-built tools or AI agents.
-value: 'FBI: AI attack kit used at scale'
-asOf: '2026-11-13'
+value: AI tool behind 10-day EU Commission outage
+asOf: '2026-11-19'
 trend: up
 leans: neutral
-note: An FBI flash alert says attackers worldwide use the ARTEX AI agent framework against banks, energy and health firms, sometimes gaining privileged access within three hours. No dollar damage was given.
+note: Attackers using the ARTEX AI framework knocked the European Commission's payroll, leave and medical claims systems offline for over 10 days. No damage figure was given, and the FBI counts 1,600+ exposed ARTEX consoles.
 watch: A confirmed AI-driven attack with $1B+ in damage or a multi-day outage means a Major incident. Months without new alerts ease it.
 cadence: As reported
 source: The Register
-url: https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223
+url: https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103

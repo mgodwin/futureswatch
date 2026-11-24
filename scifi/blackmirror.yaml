@@ -2,7 +2,7 @@ id: blackmirror
 name: Black Mirror
 order: 5
 prob: 29
-prevProb: 32
+prevProb: 29
 tagline: Today, plus unsettling tech.
 inspiredBy: Black Mirror, Her
 summary: Life looks mostly familiar. AI companions, robotaxis and deepfakes spread fast and get strange at the edges, but no single shock defines the period.

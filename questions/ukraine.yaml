@@ -11,14 +11,14 @@ outcomes:
   label: Durable ceasefire or deal
   says: A ceasefire or deal holds
   prob: 52
-  prevProb: 55
+  prevProb: 52
   desc: Fighting has largely stopped under a ceasefire or settlement.
   ifThen: Lower energy and security risk in Europe, and a reconstruction boom.
 - key: continues
   label: War continues
-  says: "Still fighting at today's pace"
+  says: Still fighting at today's pace
   prob: 44
-  prevProb: 41
+  prevProb: 44
   desc: Active fighting continues at roughly today's intensity.
   ifThen: An ongoing drain on Europe, with periodic escalation scares.
 - key: nato

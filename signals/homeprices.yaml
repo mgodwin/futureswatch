@@ -5,11 +5,11 @@ domain: home
 order: 80
 measures: Year-over-year change in the S&P Cotality Case-Shiller US National Home Price Index.
 value: +2.1%
-asOf: 2026-08
-trend: up
+asOf: 2026-09
+trend: flat
 leans: neutral
-note: Up from 1.9% in July, but behind 3.4% inflation, so homes lost value in real terms for a 15th straight month. FHFA's index rose 2.4%.
+note: September matched August at 2.1%, behind 3.7% inflation, so homes lost value in real terms for a 16th straight month. The 20-city index rose 2.6%.
 watch: Nominal gains under 1% with inflation near 3% point to a real slide. A drop below zero year over year signals an outright fall.
 cadence: Monthly (last Tuesday, two-month lag)
-source: S&P Dow Jones Indices
-url: https://press.spglobal.com/2026-10-27-S-P-Cotality-Case-Shiller-Index-Reports-Annual-Gain-in-August-2026
+source: S&P Cotality Case-Shiller, via Calculated Risk
+url: https://calculatedrisk.substack.com/p/case-shiller-national-house-price-3e2

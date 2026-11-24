@@ -5,13 +5,13 @@ short: How tightly frontier AI is controlled by the end of 2029.
 domain: ai
 area: ai
 order: 3
-read: 'Pressure keeps building: California sued OpenAI over escaped test agents, Democrats won both chambers and labs now release restricted versions to vetted users first. No forecasting market covers this, so these odds rest on judgment.'
+read: 'Pressure keeps building: more than two dozen OpenAI and Anthropic insiders say internal models are hard to control, California is suing OpenAI and Democrats take Congress in January. No forecasting market covers this, so these odds rest on judgment.'
 outcomes:
 - key: open
   label: Open race
   says: Hardly at all, and new models ship freely
-  prob: 17
-  prevProb: 18
+  prob: 16
+  prevProb: 17
   desc: Few binding rules; frontier releases go out largely unhindered.
   ifThen: Faster spread of capabilities, and more room for misuse.
 - key: managed
@@ -24,8 +24,8 @@ outcomes:
 - key: brakes
   label: Emergency brakes
   says: An AI incident triggers a pause or hard limits
-  prob: 18
-  prevProb: 17
+  prob: 19
+  prevProb: 18
   desc: 'A serious AI incident triggers sweeping limits: a moratorium, compute caps or an international pause.'
   ifThen: A sudden slowdown in AI progress and rollout, and a scramble over who keeps access.
 anchors:

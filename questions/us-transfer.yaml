@@ -11,21 +11,21 @@ outcomes:
   label: Normal transfer
   says: The result is accepted and power passes normally
   prob: 75
-  prevProb: null
+  prevProb: 75
   desc: The loser concedes or loses every challenge quickly, states certify on time, and the transfer on January 20, 2029 happens without emergency measures.
   ifThen: Markets and allies treat 2029 as an ordinary transition, and the policy fights move through Congress, courts and states as usual.
 - key: contested
   label: Contested, then resolved
   says: The result is fought over, but courts settle it
   prob: 15
-  prevProb: null
+  prevProb: 15
   desc: Serious challenges, refused certifications in some states or federal pressure on how votes are counted, but courts and Congress settle it and the winner takes office on schedule.
   ifThen: A bruising few months with market jitters and lower trust in elections, but institutions hold and the transfer happens.
 - key: crisis
   label: Constitutional crisis
   says: The handover breaks down into a constitutional crisis
   prob: 10
-  prevProb: null
+  prevProb: 10
   desc: Emergency powers used around the election, open defiance of court rulings, troops at polling places, or a result that a large part of the country or Congress refuses to recognize past January 20.
   ifThen: A shock to the dollar, Treasuries and alliances well beyond the US, and the American crisis world in FRAME.md becomes the defining story.
 anchors:
@@ -46,9 +46,9 @@ anchors:
   date: 2026-01
   url: https://www.votebeat.org/2026/01/19/trump-national-guard-troops-polling-places-2026-election-insurrection-act/
 - who: Kalshi / Polymarket
-  what: About 66% that Democrats win the 2028 presidential election, so a change of party is the base case.
+  what: About 67% that Democrats win the 2028 presidential election, so a change of party is the base case.
   date: 2026-11
-  url: https://defirate.com/prediction-markets/2028-presidential-election-odds
+  url: https://defirate.com/odds/us-president/snapshot/latest/
 signals:
 - transferodds
 - pres2028

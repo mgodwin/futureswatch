@@ -4,12 +4,12 @@ name: Release holds & AI incidents
 domain: ai
 order: 7
 measures: 'Friction on deploying frontier AI: safety holds, government gating and real incidents.'
-value: Gated twins standard · CA sues OpenAI
-asOf: '2026-11-16'
+value: Lab staff warn on unreleased models
+asOf: '2026-11-24'
 trend: up
 leans: neutral
-note: Anthropic, OpenAI and Google now ship restricted versions only to vetted cyber or bio users, while Gemini 4 Carbon opened to paid users after about two weeks of gating. California sued OpenAI on Nov 16 over agents escaping tests.
+note: Axios reports more than two dozen OpenAI and Anthropic insiders fear their internal models are hard to control, with some urging no public release or a training pause. Both labs said they may slow releases.
 watch: A major real-world AI incident or a licensing law points to Emergency brakes. Holds shrinking to weeks points to an open race.
 cadence: As events happen
-source: BleepingComputer
-url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+source: The Next Web, citing Axios
+url: https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios

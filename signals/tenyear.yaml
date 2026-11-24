@@ -4,12 +4,12 @@ name: 10-year Treasury yield
 domain: markets
 order: 17
 measures: The US government's long-term borrowing cost, which sets the price of money for everyone else.
-value: 5.10%
-asOf: '2026-11-17'
-trend: up
+value: ≈4.92%
+asOf: '2026-11-24'
+trend: down
 leans: neutral
-note: Back above 5% after the hot October CPI and Fed hike talk. It hit 5.15% on Nov 13, up from a low of 4.84% on Nov 5.
+note: Slipped to about 4.92% on Nov 24, a two-week low, from 5.05% on Nov 19, as stocks swung and oil fell. Secondary source; FRED is blocked from here.
 watch: Above 5.5% points to Hangover. Below 4.5% eases the pressure.
 cadence: Daily
-source: Federal Reserve H.15 via FRED
-url: https://fred.stlouisfed.org/series/DGS10
+source: Trading Economics; Dow Jones via Morningstar
+url: https://tradingeconomics.com/united-states/government-bond-yield
