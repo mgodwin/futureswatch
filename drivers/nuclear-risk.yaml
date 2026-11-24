@@ -21,6 +21,7 @@ correlated_with:
 - id: world-order
   why: a component
 covered_by:
+- questions/nuclear-restraint.yaml
 - milestones/nuclear.yaml
 - signals/nucleartest.yaml
 sources:

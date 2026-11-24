@@ -21,6 +21,7 @@ correlated_with:
 - id: us-institutions
   why: Fed independence and budget brinkmanship
 covered_by:
+- questions/us-debt.yaml
 - questions/recession.yaml
 - signals/debt.yaml
 - signals/tenyear.yaml

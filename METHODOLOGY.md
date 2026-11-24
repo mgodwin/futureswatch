@@ -36,6 +36,10 @@ Some questions don't feed the worlds directly but must stay consistent with othe
 - A Major or Systemic `ai-cyber` outcome moves `ai-control` toward Emergency brakes.
 - A China AI lead in `us-china-ai` is weighed in `taiwan` and `ai-control`.
 - `higher-ed` stays consistent with `ai-jobs`: a Mass disruption jobs path makes Squeezed or Unbundled more likely.
+- `nuclear-restraint` Nuclear use matches the nuclear-use milestone, and a major-power test raises Fracture.
+- `trade-blocs` Blocs harden is weighed in `cost-of-living`, `recession` and Fracture.
+- `us-debt` Debt crisis is weighed in `recession` (Severe or stagflationary) and `housing` (Sharp drop).
+- `us-transfer` Constitutional crisis is the US-strain axis in FRAME.md and is weighed in Dystopia.
 
 ## The sci-fi lens
 

@@ -1,0 +1,55 @@
+id: us-transfer
+tracking: active
+title: Will the 2028 handover go normally?
+short: Whether the 2028 US election result is accepted and power passes normally in January 2029, with courts and Congress working as checks.
+domain: politics
+area: world
+order: 35
+read: A thin forecast market gives about 75% for a normal transfer, and Bright Line Watch's expert rating of US democracy hit a term high in July 2026. But V-Dem downgraded the US to an electoral democracy this year, and election experts worry about federal interference in how votes are run.
+outcomes:
+- key: normal
+  label: Normal transfer
+  says: The result is accepted and power passes normally
+  prob: 75
+  prevProb: null
+  desc: The loser concedes or loses every challenge quickly, states certify on time, and the transfer on January 20, 2029 happens without emergency measures.
+  ifThen: Markets and allies treat 2029 as an ordinary transition, and the policy fights move through Congress, courts and states as usual.
+- key: contested
+  label: Contested, then resolved
+  says: The result is fought over, but courts settle it
+  prob: 15
+  prevProb: null
+  desc: Serious challenges, refused certifications in some states or federal pressure on how votes are counted, but courts and Congress settle it and the winner takes office on schedule.
+  ifThen: A bruising few months with market jitters and lower trust in elections, but institutions hold and the transfer happens.
+- key: crisis
+  label: Constitutional crisis
+  says: The handover breaks down into a constitutional crisis
+  prob: 10
+  prevProb: null
+  desc: Emergency powers used around the election, open defiance of court rulings, troops at polling places, or a result that a large part of the country or Congress refuses to recognize past January 20.
+  ifThen: A shock to the dollar, Treasuries and alliances well beyond the US, and the American crisis world in FRAME.md becomes the defining story.
+anchors:
+- who: Manifold forecasters
+  what: About 75% for a peaceful 2028 transfer to a non-authoritarian leader; a thin market with 17 traders.
+  date: 2026-11
+  url: https://manifold.markets/SuryaPali/2028-us-election-peaceful-transfer
+- who: Bright Line Watch
+  what: Experts' rating of US democracy rose to a term high in the July 2026 surveys, a partial rebound.
+  date: 2026-07
+  url: https://brightlinewatch.org/a-partial-democratic-rebound/
+- who: V-Dem Institute
+  what: Downgraded the US from liberal to electoral democracy in its 2026 report.
+  date: 2026-03
+  url: https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf
+- who: Votebeat survey of election experts
+  what: Experts worried about troops at polling places and federal interference in the 2026 and 2028 elections.
+  date: 2026-01
+  url: https://www.votebeat.org/2026/01/19/trump-national-guard-troops-polling-places-2026-election-insurrection-act/
+- who: Kalshi / Polymarket
+  what: About 66% that Democrats win the 2028 presidential election, so a change of party is the base case.
+  date: 2026-11
+  url: https://defirate.com/prediction-markets/2028-presidential-election-odds
+signals:
+- transferodds
+- pres2028
+- midterms

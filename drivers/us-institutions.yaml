@@ -21,6 +21,7 @@ correlated_with:
 - id: world-order
   why: alliance credibility
 covered_by:
+- questions/us-transfer.yaml
 - questions/us-power.yaml (party control only)
 - signals/pres2028.yaml
 - signals/transferodds.yaml
